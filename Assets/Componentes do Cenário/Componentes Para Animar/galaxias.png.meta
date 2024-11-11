@@ -175,7 +175,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1226,7 +1226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -1235,7 +1235,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      galaxias_0: -4997486961982125710
+      galaxias_1: -3102886357637717076
+      galaxias_10: 6997740972137801382
+      galaxias_11: 5661607295344891236
+      galaxias_12: 6989534455843482458
+      galaxias_13: 4955272168285302881
+      galaxias_14: 1209227175963288357
+      galaxias_15: 7755534536305935023
+      galaxias_16: -4232015372986719506
+      galaxias_17: 4083613407484116671
+      galaxias_18: -1223962865987664104
+      galaxias_19: -4895922114515418723
+      galaxias_2: 277188346465949326
+      galaxias_20: 3932550642140419250
+      galaxias_21: -691578870309456973
+      galaxias_22: -6759729297844341636
+      galaxias_23: 644708534306718788
+      galaxias_24: -3044838795380521211
+      galaxias_25: 3290919626531854595
+      galaxias_26: -7569774189059114899
+      galaxias_27: 1793501835314725731
+      galaxias_28: 3741275533960841175
+      galaxias_29: -1306655856508271379
+      galaxias_3: -8847482481746492181
+      galaxias_30: -7774008355347278285
+      galaxias_31: 7921465850731462070
+      galaxias_32: -7941214032478726367
+      galaxias_33: -5510894162586023938
+      galaxias_34: -3921206632536673797
+      galaxias_35: 7828960171720838214
+      galaxias_36: -2186623279582319903
+      galaxias_37: 1086259658162639335
+      galaxias_38: 6178727963092870163
+      galaxias_39: -1640308350772789699
+      galaxias_4: -3877846701830586014
+      galaxias_40: 478720740165962356
+      galaxias_41: 50876208171891621
+      galaxias_42: -8687383986798781409
+      galaxias_43: -7335842213566387676
+      galaxias_5: -8892825068440879229
+      galaxias_6: -2101888800004345798
+      galaxias_7: -6313646734436352481
+      galaxias_8: -8259198290484166856
+      galaxias_9: 8826490355601515761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
