@@ -44,7 +44,7 @@ public class BossScript : MonoBehaviour
 
             // Direciona a bala para o alvo
             Vector3 direction = targets[i].position - transform.position;
-            newBullet.GetComponent<Rigidbody2D>().velocity = direction.normalized * bulletSpeed;
+            newBullet.GetComponent<Rigidbody2D>().linearVelocity = direction.normalized * bulletSpeed;
 
             // Faz o prefab olhar para a direção
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
