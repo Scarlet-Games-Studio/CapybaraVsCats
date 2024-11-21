@@ -176,6 +176,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -610,7 +636,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      terra_0: 4017063373586681273
+      terra_1: -8852973315889406806
+      terra_10: 8324457486939367916
+      terra_11: -7538875359521457100
+      terra_12: 2120341863976226475
+      terra_13: -7305980235177013623
+      terra_14: -1239004344867566717
+      terra_15: 8455473913968642839
+      terra_16: -4259843847288057448
+      terra_17: 1027925050712166831
+      terra_18: 8443918830238678264
+      terra_2: 6211621378814532414
+      terra_3: -5506831087593167552
+      terra_4: -7738611620357898558
+      terra_5: -7268518752566476277
+      terra_6: -6138146623585941993
+      terra_7: -2310854621643995855
+      terra_8: -678698663169750024
+      terra_9: -3330204598164908193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

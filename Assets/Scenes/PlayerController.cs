@@ -19,28 +19,34 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        Shoot();
+        //Shoot();
         UIManager.instance.UpdateHealth(health.currentHealth); // Atualiza a UI com a saúde atual
     }
 
     void Move()
     {
-        float moveX = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        float moveY = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
-        transform.Translate(new Vector3(moveX, moveY, 0));
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0));
+            touchPosition.z = 0f; // Certifique-se de que a posição Z seja 0
 
-        // Obtém os limites da tela
-        float screenLeft = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).x;
-        float screenRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
-        float screenTop = Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y;
-        float screenBottom = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).y;
+            // Move o jogador em direção à posição do toque
+            transform.position = Vector3.MoveTowards(transform.position, touchPosition, moveSpeed * Time.deltaTime);
 
-        // Restringe a posição do jogador aos limites da tela
-        transform.position = new Vector3(
-            Mathf.Clamp(transform.position.x, screenLeft, screenRight),
-            Mathf.Clamp(transform.position.y, screenBottom, screenTop),
-            transform.position.z
-        );
+            // Obtém os limites da tela
+            float screenLeft = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).x;
+            float screenRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
+            float screenTop = Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y;
+            float screenBottom = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).y;
+
+            // Restringe a posição do jogador aos limites da tela
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, screenLeft, screenRight),
+                Mathf.Clamp(transform.position.y, screenBottom, screenTop),
+                transform.position.z
+            );
+        }
     }
 
     void Shoot()

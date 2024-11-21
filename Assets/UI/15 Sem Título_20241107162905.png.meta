@@ -152,6 +152,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -410,7 +436,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "15 Sem T\xEDtulo_20241107162905_0": -7958382486329964245
+      "15 Sem T\xEDtulo_20241107162905_1": -2073125600321167099
+      "15 Sem T\xEDtulo_20241107162905_10": -6368175626398465606
+      "15 Sem T\xEDtulo_20241107162905_2": 4788817530053008746
+      "15 Sem T\xEDtulo_20241107162905_3": 4784216132571991719
+      "15 Sem T\xEDtulo_20241107162905_4": 6120875305819034416
+      "15 Sem T\xEDtulo_20241107162905_5": 6902966675927486971
+      "15 Sem T\xEDtulo_20241107162905_6": 2372543266607773077
+      "15 Sem T\xEDtulo_20241107162905_7": -4568885401686513442
+      "15 Sem T\xEDtulo_20241107162905_8": -6308983170164869642
+      "15 Sem T\xEDtulo_20241107162905_9": 5566078934835358084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
