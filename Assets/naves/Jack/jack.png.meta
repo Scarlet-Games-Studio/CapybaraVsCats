@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: cef2016de9399a74983023b5eb039a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7954511415981561667
+    second: Aeronave_roxa-Sheet_0
+  - first:
+      213: 960767374514114945
+    second: Aeronave_roxa-Sheet_1
+  - first:
+      213: -8789790850528300706
+    second: Aeronave_roxa-Sheet_2
+  - first:
+      213: 8077650139705686511
+    second: Aeronave_roxa-Sheet_3
+  - first:
+      213: 5662416204819861853
+    second: Aeronave_roxa-Sheet_4
+  - first:
+      213: 4078840717013122641
+    second: Aeronave_roxa-Sheet_5
+  - first:
+      213: 5187510772733892213
+    second: Aeronave_roxa-Sheet_6
+  - first:
+      213: -5363429750271591651
+    second: Aeronave_roxa-Sheet_7
+  - first:
+      213: 4968339615522050377
+    second: Aeronave_roxa-Sheet_8
+  - first:
+      213: -1395519126333000753
+    second: Aeronave_roxa-Sheet_9
+  - first:
+      213: 1768312337047168631
+    second: Aeronave_roxa-Sheet_10
+  - first:
+      213: 2794191271924284521
+    second: Aeronave_roxa-Sheet_11
+  - first:
+      213: -3829215888677878074
+    second: Aeronave_roxa-Sheet_12
+  - first:
+      213: 4230258395486550249
+    second: Aeronave_roxa-Sheet_13
+  - first:
+      213: -934896690391752242
+    second: Aeronave_roxa-Sheet_14
+  - first:
+      213: -2504799166499900093
+    second: Aeronave_roxa-Sheet_15
+  - first:
+      213: -3414889932481846742
+    second: Aeronave_roxa-Sheet_16
+  - first:
+      213: 468635226559775099
+    second: Aeronave_roxa-Sheet_17
+  - first:
+      213: -4687938161833114546
+    second: Aeronave_roxa-Sheet_18
+  - first:
+      213: -6612109708180000363
+    second: Aeronave_roxa-Sheet_19
+  - first:
+      213: -729547688261362753
+    second: Aeronave_roxa-Sheet_20
+  - first:
+      213: -5845103404755426318
+    second: Aeronave_roxa-Sheet_21
+  - first:
+      213: -8229748441312409384
+    second: Aeronave_roxa-Sheet_22
+  - first:
+      213: -7615700080768155101
+    second: Aeronave_roxa-Sheet_23
+  - first:
+      213: -4926058502464796332
+    second: Aeronave_roxa-Sheet_24
+  - first:
+      213: -5247788999597892325
+    second: Aeronave_roxa-Sheet_25
+  - first:
+      213: 7488702493901951634
+    second: Aeronave_roxa-Sheet_26
+  - first:
+      213: 477289434476374130
+    second: Aeronave_roxa-Sheet_27
+  - first:
+      213: -7926340360931932451
+    second: Aeronave_roxa-Sheet_28
+  - first:
+      213: 3843001495949506297
+    second: Aeronave_roxa-Sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aeronave_roxa-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 119
+        width: 1279
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181d2b536d4555d00800000000000000
+      internalID: 960767374514114945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aeronave_roxa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 73
+        width: 1274
+        height: 2054
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5114ba9981f49e40800000000000000
+      internalID: 5662416204819861853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aeronave_roxa-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 81
+        width: 1255
+        height: 2045
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bbc4d0f054195b0800000000000000
+      internalID: -5363429750271591651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aeronave_roxa-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 6545
+        y: 109
+        width: 1231
+        height: 2019
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc378a59fbe12ace0800000000000000
+      internalID: -1395519126333000753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b49bc0de957ed5a4ca92f18021c6e7f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aeronave_roxa-Sheet_0: 7954511415981561667
+      Aeronave_roxa-Sheet_1: 960767374514114945
+      Aeronave_roxa-Sheet_10: 1768312337047168631
+      Aeronave_roxa-Sheet_11: 2794191271924284521
+      Aeronave_roxa-Sheet_12: -3829215888677878074
+      Aeronave_roxa-Sheet_13: 4230258395486550249
+      Aeronave_roxa-Sheet_14: -934896690391752242
+      Aeronave_roxa-Sheet_15: -2504799166499900093
+      Aeronave_roxa-Sheet_16: -3414889932481846742
+      Aeronave_roxa-Sheet_17: 468635226559775099
+      Aeronave_roxa-Sheet_18: -4687938161833114546
+      Aeronave_roxa-Sheet_19: -6612109708180000363
+      Aeronave_roxa-Sheet_2: -8789790850528300706
+      Aeronave_roxa-Sheet_20: -729547688261362753
+      Aeronave_roxa-Sheet_21: -5845103404755426318
+      Aeronave_roxa-Sheet_22: -8229748441312409384
+      Aeronave_roxa-Sheet_23: -7615700080768155101
+      Aeronave_roxa-Sheet_24: -4926058502464796332
+      Aeronave_roxa-Sheet_25: -5247788999597892325
+      Aeronave_roxa-Sheet_26: 7488702493901951634
+      Aeronave_roxa-Sheet_27: 477289434476374130
+      Aeronave_roxa-Sheet_28: -7926340360931932451
+      Aeronave_roxa-Sheet_29: 3843001495949506297
+      Aeronave_roxa-Sheet_3: 8077650139705686511
+      Aeronave_roxa-Sheet_4: 5662416204819861853
+      Aeronave_roxa-Sheet_5: 4078840717013122641
+      Aeronave_roxa-Sheet_6: 5187510772733892213
+      Aeronave_roxa-Sheet_7: -5363429750271591651
+      Aeronave_roxa-Sheet_8: 4968339615522050377
+      Aeronave_roxa-Sheet_9: -1395519126333000753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
