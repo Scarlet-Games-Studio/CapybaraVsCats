@@ -60,10 +60,10 @@ public class ParallaxScroller : MonoBehaviour
         transform.position -= new Vector3(0, speed * Time.deltaTime, 0);
 
         // Reinicia a posição do sprite quando ele sai da tela
-        if (transform.position.y < -spriteHeight)
-        {
-            transform.position += new Vector3(0, 2 * spriteHeight, 0);
-        }
+        // if (transform.position.y < -spriteHeight)
+        // {
+        //     transform.position += new Vector3(0, 2 * spriteHeight, 0);
+        // }
     }
 
 
