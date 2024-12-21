@@ -1,0 +1,1 @@
+E:\Users\Asus\Downloads\github games\CapybaraVsCats\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\UnitySwappyWrapper.h

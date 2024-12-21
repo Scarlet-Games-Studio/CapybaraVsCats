@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Move();
+        //Move();
         //Shoot();
         UIManager.instance.UpdateHealth(health.currentHealth); // Atualiza a UI com a saúde atual
     }
