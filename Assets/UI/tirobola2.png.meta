@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tirobola2_0: 64358529401582303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
