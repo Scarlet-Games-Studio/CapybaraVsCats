@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: fb8ebf7fdc2a4234bb58e27797f573e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1007653533298290486
+    second: Impact_nave_brasil-Sheet_0
+  - first:
+      213: 8913787833680667334
+    second: Impact_nave_brasil-Sheet_1
+  - first:
+      213: -4335263672636040362
+    second: Impact_nave_brasil-Sheet_2
+  - first:
+      213: 3924776487548919668
+    second: Impact_nave_brasil-Sheet_3
+  - first:
+      213: 6217546941102554368
+    second: Impact_nave_brasil-Sheet_4
+  - first:
+      213: -1125533206952662661
+    second: Impact_nave_brasil-Sheet_5
+  - first:
+      213: -2779525799864231778
+    second: Impact_nave_brasil-Sheet_6
+  - first:
+      213: -6464775022321654857
+    second: Impact_nave_brasil-Sheet_7
+  - first:
+      213: -7913933844207408091
+    second: Impact_nave_brasil-Sheet_8
+  - first:
+      213: -6141043965725990080
+    second: Impact_nave_brasil-Sheet_9
+  - first:
+      213: -4188025631684959110
+    second: Impact_nave_brasil-Sheet_10
+  - first:
+      213: -6162428768039198498
+    second: Impact_nave_brasil-Sheet_11
+  - first:
+      213: -364779894974700469
+    second: Impact_nave_brasil-Sheet_12
+  - first:
+      213: -1698356516399534534
+    second: Impact_nave_brasil-Sheet_13
+  - first:
+      213: -7999649100297618291
+    second: Impact_nave_brasil-Sheet_14
+  - first:
+      213: 1443727820523492590
+    second: Impact_nave_brasil-Sheet_15
+  - first:
+      213: 283646406628205726
+    second: Impact_nave_brasil-Sheet_16
+  - first:
+      213: 4664967160959748291
+    second: Impact_nave_brasil-Sheet_17
+  - first:
+      213: 3214288130262943030
+    second: Impact_nave_brasil-Sheet_18
+  - first:
+      213: -1172066982676132822
+    second: Impact_nave_brasil-Sheet_19
+  - first:
+      213: -4086271398205857870
+    second: Impact_nave_brasil-Sheet_20
+  - first:
+      213: 7512371201741610336
+    second: Impact_nave_brasil-Sheet_21
+  - first:
+      213: 5235197691116313166
+    second: Impact_nave_brasil-Sheet_22
+  - first:
+      213: -1338766215009828717
+    second: Impact_nave_brasil-Sheet_23
+  - first:
+      213: -6285369064501638841
+    second: Impact_nave_brasil-Sheet_24
+  - first:
+      213: 3697690462041814347
+    second: Impact_nave_brasil-Sheet_25
+  - first:
+      213: -4779320587635936749
+    second: Impact_nave_brasil-Sheet_26
+  - first:
+      213: -7134770340171307908
+    second: Impact_nave_brasil-Sheet_27
+  - first:
+      213: -3058406866039537986
+    second: Impact_nave_brasil-Sheet_28
+  - first:
+      213: -2347250120265090246
+    second: Impact_nave_brasil-Sheet_29
+  - first:
+      213: -8633941252965704287
+    second: Impact_nave_brasil-Sheet_30
+  - first:
+      213: 6033225121855270423
+    second: Impact_nave_brasil-Sheet_31
+  - first:
+      213: 9010075774255683085
+    second: Impact_nave_brasil-Sheet_32
+  - first:
+      213: -4019204485016154672
+    second: Impact_nave_brasil-Sheet_33
+  - first:
+      213: -5972732962282676780
+    second: Impact_nave_brasil-Sheet_34
+  - first:
+      213: -7441433525900190804
+    second: Impact_nave_brasil-Sheet_35
+  - first:
+      213: 576350016809998418
+    second: Impact_nave_brasil-Sheet_36
+  - first:
+      213: 185076115549418752
+    second: Impact_nave_brasil-Sheet_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Impact_nave_brasil-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 142
+        width: 324
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b792ea8f28d4160f0800000000000000
+      internalID: -1125533206952662661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_brasil-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 180
+        width: 193
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74ef2980e421e5c0800000000000000
+      internalID: -4188025631684959110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_brasil-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 120
+        width: 255
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed020677fa7aa7aa0800000000000000
+      internalID: -6162428768039198498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_brasil-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 100
+        width: 334
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c00a40a4bfbbfe0800000000000000
+      internalID: -1172066982676132822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 917714f0e83cebe4eb42afa71e81308a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Impact_nave_brasil-Sheet_10: -4188025631684959110
+      Impact_nave_brasil-Sheet_11: -6162428768039198498
+      Impact_nave_brasil-Sheet_19: -1172066982676132822
+      Impact_nave_brasil-Sheet_5: -1125533206952662661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

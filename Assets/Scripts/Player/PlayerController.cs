@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -6,7 +5,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public float fireRate = 0.5f; // Tempo entre disparos
     public GameObject projectilePrefab;
-    public Transform firePoint;
+    public Transform firePoint; // FirePoint normal
+    public Transform firePoint2; // FirePoint extra (para power-up)
     private float nextFire;
     private Health health;
 
@@ -54,7 +54,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButton("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation); // Disparo do primeiro firePoint
+            if (firePoint2 != null) // Se firePoint2 existe (após o power-up)
+            {
+                Instantiate(projectilePrefab, firePoint2.position, firePoint2.rotation); // Disparo do segundo firePoint
+            }
             //AudioManager.instance.PlayShootSound();
         }
     }
@@ -72,5 +76,11 @@ public class PlayerController : MonoBehaviour
     {
         moveSpeed += amount;
     }
-}
 
+    // Método para o power-up de BulletPower (exemplo de como aumentar firePoints)
+    public void PowerUpBullet()
+    {
+        // Se o power-up Bullet for pego, ativa o segundo firePoint
+        firePoint2 = firePoint; // No caso, colocamos o mesmo firePoint no segundo, ou podemos mudar para outra posição.
+    }
+}

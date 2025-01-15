@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     public float speed = 10f;
     public float lifeTime = 2f;
     public int damage = 10;
+    public GameObject explosionPrefab;
 
     void Start()
     {
@@ -15,7 +16,6 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        // se a tag do projétil for PlayerProjectile
         if (gameObject.CompareTag("PlayerProjectile"))
         {
             MoveUp();
@@ -25,7 +25,6 @@ public class Projectile : MonoBehaviour
             MoveDown();
         }
 
-        // Destrua o projétil se ele estiver fora dos limites da tela
         if (!IsWithinScreenBounds())
         {
             DestroyProjectile();
@@ -50,11 +49,11 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // se a tag do projétil for PlayerProjectile
         if (gameObject.CompareTag("PlayerProjectile"))
         {
             if (collision.CompareTag("Enemy"))
             {
+                SpawnExplosion();
                 Destroy(collision.gameObject);
                 Destroy(gameObject);
             }
@@ -64,13 +63,13 @@ public class Projectile : MonoBehaviour
                 BossG1BulletPattern bossScript = collision.GetComponent<BossG1BulletPattern>();
                 if (bossScript != null)
                 {
-                    bossScript.TakeDamage(damage); // Aplica o dano ao boss
+                    bossScript.TakeDamage(damage);
                 }
-                Destroy(gameObject); // Destrói o projétil
+                SpawnExplosion();
+                Destroy(gameObject);
             }
         }
 
-        // se a tag do projétil for EnemyProjectile
         if (gameObject.CompareTag("EnemyProjectile"))
         {
             if (collision.CompareTag("Player"))
@@ -80,13 +79,38 @@ public class Projectile : MonoBehaviour
                 {
                     playerHealth.TakeDamage(damage);
                 }
+                SpawnExplosion();
                 Destroy(gameObject);
             }
         }
     }
 
+    void SpawnExplosion()
+    {
+        if (explosionPrefab != null)
+        {
+            GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(explosion, GetAnimationClipLength(explosion));
+        }
+    }
+
     void DestroyProjectile()
     {
+        SpawnExplosion();
         Destroy(gameObject);
+    }
+
+    float GetAnimationClipLength(GameObject explosion)
+    {
+        Animator animator = explosion.GetComponent<Animator>();
+        if (animator != null)
+        {
+            AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+            if (clipInfo.Length > 0)
+            {
+                return clipInfo[0].clip.length; // Retorna a duração do primeiro clipe da animação
+            }
+        }
+        return 0.5f; // Valor padrão se a animação não for encontrada
     }
 }
