@@ -4,105 +4,49 @@ using UnityEngine;
 
 public class ParallaxScroller : MonoBehaviour
 {
-    // Velocidade do movimento no eixo Y
-    public float speed = 0.1f;
-
-    // Altura do sprite para reiniciar a posição
-    private float spriteHeight;
-
-    // Personagem
-    public GameObject boss;
-
-    // Variável para verificar se o boss está vivo
-    public bool isBossAlive = true;
+    public float speed = 0.1f; // Velocidade do movimento no eixo Y
+    private float spriteHeight; // Altura do sprite para reposição
+    private List<Transform> sprites; // Lista de todos os filhos (sprites)
 
     void Start()
     {
-        // Calcula a altura do sprite
-        spriteHeight = GetComponent<SpriteRenderer>().bounds.size.y;
+        // Calcula a altura do primeiro sprite
+        spriteHeight = GetComponentInChildren<SpriteRenderer>().bounds.size.y;
+
+        // Armazena todos os filhos (sprites) na lista
+        sprites = new List<Transform>();
+        foreach (Transform child in transform)
+        {
+            sprites.Add(child);
+        }
     }
 
     void Update()
     {
-        if(boss == null)
+        // Move todos os sprites para baixo no eixo Y
+        foreach (Transform child in sprites)
         {
-            EnemySpawner enemySpawner = FindObjectOfType<EnemySpawner>();
-
-            if (enemySpawner != null)
-            {
-                enemySpawner.canSpawn = true;
-            }
-        }
-        else
-        {
-            if (IsWithinDistance(boss, 1f))
-            {
-                EnemySpawner enemySpawner = FindObjectOfType<EnemySpawner>();
-
-                if (enemySpawner != null)
-                {
-                    enemySpawner.canSpawn = false;
-                }
-            }
-
-            // Verifica se o boss está completamente visível e se ele está vivo
-            if (IsFullyVisible(boss))
-            {
-                BossScript bossScript = boss.GetComponent<BossScript>();
-                bossScript.canShoot = true;
-
-                // Se o boss estiver completamente visível e vivo, para o scroll
-                return;
-            }
+            child.position -= new Vector3(0, speed * Time.deltaTime, 0);
         }
 
-        // Move o sprite no eixo Y
-        transform.position -= new Vector3(0, speed * Time.deltaTime, 0);
-
-        // Reinicia a posição do sprite quando ele sai da tela
-        // if (transform.position.y < -spriteHeight)
-        // {
-        //     transform.position += new Vector3(0, 2 * spriteHeight, 0);
-        // }
+        // Verifica se o último sprite saiu da tela e reposiciona os sprites
+        if (sprites[0].position.y < -spriteHeight)
+        {
+            RepositionSprites();
+        }
     }
 
-
-    bool IsFullyVisible(GameObject obj)
+    // Reposiciona os sprites para criar o efeito contínuo
+    void RepositionSprites()
     {
-        Renderer objectRenderer = obj.GetComponent<Renderer>();
-        Vector3[] objectCorners = new Vector3[2];
-        objectCorners[0] = objectRenderer.bounds.min;
-        objectCorners[1] = objectRenderer.bounds.max;
+        // Move o primeiro sprite para a posição do último
+        Transform firstSprite = sprites[0];
+        Transform lastSprite = sprites[sprites.Count - 1];
 
-        foreach (Vector3 corner in objectCorners)
-        {
-            Vector3 viewportPos = Camera.main.WorldToViewportPoint(corner);
-            if (viewportPos.x < 0 || viewportPos.x > 1 || viewportPos.y < 0 || viewportPos.y > 1)
-            {
-                return false;
-            }
-        }
+        firstSprite.position = lastSprite.position + new Vector3(0, spriteHeight, 0);
 
-        return true;
-    }
-
-
-    bool IsWithinDistance(GameObject obj, float distance)
-    {
-        Renderer objectRenderer = obj.GetComponent<Renderer>();
-        Vector3[] objectCorners = new Vector3[2];
-        objectCorners[0] = objectRenderer.bounds.min;
-        objectCorners[1] = objectRenderer.bounds.max;
-
-        foreach (Vector3 corner in objectCorners)
-        {
-            Vector3 viewportPos = Camera.main.WorldToViewportPoint(corner);
-            if (viewportPos.x < -distance || viewportPos.x > 1 + distance || viewportPos.y < -distance || viewportPos.y > 1 + distance)
-            {
-                return false;
-            }
-        }
-
-        return true;
+        // Remove o primeiro sprite da lista e coloca ele no final
+        sprites.RemoveAt(0);
+        sprites.Add(firstSprite);
     }
 }

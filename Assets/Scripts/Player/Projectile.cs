@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-
-
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -43,7 +41,7 @@ public class Projectile : MonoBehaviour
     void MoveUp()
     {
         transform.Translate(Vector2.up * speed * Time.deltaTime);
-    } 
+    }
 
     void MoveDown()
     {
@@ -58,23 +56,22 @@ public class Projectile : MonoBehaviour
             if (collision.CompareTag("Enemy"))
             {
                 Destroy(collision.gameObject);
-
                 Destroy(gameObject);
             }
 
             if (collision.CompareTag("Boss"))
             {
-                BossScript bossScript = collision.GetComponent<BossScript>();
+                BossG1BulletPattern bossScript = collision.GetComponent<BossG1BulletPattern>();
                 if (bossScript != null)
                 {
-                    bossScript.TakeDamage(damage);
+                    bossScript.TakeDamage(damage); // Aplica o dano ao boss
                 }
-                Destroy(gameObject);
+                Destroy(gameObject); // Destrói o projétil
             }
         }
 
         // se a tag do projétil for EnemyProjectile
-        if(gameObject.CompareTag("EnemyProjectile"))
+        if (gameObject.CompareTag("EnemyProjectile"))
         {
             if (collision.CompareTag("Player"))
             {
@@ -86,7 +83,6 @@ public class Projectile : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-
     }
 
     void DestroyProjectile()
@@ -94,6 +90,3 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
-
-

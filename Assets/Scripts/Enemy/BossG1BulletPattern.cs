@@ -3,16 +3,20 @@ using UnityEngine;
 
 public class BossG1BulletPattern : MonoBehaviour
 {
-    public GameObject bulletPrefab; // Prefab do projétil
-    public float bulletSpeed = 5f; // Velocidade dos projéteis
-    public int bulletCount = 12; // Número de projéteis por padrão de disparo
-    public float fireRate = 0.5f; // Frequência de disparo do BossG1
+    public GameObject bulletPrefab;
+    public float bulletSpeed = 5f;
+    public int bulletCount = 12;
+    public float fireRate = 0.5f;
     private float nextFireTime;
-    private bool isVisible = false; // Variável para verificar se o Boss está visível
+    private bool isVisible = false;
+    private float spiralAngle = 0f;
+
+    // Variáveis do Boss
+    public int health = 100; // Vida inicial do boss
+    public GameObject deathEffect; // Efeito de morte do boss (opcional)
 
     void Start()
     {
-        // Garantindo que o BossG1 fique parado
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
@@ -24,7 +28,6 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void Update()
     {
-        // Dispara apenas se o Boss estiver visível e for hora de disparar
         if (isVisible && Time.time >= nextFireTime)
         {
             FireUniquePattern();
@@ -32,22 +35,18 @@ public class BossG1BulletPattern : MonoBehaviour
         }
     }
 
-    // Método Unity chamado quando o objeto se torna visível na câmera
     void OnBecameVisible()
     {
-        isVisible = true; // Marca o Boss como visível
+        isVisible = true;
     }
 
-    // Método Unity chamado quando o objeto deixa de ser visível na câmera
     void OnBecameInvisible()
     {
-        isVisible = false; // Marca o Boss como invisível
+        isVisible = false;
     }
 
-    // Padrão único para o BossG1
     void FireUniquePattern()
     {
-        // Alterna entre dois padrões para o BossG1
         int randomPattern = Random.Range(0, 2);
 
         if (randomPattern == 0)
@@ -56,7 +55,6 @@ public class BossG1BulletPattern : MonoBehaviour
             FireSpiralBurstPattern();
     }
 
-    // Padrão circular que se expande
     void FireExpandingCirclePattern()
     {
         float angleStep = 360f / bulletCount;
@@ -64,47 +62,83 @@ public class BossG1BulletPattern : MonoBehaviour
 
         for (int i = 0; i < bulletCount; i++)
         {
-            // Define a direção de cada projétil
-            float bulletDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180);
-            float bulletDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180);
+            float bulletDirX = Mathf.Sin(angle * Mathf.Deg2Rad);
+            float bulletDirY = Mathf.Cos(angle * Mathf.Deg2Rad);
 
-            Vector3 bulletMoveVector = new Vector3(bulletDirX, bulletDirY, 0f);
-            Vector2 bulletDirection = (bulletMoveVector - transform.position).normalized;
+            Vector2 bulletDirection = new Vector2(bulletDirX, bulletDirY).normalized;
 
-            // Instancia e dispara o projétil
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
-            if (bulletRb != null)
-            {
-                bulletRb.linearVelocity = bulletDirection * bulletSpeed;
-            }
+            SpawnBullet(bulletDirection);
 
             angle += angleStep;
         }
     }
 
-    // Padrão em espiral com "rajadas" rápidas
     void FireSpiralBurstPattern()
     {
         float angleStep = 20f;
-        float angle = Time.time * 100; // Ajuste para criar efeito de espiral
-
         for (int i = 0; i < bulletCount; i++)
         {
-            float bulletDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180);
-            float bulletDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180);
+            float bulletDirX = Mathf.Sin(spiralAngle * Mathf.Deg2Rad);
+            float bulletDirY = Mathf.Cos(spiralAngle * Mathf.Deg2Rad);
 
-            Vector3 bulletMoveVector = new Vector3(bulletDirX, bulletDirY, 0f);
-            Vector2 bulletDirection = (bulletMoveVector - transform.position).normalized;
+            Vector2 bulletDirection = new Vector2(bulletDirX, bulletDirY).normalized;
 
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
-            if (bulletRb != null)
+            SpawnBullet(bulletDirection);
+
+            spiralAngle += angleStep;
+        }
+    }
+
+    void SpawnBullet(Vector2 direction)
+    {
+        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
+        if (bulletRb != null)
+        {
+            bulletRb.linearVelocity = direction * bulletSpeed;
+            bulletRb.isKinematic = true;
+        }
+
+        Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
+        if (bulletCollider != null)
+        {
+            bulletCollider.isTrigger = true;
+        }
+    }
+
+    // Método para o boss receber dano
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        // Verifica se a vida chegou a 0 ou menos
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    // Lógica de morte do boss
+    void Die()
+    {
+        if (deathEffect != null)
+        {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
+    }
+
+    // Método para detectar colisões com projéteis
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("PlayerProjectile"))
+        {
+            Projectile projectile = collision.GetComponent<Projectile>();
+            if (projectile != null)
             {
-                bulletRb.linearVelocity = bulletDirection * bulletSpeed;
+                TakeDamage(projectile.damage);
+                Destroy(collision.gameObject);
             }
-
-            angle += angleStep;
         }
     }
 }
