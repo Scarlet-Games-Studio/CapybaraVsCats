@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;  // Para gerenciar as cenas
+using UnityEngine.SceneManagement; // Para gerenciar as cenas
 
 public class GameOverScreen : MonoBehaviour
 {
@@ -39,10 +39,16 @@ public class GameOverScreen : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recarrega a cena atual
     }
 
-    // Volta para a cena MainMenu
+    // Volta para a cena MainMenu e desativa o GameOverUI
     public void ExitInGame()
     {
         Time.timeScale = 1f; // Retoma o tempo do jogo antes de mudar de cena
+
+        if (gameOverUI != null)
+        {
+            gameOverUI.SetActive(false); // Oculta o painel GameOverUI
+        }
+
         SceneManager.LoadScene("MainMenu"); // Carrega a cena MainMenu
     }
 }
