@@ -6,19 +6,23 @@ public class EnemyAI : MonoBehaviour
 {
     public float speed = 3f;
     public GameObject projectilePrefab;
-    public Transform firePoint;
+    public Transform firePoint; // Agora configurável diretamente no inspector
     public float fireRate = 1f;
     private float nextFire;
 
+    public int maxHits = 2; // Quantidade de hits para destruir o inimigo
+    private EnemyHealth enemyHealth; // Referência ao script de vida do inimigo
+
     void Start()
     {
-        //firePoint recebe o transform do objeto filho chamado "F"
-        firePoint = transform.Find("F");
+        // Obtém a referência ao script EnemyHealth no início
+        enemyHealth = GetComponent<EnemyHealth>();
     }
 
     void Update()
     {
         Move();
+
         if (Time.time > nextFire && IsWithinScreenBounds())
         {
             Shoot();
@@ -39,27 +43,42 @@ public class EnemyAI : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        if (firePoint != null)
+        {
+            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        }
+        else
+        {
+            Debug.LogWarning("FirePoint não está configurado.");
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log($"Colidiu com: {collision.gameObject.name}"); // Log do objeto que colidiu
+
         if (collision.gameObject.CompareTag("Player"))
         {
+            // Causa dano ao jogador se ele colidir com o inimigo
             Health playerHealth = collision.gameObject.GetComponent<Health>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(10);
             }
-            Destroy(gameObject);
+            Destroy(gameObject); // Destroi o inimigo após a colisão
+        }
+        else if (collision.gameObject.CompareTag("PlayerProjectile"))
+        {
+            Debug.Log("Projétil do jogador detectado!");
+            
+            // Aplica dano ao inimigo
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(10); // Dano de 10
+            }
+
+            // Destroi o projétil do jogador após a colisão
+            Destroy(collision.gameObject);
         }
     }
-
-    void OnDestroy()
-    {
-        //UIManager.instance.UpdateScore(10);
-        //AudioManager.instance.PlayExplosionSound();
-    }
 }
-
-

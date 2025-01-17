@@ -11,11 +11,13 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
+        // Chama DestroyProjectile após o tempo de vida do projétil (lifeTime)
         Invoke("DestroyProjectile", lifeTime);
     }
 
     void Update()
     {
+        // Move o projétil dependendo de sua tag
         if (gameObject.CompareTag("PlayerProjectile"))
         {
             MoveUp();
@@ -25,6 +27,7 @@ public class Projectile : MonoBehaviour
             MoveDown();
         }
 
+        // Verifica se o projétil saiu da tela e o destrói
         if (!IsWithinScreenBounds())
         {
             DestroyProjectile();
@@ -49,13 +52,14 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        // Se o projétil colidir com um inimigo ou boss, cria a explosão e destrói o projétil
         if (gameObject.CompareTag("PlayerProjectile"))
         {
             if (collision.CompareTag("Enemy"))
             {
                 SpawnExplosion();
-                Destroy(collision.gameObject);
-                Destroy(gameObject);
+                Destroy(collision.gameObject); // Destroi o inimigo
+                Destroy(gameObject); // Destroi o projétil
             }
 
             if (collision.CompareTag("Boss"))
@@ -66,10 +70,11 @@ public class Projectile : MonoBehaviour
                     bossScript.TakeDamage(damage);
                 }
                 SpawnExplosion();
-                Destroy(gameObject);
+                Destroy(gameObject); // Destroi o projétil
             }
         }
 
+        // Se o projétil for do inimigo e colidir com o jogador, causa dano e gera a explosão
         if (gameObject.CompareTag("EnemyProjectile"))
         {
             if (collision.CompareTag("Player"))
@@ -80,26 +85,30 @@ public class Projectile : MonoBehaviour
                     playerHealth.TakeDamage(damage);
                 }
                 SpawnExplosion();
-                Destroy(gameObject);
+                Destroy(gameObject); // Destroi o projétil
             }
         }
     }
 
+    // Método para instanciar a explosão
     void SpawnExplosion()
     {
         if (explosionPrefab != null)
         {
             GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            // Destrói a explosão após o tempo da animação terminar
             Destroy(explosion, GetAnimationClipLength(explosion));
         }
     }
 
+    // Método que destrói o projétil após o tempo de vida
     void DestroyProjectile()
     {
         SpawnExplosion();
-        Destroy(gameObject);
+        Destroy(gameObject); // Destroi o projétil após o tempo de vida
     }
 
+    // Método para pegar o tempo da animação da explosão
     float GetAnimationClipLength(GameObject explosion)
     {
         Animator animator = explosion.GetComponent<Animator>();

@@ -17,7 +17,7 @@ public class CreditsRoller : MonoBehaviour
     {
         // Calcula a posição inicial e final do texto
         initialPosition = creditsText.anchoredPosition.y;
-        endPosition = -creditsText.rect.height; // Altura negativa do texto para ir além da área visível
+        endPosition = creditsText.rect.height; // A posição final é a altura do texto para sair da tela
 
         // Inicia a rolagem dos créditos
         rollCoroutine = StartCoroutine(RollCredits());
@@ -29,10 +29,10 @@ public class CreditsRoller : MonoBehaviour
 
         while (true)
         {
-            // Move o texto verticalmente
-            while (creditsText.anchoredPosition.y > endPosition)
+            // Move o texto verticalmente de baixo para cima
+            while (creditsText.anchoredPosition.y < endPosition)
             {
-                creditsText.anchoredPosition += new Vector2(0, -scrollSpeed * Time.deltaTime);
+                creditsText.anchoredPosition += new Vector2(0, scrollSpeed * Time.deltaTime);
                 yield return null;
             }
 
