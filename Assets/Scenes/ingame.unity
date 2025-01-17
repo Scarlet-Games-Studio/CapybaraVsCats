@@ -2701,7 +2701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 7828892650403629410}
   interfacePanel: {fileID: 7888407102664570925}
-  exitButton: {fileID: 0}
+  exitButton: {fileID: 1221481690}
 --- !u!114 &7213945200671545301
 MonoBehaviour:
   m_ObjectHideFlags: 0
