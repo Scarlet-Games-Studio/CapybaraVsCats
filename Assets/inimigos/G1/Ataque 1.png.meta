@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: 68beff829ff060047aa80f40768bb93a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4067464068348058520
+    second: Claw_Animation-Sheet_0
+  - first:
+      213: 4389508482217655830
+    second: Claw_Animation-Sheet_1
+  - first:
+      213: 1492856416668225036
+    second: Claw_Animation-Sheet_2
+  - first:
+      213: 3058526385465771271
+    second: Claw_Animation-Sheet_3
+  - first:
+      213: -7848570756688132660
+    second: Claw_Animation-Sheet_4
+  - first:
+      213: 2180041062486328442
+    second: Claw_Animation-Sheet_5
+  - first:
+      213: 5282896503182329777
+    second: Claw_Animation-Sheet_6
+  - first:
+      213: 6379836523321976811
+    second: Claw_Animation-Sheet_7
+  - first:
+      213: -330953939260489293
+    second: Claw_Animation-Sheet_8
+  - first:
+      213: -2200206398275716285
+    second: Claw_Animation-Sheet_9
+  - first:
+      213: 856220909158789349
+    second: Claw_Animation-Sheet_10
+  - first:
+      213: 7154249188217643891
+    second: Claw_Animation-Sheet_11
+  - first:
+      213: 1589656768363513571
+    second: Claw_Animation-Sheet_12
+  - first:
+      213: 4806070465892830365
+    second: Claw_Animation-Sheet_13
+  - first:
+      213: 1855473274955015043
+    second: Claw_Animation-Sheet_14
+  - first:
+      213: -4891974647181824470
+    second: Claw_Animation-Sheet_15
+  - first:
+      213: 2431366221989609004
+    second: Claw_Animation-Sheet_16
+  - first:
+      213: 4813365190656099945
+    second: Claw_Animation-Sheet_17
+  - first:
+      213: -760357398096146577
+    second: Claw_Animation-Sheet_18
+  - first:
+      213: 7198202431778469445
+    second: Claw_Animation-Sheet_19
+  - first:
+      213: 3639524292515904000
+    second: Claw_Animation-Sheet_20
+  - first:
+      213: -689827289201654068
+    second: Claw_Animation-Sheet_21
+  - first:
+      213: 5994678912765198607
+    second: Claw_Animation-Sheet_22
+  - first:
+      213: 5962195239390986972
+    second: Claw_Animation-Sheet_23
+  - first:
+      213: 7584834632134377758
+    second: Claw_Animation-Sheet_24
+  - first:
+      213: -3347702534278271880
+    second: Claw_Animation-Sheet_25
+  - first:
+      213: -5744128223776127423
+    second: Claw_Animation-Sheet_26
+  - first:
+      213: -7109000239992241806
+    second: Claw_Animation-Sheet_27
+  - first:
+      213: 4305500507166190281
+    second: Claw_Animation-Sheet_28
+  - first:
+      213: 8491463586191866739
+    second: Claw_Animation-Sheet_29
+  - first:
+      213: 1989361553118835203
+    second: Claw_Animation-Sheet_30
+  - first:
+      213: 8168097210575678127
+    second: Claw_Animation-Sheet_31
+  - first:
+      213: 4865385564196063048
+    second: Claw_Animation-Sheet_32
+  - first:
+      213: -3626084108769776693
+    second: Claw_Animation-Sheet_33
+  - first:
+      213: 2545818307728747951
+    second: Claw_Animation-Sheet_34
+  - first:
+      213: 6607040887934251691
+    second: Claw_Animation-Sheet_35
+  - first:
+      213: -682359374843929423
+    second: Claw_Animation-Sheet_36
+  - first:
+      213: -5843574478239283832
+    second: Claw_Animation-Sheet_37
+  - first:
+      213: -6310574493019140373
+    second: Claw_Animation-Sheet_38
+  - first:
+      213: 6011271998054153885
+    second: Claw_Animation-Sheet_39
+  - first:
+      213: 1365789682646960382
+    second: Claw_Animation-Sheet_40
+  - first:
+      213: -437614498968406803
+    second: Claw_Animation-Sheet_41
+  - first:
+      213: 243723629687805380
+    second: Claw_Animation-Sheet_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Claw_Animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 221
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b1d821509827830800000000000000
+      internalID: 4067464068348058520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claw_Animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 161
+        width: 276
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b70651316e905940800000000000000
+      internalID: 5282896503182329777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claw_Animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 149
+        width: 268
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373e65a5bbff84360800000000000000
+      internalID: 7154249188217643891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claw_Animation-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 139
+        width: 304
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de47d688ee74de9f0800000000000000
+      internalID: -437614498968406803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claw_Animation-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 153
+        width: 281
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c519e29951e16300800000000000000
+      internalID: 243723629687805380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86026893be38d784c99cf2f3f0a139c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ataque 1_0: -1430577535
+      Claw_Animation-Sheet_0: 4067464068348058520
+      Claw_Animation-Sheet_1: 4389508482217655830
+      Claw_Animation-Sheet_10: 856220909158789349
+      Claw_Animation-Sheet_11: 7154249188217643891
+      Claw_Animation-Sheet_12: 1589656768363513571
+      Claw_Animation-Sheet_13: 4806070465892830365
+      Claw_Animation-Sheet_14: 1855473274955015043
+      Claw_Animation-Sheet_15: -4891974647181824470
+      Claw_Animation-Sheet_16: 2431366221989609004
+      Claw_Animation-Sheet_17: 4813365190656099945
+      Claw_Animation-Sheet_18: -760357398096146577
+      Claw_Animation-Sheet_19: 7198202431778469445
+      Claw_Animation-Sheet_2: 1492856416668225036
+      Claw_Animation-Sheet_20: 3639524292515904000
+      Claw_Animation-Sheet_21: -689827289201654068
+      Claw_Animation-Sheet_22: 5994678912765198607
+      Claw_Animation-Sheet_23: 5962195239390986972
+      Claw_Animation-Sheet_24: 7584834632134377758
+      Claw_Animation-Sheet_25: -3347702534278271880
+      Claw_Animation-Sheet_26: -5744128223776127423
+      Claw_Animation-Sheet_27: -7109000239992241806
+      Claw_Animation-Sheet_28: 4305500507166190281
+      Claw_Animation-Sheet_29: 8491463586191866739
+      Claw_Animation-Sheet_3: 3058526385465771271
+      Claw_Animation-Sheet_30: 1989361553118835203
+      Claw_Animation-Sheet_31: 8168097210575678127
+      Claw_Animation-Sheet_32: 4865385564196063048
+      Claw_Animation-Sheet_33: -3626084108769776693
+      Claw_Animation-Sheet_34: 2545818307728747951
+      Claw_Animation-Sheet_35: 6607040887934251691
+      Claw_Animation-Sheet_36: -682359374843929423
+      Claw_Animation-Sheet_37: -5843574478239283832
+      Claw_Animation-Sheet_38: -6310574493019140373
+      Claw_Animation-Sheet_39: 6011271998054153885
+      Claw_Animation-Sheet_4: -7848570756688132660
+      Claw_Animation-Sheet_40: 1365789682646960382
+      Claw_Animation-Sheet_41: -437614498968406803
+      Claw_Animation-Sheet_42: 243723629687805380
+      Claw_Animation-Sheet_5: 2180041062486328442
+      Claw_Animation-Sheet_6: 5282896503182329777
+      Claw_Animation-Sheet_7: 6379836523321976811
+      Claw_Animation-Sheet_8: -330953939260489293
+      Claw_Animation-Sheet_9: -2200206398275716285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
