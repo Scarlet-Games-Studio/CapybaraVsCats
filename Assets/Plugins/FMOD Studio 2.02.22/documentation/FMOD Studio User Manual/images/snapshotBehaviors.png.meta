@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 1d65c9ee050aca341ac0b0fc02ab3f7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6527177495262801165
+    second: snapshotBehaviors_0
+  - first:
+      213: 7596787942215289627
+    second: snapshotBehaviors_1
+  - first:
+      213: -2212741130966571827
+    second: snapshotBehaviors_2
+  - first:
+      213: 7428738547817493865
+    second: snapshotBehaviors_3
+  - first:
+      213: 5685473394132566823
+    second: snapshotBehaviors_4
+  - first:
+      213: -2734975305342584896
+    second: snapshotBehaviors_5
+  - first:
+      213: 2963197119691805415
+    second: snapshotBehaviors_6
+  - first:
+      213: -5781950393111133764
+    second: snapshotBehaviors_7
+  - first:
+      213: -4169392974272271433
+    second: snapshotBehaviors_8
+  - first:
+      213: 4738448476215447546
+    second: snapshotBehaviors_9
+  - first:
+      213: -4905656139267520187
+    second: snapshotBehaviors_10
+  - first:
+      213: -6455495297255342855
+    second: snapshotBehaviors_11
+  - first:
+      213: 8766907127769715846
+    second: snapshotBehaviors_12
+  - first:
+      213: 2915283913834145742
+    second: snapshotBehaviors_13
+  - first:
+      213: 8445677268973765520
+    second: snapshotBehaviors_14
+  - first:
+      213: -7771290181141885834
+    second: snapshotBehaviors_15
+  - first:
+      213: 5698615044094376937
+    second: snapshotBehaviors_16
+  - first:
+      213: 7988746482801565334
+    second: snapshotBehaviors_17
+  - first:
+      213: -1681347350908946352
+    second: snapshotBehaviors_18
+  - first:
+      213: 6447313251431286189
+    second: snapshotBehaviors_19
+  - first:
+      213: 6817131269041755073
+    second: snapshotBehaviors_20
+  - first:
+      213: -7372563991343902009
+    second: snapshotBehaviors_21
+  - first:
+      213: -6090481910338168963
+    second: snapshotBehaviors_22
+  - first:
+      213: -7129205027431246298
+    second: snapshotBehaviors_23
+  - first:
+      213: 3656461499986138297
+    second: snapshotBehaviors_24
+  - first:
+      213: -2833390694327505175
+    second: snapshotBehaviors_25
+  - first:
+      213: -5079866062169631393
+    second: snapshotBehaviors_26
+  - first:
+      213: 7002919551441970540
+    second: snapshotBehaviors_27
+  - first:
+      213: -1894704911433671841
+    second: snapshotBehaviors_28
+  - first:
+      213: -7243321386204907815
+    second: snapshotBehaviors_29
+  - first:
+      213: -7304211818823115647
+    second: snapshotBehaviors_30
+  - first:
+      213: -3089132646089111165
+    second: snapshotBehaviors_31
+  - first:
+      213: -5254003795263071437
+    second: snapshotBehaviors_32
+  - first:
+      213: -8444611205462826581
+    second: snapshotBehaviors_33
+  - first:
+      213: 594373475376868567
+    second: snapshotBehaviors_34
+  - first:
+      213: 3771899536228887188
+    second: snapshotBehaviors_35
+  - first:
+      213: -528915160705978968
+    second: snapshotBehaviors_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snapshotBehaviors_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 172
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2dfe886aeca65a0800000000000000
+      internalID: -6527177495262801165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b86b942663d6960800000000000000
+      internalID: 7596787942215289627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 172
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc467dc3aa3ca41e0800000000000000
+      internalID: -2212741130966571827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 172
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965b9ef995e281760800000000000000
+      internalID: 7428738547817493865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 172
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723c435ddebd6ee40800000000000000
+      internalID: 5685473394132566823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7f697437a6b0ad0800000000000000
+      internalID: -2734975305342584896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 172
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2d0b6a4146f1920800000000000000
+      internalID: 2963197119691805415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 172
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb14ea560c262cfa0800000000000000
+      internalID: -5781950393111133764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbed772e275326c0800000000000000
+      internalID: -4169392974272271433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff0053a8c952c140800000000000000
+      internalID: 4738448476215447546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 169
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549cebc8bbb9bebb0800000000000000
+      internalID: -4905656139267520187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 172
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcf3e5da397966a0800000000000000
+      internalID: -6455495297255342855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684dd89659f4aa970800000000000000
+      internalID: 8766907127769715846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7ae77164b257820800000000000000
+      internalID: 2915283913834145742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 169
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093c5c0aab2153570800000000000000
+      internalID: 8445677268973765520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 172
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c8e8a11c4d62490800000000000000
+      internalID: -7771290181141885834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 172
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb31f6a03c851f40800000000000000
+      internalID: 5698615044094376937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 172
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ed904999abdde60800000000000000
+      internalID: 7988746482801565334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_18
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 172
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05837051e77aaa8e0800000000000000
+      internalID: -1681347350908946352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_19
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da50b3b2e35797950800000000000000
+      internalID: 6447313251431286189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3117e35c05b9e50800000000000000
+      internalID: 6817131269041755073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 172
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c25c148c146fa990800000000000000
+      internalID: -7372563991343902009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77d957a8f24a7ba0800000000000000
+      internalID: -6090481910338168963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 169
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6261809bcc9ff0d90800000000000000
+      internalID: -7129205027431246298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_24
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 172
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4d0998c5c5eb230800000000000000
+      internalID: 3656461499986138297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee26baec26cda8d0800000000000000
+      internalID: -2833390694327505175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_26
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 172
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5511d11bb0b089b0800000000000000
+      internalID: -5079866062169631393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 169
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65265e9a3e5f2160800000000000000
+      internalID: 7002919551441970540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_28
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 172
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bdecfebe7a4b5e0800000000000000
+      internalID: -1894704911433671841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 172
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d63445739d8a7b90800000000000000
+      internalID: -7243321386204907815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_30
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 172
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c96d6dc0a32aa90800000000000000
+      internalID: -7304211818823115647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_31
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 172
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389cbcda9323125d0800000000000000
+      internalID: -3089132646089111165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_32
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b5ac692670617b0800000000000000
+      internalID: -5254003795263071437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 172
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1ea10a9d6beca80800000000000000
+      internalID: -8444611205462826581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_34
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 172
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dca0c7d683af3800800000000000000
+      internalID: 594373475376868567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 172
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a2261d4aa785430800000000000000
+      internalID: 3771899536228887188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snapshotBehaviors_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 693
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad2dc1b67ae8a8f0800000000000000
+      internalID: -528915160705978968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

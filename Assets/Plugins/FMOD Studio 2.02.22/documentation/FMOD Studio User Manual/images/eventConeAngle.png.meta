@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: 5cf3301da62dbee4db8a774f1fa0c61e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8169042912797336539
+    second: eventConeAngle_0
+  - first:
+      213: 7269783619798514082
+    second: eventConeAngle_1
+  - first:
+      213: -5696445600459514821
+    second: eventConeAngle_2
+  - first:
+      213: -2729662578096789770
+    second: eventConeAngle_3
+  - first:
+      213: -6621209154072115979
+    second: eventConeAngle_4
+  - first:
+      213: -5939150845037726136
+    second: eventConeAngle_5
+  - first:
+      213: -5864948963092020929
+    second: eventConeAngle_6
+  - first:
+      213: 1949824177191566408
+    second: eventConeAngle_7
+  - first:
+      213: -8495419597964457796
+    second: eventConeAngle_8
+  - first:
+      213: -5709866356887994528
+    second: eventConeAngle_9
+  - first:
+      213: -3911672487385018887
+    second: eventConeAngle_10
+  - first:
+      213: -3276978737707795689
+    second: eventConeAngle_11
+  - first:
+      213: -9149836804328984621
+    second: eventConeAngle_12
+  - first:
+      213: -7225858456492482690
+    second: eventConeAngle_13
+  - first:
+      213: -2940675809541771336
+    second: eventConeAngle_14
+  - first:
+      213: -5538661797041827192
+    second: eventConeAngle_15
+  - first:
+      213: -1011433827742685521
+    second: eventConeAngle_16
+  - first:
+      213: -4402166777318442097
+    second: eventConeAngle_17
+  - first:
+      213: -8460868700279124904
+    second: eventConeAngle_18
+  - first:
+      213: 3266560719750970030
+    second: eventConeAngle_19
+  - first:
+      213: -7983489977447710895
+    second: eventConeAngle_20
+  - first:
+      213: -7185983502157145049
+    second: eventConeAngle_21
+  - first:
+      213: -687791367633952586
+    second: eventConeAngle_22
+  - first:
+      213: -2167467800514633120
+    second: eventConeAngle_23
+  - first:
+      213: 3561288477622078660
+    second: eventConeAngle_24
+  - first:
+      213: -6342452812578104554
+    second: eventConeAngle_25
+  - first:
+      213: -2853486021724195152
+    second: eventConeAngle_26
+  - first:
+      213: 1960451164873559312
+    second: eventConeAngle_27
+  - first:
+      213: -7080852285025932912
+    second: eventConeAngle_28
+  - first:
+      213: -1826574547740086669
+    second: eventConeAngle_29
+  - first:
+      213: -7617600397716068610
+    second: eventConeAngle_30
+  - first:
+      213: 9120517312351541521
+    second: eventConeAngle_31
+  - first:
+      213: -3961849632835338956
+    second: eventConeAngle_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eventConeAngle_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 215
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3253c6f354e5170800000000000000
+      internalID: 8169042912797336539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 265
+        width: 17
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a93b0c6fa573e460800000000000000
+      internalID: 7269783619798514082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 169
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c164e48e822f0b0800000000000000
+      internalID: -5696445600459514821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 234
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f62ddbf85a4e1ad0800000000000000
+      internalID: -2729662578096789770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 234
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f487f3ea5dbc14a0800000000000000
+      internalID: -6621209154072115979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 245
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846b01ef5c5e39da0800000000000000
+      internalID: -5939150845037726136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 222
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31ca1dedf38b9ea0800000000000000
+      internalID: -5864948963092020929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 222
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cb8ff22ca2f0b10800000000000000
+      internalID: 1949824177191566408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 221
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8cf65e2e43a1a80800000000000000
+      internalID: -8495419597964457796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 222
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fbcb2fcca72c0b0800000000000000
+      internalID: -5709866356887994528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 221
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd4fbff892f6b9c0800000000000000
+      internalID: -3911672487385018887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_11
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 221
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b3b624335d582d0800000000000000
+      internalID: -3276978737707795689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 221
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfec2587ef350180800000000000000
+      internalID: -9149836804328984621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 222
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f538f940898bb90800000000000000
+      internalID: -7225858456492482690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 221
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfadac7eee9037d0800000000000000
+      internalID: -2940675809541771336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 208
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8829b40d078b223b0800000000000000
+      internalID: -5538661797041827192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 195
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6659fda4aa6f1f0800000000000000
+      internalID: -1011433827742685521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 190
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b78e3c3ac58e2c0800000000000000
+      internalID: -4402166777318442097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 190
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c44a4aeb4f49a80800000000000000
+      internalID: -8460868700279124904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 184
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa300aeaa7255d20800000000000000
+      internalID: 3266560719750970030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 189
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f7652f922f43190800000000000000
+      internalID: -7983489977447710895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 190
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c1b18e312464c90800000000000000
+      internalID: -7185983502157145049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_22
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 190
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0299c25697476f0800000000000000
+      internalID: -687791367633952586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 189
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0626a38e48b9be1e0800000000000000
+      internalID: -2167467800514633120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_24
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 189
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc0b5b700d3c6130800000000000000
+      internalID: 3561288477622078660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 189
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bda9d45c41bf7a0800000000000000
+      internalID: -6342452812578104554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 182
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b63697e4916668d0800000000000000
+      internalID: -2853486021724195152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 189
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0ac192fbe43b10800000000000000
+      internalID: 1960451164873559312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 190
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099240cdc52cbbd90800000000000000
+      internalID: -7080852285025932912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 189
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37eae2e5024b6a6e0800000000000000
+      internalID: -1826574547740086669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_30
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 190
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6624d4cc8d84690800000000000000
+      internalID: -7617600397716068610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_31
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 156
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119938a4c26929e70800000000000000
+      internalID: 9120517312351541521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventConeAngle_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 54
+        width: 108
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d765defbea409c0800000000000000
+      internalID: -3961849632835338956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

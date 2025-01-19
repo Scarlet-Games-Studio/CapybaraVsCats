@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: 96cdb4983e5c43242ad2ba78e66c5f19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -468554326758559163
+    second: eventOrientation_0
+  - first:
+      213: 340133797159590241
+    second: eventOrientation_1
+  - first:
+      213: 2130146879137430898
+    second: eventOrientation_2
+  - first:
+      213: -2944595010106721863
+    second: eventOrientation_3
+  - first:
+      213: -6028448621625978535
+    second: eventOrientation_4
+  - first:
+      213: -4273078069138199201
+    second: eventOrientation_5
+  - first:
+      213: 1627343056937408267
+    second: eventOrientation_6
+  - first:
+      213: 6734774702421102294
+    second: eventOrientation_7
+  - first:
+      213: 9147848852485884097
+    second: eventOrientation_8
+  - first:
+      213: 4746908120044770981
+    second: eventOrientation_9
+  - first:
+      213: 5288202695702934195
+    second: eventOrientation_10
+  - first:
+      213: 608849498449090995
+    second: eventOrientation_11
+  - first:
+      213: 7680443328326279706
+    second: eventOrientation_12
+  - first:
+      213: 7306958270802473102
+    second: eventOrientation_13
+  - first:
+      213: 2106856406079478830
+    second: eventOrientation_14
+  - first:
+      213: -870956763166519658
+    second: eventOrientation_15
+  - first:
+      213: -2765854347866851237
+    second: eventOrientation_16
+  - first:
+      213: 4143625960623222748
+    second: eventOrientation_17
+  - first:
+      213: -1277779637391363216
+    second: eventOrientation_18
+  - first:
+      213: -3921271634126497725
+    second: eventOrientation_19
+  - first:
+      213: -4704168910768047357
+    second: eventOrientation_20
+  - first:
+      213: -888066732956735615
+    second: eventOrientation_21
+  - first:
+      213: -3822674262946478604
+    second: eventOrientation_22
+  - first:
+      213: -1189807552059695610
+    second: eventOrientation_23
+  - first:
+      213: -60516391499296686
+    second: eventOrientation_24
+  - first:
+      213: -9188721152935179197
+    second: eventOrientation_25
+  - first:
+      213: -9024197262777809079
+    second: eventOrientation_26
+  - first:
+      213: -8706486002948142319
+    second: eventOrientation_27
+  - first:
+      213: -2826492552330938284
+    second: eventOrientation_28
+  - first:
+      213: -8385508640623018951
+    second: eventOrientation_29
+  - first:
+      213: 7992759790126042843
+    second: eventOrientation_30
+  - first:
+      213: -40929982157065436
+    second: eventOrientation_31
+  - first:
+      213: 6873844307178401999
+    second: eventOrientation_32
+  - first:
+      213: -4143191147712204362
+    second: eventOrientation_33
+  - first:
+      213: -5342105820552229071
+    second: eventOrientation_34
+  - first:
+      213: 7568302289093996927
+    second: eventOrientation_35
+  - first:
+      213: -2273022645114319946
+    second: eventOrientation_36
+  - first:
+      213: -7711674415777626706
+    second: eventOrientation_37
+  - first:
+      213: -2035591639975897854
+    second: eventOrientation_38
+  - first:
+      213: -6093173342510109350
+    second: eventOrientation_39
+  - first:
+      213: -782776750447918097
+    second: eventOrientation_40
+  - first:
+      213: -618684694586392600
+    second: eventOrientation_41
+  - first:
+      213: 4668653437464669810
+    second: eventOrientation_42
+  - first:
+      213: -5996751983989066467
+    second: eventOrientation_43
+  - first:
+      213: 4622381455766240122
+    second: eventOrientation_44
+  - first:
+      213: -5568403458604806232
+    second: eventOrientation_45
+  - first:
+      213: -6919684507241464434
+    second: eventOrientation_46
+  - first:
+      213: -8629337865333526654
+    second: eventOrientation_47
+  - first:
+      213: -5699862437410791239
+    second: eventOrientation_48
+  - first:
+      213: 3681845514878067190
+    second: eventOrientation_49
+  - first:
+      213: -1418321580157472972
+    second: eventOrientation_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eventOrientation_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 15
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5427593825c5f79f0800000000000000
+      internalID: -468554326758559163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 523
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1695dcbe2e568b400800000000000000
+      internalID: 340133797159590241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 523
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27db462fc4dcf8d10800000000000000
+      internalID: 2130146879137430898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 523
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9733f7072b227d0800000000000000
+      internalID: -2944595010106721863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 523
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9515a413be5a65ca0800000000000000
+      internalID: -6028448621625978535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 523
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d6187c22af2b4c0800000000000000
+      internalID: -4273078069138199201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 523
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07d37463eb759610800000000000000
+      internalID: 1627343056937408267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 523
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dec814d8e9b67d50800000000000000
+      internalID: 6734774702421102294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 523
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8c26f5010b3fe70800000000000000
+      internalID: 9147848852485884097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 523
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a69fa4f8c760e140800000000000000
+      internalID: 4746908120044770981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_10
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 523
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2f2a96558736940800000000000000
+      internalID: 5288202695702934195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 523
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b99bbc9461137800800000000000000
+      internalID: 608849498449090995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_12
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 523
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12286ea38a669a60800000000000000
+      internalID: 7680443328326279706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_13
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 523
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80b8c755d7876560800000000000000
+      internalID: 7306958270802473102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_14
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 523
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c9f1d1dbe0d3d10800000000000000
+      internalID: 2106856406079478830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_15
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 523
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e4cbc307db9e3f0800000000000000
+      internalID: -870956763166519658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_16
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 483
+        width: 18
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b583deeef16bd99d0800000000000000
+      internalID: -2765854347866851237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 494
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa8097bdd118930800000000000000
+      internalID: 4143625960623222748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 494
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0737f04903a644ee0800000000000000
+      internalID: -1277779637391363216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 494
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348131c7938d499c0800000000000000
+      internalID: -3921271634126497725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 494
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bfb36ac4f67beb0800000000000000
+      internalID: -4704168910768047357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 494
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187a545f204fca3f0800000000000000
+      internalID: -888066732956735615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 494
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f50c01e20223fac0800000000000000
+      internalID: -3822674262946478604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 494
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e9764d554fc7fe0800000000000000
+      internalID: -1189807552059695610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_24
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 494
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250989d99a0092ff0800000000000000
+      internalID: -60516391499296686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_25
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 494
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c4e2b9bca1b7080800000000000000
+      internalID: -9188721152935179197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 336
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9478319d66c93c280800000000000000
+      internalID: -9024197262777809079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 323
+        width: 109
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b8d58fb195c2780800000000000000
+      internalID: -8706486002948142319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_28
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 336
+        width: 108
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f602cff746c8d0800000000000000
+      internalID: -2826492552330938284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 235
+        width: 15
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c32b6d150b0ab80800000000000000
+      internalID: -8385508640623018951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 230
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde0d718eacfbee60800000000000000
+      internalID: 7992759790126042843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_31
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 302
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237dd8e5669e6ff0800000000000000
+      internalID: -40929982157065436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_32
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 238
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b5ba6afcc46f50800000000000000
+      internalID: 6873844307178401999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 250
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1321c4a9d6086c0800000000000000
+      internalID: -4143191147712204362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 251
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f00755f070dd5b0800000000000000
+      internalID: -5342105820552229071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_35
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 238
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71393655d2080960800000000000000
+      internalID: 7568302289093996927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_36
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 238
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbca8f72f99470e0800000000000000
+      internalID: -2273022645114319946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_37
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 238
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea54b102af0aaf490800000000000000
+      internalID: -7711674415777626706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_38
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 250
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2055b7f303020c3e0800000000000000
+      internalID: -2035591639975897854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_39
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 238
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d2ec4c023b07ba0800000000000000
+      internalID: -6093173342510109350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_40
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 238
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30e1b51b40325f0800000000000000
+      internalID: -782776750447918097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_41
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 238
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff4375c8df967f0800000000000000
+      internalID: -618684694586392600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_42
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 250
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eec77d0936ac040800000000000000
+      internalID: 4668653437464669810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 109
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15763cb7d147cca0800000000000000
+      internalID: -5996751983989066467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_44
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 104
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bbc4f817ff52040800000000000000
+      internalID: 4622381455766240122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_45
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 142
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afcdcb9e8e09b2b0800000000000000
+      internalID: -5568403458604806232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_46
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 148
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d391c4a9758ff90800000000000000
+      internalID: -6919684507241464434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_47
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 115
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fa7f18eee6e3880800000000000000
+      internalID: -8629337865333526654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_48
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 126
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0a985ff4506e0b0800000000000000
+      internalID: -5699862437410791239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_49
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 131
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f12c201dfa881330800000000000000
+      internalID: 3681845514878067190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eventOrientation_50
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 136
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6175990c115ce0800000000000000
+      internalID: -1418321580157472972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

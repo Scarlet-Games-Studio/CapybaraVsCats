@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: cdfaef1a7b543504ba63600e0045a8c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6066104118532457181
+    second: elevation_0
+  - first:
+      213: -7861452089553545227
+    second: elevation_1
+  - first:
+      213: 1571903769478843667
+    second: elevation_2
+  - first:
+      213: -2932377295642613736
+    second: elevation_3
+  - first:
+      213: -6745317055901689194
+    second: elevation_4
+  - first:
+      213: -5512143578517823695
+    second: elevation_5
+  - first:
+      213: 7110180685397809180
+    second: elevation_6
+  - first:
+      213: -4717310377106820097
+    second: elevation_7
+  - first:
+      213: 631299839071539403
+    second: elevation_8
+  - first:
+      213: 1725672517969963755
+    second: elevation_9
+  - first:
+      213: 5380775587065246593
+    second: elevation_10
+  - first:
+      213: 4622299415480714558
+    second: elevation_11
+  - first:
+      213: 6414692144481232783
+    second: elevation_12
+  - first:
+      213: -5253879186589598441
+    second: elevation_13
+  - first:
+      213: 1820137065450960780
+    second: elevation_14
+  - first:
+      213: 2211934249214334395
+    second: elevation_15
+  - first:
+      213: 759285809469984511
+    second: elevation_16
+  - first:
+      213: 4313378178575941965
+    second: elevation_17
+  - first:
+      213: 487051351938328033
+    second: elevation_18
+  - first:
+      213: 616443485223686593
+    second: elevation_19
+  - first:
+      213: -6956924745382998111
+    second: elevation_20
+  - first:
+      213: -1022507889256227400
+    second: elevation_21
+  - first:
+      213: 2554736593505475408
+    second: elevation_22
+  - first:
+      213: -4711222849873176468
+    second: elevation_23
+  - first:
+      213: -5343315572545143722
+    second: elevation_24
+  - first:
+      213: -3052441716386243108
+    second: elevation_25
+  - first:
+      213: -1935376263100936386
+    second: elevation_26
+  - first:
+      213: -8216471080743978326
+    second: elevation_27
+  - first:
+      213: 2155903504984244351
+    second: elevation_28
+  - first:
+      213: 3833638118302818107
+    second: elevation_29
+  - first:
+      213: 2347872619116092495
+    second: elevation_30
+  - first:
+      213: 7939739607797482935
+    second: elevation_31
+  - first:
+      213: 4231383571667780213
+    second: elevation_32
+  - first:
+      213: -2777722029938041185
+    second: elevation_33
+  - first:
+      213: -8313209165639918536
+    second: elevation_34
+  - first:
+      213: 4761474396780383870
+    second: elevation_35
+  - first:
+      213: 1278755822285111458
+    second: elevation_36
+  - first:
+      213: -1907886305444150742
+    second: elevation_37
+  - first:
+      213: -3781663057910693197
+    second: elevation_38
+  - first:
+      213: -7064665824410001390
+    second: elevation_39
+  - first:
+      213: 7105318742234893326
+    second: elevation_40
+  - first:
+      213: -3716745290923117587
+    second: elevation_41
+  - first:
+      213: -5855368877686098128
+    second: elevation_42
+  - first:
+      213: 8058480561934839021
+    second: elevation_43
+  - first:
+      213: 6140719232122203575
+    second: elevation_44
+  - first:
+      213: 9129377505568076098
+    second: elevation_45
+  - first:
+      213: 9096361583031190987
+    second: elevation_46
+  - first:
+      213: -5334750680467925922
+    second: elevation_47
+  - first:
+      213: -2550962635644030127
+    second: elevation_48
+  - first:
+      213: 4418583225520909284
+    second: elevation_49
+  - first:
+      213: -271238675029720101
+    second: elevation_50
+  - first:
+      213: -2257615836633286766
+    second: elevation_51
+  - first:
+      213: -5583257244077575376
+    second: elevation_52
+  - first:
+      213: 1338352632394619815
+    second: elevation_53
+  - first:
+      213: -2121524706593192262
+    second: elevation_54
+  - first:
+      213: 419243284210960907
+    second: elevation_55
+  - first:
+      213: -7482882433377522352
+    second: elevation_56
+  - first:
+      213: 8603268432507962345
+    second: elevation_57
+  - first:
+      213: 2664294736820426212
+    second: elevation_58
+  - first:
+      213: 4245979538127129168
+    second: elevation_59
+  - first:
+      213: 5763677507271392874
+    second: elevation_60
+  - first:
+      213: -2196372982967424695
+    second: elevation_61
+  - first:
+      213: 3284899038699855941
+    second: elevation_62
+  - first:
+      213: -681454301171237066
+    second: elevation_63
+  - first:
+      213: -798441816445207344
+    second: elevation_64
+  - first:
+      213: 8616473552979859122
+    second: elevation_65
+  - first:
+      213: 8196460868252256356
+    second: elevation_66
+  - first:
+      213: -1901393986077854920
+    second: elevation_67
+  - first:
+      213: -5444888025454694115
+    second: elevation_68
+  - first:
+      213: -1848950745846384386
+    second: elevation_69
+  - first:
+      213: 7939140432775813809
+    second: elevation_70
+  - first:
+      213: 6980700590816890886
+    second: elevation_71
+  - first:
+      213: -2941676258736944869
+    second: elevation_72
+  - first:
+      213: -871639891130305290
+    second: elevation_73
+  - first:
+      213: -782979528570453907
+    second: elevation_74
+  - first:
+      213: -3163013512976840211
+    second: elevation_75
+  - first:
+      213: -2458473141081992632
+    second: elevation_76
+  - first:
+      213: -6589915754809631015
+    second: elevation_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elevation_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 437
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd249a36e812f2450800000000000000
+      internalID: 6066104118532457181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 520
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7986fe9f286e290800000000000000
+      internalID: -7861452089553545227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 389
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d42e8662680d510800000000000000
+      internalID: 1571903769478843667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 428
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8182dc1d26a1e47d0800000000000000
+      internalID: -2932377295642613736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 416
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a989930e1d362a0800000000000000
+      internalID: -6745317055901689194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 404
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f9e73be9ee083b0800000000000000
+      internalID: -5512143578517823695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 392
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18daf979af6ca260800000000000000
+      internalID: 7110180685397809180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_7
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 389
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3b845943fb88eb0800000000000000
+      internalID: -4717310377106820097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 380
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0de9edbd3d2c800800000000000000
+      internalID: 631299839071539403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 368
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beae0481302d2f710800000000000000
+      internalID: 1725672517969963755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 356
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1833e1b43ea5caa40800000000000000
+      internalID: 5380775587065246593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 344
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35493114d4b52040800000000000000
+      internalID: 4622299415480714558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 332
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87ea47d480950950800000000000000
+      internalID: 6414692144481232783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 320
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d328e47b87617b0800000000000000
+      internalID: -5253879186589598441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 308
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87f9bc740d624910800000000000000
+      internalID: 1820137065450960780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 296
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5d0f6fa7e52be10800000000000000
+      internalID: 2211934249214334395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 288
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe047cbb66898a00800000000000000
+      internalID: 759285809469984511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 288
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41c0f3a9923cdb30800000000000000
+      internalID: 4313378178575941965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 288
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e568a3cf9a52c600800000000000000
+      internalID: 487051351938328033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_19
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 288
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c19cd0751c0e8800800000000000000
+      internalID: 616443485223686593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_20
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 288
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af425eadc9047f90800000000000000
+      internalID: -6956924745382998111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 284
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd19d00e725fc1f0800000000000000
+      internalID: -1022507889256227400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_22
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 288
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bd59e656f347320800000000000000
+      internalID: 2554736593505475408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_23
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c681b9777cf5e9eb0800000000000000
+      internalID: -4711222849873176468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 287
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c32affbcab8d5b0800000000000000
+      internalID: -5343315572545143722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 287
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddd6357e6c83a5d0800000000000000
+      internalID: -3052441716386243108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_26
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 288
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f4523fa892425e0800000000000000
+      internalID: -1935376263100936386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 287
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3cf4b51b39fd80800000000000000
+      internalID: -8216471080743978326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_28
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 288
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f700b98b0de4bed10800000000000000
+      internalID: 2155903504984244351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_29
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 287
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f16de9e81d33530800000000000000
+      internalID: 3833638118302818107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_30
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 288
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cd74025b1559020800000000000000
+      internalID: 2347872619116092495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_31
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 288
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b54ed35b1f9f2e60800000000000000
+      internalID: 7939739607797482935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_32
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 288
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5728ea980f4e8ba30800000000000000
+      internalID: 4231383571667780213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_33
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 288
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e14c0e78c8379d0800000000000000
+      internalID: -2777722029938041185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 272
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cd2822f4c81ac80800000000000000
+      internalID: -8313209165639918536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_35
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 259
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e463b8cb7241240800000000000000
+      internalID: 4761474396780383870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_36
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 259
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a044cd25ad0fb110800000000000000
+      internalID: 1278755822285111458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 270
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a224b2c7383d585e0800000000000000
+      internalID: -1907886305444150742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 174
+        width: 267
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b204052c75d48bc0800000000000000
+      internalID: -3781663057910693197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_39
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 235
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2102337ecd345fd90800000000000000
+      internalID: -7064665824410001390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 223
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c06de10c92b9260800000000000000
+      internalID: 7105318742234893326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 123
+        width: 164
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3fbed99d77b6cc0800000000000000
+      internalID: -3716745290923117587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_42
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 211
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03774a0670d8dbea0800000000000000
+      internalID: -5855368877686098128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 169
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec248b106975df60800000000000000
+      internalID: 8058480561934839021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 79
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdad005b97383550800000000000000
+      internalID: 6140719232122203575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_45
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 169
+        width: 89
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241b3d7c87012be70800000000000000
+      internalID: 9129377505568076098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 130
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc585194aa4cc3e70800000000000000
+      internalID: 9096361583031190987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 130
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e549f65558827f5b0800000000000000
+      internalID: -5334750680467925922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_48
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 130
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153b42b9ff8299cd0800000000000000
+      internalID: -2550962635644030127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_49
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 130
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6caf6806f15d30800000000000000
+      internalID: 4418583225520909284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd38185bcdd5c3cf0800000000000000
+      internalID: -271238675029720101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 130
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2973d22ab565ba0e0800000000000000
+      internalID: -2257615836633286766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 130
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033312d2e194482b0800000000000000
+      internalID: -5583257244077575376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_53
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 143
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab1716d0a8c29210800000000000000
+      internalID: 1338352632394619815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_54
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab64c490584de82e0800000000000000
+      internalID: -2121524706593192262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_55
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 130
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0accd5bb8371d500800000000000000
+      internalID: 419243284210960907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_56
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 130
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05da586a216772890800000000000000
+      internalID: -7482882433377522352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_57
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 130
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e308faae03f46770800000000000000
+      internalID: 8603268432507962345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_58
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5df1572f979f420800000000000000
+      internalID: 2664294736820426212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_59
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a05adc4efbcea30800000000000000
+      internalID: 4245979538127129168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_60
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ef1d4d722bcff40800000000000000
+      internalID: 5763677507271392874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_61
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94926fba86ae481e0800000000000000
+      internalID: -2196372982967424695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_62
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 130
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5402ab4854e469d20800000000000000
+      internalID: 3284899038699855941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_63
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fb6007cecfa86f0800000000000000
+      internalID: -681454301171237066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_64
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 127
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc37f4f56d5be4f0800000000000000
+      internalID: -798441816445207344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_65
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 115
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b699ed5b0dd39770800000000000000
+      internalID: 8616473552979859122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_66
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 99
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468c093abbdafb170800000000000000
+      internalID: 8196460868252256356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 98
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833f3c16e34ec95e0800000000000000
+      internalID: -1901393986077854920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_68
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 99
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11bef8603fdf64b0800000000000000
+      internalID: -5444888025454694115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_69
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f1a2c7153756e0800000000000000
+      internalID: -1848950745846384386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_70
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 103
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba1b85092e7d2e60800000000000000
+      internalID: 7939140432775813809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_71
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 91
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6001007b33e60e060800000000000000
+      internalID: 6980700590816890886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_72
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 67
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19c8c147011d27d0800000000000000
+      internalID: -2941676258736944869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_73
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 55
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f43e1d132057e3f0800000000000000
+      internalID: -871639891130305290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_74
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 43
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60c725644c4225f0800000000000000
+      internalID: -782979528570453907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_75
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 31
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de94143e7f7ba14d0800000000000000
+      internalID: -3163013512976840211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_76
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 19
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84218f724bfb1edd0800000000000000
+      internalID: -2458473141081992632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevation_77
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de52de298aeb84a0800000000000000
+      internalID: -6589915754809631015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
