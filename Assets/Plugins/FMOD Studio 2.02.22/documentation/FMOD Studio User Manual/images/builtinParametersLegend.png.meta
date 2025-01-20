@@ -417,6 +417,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2809,7 +2822,115 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      builtinParametersLegend_0: 6463925967559800360
+      builtinParametersLegend_1: -3082231922699857912
+      builtinParametersLegend_10: 7191804383097331296
+      builtinParametersLegend_100: -3555298286616989668
+      builtinParametersLegend_101: 8673696963942245840
+      builtinParametersLegend_102: 2829270189402493771
+      builtinParametersLegend_103: -5594179687566809084
+      builtinParametersLegend_104: 2290549342222585341
+      builtinParametersLegend_105: -2812610126957501468
+      builtinParametersLegend_106: -8991367189608005754
+      builtinParametersLegend_107: -8717208522159529729
+      builtinParametersLegend_11: 2995921354180455965
+      builtinParametersLegend_12: 4805260814991012499
+      builtinParametersLegend_13: -6952344979477834229
+      builtinParametersLegend_14: -1806488820726686480
+      builtinParametersLegend_15: 7935174385499320078
+      builtinParametersLegend_16: -2307502048370341354
+      builtinParametersLegend_17: 1167831235031354673
+      builtinParametersLegend_18: -5159604498594000077
+      builtinParametersLegend_19: 4262821902682171968
+      builtinParametersLegend_2: -3033005297723043743
+      builtinParametersLegend_20: 3808774706579648152
+      builtinParametersLegend_21: 2886386527862114056
+      builtinParametersLegend_22: 715015842817147026
+      builtinParametersLegend_23: -5991909859476376980
+      builtinParametersLegend_24: 5533041911805494002
+      builtinParametersLegend_25: 4765660608985577107
+      builtinParametersLegend_26: -2549082626482150619
+      builtinParametersLegend_27: 1700477775337776682
+      builtinParametersLegend_28: -3588658659704227292
+      builtinParametersLegend_29: -4828959154698776966
+      builtinParametersLegend_3: 8190285751848309573
+      builtinParametersLegend_30: -4801066809583095440
+      builtinParametersLegend_31: -1383762833271233956
+      builtinParametersLegend_32: 1618208789910982382
+      builtinParametersLegend_33: -8612645021764307206
+      builtinParametersLegend_34: -2846701175914695515
+      builtinParametersLegend_35: -3540715051578274253
+      builtinParametersLegend_36: 7908981149451136002
+      builtinParametersLegend_37: -7792726930075969449
+      builtinParametersLegend_38: 6729307507492897108
+      builtinParametersLegend_39: 5950931750110285251
+      builtinParametersLegend_4: -2937649951359741766
+      builtinParametersLegend_40: -1926851550579687518
+      builtinParametersLegend_41: 5629639936884179802
+      builtinParametersLegend_42: -2085148341035083057
+      builtinParametersLegend_43: 3775544200414046636
+      builtinParametersLegend_44: 1279059566106910152
+      builtinParametersLegend_45: 2288172819522094296
+      builtinParametersLegend_46: 8226935372752605261
+      builtinParametersLegend_47: -5115809175438183630
+      builtinParametersLegend_48: 6584179222370894275
+      builtinParametersLegend_49: 2451024624770221160
+      builtinParametersLegend_5: 8867108993485277274
+      builtinParametersLegend_50: 6312684188346925308
+      builtinParametersLegend_51: 2257262691945983443
+      builtinParametersLegend_52: 5858022246424477833
+      builtinParametersLegend_53: -3580756693221244798
+      builtinParametersLegend_54: 5798550801707319215
+      builtinParametersLegend_55: 8810920711140654715
+      builtinParametersLegend_56: -6710651887392909452
+      builtinParametersLegend_57: 6876156145295204636
+      builtinParametersLegend_58: 7259314852919229740
+      builtinParametersLegend_59: -6634078617077389327
+      builtinParametersLegend_6: -8028869838951949727
+      builtinParametersLegend_60: -6947752820902145035
+      builtinParametersLegend_61: -7143787723865195397
+      builtinParametersLegend_62: -2982059385543293059
+      builtinParametersLegend_63: -290957176184381850
+      builtinParametersLegend_64: -8169285756896185007
+      builtinParametersLegend_65: -2748303171580263126
+      builtinParametersLegend_66: 4294314515926476001
+      builtinParametersLegend_67: -4493419152720484626
+      builtinParametersLegend_68: 7518056880852499551
+      builtinParametersLegend_69: -8743220267256107013
+      builtinParametersLegend_7: -6315528620609216381
+      builtinParametersLegend_70: -2481457277038773656
+      builtinParametersLegend_71: -2331633823690546843
+      builtinParametersLegend_72: 7843599834658598096
+      builtinParametersLegend_73: -3770904188521919355
+      builtinParametersLegend_74: -8650041619602603343
+      builtinParametersLegend_75: -5164680316587847253
+      builtinParametersLegend_76: 4954517443479196241
+      builtinParametersLegend_77: 3766176167668632226
+      builtinParametersLegend_78: -4491317986052712127
+      builtinParametersLegend_79: -1279342303847504859
+      builtinParametersLegend_8: -8554929113635320760
+      builtinParametersLegend_80: 1187070234075294183
+      builtinParametersLegend_81: -3706015307108677197
+      builtinParametersLegend_82: -6432275127428514812
+      builtinParametersLegend_83: 8440153363635940871
+      builtinParametersLegend_84: 6680743716191203557
+      builtinParametersLegend_85: 921018541304869760
+      builtinParametersLegend_86: 1627102215111275609
+      builtinParametersLegend_87: 170638103360835606
+      builtinParametersLegend_88: 5018999897981435550
+      builtinParametersLegend_89: 6881630132352627559
+      builtinParametersLegend_9: 3873365806512787338
+      builtinParametersLegend_90: 7111303090628352976
+      builtinParametersLegend_91: -8200671254668997706
+      builtinParametersLegend_92: 880732500442424855
+      builtinParametersLegend_93: 2203433090435196749
+      builtinParametersLegend_94: -6331781721225981868
+      builtinParametersLegend_95: 102166893467504555
+      builtinParametersLegend_96: 3912962993559177624
+      builtinParametersLegend_97: 4816512236402991221
+      builtinParametersLegend_98: 2811139035619490516
+      builtinParametersLegend_99: 8809175184746629684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

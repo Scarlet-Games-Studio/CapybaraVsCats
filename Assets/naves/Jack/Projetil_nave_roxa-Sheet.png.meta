@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 23eb32455f701bc408e7a9982de5b0c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -287024491574423737
+    second: Projetil_nave_roxa-Sheet_0
+  - first:
+      213: 2136597276275305575
+    second: Projetil_nave_roxa-Sheet_1
+  - first:
+      213: -7139120521241641589
+    second: Projetil_nave_roxa-Sheet_2
+  - first:
+      213: 7956491098157719410
+    second: Projetil_nave_roxa-Sheet_3
+  - first:
+      213: 7271797819038641600
+    second: Projetil_nave_roxa-Sheet_4
+  - first:
+      213: 1723544021053383000
+    second: Projetil_nave_roxa-Sheet_5
+  - first:
+      213: 5215103342807631523
+    second: Projetil_nave_roxa-Sheet_6
+  - first:
+      213: -3642155460550904866
+    second: Projetil_nave_roxa-Sheet_7
+  - first:
+      213: -6683628727873442351
+    second: Projetil_nave_roxa-Sheet_8
+  - first:
+      213: -567308726547073033
+    second: Projetil_nave_roxa-Sheet_9
+  - first:
+      213: 6396259557342225543
+    second: Projetil_nave_roxa-Sheet_10
+  - first:
+      213: -3490290299205268547
+    second: Projetil_nave_roxa-Sheet_11
+  - first:
+      213: 8453676489334968659
+    second: Projetil_nave_roxa-Sheet_12
+  - first:
+      213: -3234424303765829110
+    second: Projetil_nave_roxa-Sheet_13
+  - first:
+      213: 2521595108214583982
+    second: Projetil_nave_roxa-Sheet_14
+  - first:
+      213: 6632893708850304525
+    second: Projetil_nave_roxa-Sheet_15
+  - first:
+      213: -1804399893440542151
+    second: Projetil_nave_roxa-Sheet_16
+  - first:
+      213: 3077166482045149185
+    second: Projetil_nave_roxa-Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 151
+        width: 46
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f8ed1eeb8440cf0800000000000000
+      internalID: -287024491574423737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 127
+        width: 41
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ce47017e7b6ad10800000000000000
+      internalID: 2136597276275305575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 118
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8db0bae5bfbcec90800000000000000
+      internalID: -7139120521241641589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 109
+        width: 46
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f9f3c9f722b6e60800000000000000
+      internalID: 7956491098157719410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 103
+        width: 48
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd224ab69d9ae460800000000000000
+      internalID: 7271797819038641600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 190
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851a2a9c7224be710800000000000000
+      internalID: 1723544021053383000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 161
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a640070cd4cf5840800000000000000
+      internalID: 5215103342807631523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 164
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed33d15d7e6747dc0800000000000000
+      internalID: -3642155460550904866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 167
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dde188551bfe33a0800000000000000
+      internalID: -6683628727873442351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 134
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7be2c08b38028f0800000000000000
+      internalID: -567308726547073033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 150
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784a496bd2414c850800000000000000
+      internalID: 6396259557342225543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 150
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbc0e8177fff8fc0800000000000000
+      internalID: -3490290299205268547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 155
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351d1e04afd715570800000000000000
+      internalID: 8453676489334968659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 123
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ac5218b340d13d0800000000000000
+      internalID: -3234424303765829110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea23e7414618ef220800000000000000
+      internalID: 2521595108214583982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 85
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0612f48fa5cc0c50800000000000000
+      internalID: 6632893708850304525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 106
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a49b66bdb75f6e0800000000000000
+      internalID: -1804399893440542151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_nave_roxa-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 16
+        width: 25
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1002a05ac9a44ba20800000000000000
+      internalID: 3077166482045149185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

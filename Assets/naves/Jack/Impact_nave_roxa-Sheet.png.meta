@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: 8aa3cae8987e8374ba113e8f2ec8fa0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6529790678640838716
+    second: Impact_nave_roxa-Sheet_0
+  - first:
+      213: -3154370122799657174
+    second: Impact_nave_roxa-Sheet_1
+  - first:
+      213: 2854288054747356563
+    second: Impact_nave_roxa-Sheet_2
+  - first:
+      213: -4954057167262264783
+    second: Impact_nave_roxa-Sheet_3
+  - first:
+      213: -5043877222854544865
+    second: Impact_nave_roxa-Sheet_4
+  - first:
+      213: 1331773828384841076
+    second: Impact_nave_roxa-Sheet_5
+  - first:
+      213: 7086344594030681083
+    second: Impact_nave_roxa-Sheet_6
+  - first:
+      213: 5523194376865146940
+    second: Impact_nave_roxa-Sheet_7
+  - first:
+      213: -7304874034697846039
+    second: Impact_nave_roxa-Sheet_8
+  - first:
+      213: -636341928207684771
+    second: Impact_nave_roxa-Sheet_9
+  - first:
+      213: -6520368193777563403
+    second: Impact_nave_roxa-Sheet_10
+  - first:
+      213: 5452215554506903036
+    second: Impact_nave_roxa-Sheet_11
+  - first:
+      213: -1122094332007598904
+    second: Impact_nave_roxa-Sheet_12
+  - first:
+      213: 6581999450051249751
+    second: Impact_nave_roxa-Sheet_13
+  - first:
+      213: 431381170345490805
+    second: Impact_nave_roxa-Sheet_14
+  - first:
+      213: -722140662292715721
+    second: Impact_nave_roxa-Sheet_15
+  - first:
+      213: -8071632388653792975
+    second: Impact_nave_roxa-Sheet_16
+  - first:
+      213: 7556458210348886467
+    second: Impact_nave_roxa-Sheet_17
+  - first:
+      213: 7335032528210873423
+    second: Impact_nave_roxa-Sheet_18
+  - first:
+      213: 7558654699743630429
+    second: Impact_nave_roxa-Sheet_19
+  - first:
+      213: 6285471343316384716
+    second: Impact_nave_roxa-Sheet_20
+  - first:
+      213: -4582851838953857108
+    second: Impact_nave_roxa-Sheet_21
+  - first:
+      213: 3654485630544243250
+    second: Impact_nave_roxa-Sheet_22
+  - first:
+      213: 8948239407452114563
+    second: Impact_nave_roxa-Sheet_23
+  - first:
+      213: 5296554087131371802
+    second: Impact_nave_roxa-Sheet_24
+  - first:
+      213: -7668815887762004957
+    second: Impact_nave_roxa-Sheet_25
+  - first:
+      213: -214408783812097088
+    second: Impact_nave_roxa-Sheet_26
+  - first:
+      213: -2729983156326941753
+    second: Impact_nave_roxa-Sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 462
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c384b02a60a7e9a50800000000000000
+      internalID: 6529790678640838716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 483
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fcb6cf51d6934d0800000000000000
+      internalID: -3154370122799657174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 130
+        width: 330
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d5bd5fcd77c9720800000000000000
+      internalID: 2854288054747356563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 102
+        width: 428
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132da5c0147af3bb0800000000000000
+      internalID: -4954057167262264783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 104
+        width: 531
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f123211b36c800ab0800000000000000
+      internalID: -5043877222854544865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 426
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d5a0aad396b7210800000000000000
+      internalID: 1331773828384841076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 425
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb553bfcd0c75260800000000000000
+      internalID: 7086344594030681083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 435
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c386b7ac50456ac40800000000000000
+      internalID: 5523194376865146940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 434
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e24cd0b4cfdf9a90800000000000000
+      internalID: -7304874034697846039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 175
+        width: 317
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b6e7543624b27f0800000000000000
+      internalID: -636341928207684771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 407
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f802259caff285a0800000000000000
+      internalID: -6520368193777563403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 386
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd4e35e8292aab40800000000000000
+      internalID: 5452215554506903036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 387
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4353076258d60f0800000000000000
+      internalID: -1122094332007598904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 282
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7560f1c70a5f75b50800000000000000
+      internalID: 6581999450051249751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 272
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5793c3d83e29cf500800000000000000
+      internalID: 431381170345490805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 290
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7376d2ac4e07af5f0800000000000000
+      internalID: -722140662292715721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 270
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131c0cc9b1dcbff80800000000000000
+      internalID: -8071632388653792975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 268
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9edebd4beedd860800000000000000
+      internalID: 7556458210348886467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 269
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cc1f3c8354bc560800000000000000
+      internalID: 7335032528210873423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d545e06e66cb5e860800000000000000
+      internalID: 7558654699743630429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 153
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb354882ea7a3750800000000000000
+      internalID: 6285471343316384716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 156
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafd8e098807660c0800000000000000
+      internalID: -4582851838953857108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 122
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aeb55915757b230800000000000000
+      internalID: 3654485630544243250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 84
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ec55ec4588e2c70800000000000000
+      internalID: 8948239407452114563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 81
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19db1141e3218940800000000000000
+      internalID: 5296554087131371802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 104
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324e21ac494e29590800000000000000
+      internalID: -7668815887762004957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 81
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb082cd854460df0800000000000000
+      internalID: -214408783812097088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Impact_nave_roxa-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 68
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb355c88c62d1ad0800000000000000
+      internalID: -2729983156326941753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

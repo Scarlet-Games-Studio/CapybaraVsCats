@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cat_enemy-Sheet_0: 6585205381079161176
+      Cat_enemy-Sheet_1: -3496379598310914734
+      Cat_enemy-Sheet_2: 3740733133719000236
+      Cat_enemy-Sheet_3: -6530839553419652394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

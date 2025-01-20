@@ -126,6 +126,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      audiogaming_audiowind_logo_0: 7897462542607999653
+      audiogaming_audiowind_logo_1: -7500398791119522593
+      audiogaming_audiowind_logo_10: 3647927272015935308
+      audiogaming_audiowind_logo_2: 8866954620517241121
+      audiogaming_audiowind_logo_3: -555538997828175133
+      audiogaming_audiowind_logo_4: -4914280929283055587
+      audiogaming_audiowind_logo_5: 8354005758637234271
+      audiogaming_audiowind_logo_6: -1112777456268976455
+      audiogaming_audiowind_logo_7: 6469612519945248666
+      audiogaming_audiowind_logo_8: 5560353147020110904
+      audiogaming_audiowind_logo_9: -5602134766614374344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

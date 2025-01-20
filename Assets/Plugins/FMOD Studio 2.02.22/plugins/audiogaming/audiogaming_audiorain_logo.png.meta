@@ -138,6 +138,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      audiogaming_audiorain_logo_0: -8298498319466201959
+      audiogaming_audiorain_logo_1: -5293714395936482515
+      audiogaming_audiorain_logo_10: 8399228513691517536
+      audiogaming_audiorain_logo_11: -6330946894623583176
+      audiogaming_audiorain_logo_12: -1722765351454539696
+      audiogaming_audiorain_logo_13: -1459514188887377632
+      audiogaming_audiorain_logo_14: -2055708680459672845
+      audiogaming_audiorain_logo_2: 1491400657554292628
+      audiogaming_audiorain_logo_3: 3300566891093580586
+      audiogaming_audiorain_logo_4: -7538764577279016396
+      audiogaming_audiorain_logo_5: -4404609253678510141
+      audiogaming_audiorain_logo_6: -1005753245777292890
+      audiogaming_audiorain_logo_7: -798261959134004933
+      audiogaming_audiorain_logo_8: 1875291516451333359
+      audiogaming_audiorain_logo_9: 8273633416554725059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

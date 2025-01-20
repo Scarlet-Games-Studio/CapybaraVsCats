@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: 6eb9b99efe3b2094ea75b77827f8df6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6917707663543434032
+    second: Tiro_garota_magica-Sheet_0
+  - first:
+      213: 7225113372385504122
+    second: Tiro_garota_magica-Sheet_1
+  - first:
+      213: 6341696789877881467
+    second: Tiro_garota_magica-Sheet_2
+  - first:
+      213: 2767745902037924324
+    second: Tiro_garota_magica-Sheet_3
+  - first:
+      213: 5148070311214218395
+    second: Tiro_garota_magica-Sheet_4
+  - first:
+      213: 8121835024571333423
+    second: Tiro_garota_magica-Sheet_5
+  - first:
+      213: -1247478936001674004
+    second: Tiro_garota_magica-Sheet_6
+  - first:
+      213: -1193579765391727366
+    second: Tiro_garota_magica-Sheet_7
+  - first:
+      213: -6819425384596647675
+    second: Tiro_garota_magica-Sheet_8
+  - first:
+      213: -8619076644464931587
+    second: Tiro_garota_magica-Sheet_9
+  - first:
+      213: -5833533205324519999
+    second: Tiro_garota_magica-Sheet_10
+  - first:
+      213: -8028544648461109992
+    second: Tiro_garota_magica-Sheet_11
+  - first:
+      213: 8412666155808052649
+    second: Tiro_garota_magica-Sheet_12
+  - first:
+      213: 1381026764005585290
+    second: Tiro_garota_magica-Sheet_13
+  - first:
+      213: -4265138017243841914
+    second: Tiro_garota_magica-Sheet_14
+  - first:
+      213: -3840818509188915827
+    second: Tiro_garota_magica-Sheet_15
+  - first:
+      213: 3233066226596741631
+    second: Tiro_garota_magica-Sheet_16
+  - first:
+      213: -6289751412654016580
+    second: Tiro_garota_magica-Sheet_17
+  - first:
+      213: -6174369936067713830
+    second: Tiro_garota_magica-Sheet_18
+  - first:
+      213: 5813882083364631180
+    second: Tiro_garota_magica-Sheet_19
+  - first:
+      213: -301220270831280205
+    second: Tiro_garota_magica-Sheet_20
+  - first:
+      213: -2700088047768024838
+    second: Tiro_garota_magica-Sheet_21
+  - first:
+      213: 8373436741213082636
+    second: Tiro_garota_magica-Sheet_22
+  - first:
+      213: 2885848268453234405
+    second: Tiro_garota_magica-Sheet_23
+  - first:
+      213: 7065019561468621694
+    second: Tiro_garota_magica-Sheet_24
+  - first:
+      213: 8827028162324315515
+    second: Tiro_garota_magica-Sheet_25
+  - first:
+      213: -1043190025248536600
+    second: Tiro_garota_magica-Sheet_26
+  - first:
+      213: 5899752650150580107
+    second: Tiro_garota_magica-Sheet_27
+  - first:
+      213: 6109395392395456096
+    second: Tiro_garota_magica-Sheet_28
+  - first:
+      213: 857878461781025337
+    second: Tiro_garota_magica-Sheet_29
+  - first:
+      213: 5122590731544712651
+    second: Tiro_garota_magica-Sheet_30
+  - first:
+      213: 7754968311447781355
+    second: Tiro_garota_magica-Sheet_31
+  - first:
+      213: -4417918726805734030
+    second: Tiro_garota_magica-Sheet_32
+  - first:
+      213: 7148126761318739376
+    second: Tiro_garota_magica-Sheet_33
+  - first:
+      213: -7172120394134667952
+    second: Tiro_garota_magica-Sheet_34
+  - first:
+      213: -7460731647805234497
+    second: Tiro_garota_magica-Sheet_35
+  - first:
+      213: -8148761163483461580
+    second: Tiro_garota_magica-Sheet_36
+  - first:
+      213: -7720382151823445760
+    second: Tiro_garota_magica-Sheet_37
+  - first:
+      213: -4612627872392835912
+    second: Tiro_garota_magica-Sheet_38
+  - first:
+      213: -2825230151051279944
+    second: Tiro_garota_magica-Sheet_39
+  - first:
+      213: -4726129794435475721
+    second: Tiro_garota_magica-Sheet_40
+  - first:
+      213: 8583924214296750493
+    second: Tiro_garota_magica-Sheet_41
+  - first:
+      213: -3669142139353833665
+    second: Tiro_garota_magica-Sheet_42
+  - first:
+      213: -5827741600563322875
+    second: Tiro_garota_magica-Sheet_43
+  - first:
+      213: -9008605058771169804
+    second: Tiro_garota_magica-Sheet_44
+  - first:
+      213: -4172722216014862735
+    second: Tiro_garota_magica-Sheet_45
+  - first:
+      213: -750513468574875075
+    second: Tiro_garota_magica-Sheet_46
+  - first:
+      213: -4594498674248677468
+    second: Tiro_garota_magica-Sheet_47
+  - first:
+      213: 6220279737899782769
+    second: Tiro_garota_magica-Sheet_48
+  - first:
+      213: -702103259828937081
+    second: Tiro_garota_magica-Sheet_49
+  - first:
+      213: 941485002356971410
+    second: Tiro_garota_magica-Sheet_50
+  - first:
+      213: -1461911490436034284
+    second: Tiro_garota_magica-Sheet_51
+  - first:
+      213: 9204015194791923959
+    second: Tiro_garota_magica-Sheet_52
+  - first:
+      213: -2573152854291209585
+    second: Tiro_garota_magica-Sheet_53
+  - first:
+      213: 7583467959337084333
+    second: Tiro_garota_magica-Sheet_54
+  - first:
+      213: -2704674683972923599
+    second: Tiro_garota_magica-Sheet_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 287
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d40f76188d5fff90800000000000000
+      internalID: -6917707663543434032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 323
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b66f6f452c44460800000000000000
+      internalID: 7225113372385504122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 303
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7af7e171ab320850800000000000000
+      internalID: 6341696789877881467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 333
+        width: 18
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e97387db32096620800000000000000
+      internalID: 2767745902037924324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 322
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c78a22cae917740800000000000000
+      internalID: 5148070311214218395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 325
+        width: 13
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b76eb6ced86b070800000000000000
+      internalID: 8121835024571333423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 111
+        width: 210
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce486d2648010bee0800000000000000
+      internalID: -1247478936001674004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 98
+        width: 198
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af46bb8f68d8f6fe0800000000000000
+      internalID: -1193579765391727366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 269
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501d5da5eb88c51a0800000000000000
+      internalID: -6819425384596647675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 304
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc4dca2573e26880800000000000000
+      internalID: -8619076644464931587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 274
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5af2705702b0fa0800000000000000
+      internalID: -5833533205324519999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 219
+        width: 17
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815bc15ed21e49090800000000000000
+      internalID: -8028544648461109992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 237
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5d3e6eb4bcfb470800000000000000
+      internalID: 8412666155808052649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 277
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a813cdd56846a2310800000000000000
+      internalID: 1381026764005585290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 276
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aba2c229f2fc4c0800000000000000
+      internalID: -4265138017243841914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 268
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d9c095aeba2bac0800000000000000
+      internalID: -3840818509188915827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 263
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff18c938a982edc20800000000000000
+      internalID: 3233066226596741631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 278
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7fe3b2a6056b8a0800000000000000
+      internalID: -6289751412654016580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 266
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad425d0a14b305aa0800000000000000
+      internalID: -6174369936067713830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 278
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82f4f893fe0fa050800000000000000
+      internalID: 5813882083364631180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 247
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf54f572c9d1dbf0800000000000000
+      internalID: -301220270831280205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 267
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8428ae93c578ad0800000000000000
+      internalID: -2700088047768024838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 260
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04d53d0a5c643470800000000000000
+      internalID: 8373436741213082636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 237
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6c4d4d5b79c0820800000000000000
+      internalID: 2885848268453234405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 252
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73f58cebddfb0260800000000000000
+      internalID: 7065019561468621694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 232
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7db5b59857ef7a70800000000000000
+      internalID: 8827028162324315515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 176
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e784d7f238d581f0800000000000000
+      internalID: -1043190025248536600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 215
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f05eee6c120e150800000000000000
+      internalID: 5899752650150580107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 230
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ea32c8dbee8c450800000000000000
+      internalID: 6109395392395456096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 232
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932aaee6aebc7eb00800000000000000
+      internalID: 857878461781025337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 213
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc55e633129171740800000000000000
+      internalID: 5122590731544712651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 209
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef7148779e2f9b60800000000000000
+      internalID: 7754968311447781355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 197
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27db23a335660b2c0800000000000000
+      internalID: -4417918726805734030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 163
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdedd1ca6f333360800000000000000
+      internalID: 7148126761318739376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 201
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05db4454082877c90800000000000000
+      internalID: -7172120394134667952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 174
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2ed005818267890800000000000000
+      internalID: -7460731647805234497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438c11355e8c9ee80800000000000000
+      internalID: -8148761163483461580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 154
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0013c465651bbd490800000000000000
+      internalID: -7720382151823445760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 176
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc85f88367acffb0800000000000000
+      internalID: -4612627872392835912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 181
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b18dd57524cac8d0800000000000000
+      internalID: -2825230151051279944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 177
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f69848fdf9696eb0800000000000000
+      internalID: -4726129794435475721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 142
+        width: 72
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d992804e799302770800000000000000
+      internalID: 8583924214296750493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fd5690aa6941dc0800000000000000
+      internalID: -3669142139353833665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 138
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50028a714e3bf1fa0800000000000000
+      internalID: -5827741600563322875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 171
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd482ebd610bf280800000000000000
+      internalID: -9008605058771169804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 160
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176ad08a0438716c0800000000000000
+      internalID: -4172722216014862735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 169
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c27a0af3a595f0800000000000000
+      internalID: -750513468574875075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 133
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a787686ccf0d30c0800000000000000
+      internalID: -4594498674248677468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 153
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1729315177fd25650800000000000000
+      internalID: 6220279737899782769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 133
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e904a1ec0a146f0800000000000000
+      internalID: -702103259828937081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 99
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29758d61f93d01d00800000000000000
+      internalID: 941485002356971410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 122
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4119f77be3f36bbe0800000000000000
+      internalID: -1461911490436034284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 89
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0ded00e0b3bbf70800000000000000
+      internalID: 9204015194791923959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 106
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82a037bc135a4cd0800000000000000
+      internalID: -2573152854291209585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 91
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5e7d91ee3ed3960800000000000000
+      internalID: 7583467959337084333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiro_garota_magica-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 72
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f4dc474b0177ad0800000000000000
+      internalID: -2704674683972923599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

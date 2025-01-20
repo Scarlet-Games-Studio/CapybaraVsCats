@@ -354,6 +354,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2284,7 +2297,94 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      distance-normalized_0: -2409082562272293001
+      distance-normalized_1: -2289819291214533749
+      distance-normalized_10: -4833409360656447408
+      distance-normalized_11: -7133095562732787888
+      distance-normalized_12: 2201288137245524069
+      distance-normalized_13: -5976125833380218351
+      distance-normalized_14: -626490505461993401
+      distance-normalized_15: -8976257863736759100
+      distance-normalized_16: 7565551031251181900
+      distance-normalized_17: 6237054139603084147
+      distance-normalized_18: 8948957874666172891
+      distance-normalized_19: -1274505231872615825
+      distance-normalized_2: -994447616997710139
+      distance-normalized_20: -4381317640321635219
+      distance-normalized_21: 3306284819068314046
+      distance-normalized_22: -1686349946535670212
+      distance-normalized_23: 2009538902173184935
+      distance-normalized_24: -7889570941583925251
+      distance-normalized_25: 6976373476487232445
+      distance-normalized_26: -31260977411933177
+      distance-normalized_27: -6940276285108214527
+      distance-normalized_28: -5678521041214546607
+      distance-normalized_29: 4633740877495799319
+      distance-normalized_3: -3487878806011082966
+      distance-normalized_30: 4122976685159204945
+      distance-normalized_31: -4381732801926817878
+      distance-normalized_32: -4997841852920326451
+      distance-normalized_33: -7580640383811326188
+      distance-normalized_34: 3605383598908432736
+      distance-normalized_35: 7129985113467771986
+      distance-normalized_36: -6649792000147377111
+      distance-normalized_37: -6837636780030948118
+      distance-normalized_38: -720007293286858246
+      distance-normalized_39: -254367907021771369
+      distance-normalized_4: -6252704376677884117
+      distance-normalized_40: 3127514440464730047
+      distance-normalized_41: -2517783622109978296
+      distance-normalized_42: -3236769837578451705
+      distance-normalized_43: 2255138796306008891
+      distance-normalized_44: 4883665763513290868
+      distance-normalized_45: -3663702617031383293
+      distance-normalized_46: 8198855555580562655
+      distance-normalized_47: 8987452480354005486
+      distance-normalized_48: 298819210664894680
+      distance-normalized_49: -3010297962095489903
+      distance-normalized_5: -8261910844129046046
+      distance-normalized_50: -5038281889530141603
+      distance-normalized_51: -3174970728046967527
+      distance-normalized_52: -1712265014973363660
+      distance-normalized_53: -5076539739001833322
+      distance-normalized_54: -4130327913845973506
+      distance-normalized_55: 3300023993565097954
+      distance-normalized_56: -6303465360940428360
+      distance-normalized_57: 691427888356713590
+      distance-normalized_58: 386821064054850851
+      distance-normalized_59: 5810071043397978586
+      distance-normalized_6: 1788833452303299084
+      distance-normalized_60: -2091111887412301887
+      distance-normalized_61: 1094016184096058674
+      distance-normalized_62: -5386614958916879223
+      distance-normalized_63: -4077648485983171326
+      distance-normalized_64: 8898435387906461326
+      distance-normalized_65: 7845420221067075234
+      distance-normalized_66: -4852899985876804175
+      distance-normalized_67: 3717112359241525784
+      distance-normalized_68: -5720902974404156015
+      distance-normalized_69: 1561383724653899307
+      distance-normalized_7: -2796406313551236843
+      distance-normalized_70: 3084054639206350937
+      distance-normalized_71: -7049913453176288892
+      distance-normalized_72: 2752561894679253883
+      distance-normalized_73: 5038491230257164072
+      distance-normalized_74: 3138272608505588187
+      distance-normalized_75: -7899829866091510605
+      distance-normalized_76: 3926195492876930116
+      distance-normalized_77: 7771575847559555906
+      distance-normalized_78: -2780865522547752469
+      distance-normalized_79: -1031716658999251092
+      distance-normalized_8: 1524118737996763850
+      distance-normalized_80: -3677243167467222218
+      distance-normalized_81: -1726288711022459075
+      distance-normalized_82: -1203970102610723336
+      distance-normalized_83: 6682260498150975766
+      distance-normalized_84: -3611295244057357443
+      distance-normalized_85: -2378972310270770275
+      distance-normalized_86: -3252536961411097723
+      distance-normalized_9: 882670867256855518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

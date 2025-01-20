@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: fc4c87512382f7943b93a782f2acf402
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2311977237736001186
+    second: Projetil_garota_magica-Sheet_0
+  - first:
+      213: 4989893274854588994
+    second: Projetil_garota_magica-Sheet_1
+  - first:
+      213: 1119530895447018142
+    second: Projetil_garota_magica-Sheet_2
+  - first:
+      213: -2733726566402161880
+    second: Projetil_garota_magica-Sheet_3
+  - first:
+      213: 7786996996387536872
+    second: Projetil_garota_magica-Sheet_4
+  - first:
+      213: -3821067011711680164
+    second: Projetil_garota_magica-Sheet_5
+  - first:
+      213: -4253386706381671379
+    second: Projetil_garota_magica-Sheet_6
+  - first:
+      213: 2387949616155782436
+    second: Projetil_garota_magica-Sheet_7
+  - first:
+      213: -4401935854175291724
+    second: Projetil_garota_magica-Sheet_8
+  - first:
+      213: -718332206145632971
+    second: Projetil_garota_magica-Sheet_9
+  - first:
+      213: -5067648432114126597
+    second: Projetil_garota_magica-Sheet_10
+  - first:
+      213: -5900241682029358785
+    second: Projetil_garota_magica-Sheet_11
+  - first:
+      213: -5931206070342131035
+    second: Projetil_garota_magica-Sheet_12
+  - first:
+      213: -3821504360915832282
+    second: Projetil_garota_magica-Sheet_13
+  - first:
+      213: -3387915605576295843
+    second: Projetil_garota_magica-Sheet_14
+  - first:
+      213: 7080871275036223145
+    second: Projetil_garota_magica-Sheet_15
+  - first:
+      213: 6748300494065121104
+    second: Projetil_garota_magica-Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 106
+        width: 70
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae0b006c0bc51020800000000000000
+      internalID: 2311977237736001186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 157
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24281d2fe79af3540800000000000000
+      internalID: 4989893274854588994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 118
+        width: 71
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ac13afa6f598f00800000000000000
+      internalID: 1119530895447018142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 150
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8230d88fb2adf0ad0800000000000000
+      internalID: -2733726566402161880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 149
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef76bcc288f01c60800000000000000
+      internalID: 7786996996387536872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 106
+        width: 70
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5146f73cc7d8fac0800000000000000
+      internalID: -3821067011711680164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 150
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2470c1735fe8f4c0800000000000000
+      internalID: -4253386706381671379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 102
+        width: 72
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dee742683b32120800000000000000
+      internalID: 2387949616155782436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 142
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b673dfb9ae29e2c0800000000000000
+      internalID: -4401935854175291724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 139
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53587f51aa8f706f0800000000000000
+      internalID: -718332206145632971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0b54db9981ca9b0800000000000000
+      internalID: -5067648432114126597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 138
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31dfa573712e1ea0800000000000000
+      internalID: -5900241682029358785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 135
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2ed9ff08f10bda0800000000000000
+      internalID: -5931206070342131035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 88
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622710ce70a47fac0800000000000000
+      internalID: -3821504360915832282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 110
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a5f98e4b4bbf0d0800000000000000
+      internalID: -3387915605576295843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 83
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a62dc898ee444260800000000000000
+      internalID: 7080871275036223145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil_garota_magica-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 78
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057385a9b87c6ad50800000000000000
+      internalID: 6748300494065121104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

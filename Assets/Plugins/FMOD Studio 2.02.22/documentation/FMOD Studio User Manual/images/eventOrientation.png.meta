@@ -246,6 +246,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1384,7 +1397,58 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eventOrientation_0: -468554326758559163
+      eventOrientation_1: 340133797159590241
+      eventOrientation_10: 5288202695702934195
+      eventOrientation_11: 608849498449090995
+      eventOrientation_12: 7680443328326279706
+      eventOrientation_13: 7306958270802473102
+      eventOrientation_14: 2106856406079478830
+      eventOrientation_15: -870956763166519658
+      eventOrientation_16: -2765854347866851237
+      eventOrientation_17: 4143625960623222748
+      eventOrientation_18: -1277779637391363216
+      eventOrientation_19: -3921271634126497725
+      eventOrientation_2: 2130146879137430898
+      eventOrientation_20: -4704168910768047357
+      eventOrientation_21: -888066732956735615
+      eventOrientation_22: -3822674262946478604
+      eventOrientation_23: -1189807552059695610
+      eventOrientation_24: -60516391499296686
+      eventOrientation_25: -9188721152935179197
+      eventOrientation_26: -9024197262777809079
+      eventOrientation_27: -8706486002948142319
+      eventOrientation_28: -2826492552330938284
+      eventOrientation_29: -8385508640623018951
+      eventOrientation_3: -2944595010106721863
+      eventOrientation_30: 7992759790126042843
+      eventOrientation_31: -40929982157065436
+      eventOrientation_32: 6873844307178401999
+      eventOrientation_33: -4143191147712204362
+      eventOrientation_34: -5342105820552229071
+      eventOrientation_35: 7568302289093996927
+      eventOrientation_36: -2273022645114319946
+      eventOrientation_37: -7711674415777626706
+      eventOrientation_38: -2035591639975897854
+      eventOrientation_39: -6093173342510109350
+      eventOrientation_4: -6028448621625978535
+      eventOrientation_40: -782776750447918097
+      eventOrientation_41: -618684694586392600
+      eventOrientation_42: 4668653437464669810
+      eventOrientation_43: -5996751983989066467
+      eventOrientation_44: 4622381455766240122
+      eventOrientation_45: -5568403458604806232
+      eventOrientation_46: -6919684507241464434
+      eventOrientation_47: -8629337865333526654
+      eventOrientation_48: -5699862437410791239
+      eventOrientation_49: 3681845514878067190
+      eventOrientation_5: -4273078069138199201
+      eventOrientation_50: -1418321580157472972
+      eventOrientation_6: 1627343056937408267
+      eventOrientation_7: 6734774702421102294
+      eventOrientation_8: 9147848852485884097
+      eventOrientation_9: 4746908120044770981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

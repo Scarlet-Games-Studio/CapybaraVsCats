@@ -216,6 +216,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1134,7 +1147,48 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snapshotPrioritiesExample_0: 5373245546521107386
+      snapshotPrioritiesExample_1: 2961172755946693889
+      snapshotPrioritiesExample_10: -8131778457027611494
+      snapshotPrioritiesExample_11: -6300555965134488768
+      snapshotPrioritiesExample_12: -7350435712595548642
+      snapshotPrioritiesExample_13: -5644590314999461347
+      snapshotPrioritiesExample_14: -8826837312549189407
+      snapshotPrioritiesExample_15: -750494374128116479
+      snapshotPrioritiesExample_16: 1807242156115742753
+      snapshotPrioritiesExample_17: -1348804990059317717
+      snapshotPrioritiesExample_18: 7429671769505166501
+      snapshotPrioritiesExample_19: 7719103376297193708
+      snapshotPrioritiesExample_2: 1272549805825076196
+      snapshotPrioritiesExample_20: 2621937617428298288
+      snapshotPrioritiesExample_21: -1473039253575260449
+      snapshotPrioritiesExample_22: -183770098659967824
+      snapshotPrioritiesExample_23: 3104593201704472124
+      snapshotPrioritiesExample_24: -5362039168552921603
+      snapshotPrioritiesExample_25: -4853852933094682307
+      snapshotPrioritiesExample_26: -2905774477844701287
+      snapshotPrioritiesExample_27: -1052411822035044118
+      snapshotPrioritiesExample_28: -7657503188478925161
+      snapshotPrioritiesExample_29: 1723365148938797182
+      snapshotPrioritiesExample_3: -2926959686027878871
+      snapshotPrioritiesExample_30: -7140158757391458597
+      snapshotPrioritiesExample_31: -2869234416577601764
+      snapshotPrioritiesExample_32: 3166656745766961327
+      snapshotPrioritiesExample_33: 7721882651034570603
+      snapshotPrioritiesExample_34: -6851772972749369555
+      snapshotPrioritiesExample_35: 8556054093590539050
+      snapshotPrioritiesExample_36: -6507010573142888123
+      snapshotPrioritiesExample_37: 7354828312429430595
+      snapshotPrioritiesExample_38: -4308562378129591562
+      snapshotPrioritiesExample_39: -1486024410361165862
+      snapshotPrioritiesExample_4: 5744111754212091383
+      snapshotPrioritiesExample_40: 2039986585873084319
+      snapshotPrioritiesExample_5: -7683131081140232174
+      snapshotPrioritiesExample_6: -1845810488132125631
+      snapshotPrioritiesExample_7: 6954474721964172867
+      snapshotPrioritiesExample_8: -2042938858406555663
+      snapshotPrioritiesExample_9: 1754329848331776622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

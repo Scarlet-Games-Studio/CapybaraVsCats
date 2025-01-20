@@ -204,6 +204,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1034,7 +1047,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snapshotBehaviors_0: -6527177495262801165
+      snapshotBehaviors_1: 7596787942215289627
+      snapshotBehaviors_10: -4905656139267520187
+      snapshotBehaviors_11: -6455495297255342855
+      snapshotBehaviors_12: 8766907127769715846
+      snapshotBehaviors_13: 2915283913834145742
+      snapshotBehaviors_14: 8445677268973765520
+      snapshotBehaviors_15: -7771290181141885834
+      snapshotBehaviors_16: 5698615044094376937
+      snapshotBehaviors_17: 7988746482801565334
+      snapshotBehaviors_18: -1681347350908946352
+      snapshotBehaviors_19: 6447313251431286189
+      snapshotBehaviors_2: -2212741130966571827
+      snapshotBehaviors_20: 6817131269041755073
+      snapshotBehaviors_21: -7372563991343902009
+      snapshotBehaviors_22: -6090481910338168963
+      snapshotBehaviors_23: -7129205027431246298
+      snapshotBehaviors_24: 3656461499986138297
+      snapshotBehaviors_25: -2833390694327505175
+      snapshotBehaviors_26: -5079866062169631393
+      snapshotBehaviors_27: 7002919551441970540
+      snapshotBehaviors_28: -1894704911433671841
+      snapshotBehaviors_29: -7243321386204907815
+      snapshotBehaviors_3: 7428738547817493865
+      snapshotBehaviors_30: -7304211818823115647
+      snapshotBehaviors_31: -3089132646089111165
+      snapshotBehaviors_32: -5254003795263071437
+      snapshotBehaviors_33: -8444611205462826581
+      snapshotBehaviors_34: 594373475376868567
+      snapshotBehaviors_35: 3771899536228887188
+      snapshotBehaviors_36: -528915160705978968
+      snapshotBehaviors_4: 5685473394132566823
+      snapshotBehaviors_5: -2734975305342584896
+      snapshotBehaviors_6: 2963197119691805415
+      snapshotBehaviors_7: -5781950393111133764
+      snapshotBehaviors_8: -4169392974272271433
+      snapshotBehaviors_9: 4738448476215447546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

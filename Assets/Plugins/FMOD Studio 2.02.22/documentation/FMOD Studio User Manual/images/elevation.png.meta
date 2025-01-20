@@ -327,6 +327,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2059,7 +2072,85 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elevation_0: 6066104118532457181
+      elevation_1: -7861452089553545227
+      elevation_10: 5380775587065246593
+      elevation_11: 4622299415480714558
+      elevation_12: 6414692144481232783
+      elevation_13: -5253879186589598441
+      elevation_14: 1820137065450960780
+      elevation_15: 2211934249214334395
+      elevation_16: 759285809469984511
+      elevation_17: 4313378178575941965
+      elevation_18: 487051351938328033
+      elevation_19: 616443485223686593
+      elevation_2: 1571903769478843667
+      elevation_20: -6956924745382998111
+      elevation_21: -1022507889256227400
+      elevation_22: 2554736593505475408
+      elevation_23: -4711222849873176468
+      elevation_24: -5343315572545143722
+      elevation_25: -3052441716386243108
+      elevation_26: -1935376263100936386
+      elevation_27: -8216471080743978326
+      elevation_28: 2155903504984244351
+      elevation_29: 3833638118302818107
+      elevation_3: -2932377295642613736
+      elevation_30: 2347872619116092495
+      elevation_31: 7939739607797482935
+      elevation_32: 4231383571667780213
+      elevation_33: -2777722029938041185
+      elevation_34: -8313209165639918536
+      elevation_35: 4761474396780383870
+      elevation_36: 1278755822285111458
+      elevation_37: -1907886305444150742
+      elevation_38: -3781663057910693197
+      elevation_39: -7064665824410001390
+      elevation_4: -6745317055901689194
+      elevation_40: 7105318742234893326
+      elevation_41: -3716745290923117587
+      elevation_42: -5855368877686098128
+      elevation_43: 8058480561934839021
+      elevation_44: 6140719232122203575
+      elevation_45: 9129377505568076098
+      elevation_46: 9096361583031190987
+      elevation_47: -5334750680467925922
+      elevation_48: -2550962635644030127
+      elevation_49: 4418583225520909284
+      elevation_5: -5512143578517823695
+      elevation_50: -271238675029720101
+      elevation_51: -2257615836633286766
+      elevation_52: -5583257244077575376
+      elevation_53: 1338352632394619815
+      elevation_54: -2121524706593192262
+      elevation_55: 419243284210960907
+      elevation_56: -7482882433377522352
+      elevation_57: 8603268432507962345
+      elevation_58: 2664294736820426212
+      elevation_59: 4245979538127129168
+      elevation_6: 7110180685397809180
+      elevation_60: 5763677507271392874
+      elevation_61: -2196372982967424695
+      elevation_62: 3284899038699855941
+      elevation_63: -681454301171237066
+      elevation_64: -798441816445207344
+      elevation_65: 8616473552979859122
+      elevation_66: 8196460868252256356
+      elevation_67: -1901393986077854920
+      elevation_68: -5444888025454694115
+      elevation_69: -1848950745846384386
+      elevation_7: -4717310377106820097
+      elevation_70: 7939140432775813809
+      elevation_71: 6980700590816890886
+      elevation_72: -2941676258736944869
+      elevation_73: -871639891130305290
+      elevation_74: -782979528570453907
+      elevation_75: -3163013512976840211
+      elevation_76: -2458473141081992632
+      elevation_77: -6589915754809631015
+      elevation_8: 631299839071539403
+      elevation_9: 1725672517969963755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
