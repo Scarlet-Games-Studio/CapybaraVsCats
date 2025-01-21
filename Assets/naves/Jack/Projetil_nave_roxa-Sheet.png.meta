@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Projetil_nave_roxa-Sheet_0: -287024491574423737
+      Projetil_nave_roxa-Sheet_1: 2136597276275305575
+      Projetil_nave_roxa-Sheet_10: 6396259557342225543
+      Projetil_nave_roxa-Sheet_11: -3490290299205268547
+      Projetil_nave_roxa-Sheet_12: 8453676489334968659
+      Projetil_nave_roxa-Sheet_13: -3234424303765829110
+      Projetil_nave_roxa-Sheet_14: 2521595108214583982
+      Projetil_nave_roxa-Sheet_15: 6632893708850304525
+      Projetil_nave_roxa-Sheet_16: -1804399893440542151
+      Projetil_nave_roxa-Sheet_17: 3077166482045149185
+      Projetil_nave_roxa-Sheet_2: -7139120521241641589
+      Projetil_nave_roxa-Sheet_3: 7956491098157719410
+      Projetil_nave_roxa-Sheet_4: 7271797819038641600
+      Projetil_nave_roxa-Sheet_5: 1723544021053383000
+      Projetil_nave_roxa-Sheet_6: 5215103342807631523
+      Projetil_nave_roxa-Sheet_7: -3642155460550904866
+      Projetil_nave_roxa-Sheet_8: -6683628727873442351
+      Projetil_nave_roxa-Sheet_9: -567308726547073033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

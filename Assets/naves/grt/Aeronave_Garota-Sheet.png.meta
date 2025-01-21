@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aeronave_Garota-Sheet_0: 3004611832668333478
+      Aeronave_Garota-Sheet_1: -6482113402264365941
+      Aeronave_Garota-Sheet_2: -1588640503921784080
+      Aeronave_Garota-Sheet_3: -7109304948439749033
+      Aeronave_Garota-Sheet_4: -2949056725037076863
+      Aeronave_Garota-Sheet_5: 9093155998393729538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
