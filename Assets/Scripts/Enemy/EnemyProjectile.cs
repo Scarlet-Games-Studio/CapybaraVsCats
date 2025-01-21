@@ -7,21 +7,12 @@ public class EnemyProjectile : MonoBehaviour
     public float speed = 10f; // Velocidade do projétil
     public float lifeTime = 2f; // Duração do projétil antes de ser destruído
     public int damage = 10; // Dano causado pelo projétil
-    public float homingStrength = 0.00001f; // Força de homing extremamente leve
-    private Vector2 direction; // Direção atual do projétil
+    private Vector2 direction; // Direção fixa do projétil
 
     void Start()
     {
-        // Inicializa a direção do projétil
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
-        {
-            direction = (playerObject.transform.position - transform.position).normalized; // Direção inicial para o jogador
-        }
-        else
-        {
-            direction = Vector2.down; // Se o jogador não for encontrado, o projétil seguirá para baixo
-        }
+        // Define a direção inicial como para baixo
+        direction = Vector2.down;
 
         // Destroi o projétil automaticamente após 'lifeTime' segundos
         Invoke("DestroyProjectile", lifeTime);
@@ -29,13 +20,7 @@ public class EnemyProjectile : MonoBehaviour
 
     void Update()
     {
-        // Se o jogador estiver presente, ajusta levemente a direção
-        if (direction != Vector2.zero)
-        {
-            AdjustDirectionTowardsPlayer();
-        }
-
-        // Move o projétil de acordo com a direção calculada
+        // Move o projétil na direção fixa
         MoveProjectile();
 
         // Destroi o projétil se sair da tela
@@ -52,24 +37,10 @@ public class EnemyProjectile : MonoBehaviour
         return screenPos.x >= 0 && screenPos.x <= 1 && screenPos.y >= 0 && screenPos.y <= 1;
     }
 
-    // Ajusta a direção do projétil levemente em direção ao jogador
-    void AdjustDirectionTowardsPlayer()
-    {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-        if (playerObject != null)
-        {
-            Vector2 directionToPlayer = (playerObject.transform.position - transform.position).normalized; // Direção para o jogador
-
-            // Suaviza o ajuste da direção, de modo que o projétil ainda siga reto, mas levemente em direção ao jogador
-            direction = Vector2.Lerp(direction, directionToPlayer, homingStrength); // Lerp é uma interpolação linear suave
-        }
-    }
-
-    // Movimento do projétil na direção calculada
+    // Movimento do projétil na direção fixa
     void MoveProjectile()
     {
-        transform.Translate(direction * speed * Time.deltaTime, Space.World); // Move com direção ajustada
+        transform.Translate(direction * speed * Time.deltaTime, Space.World);
     }
 
     // Detecta colisões com outros objetos
@@ -77,7 +48,7 @@ public class EnemyProjectile : MonoBehaviour
     {
         if (collision.CompareTag("Player")) // Se colidir com o jogador
         {
-            // Causa dano ao jogador (dano definido como 10)
+            // Causa dano ao jogador
             Health playerHealth = collision.GetComponent<Health>();
             if (playerHealth != null)
             {

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: e4c0363694bf5f1408f576bd9548a998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3647299131264924210
+    second: BACKGROUND MUSIC_0
+  - first:
+      213: -3277872657899770816
+    second: BACKGROUND MUSIC_1
+  - first:
+      213: 163323129716911442
+    second: BACKGROUND MUSIC_2
+  - first:
+      213: 5314790537078167422
+    second: BACKGROUND MUSIC_3
+  - first:
+      213: -2895360748769001367
+    second: BACKGROUND MUSIC_4
+  - first:
+      213: -1393955781056921177
+    second: BACKGROUND MUSIC_5
+  - first:
+      213: -6388082815980369605
+    second: BACKGROUND MUSIC_6
+  - first:
+      213: -1997400356591728640
+    second: BACKGROUND MUSIC_7
+  - first:
+      213: 2706231985467334328
+    second: BACKGROUND MUSIC_8
+  - first:
+      213: 2151865064951039326
+    second: BACKGROUND MUSIC_9
+  - first:
+      213: -7412752722959722606
+    second: BACKGROUND MUSIC_10
+  - first:
+      213: 6798691682550063548
+    second: BACKGROUND MUSIC_11
+  - first:
+      213: 7328155657816137748
+    second: BACKGROUND MUSIC_12
+  - first:
+      213: -5671847695101065766
+    second: BACKGROUND MUSIC_13
+  - first:
+      213: -3135648391977874224
+    second: BACKGROUND MUSIC_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23af2a45c3fcd9230800000000000000
+      internalID: 3647299131264924210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c2bee3f28a282d0800000000000000
+      internalID: -3277872657899770816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da16a658d344200800000000000000
+      internalID: 163323129716911442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77d622a5dde1c940800000000000000
+      internalID: 5314790537078167422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960c3014dbc91d7d0800000000000000
+      internalID: -2895360748769001367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a100854a9ca7ace0800000000000000
+      internalID: -1393955781056921177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3986bd3688f857a0800000000000000
+      internalID: -6388082815980369605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0088c1755fec744e0800000000000000
+      internalID: -1997400356591728640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_8
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be949d07a77e8520800000000000000
+      internalID: 2706231985467334328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1
+        width: 82
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55caf020e5fcdd10800000000000000
+      internalID: 2151865064951039326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_10
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2971d244cac902990800000000000000
+      internalID: -7412752722959722606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_11
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 0
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1acc3701ec95e50800000000000000
+      internalID: 6798691682550063548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_12
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 0
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41066ea9eb6d2b560800000000000000
+      internalID: 7328155657816137748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_13
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1
+        width: 22
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad50261729c8941b0800000000000000
+      internalID: -5671847695101065766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACKGROUND MUSIC_14
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc42af9660fb74d0800000000000000
+      internalID: -3135648391977874224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BACKGROUND MUSIC_0: 3647299131264924210
+      BACKGROUND MUSIC_1: -3277872657899770816
+      BACKGROUND MUSIC_10: -7412752722959722606
+      BACKGROUND MUSIC_11: 6798691682550063548
+      BACKGROUND MUSIC_12: 7328155657816137748
+      BACKGROUND MUSIC_13: -5671847695101065766
+      BACKGROUND MUSIC_14: -3135648391977874224
+      BACKGROUND MUSIC_2: 163323129716911442
+      BACKGROUND MUSIC_3: 5314790537078167422
+      BACKGROUND MUSIC_4: -2895360748769001367
+      BACKGROUND MUSIC_5: -1393955781056921177
+      BACKGROUND MUSIC_6: -6388082815980369605
+      BACKGROUND MUSIC_7: -1997400356591728640
+      BACKGROUND MUSIC_8: 2706231985467334328
+      BACKGROUND MUSIC_9: 2151865064951039326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
