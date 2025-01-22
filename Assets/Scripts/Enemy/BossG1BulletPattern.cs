@@ -14,6 +14,7 @@ public class BossG1BulletPattern : MonoBehaviour
     // Variáveis do Boss
     public int health = 100; // Vida inicial do boss
     public GameObject deathEffect; // Efeito de morte do boss (opcional)
+    private bool isDead = false;
 
     void Start()
     {
@@ -21,7 +22,6 @@ public class BossG1BulletPattern : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
-            rb.angularVelocity = 0f;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
@@ -75,6 +75,11 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void FireSpiralBurstPattern()
     {
+        StartCoroutine(FireSpiralBurst());
+    }
+
+    IEnumerator FireSpiralBurst()
+    {
         float angleStep = 20f;
         for (int i = 0; i < bulletCount; i++)
         {
@@ -85,7 +90,9 @@ public class BossG1BulletPattern : MonoBehaviour
 
             SpawnBullet(bulletDirection);
 
-            spiralAngle += angleStep;
+            spiralAngle = (spiralAngle + angleStep) % 360f;
+
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
@@ -96,7 +103,6 @@ public class BossG1BulletPattern : MonoBehaviour
         if (bulletRb != null)
         {
             bulletRb.linearVelocity = direction * bulletSpeed;
-            bulletRb.isKinematic = true;
         }
 
         Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
@@ -104,11 +110,15 @@ public class BossG1BulletPattern : MonoBehaviour
         {
             bulletCollider.isTrigger = true;
         }
+
+        Destroy(bullet, 5f); // Destroi o projétil após 5 segundos
     }
 
     // Método para o boss receber dano
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         health -= damage;
 
         // Verifica se a vida chegou a 0 ou menos
@@ -121,6 +131,9 @@ public class BossG1BulletPattern : MonoBehaviour
     // Lógica de morte do boss
     void Die()
     {
+        if (isDead) return;
+        isDead = true;
+
         if (deathEffect != null)
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
@@ -137,6 +150,11 @@ public class BossG1BulletPattern : MonoBehaviour
             if (projectile != null)
             {
                 TakeDamage(projectile.damage);
+                Destroy(collision.gameObject);
+            }
+            else
+            {
+                TakeDamage(10); // Valor fixo caso não tenha script Projectile
                 Destroy(collision.gameObject);
             }
         }

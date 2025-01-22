@@ -826,6 +826,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1158284611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6065254430204884685, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+  m_PrefabInstance: {fileID: 339224564035338420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1221481688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,6 +1179,9 @@ MonoBehaviour:
   - enemyPrefab: {fileID: 272562898}
     enemyCount: 5
     spawnInterval: 1.5
+  - enemyPrefab: {fileID: 1158284611}
+    enemyCount: 1
+    spawnInterval: 5
   timeBetweenWaves: 10
   spawnOffsetY: -0.25
   spawnDelay: 20
@@ -1630,6 +1638,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4456653008806327638, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+      propertyPath: m_Size.x
+      value: 10.475725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456653008806327638, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+      propertyPath: m_Size.y
+      value: 15.896004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456653008806327638, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.27361584
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456653008806327638, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.30686665
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022053821828845490, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
+      propertyPath: bulletSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5041405440425111523, guid: 2c16d73f232130446abdd1ba33269e4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
