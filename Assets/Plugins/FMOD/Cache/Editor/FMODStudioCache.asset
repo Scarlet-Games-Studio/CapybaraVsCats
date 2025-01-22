@@ -49,7 +49,7 @@ MonoBehaviour:
   - {fileID: 5160596809993778480}
   StringsBanks:
   - {fileID: 4121089157419697894}
-  cacheTime: 638728269818594993
+  cacheTime: 638730628811088507
   cacheVersion: 131622
 --- !u!114 &4121089157419697894
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638728269818594993
+  lastModified: 638730628811088507
   FileSizes:
   - Name: Desktop
     Value: 758
@@ -86,7 +86,7 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638728269818565005
+  lastModified: 638730628811088507
   FileSizes:
   - Name: Desktop
     Value: 749472
