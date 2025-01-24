@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParallaxScroller : MonoBehaviour
 {
-    public float speed = 0.1f; // Velocidade do movimento no eixo Y
+    public float speed = 0.3f; // Velocidade do movimento no eixo Y
     private float spriteHeight; // Altura do sprite para reposição
     private List<Transform> sprites; // Lista de todos os filhos (sprites)
 
