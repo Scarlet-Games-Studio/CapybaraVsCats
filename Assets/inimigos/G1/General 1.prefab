@@ -122,6 +122,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 7319823069961742146, guid: 1564d3f325fe3374a8f5ab2af9276311, type: 3}
   firePoint: {fileID: 233758055355116175}
   fireRate: 1.51
+  maxHits: 2
 --- !u!61 &8164035808966260684
 BoxCollider2D:
   m_ObjectHideFlags: 0
