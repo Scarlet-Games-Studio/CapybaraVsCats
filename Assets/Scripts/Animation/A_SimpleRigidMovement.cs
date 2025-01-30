@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class A_SimpleRigidMovement : MonoBehaviour
 {
-    private bool loop;
+    [SerializeField]private bool loop;
     public Vector2 moveDirection;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        loop = true;
         StartCoroutine(GravityKick());
     }
 
