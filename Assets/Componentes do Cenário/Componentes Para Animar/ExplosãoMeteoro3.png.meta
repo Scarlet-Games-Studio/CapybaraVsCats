@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: fcb6516a3bd472748913d47d15212eb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8252812955068638675
+    second: "Explos\xE3oMeteoro3_0"
+  - first:
+      213: 7111390767922251875
+    second: "Explos\xE3oMeteoro3_1"
+  - first:
+      213: 1280670945651229512
+    second: "Explos\xE3oMeteoro3_2"
+  - first:
+      213: 823589449631089451
+    second: "Explos\xE3oMeteoro3_3"
+  - first:
+      213: 1532130002212194262
+    second: "Explos\xE3oMeteoro3_4"
+  - first:
+      213: 5980704001673808057
+    second: "Explos\xE3oMeteoro3_5"
+  - first:
+      213: -1508118431239556312
+    second: "Explos\xE3oMeteoro3_6"
+  - first:
+      213: -8606329523001702376
+    second: "Explos\xE3oMeteoro3_7"
+  - first:
+      213: -4132412734440391357
+    second: "Explos\xE3oMeteoro3_8"
+  - first:
+      213: -5726876160807558120
+    second: "Explos\xE3oMeteoro3_9"
+  - first:
+      213: 5112059351743315645
+    second: "Explos\xE3oMeteoro3_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_0"
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1321
+        width: 113
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a5467b75e187d80800000000000000
+      internalID: -8252812955068638675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_1"
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1344
+        width: 169
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3688ff4c93cb0b260800000000000000
+      internalID: 7111390767922251875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_2"
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1268
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84384b5907bd5c110800000000000000
+      internalID: 1280670945651229512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_3"
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1321
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23450aad3afd6b00800000000000000
+      internalID: 823589449631089451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_4"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1161
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d783939e18334510800000000000000
+      internalID: 1532130002212194262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_5"
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1138
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b846863a9abff250800000000000000
+      internalID: 5980704001673808057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_6"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 864
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8233fb2f646121be0800000000000000
+      internalID: -1508118431239556312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_7"
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 911
+        width: 208
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c689a5ec209880800000000000000
+      internalID: -8606329523001702376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_8"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 717
+        width: 133
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d31623388b6a6c0800000000000000
+      internalID: -4132412734440391357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_9"
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 526
+        width: 178
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814a96a597c0680b0800000000000000
+      internalID: -5726876160807558120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Explos\xE3oMeteoro3_10"
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 446
+        width: 123
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbebf5345eea1f640800000000000000
+      internalID: 5112059351743315645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Explos\xE3oMeteoro3_0": -8252812955068638675
+      "Explos\xE3oMeteoro3_1": 7111390767922251875
+      "Explos\xE3oMeteoro3_10": 5112059351743315645
+      "Explos\xE3oMeteoro3_2": 1280670945651229512
+      "Explos\xE3oMeteoro3_3": 823589449631089451
+      "Explos\xE3oMeteoro3_4": 1532130002212194262
+      "Explos\xE3oMeteoro3_5": 5980704001673808057
+      "Explos\xE3oMeteoro3_6": -1508118431239556312
+      "Explos\xE3oMeteoro3_7": -8606329523001702376
+      "Explos\xE3oMeteoro3_8": -4132412734440391357
+      "Explos\xE3oMeteoro3_9": -5726876160807558120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

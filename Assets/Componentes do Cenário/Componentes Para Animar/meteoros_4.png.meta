@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 371e87124515eee4785b23137faf3508
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9028479770415248429
+    second: meteoros_4_0
+  - first:
+      213: 4671114102761502895
+    second: meteoros_4_1
+  - first:
+      213: -2635499471339363392
+    second: meteoros_4_2
+  - first:
+      213: -3834671444788043669
+    second: meteoros_4_3
+  - first:
+      213: 4010907647864507117
+    second: meteoros_4_4
+  - first:
+      213: -8068456765277106796
+    second: meteoros_4_5
+  - first:
+      213: 5520364420051697515
+    second: meteoros_4_6
+  - first:
+      213: 4367990251989303916
+    second: meteoros_4_7
+  - first:
+      213: 3601551615550233712
+    second: meteoros_4_8
+  - first:
+      213: 6810325826517765293
+    second: meteoros_4_9
+  - first:
+      213: 8443221415436639991
+    second: meteoros_4_10
+  - first:
+      213: -2447633147222632308
+    second: meteoros_4_11
+  - first:
+      213: -9022753024843721809
+    second: meteoros_4_12
+  - first:
+      213: 7173031642790013025
+    second: meteoros_4_13
+  - first:
+      213: -530070224477081083
+    second: meteoros_4_14
+  - first:
+      213: -6269445783745284459
+    second: meteoros_4_15
+  - first:
+      213: -6457862416596285746
+    second: meteoros_4_16
+  - first:
+      213: -8715232710502802335
+    second: meteoros_4_17
+  - first:
+      213: -3769160197784558247
+    second: meteoros_4_18
+  - first:
+      213: -6849045537159861638
+    second: meteoros_4_19
+  - first:
+      213: 4266613828556246175
+    second: meteoros_4_20
+  - first:
+      213: -2100984393678944463
+    second: meteoros_4_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meteoros_4_0
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1480
+        width: 351
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24b669248a9b4d70800000000000000
+      internalID: 9028479770415248429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_1
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1666
+        width: 165
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8ba60278123d040800000000000000
+      internalID: 4671114102761502895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_2
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1293
+        width: 351
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3661db133dc6bd0800000000000000
+      internalID: -2635499471339363392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_3
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 1504
+        width: 165
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60231f43a288cac0800000000000000
+      internalID: -3834671444788043669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_4
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 1164
+        width: 397
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea8cd9414b99a730800000000000000
+      internalID: 4010907647864507117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_5
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 1394
+        width: 247
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d8f0c0255170090800000000000000
+      internalID: -8068456765277106796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1224
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ff2ef11364c9c40800000000000000
+      internalID: 5520364420051697515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1010
+        width: 260
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c620138ddf73e9c30800000000000000
+      internalID: 4367990251989303916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_8
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 919
+        width: 349
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c1b1dcc184bf130800000000000000
+      internalID: 3601551615550233712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_9
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 575
+        width: 486
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac824ea143238e50800000000000000
+      internalID: 6810325826517765293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_10
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 1071
+        width: 351
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe521ba4295c2570800000000000000
+      internalID: 8443221415436639991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88d257ee92480ed0800000000000000
+      internalID: -2447633147222632308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_12
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 856
+        width: 453
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3db12bdedb8c280800000000000000
+      internalID: -9022753024843721809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 756
+        width: 563
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168a227564abb8360800000000000000
+      internalID: 7173031642790013025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 391
+        width: 383
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502380470ffc4a8f0800000000000000
+      internalID: -530070224477081083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_15
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 694
+        width: 167
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596ba41d6447ef8a0800000000000000
+      internalID: -6269445783745284459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_16
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 583
+        width: 247
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6ce6ae8501166a0800000000000000
+      internalID: -6457862416596285746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_17
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 328
+        width: 390
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c9d9b66064d0780800000000000000
+      internalID: -8715232710502802335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_18
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 321
+        width: 423
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955a28d15c041bbc0800000000000000
+      internalID: -3769160197784558247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 399
+        width: 226
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7aac1b2f5d43f0a0800000000000000
+      internalID: -6849045537159861638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_20
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 169
+        width: 453
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c4ddcebae063b30800000000000000
+      internalID: 4266613828556246175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteoros_4_21
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 249
+        width: 467
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137802053ddc7d2e0800000000000000
+      internalID: -2100984393678944463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      meteoros_4_0: 9028479770415248429
+      meteoros_4_1: 4671114102761502895
+      meteoros_4_10: 8443221415436639991
+      meteoros_4_11: -2447633147222632308
+      meteoros_4_12: -9022753024843721809
+      meteoros_4_13: 7173031642790013025
+      meteoros_4_14: -530070224477081083
+      meteoros_4_15: -6269445783745284459
+      meteoros_4_16: -6457862416596285746
+      meteoros_4_17: -8715232710502802335
+      meteoros_4_18: -3769160197784558247
+      meteoros_4_19: -6849045537159861638
+      meteoros_4_2: -2635499471339363392
+      meteoros_4_20: 4266613828556246175
+      meteoros_4_21: -2100984393678944463
+      meteoros_4_3: -3834671444788043669
+      meteoros_4_4: 4010907647864507117
+      meteoros_4_5: -8068456765277106796
+      meteoros_4_6: 5520364420051697515
+      meteoros_4_7: 4367990251989303916
+      meteoros_4_8: 3601551615550233712
+      meteoros_4_9: 6810325826517765293
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

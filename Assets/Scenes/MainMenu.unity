@@ -201,8 +201,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1409953162}
   m_HandleRect: {fileID: 1409953161}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.6666666
+  m_Value: 1
+  m_Size: 0.6666667
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: 99}
+  m_AnchoredPosition: {x: -24, y: 82}
   m_SizeDelta: {x: 1480, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169055987
@@ -2518,16 +2518,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\n\n\n\nCR\xC9DITOS DO JOGO\n\nCapybara VS Cat\nUm Space Shooter Bullet
-    Hell\nProduzido por Scarlet Games Studio\n\n\n\n\n\n\n\n\nDire\xE7\xE3o e Produ\xE7\xE3o\nJarod
-    Silva\nIdealizador, Produtor e Diretor Criativo\n\n\n\n\n\nGame Design\nJarod
-    Silva\n\n\n\nUI Design\nJarod Silva\nVictor Antuny\n\n\n\nDesenvolvedores\nJarod
-    Silva\nEmerson Rodrigues\n\n\n\n\nArtistas 2D\nPedro Henrique\nVictor Antuny\n\n\n\n\nConcept
-    Artist\nRyan William\n\n\n\n\n\nDublagem\nGrace Lara\nJade\nKevin Messias\n\n\n\n\nVFX
-    Artist\nAlisson\n\nSound Designer \nMarcel Felipe Yatri\n\n\n\n\n\n\n\n\n\n\nCopyright
-    \xA9 Scarlet Games Studio\nTodos os direitos reservados.\nEst\xFAdio indie brasileiro,
-    comprometido com a cria\xE7\xE3o de experi\xEAncias \xFAnicas para jogadores\ndo
-    mundo inteiro.\n\n"
+  m_Text: "CR\xC9DITOS\nCapybara VS Cat\nUm Bullet Hell Space Shooter\nProduzido
+    por Scarlet Games Studio\n\n\n\nDire\xE7\xE3o e Produ\xE7\xE3o\nJarod Silva \u2013
+    Idealizador, Produtor e Diretor Criativo\n\n\n\nGame Design\nJarod Silva\n\n\n\nUI
+    Design\nJarod Silva\nVictor Antuny\n\n\n\nDesenvolvimento\nJarod Silva\nEmerson
+    Rodrigues\n\n\n\nArte 2D\nPedro Henrique\nVictor Antuny\n\n\n\nConcept Art\nRyan
+    William\n\n\n\n\n\nDublagem\nGrace Lara\nJade\nKevin Messias\n\n\n\nVFX\nAlisson\n\n\n\nSound
+    Design\nMarcel Felipe Yatri\n\n\n\n\n\n\nCopyright \xA9 Scarlet Games Studio\nTodos
+    os direitos reservados.\nEst\xFAdio indie brasileiro, comprometido com a cria\xE7\xE3o
+    de experi\xEAncias \xFAnicas para jogadores do mundo inteiro."
 --- !u!222 &1015172396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3629,7 +3628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444092, y: 98.99999}
+  m_AnchoredPosition: {x: -0.000011444092, y: 71}
   m_SizeDelta: {x: 1480, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739442484

@@ -2,12 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - Enemy
   - EnemyProjectile
   - PlayerProjectile
   - Boss
+  - Animation
   layers:
   - Default
   - TransparentFX
@@ -51,3 +52,5 @@ TagManager:
   - name: Characters
     uniqueID: 1463669073
     locked: 0
+  m_RenderingLayers:
+  - Default
