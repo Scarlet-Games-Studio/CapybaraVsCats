@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 37038b3668e14b94897a86f263ae6342
+guid: 46e3d206622f28144bc2a0f353d88c7e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7576790092734465573
-    second: "14 Sem T\xEDtulo_20241111161537_0"
+      213: -3540616956891835610
+    second: "231 Sem T\xEDtulo_20250204151752_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,56 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "14 Sem T\xEDtulo_20241111161537_0"
+      name: "231 Sem T\xEDtulo_20250204151752_0"
       rect:
         serializedVersion: 2
-        x: 613
-        y: 177
-        width: 774
-        height: 675
+        x: 0
+        y: 0
+        width: 1739
+        height: 2404
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 526032f127a262960800000000000000
-      internalID: 7576790092734465573
+      spriteID: 623dcbef2a33ddec0800000000000000
+      internalID: -3540616956891835610
       vertices: []
       indices: 
       edges: []
@@ -186,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "14 Sem T\xEDtulo_20241111161537_0": 7576790092734465573
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
