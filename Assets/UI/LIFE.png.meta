@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 23423d4bcfef2d949aa280a460d76e28
+guid: 449da117935afe642bfc57d11bdf6738
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2055566840243266648
-    second: satelite2_0
+      213: 5064238250472217257
+    second: LIFE_0
+  - first:
+      213: -225805124289028852
+    second: LIFE_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: satelite2_0
+      name: LIFE_0
       rect:
         serializedVersion: 2
-        x: 355
-        y: 256
-        width: 1290
-        height: 1368
+        x: 15
+        y: 41
+        width: 370
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 854a5cc7627d68c10800000000000000
-      internalID: 2055566840243266648
+      spriteID: 9aa97597bd9c74640800000000000000
+      internalID: 5064238250472217257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIFE_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 19
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d1a429f67cddcf0800000000000000
+      internalID: -225805124289028852
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      satelite2_0: 2055566840243266648
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
