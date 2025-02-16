@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: ecdcb6a4ba8991540b5233c5658a2349
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5306114312031030455
+    second: GFelisVex_0
+  - first:
+      213: -995805509531816913
+    second: GFelisVex_1
+  - first:
+      213: -4301639643423625454
+    second: GFelisVex_2
+  - first:
+      213: 5247573677544128216
+    second: GFelisVex_3
+  - first:
+      213: 319124776375629808
+    second: GFelisVex_4
+  - first:
+      213: 226155325120546760
+    second: GFelisVex_5
+  - first:
+      213: 4397074721328473890
+    second: GFelisVex_6
+  - first:
+      213: 8860788663836908868
+    second: GFelisVex_7
+  - first:
+      213: 4682048805302893892
+    second: GFelisVex_8
+  - first:
+      213: -6515404107045245868
+    second: GFelisVex_9
+  - first:
+      213: -7254925574875749209
+    second: GFelisVex_10
+  - first:
+      213: -844605302170172283
+    second: GFelisVex_11
+  - first:
+      213: -4593982174447917873
+    second: GFelisVex_12
+  - first:
+      213: -5895483060049485426
+    second: GFelisVex_13
+  - first:
+      213: 2495618089108716211
+    second: GFelisVex_14
+  - first:
+      213: 8456384384410389962
+    second: GFelisVex_15
+  - first:
+      213: 2902373871886486237
+    second: GFelisVex_16
+  - first:
+      213: 1503080594253689005
+    second: GFelisVex_17
+  - first:
+      213: 7778397689148074986
+    second: GFelisVex_18
+  - first:
+      213: -9014839019169144715
+    second: GFelisVex_19
+  - first:
+      213: -4429740527772675434
+    second: GFelisVex_20
+  - first:
+      213: -3316164261883457682
+    second: GFelisVex_21
+  - first:
+      213: -145675720039840740
+    second: GFelisVex_22
+  - first:
+      213: -8191390450452126937
+    second: GFelisVex_23
+  - first:
+      213: -5855334076949993867
+    second: GFelisVex_24
+  - first:
+      213: -3472325706296541475
+    second: GFelisVex_25
+  - first:
+      213: 952929937854230179
+    second: GFelisVex_26
+  - first:
+      213: 246120816728312057
+    second: GFelisVex_27
+  - first:
+      213: -5585261779789503089
+    second: GFelisVex_28
+  - first:
+      213: -2071356016877301753
+    second: GFelisVex_29
+  - first:
+      213: -5363359231058871373
+    second: GFelisVex_30
+  - first:
+      213: 5093447677152649421
+    second: GFelisVex_31
+  - first:
+      213: -142704733484985223
+    second: GFelisVex_32
+  - first:
+      213: 1071762339858569552
+    second: GFelisVex_33
+  - first:
+      213: 2059367583242527503
+    second: GFelisVex_34
+  - first:
+      213: 1113458148232072412
+    second: GFelisVex_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GFelisVex_1
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 6196
+        width: 586
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2caaf24a203e22f0800000000000000
+      internalID: -995805509531816913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_2
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 6196
+        width: 594
+        height: 989
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f2ffd09818d44c0800000000000000
+      internalID: -4301639643423625454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_3
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 6196
+        width: 607
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de35b6f47023d840800000000000000
+      internalID: 5247573677544128216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_4
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 6196
+        width: 616
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f735e61b42cd6400800000000000000
+      internalID: 319124776375629808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_5
+      rect:
+        serializedVersion: 2
+        x: 4734
+        y: 6196
+        width: 607
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c78fd9e117732300800000000000000
+      internalID: 226155325120546760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_6
+      rect:
+        serializedVersion: 2
+        x: 5654
+        y: 6196
+        width: 598
+        height: 1010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22722af892c850d30800000000000000
+      internalID: 4397074721328473890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 5038
+        width: 528
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d9ec1e758d7fa70800000000000000
+      internalID: 8860788663836908868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_8
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 5038
+        width: 535
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dfe15f49af9f040800000000000000
+      internalID: 4682048805302893892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_9
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 5038
+        width: 538
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c62771c72a495a0800000000000000
+      internalID: -6515404107045245868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_10
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 5038
+        width: 559
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a462adb0a3515b90800000000000000
+      internalID: -7254925574875749209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_11
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 5038
+        width: 585
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5844cbcd3fb5744f0800000000000000
+      internalID: -844605302170172283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_12
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 5038
+        width: 586
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc42e836d85ee30c0800000000000000
+      internalID: -4593982174447917873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_13
+      rect:
+        serializedVersion: 2
+        x: 5660
+        y: 5038
+        width: 594
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81ea6a74690f2ea0800000000000000
+      internalID: -5895483060049485426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3778
+        width: 599
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba3d500e6732a220800000000000000
+      internalID: 2495618089108716211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_15
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 3778
+        width: 614
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd01f43bcc1b5570800000000000000
+      internalID: 8456384384410389962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_16
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 3778
+        width: 626
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda4b27b8ad474820800000000000000
+      internalID: 2902373871886486237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_17
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 3778
+        width: 658
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0364936d30cd410800000000000000
+      internalID: 1503080594253689005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_18
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 3778
+        width: 716
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebe36f8c7b62fb60800000000000000
+      internalID: 7778397689148074986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_19
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 3778
+        width: 734
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570a71bbcabd4e280800000000000000
+      internalID: -9014839019169144715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2518
+        width: 898
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69255f2b5766682c0800000000000000
+      internalID: -4429740527772675434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_21
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2518
+        width: 934
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f47917c2e9af1d0800000000000000
+      internalID: -3316164261883457682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_22
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2518
+        width: 934
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1440a654b47afdf0800000000000000
+      internalID: -145675720039840740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_23
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 2518
+        width: 932
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723264009c5525e80800000000000000
+      internalID: -8191390450452126937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_24
+      rect:
+        serializedVersion: 2
+        x: 4711
+        y: 2518
+        width: 923
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576e72e0eacadbea0800000000000000
+      internalID: -5855334076949993867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1262
+        width: 929
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddebcb3da22dfcfc0800000000000000
+      internalID: -3472325706296541475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_26
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1262
+        width: 933
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee2a9cabc793d00800000000000000
+      internalID: 952929937854230179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_27
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1234
+        width: 922
+        height: 1008
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f88bec24956a6300800000000000000
+      internalID: 246120816728312057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_28
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 1262
+        width: 765
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85a416d00a2d72b0800000000000000
+      internalID: -5585261779789503089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_30
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 1262
+        width: 511
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb7ce512358195b0800000000000000
+      internalID: -5363359231058871373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_31
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3
+        width: 523
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0e8b61daf8fa640800000000000000
+      internalID: 5093447677152649421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_32
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 3
+        width: 530
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9745cdc0dc2050ef0800000000000000
+      internalID: -142704733484985223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_33
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 3
+        width: 535
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05959ee6b2aafde00800000000000000
+      internalID: 1071762339858569552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_34
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 3
+        width: 535
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03202de7e7549c10800000000000000
+      internalID: 2059367583242527503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GFelisVex_35
+      rect:
+        serializedVersion: 2
+        x: 4713
+        y: 3
+        width: 532
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc03a5594cc37f00800000000000000
+      internalID: 1113458148232072412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 585ce6fe6265a79429cb2e601ed300ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GFelisVex_1: -995805509531816913
+      GFelisVex_10: -7254925574875749209
+      GFelisVex_11: -844605302170172283
+      GFelisVex_12: -4593982174447917873
+      GFelisVex_13: -5895483060049485426
+      GFelisVex_14: 2495618089108716211
+      GFelisVex_15: 8456384384410389962
+      GFelisVex_16: 2902373871886486237
+      GFelisVex_17: 1503080594253689005
+      GFelisVex_18: 7778397689148074986
+      GFelisVex_19: -9014839019169144715
+      GFelisVex_2: -4301639643423625454
+      GFelisVex_20: -4429740527772675434
+      GFelisVex_21: -3316164261883457682
+      GFelisVex_22: -145675720039840740
+      GFelisVex_23: -8191390450452126937
+      GFelisVex_24: -5855334076949993867
+      GFelisVex_25: -3472325706296541475
+      GFelisVex_26: 952929937854230179
+      GFelisVex_27: 246120816728312057
+      GFelisVex_28: -5585261779789503089
+      GFelisVex_3: 5247573677544128216
+      GFelisVex_30: -5363359231058871373
+      GFelisVex_31: 5093447677152649421
+      GFelisVex_32: -142704733484985223
+      GFelisVex_33: 1071762339858569552
+      GFelisVex_34: 2059367583242527503
+      GFelisVex_35: 1113458148232072412
+      GFelisVex_4: 319124776375629808
+      GFelisVex_5: 226155325120546760
+      GFelisVex_6: 4397074721328473890
+      GFelisVex_7: 8860788663836908868
+      GFelisVex_8: 4682048805302893892
+      GFelisVex_9: -6515404107045245868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
