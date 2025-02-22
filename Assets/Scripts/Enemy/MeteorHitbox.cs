@@ -7,11 +7,13 @@ public class MeteorHitbox : MonoBehaviour
 {
     [SerializeField] private int meteorHealth = 4;
     public SpriteRenderer sr;
+    [SerializeField]private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,7 +34,7 @@ public class MeteorHitbox : MonoBehaviour
             }
 
             // Destroi o meteoro após a colisão
-            Destroy(gameObject);
+            animator.SetBool("isExploding", true);
         }
         if (collision.CompareTag("PlayerProjectile")) // Se colidir com o tiro do jogador
         {
@@ -42,7 +44,7 @@ public class MeteorHitbox : MonoBehaviour
             if(meteorHealth <= 0)
             {
                 // Destroi o meteoro após a colisão
-                Destroy(gameObject);
+                animator.SetBool("isExploding", true);
             }
         }
     }
