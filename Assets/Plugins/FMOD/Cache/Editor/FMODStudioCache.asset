@@ -1,60 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4654865623822263108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_Click
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_Click
-  Guid:
-    Data1: 2049995892
-    Data2: 1339302446
-    Data3: -1644137543
-    Data4: -1637448098
-  Banks:
-  - {fileID: 5160596809993778480}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3476390398108676663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_StartGame
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_StartGame
-  Guid:
-    Data1: 866361987
-    Data2: 1238372258
-    Data3: 1306703245
-    Data4: -1777515602
-  Banks:
-  - {fileID: 5160596809993778480}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-401808236513303038
+--- !u!114 &-4076707287966024618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +19,7 @@ MonoBehaviour:
     Data3: 510389933
     Data4: -452525754
   Banks:
-  - {fileID: 5160596809993778480}
+  - {fileID: 2511552735156905010}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -81,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-338062996464151105
+--- !u!114 &-3481797232355441106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,16 +37,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_Select
+  m_Name: event:/UI/UI_Undo
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI_Select
+  Path: event:/UI/UI_Undo
   Guid:
-    Data1: 1020057363
-    Data2: 1262054901
-    Data3: 229370016
-    Data4: 749938745
+    Data1: 742137074
+    Data2: 1076765415
+    Data3: -1408739150
+    Data4: 1085025061
   Banks:
-  - {fileID: 5160596809993778480}
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1063194967046297186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_ShotPlayer
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_ShotPlayer
+  Guid:
+    Data1: -628850939
+    Data2: 1301283355
+    Data3: -1537085541
+    Data4: -1098871315
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-312551967696866617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_StartGame
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_StartGame
+  Guid:
+    Data1: 866361987
+    Data2: 1238372258
+    Data3: 1306703245
+    Data4: -1777515602
+  Banks:
+  - {fileID: 2511552735156905010}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -121,25 +121,25 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4121089157419697894}
-  - {fileID: 5160596809993778480}
+  - {fileID: 3571750471175250267}
+  - {fileID: 2511552735156905010}
   EditorEvents:
-  - {fileID: 4162768016414802772}
-  - {fileID: -338062996464151105}
-  - {fileID: -401808236513303038}
-  - {fileID: -4654865623822263108}
-  - {fileID: -3476390398108676663}
-  - {fileID: 4277827269446350490}
-  - {fileID: 171869317415971940}
-  - {fileID: 5597857404019604640}
+  - {fileID: -1063194967046297186}
+  - {fileID: 8190908051994508902}
+  - {fileID: -4076707287966024618}
+  - {fileID: 5467753755908733279}
+  - {fileID: -312551967696866617}
+  - {fileID: 5885106267950834148}
+  - {fileID: 432827497514825978}
+  - {fileID: -3481797232355441106}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5160596809993778480}
+  - {fileID: 2511552735156905010}
   StringsBanks:
-  - {fileID: 4121089157419697894}
+  - {fileID: 3571750471175250267}
   cacheTime: 638730885414242271
   cacheVersion: 131622
---- !u!114 &171869317415971940
+--- !u!114 &432827497514825978
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,7 +158,7 @@ MonoBehaviour:
     Data3: 1761730202
     Data4: 236915913
   Banks:
-  - {fileID: 5160596809993778480}
+  - {fileID: 2511552735156905010}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -166,81 +166,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 58181
---- !u!114 &4121089157419697894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: fmod/capy-vs-catAudio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638730885414242271
-  FileSizes:
-  - Name: Desktop
-    Value: 1304
-  Exists: 1
---- !u!114 &4162768016414802772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/SFX_ShotPlayer
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/SFX_ShotPlayer
-  Guid:
-    Data1: -628850939
-    Data2: 1301283355
-    Data3: -1537085541
-    Data4: -1098871315
-  Banks:
-  - {fileID: 5160596809993778480}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &4277827269446350490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Pause
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Pause
-  Guid:
-    Data1: 830611846
-    Data2: 1216768673
-    Data3: -1055145286
-    Data4: -954690984
-  Banks:
-  - {fileID: 5160596809993778480}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &5160596809993778480
+--- !u!114 &2511552735156905010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,7 +186,27 @@ MonoBehaviour:
   - Name: Desktop
     Value: 754816
   Exists: 1
---- !u!114 &5597857404019604640
+--- !u!114 &3571750471175250267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: fmod/capy-vs-catAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638730885414242271
+  FileSizes:
+  - Name: Desktop
+    Value: 1304
+  Exists: 1
+--- !u!114 &5467753755908733279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,16 +216,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_Undo
+  m_Name: event:/UI/UI_Click
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI_Undo
+  Path: event:/UI/UI_Click
   Guid:
-    Data1: 742137074
-    Data2: 1076765415
-    Data3: -1408739150
-    Data4: 1085025061
+    Data1: 2049995892
+    Data2: 1339302446
+    Data3: -1644137543
+    Data4: -1637448098
   Banks:
-  - {fileID: 5160596809993778480}
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5885106267950834148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pause
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pause
+  Guid:
+    Data1: 830611846
+    Data2: 1216768673
+    Data3: -1055145286
+    Data4: -954690984
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8190908051994508902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Select
+  Guid:
+    Data1: 1020057363
+    Data2: 1262054901
+    Data3: 229370016
+    Data4: 749938745
+  Banks:
+  - {fileID: 2511552735156905010}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
