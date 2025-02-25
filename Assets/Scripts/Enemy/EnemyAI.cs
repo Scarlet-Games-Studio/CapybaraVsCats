@@ -13,8 +13,11 @@ public class EnemyAI : MonoBehaviour
     public int maxHits = 2; // Quantidade de hits para destruir o inimigo
     private EnemyHealth enemyHealth; // Referência ao script de vida do inimigo
 
+    public SpriteRenderer sr;
+
     void Start()
     {
+        sr = GetComponent<SpriteRenderer>();
         // Obtém a referência ao script EnemyHealth no início
         enemyHealth = GetComponent<EnemyHealth>();
     }
@@ -74,11 +77,20 @@ public class EnemyAI : MonoBehaviour
             // Aplica dano ao inimigo
             if (enemyHealth != null)
             {
+                StartCoroutine(Flashing());
                 enemyHealth.TakeDamage(10); // Dano de 10
             }
 
             // Destroi o projétil do jogador após a colisão
             Destroy(collision.gameObject);
         }
+    }
+
+    //Faz o efeito de brilho quando leva dano
+    IEnumerator Flashing()
+    {
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.03f);
+        sr.color = Color.white;
     }
 }

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class BossG1BulletPattern : MonoBehaviour
 {
+    [Header("Bullet Pattern")]
     public GameObject bulletPrefab;
     public float bulletSpeed = 5f;
     public int bulletCount = 12;
@@ -12,12 +13,20 @@ public class BossG1BulletPattern : MonoBehaviour
     private float spiralAngle = 0f;
 
     // Variáveis do Boss
-    public int health = 100; // Vida inicial do boss
+    [Header("Boss stats & states")]
+    public int health = 300; // Vida inicial do boss
     public GameObject deathEffect; // Efeito de morte do boss (opcional)
     private bool isDead = false;
 
+    [Header("Animation")]
+    public SpriteRenderer sr;
+    public Animator animator;
+
+
     void Start()
     {
+        animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
@@ -28,10 +37,17 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void Update()
     {
-        if (isVisible && Time.time >= nextFireTime)
+        if(health >= 200)
         {
-            FireUniquePattern();
-            nextFireTime = Time.time + fireRate;
+            if (isVisible && Time.time >= nextFireTime)
+            {
+                FireUniquePattern();
+                nextFireTime = Time.time + fireRate;
+            }
+        }
+        else if(health < 200)
+        {
+
         }
     }
 
@@ -50,9 +66,19 @@ public class BossG1BulletPattern : MonoBehaviour
         int randomPattern = Random.Range(0, 2);
 
         if (randomPattern == 0)
+        {
             FireExpandingCirclePattern();
+        }
+
         else
+        {
             FireSpiralBurstPattern();
+        }
+    }
+
+    void FireSkillShotPattern()
+    {
+
     }
 
     void FireExpandingCirclePattern()
@@ -120,6 +146,7 @@ public class BossG1BulletPattern : MonoBehaviour
         if (isDead) return;
 
         health -= damage;
+        StartCoroutine(Flashing());
 
         // Verifica se a vida chegou a 0 ou menos
         if (health <= 0)
@@ -141,8 +168,20 @@ public class BossG1BulletPattern : MonoBehaviour
         Destroy(gameObject);
     }
 
+    //Faz o efeito de brilho quando leva dano
+    IEnumerator Flashing()
+    {
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.03f);
+        sr.color = Color.white;
+    }
+
+
+
+    //Essa função está sendo removida, pois o tiro do player já faz isso
+
     // Método para detectar colisões com projéteis
-    void OnTriggerEnter2D(Collider2D collision)
+    /*void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerProjectile"))
         {
@@ -158,5 +197,5 @@ public class BossG1BulletPattern : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
-    }
+    }*/
 }

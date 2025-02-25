@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour
     public float lifeTime = 2f;
     public int damage = 10;
     public GameObject explosionPrefab;
+    
 
     void Start()
     {

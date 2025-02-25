@@ -8,6 +8,7 @@ public class EnemyProjectile : MonoBehaviour
     public float lifeTime = 2f; // Duração do projétil antes de ser destruído
     public int damage = 10; // Dano causado pelo projétil
     private Vector2 direction; // Direção fixa do projétil
+    [SerializeField] bool bossProjectile = false;
 
     void Start()
     {
@@ -15,7 +16,10 @@ public class EnemyProjectile : MonoBehaviour
         direction = Vector2.down;
 
         // Destroi o projétil automaticamente após 'lifeTime' segundos
-        Invoke("DestroyProjectile", lifeTime);
+        if (bossProjectile)
+        {
+            Invoke("DestroyProjectile", lifeTime);
+        }
     }
 
     void Update()
@@ -24,7 +28,7 @@ public class EnemyProjectile : MonoBehaviour
         MoveProjectile();
 
         // Destroi o projétil se sair da tela
-        if (!IsWithinScreenBounds())
+        if (!IsWithinScreenBounds() && !bossProjectile)
         {
             DestroyProjectile();
         }
