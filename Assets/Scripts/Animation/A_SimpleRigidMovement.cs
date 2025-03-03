@@ -7,6 +7,7 @@ public class A_SimpleRigidMovement : MonoBehaviour
 {
     [SerializeField]private bool loop;
     public Vector2 moveDirection;
+    public bool horizontal;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
@@ -22,10 +23,20 @@ public class A_SimpleRigidMovement : MonoBehaviour
     {
         while (loop)
         {
-            yield return new WaitForSeconds(1.4f);
-            moveDirection = new Vector2(0, 0.01f);
-            yield return new WaitForSeconds(1.4f);
-            moveDirection = new Vector2(0, -0.01f);
+            if (!horizontal)
+            {
+                yield return new WaitForSeconds(1.4f);
+                moveDirection = new Vector2(0, 0.01f);
+                yield return new WaitForSeconds(1.4f);
+                moveDirection = new Vector2(0, -0.01f);
+            }
+            else if (horizontal)
+            {
+                yield return new WaitForSeconds(2f);
+                moveDirection = new Vector2(0.01f, 0);
+                yield return new WaitForSeconds(2f);
+                moveDirection = new Vector2(-0.01f, 0);
+            }
         }
     }
 }

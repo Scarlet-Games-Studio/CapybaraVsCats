@@ -123,6 +123,7 @@ MonoBehaviour:
   firePoint: {fileID: 233758055355116175}
   fireRate: 1.51
   maxHits: 2
+  sr: {fileID: 0}
 --- !u!61 &8164035808966260684
 BoxCollider2D:
   m_ObjectHideFlags: 0

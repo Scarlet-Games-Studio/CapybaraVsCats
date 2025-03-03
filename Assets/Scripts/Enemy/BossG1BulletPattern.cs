@@ -8,7 +8,7 @@ public class BossG1BulletPattern : MonoBehaviour
     public float bulletSpeed = 5f;
     public int bulletCount = 12;
     public float fireRate = 0.5f;
-    private float nextFireTime;
+    [SerializeField]private float nextFireTime;
     private bool isVisible = false;
     private float spiralAngle = 0f;
 
@@ -21,6 +21,8 @@ public class BossG1BulletPattern : MonoBehaviour
     [Header("Animation")]
     public SpriteRenderer sr;
     public Animator animator;
+    public GameObject VFX;
+    public GameObject SkillShot;
 
 
     void Start()
@@ -47,7 +49,8 @@ public class BossG1BulletPattern : MonoBehaviour
         }
         else if(health < 200)
         {
-
+            animator.SetBool("AttackWindUp", true);
+            FireSkillShotPattern();
         }
     }
 
@@ -63,22 +66,25 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void FireUniquePattern()
     {
-        int randomPattern = Random.Range(0, 2);
-
-        if (randomPattern == 0)
-        {
-            FireExpandingCirclePattern();
-        }
-
-        else
-        {
-            FireSpiralBurstPattern();
-        }
+        FireExpandingCirclePattern();
+        FireSpiralBurstPattern();
     }
 
     void FireSkillShotPattern()
     {
+        if(animator.GetBool("AttackReleased"))
+        {
+            StartCoroutine(Wait());
+        }
+    }
 
+    //Espera faz com que só seja spawnado apenas 1 projetil e efeito VFX
+    IEnumerator Wait()
+    {
+        Instantiate(VFX, transform.position, Quaternion.identity);
+        Instantiate(SkillShot, transform.position, Quaternion.identity);
+        yield return 0;
+        animator.SetBool("AttackReleased", false);
     }
 
     void FireExpandingCirclePattern()
