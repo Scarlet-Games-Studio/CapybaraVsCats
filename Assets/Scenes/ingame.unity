@@ -1567,7 +1567,6 @@ GameObject:
   - component: {fileID: 207240020}
   - component: {fileID: 207240022}
   - component: {fileID: 207240021}
-  - component: {fileID: 207240023}
   m_Layer: 5
   m_Name: AD
   m_TagString: Untagged
@@ -1587,6 +1586,7 @@ RectTransform:
   m_LocalScale: {x: 3.3278809, y: 2.0539699, z: 1.8002882}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 436918087}
   - {fileID: 451342110}
   m_Father: {fileID: 2153284337354379964}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1630,18 +1630,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207240019}
   m_CullTransparentMesh: 1
---- !u!114 &207240023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207240019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d8e9366dadc5a24289bd482b72f3782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &207628444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3808,6 +3796,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422053278}
   m_CullTransparentMesh: 1
+--- !u!1 &436918086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436918087}
+  - component: {fileID: 436918088}
+  m_Layer: 5
+  m_Name: admanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &436918087
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436918086}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 207240020}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: -0.000014781952}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &436918088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436918086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42dfb38124a9be4ea047f4aaa4b6d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewardedAdButton: {fileID: 451342111}
+  gameOverPanel: {fileID: 7828892650403629410}
 --- !u!1 &447848769
 GameObject:
   m_ObjectHideFlags: 0
@@ -10481,7 +10519,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 207240023}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: RewardedAdManager, Assembly-CSharp
         m_MethodName: ShowRewardedAd
         m_Mode: 1
@@ -16850,7 +16888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -827, y: 899}
+  m_AnchoredPosition: {x: -542, y: 784}
   m_SizeDelta: {x: 200, y: 229.8678}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &4532693879516855586
