@@ -9,7 +9,7 @@ public class A_SimpleRigidMovement : MonoBehaviour
     public Vector2 moveDirection;
     public bool horizontal;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Start()
+    private void Awake()
     {
         StartCoroutine(GravityKick());
     }

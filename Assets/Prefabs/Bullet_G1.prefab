@@ -177,5 +177,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   lifeTime: 2
-  damage: 2
+  damage: 1
   bossProjectile: 0

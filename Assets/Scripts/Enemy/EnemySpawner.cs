@@ -9,6 +9,7 @@ public class EnemySpawner : MonoBehaviour
         public GameObject enemyPrefab;  // Prefab do inimigo
         public int enemyCount;         // Quantidade de inimigos nesta onda
         public float spawnInterval;    // Tempo entre os spawns dentro da onda
+        public bool boss;              // Se o inimigo é um boss
     }
 
     public Camera targetCamera;          // Câmera vinculada manualmente no Inspector
@@ -17,8 +18,8 @@ public class EnemySpawner : MonoBehaviour
     public float spawnOffsetY = 1f;      // Ajuste da posição inicial de spawn (acima da tela)
     public float spawnDelay = 10f;       // Tempo antes do início do spawn (ajustável no Inspector)
     public bool canSpawn = true;         // Controle para ativar/desativar o spawn
-
     private float screenLeft, screenRight, screenTop; // Limites da câmera
+    public Transform bossSpawn;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class EnemySpawner : MonoBehaviour
         screenTop = screenTopRight.y;
 
         StartCoroutine(SpawnWavesWithDelay());
+
     }
 
     IEnumerator SpawnWavesWithDelay()
@@ -51,21 +53,29 @@ public class EnemySpawner : MonoBehaviour
             yield return StartCoroutine(SpawnEnemiesInWave(wave));
             yield return new WaitForSeconds(timeBetweenWaves); // Espera entre ondas
         }
+
     }
 
     IEnumerator SpawnEnemiesInWave(EnemyWave wave)
+
     {
         for (int i = 0; i < wave.enemyCount; i++)
         {
             if (!canSpawn) yield break; // Interrompe o spawn se necessário
+            if (wave.boss)
+            {
+                Instantiate(wave.enemyPrefab, bossSpawn.transform.position, Quaternion.identity);
+            }
+            else
+            {
+                // Calcula uma posição aleatória acima da tela, com ajuste do offset vertical
+                float spawnX = Random.Range(screenLeft, screenRight);
+                float spawnY = screenTop + spawnOffsetY; // Usa o offset configurável
+                Vector2 spawnPosition = new Vector2(spawnX, spawnY);
 
-            // Calcula uma posição aleatória acima da tela, com ajuste do offset vertical
-            float spawnX = Random.Range(screenLeft, screenRight);
-            float spawnY = screenTop + spawnOffsetY; // Usa o offset configurável
-            Vector2 spawnPosition = new Vector2(spawnX, spawnY);
-
-            // Instancia o inimigo
-            Instantiate(wave.enemyPrefab, spawnPosition, Quaternion.identity);
+                // Instancia o inimigo
+                Instantiate(wave.enemyPrefab, spawnPosition, Quaternion.identity);
+            }
 
             yield return new WaitForSeconds(wave.spawnInterval); // Intervalo entre inimigos
         }
