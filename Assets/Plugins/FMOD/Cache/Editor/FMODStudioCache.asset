@@ -132,13 +132,69 @@ MonoBehaviour:
   - {fileID: 5885106267950834148}
   - {fileID: 432827497514825978}
   - {fileID: -3481797232355441106}
+  - {fileID: 21099039064513780}
+  - {fileID: 225139826325783842}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2511552735156905010}
   StringsBanks:
   - {fileID: 3571750471175250267}
-  cacheTime: 638730885414242271
+  cacheTime: 638771550655384902
   cacheVersion: 131622
+--- !u!114 &21099039064513780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Mus_Gameplay01
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Mus_Gameplay01
+  Guid:
+    Data1: -293817835
+    Data2: 1112341108
+    Data3: -1376714818
+    Data4: 505615248
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56888
+--- !u!114 &225139826325783842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Mus_Boss01
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Mus_Boss01
+  Guid:
+    Data1: 1604332425
+    Data2: 1125935587
+    Data3: 470824576
+    Data4: -1964535697
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64000
 --- !u!114 &432827497514825978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,10 +237,10 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638730885414217214
+  lastModified: 638771550655364925
   FileSizes:
   - Name: Desktop
-    Value: 754816
+    Value: 2330848
   Exists: 1
 --- !u!114 &3571750471175250267
 MonoBehaviour:
@@ -201,10 +257,10 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638730885414242271
+  lastModified: 638771550655384902
   FileSizes:
   - Name: Desktop
-    Value: 1304
+    Value: 1394
   Exists: 1
 --- !u!114 &5467753755908733279
 MonoBehaviour:
