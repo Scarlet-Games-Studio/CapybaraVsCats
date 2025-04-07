@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{0961daa0-f123-4963-bb32-700e117d68ec}">
+	<object class="AudioFile" id="{8f693687-4e2d-4f27-8a9c-9f03015d6c61}">
 		<property name="assetPath">
-			<value>Capybara vs Cat Boss01.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>SFX_EnemyShot-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>64</value>
+			<value>0.23244897959183675</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b3421ad7-9a48-49c9-8f12-0b51dfbc2264}</destination>
