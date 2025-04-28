@@ -66,7 +66,7 @@ MonoBehaviour:
     - line: '|     width: 1'
     - line: '|     height: 1'
     - line: '|   m_SplashScreenLogos:'
-    - line: '|   - logo: {fileID: 21300000, guid: 644b3dd68e4565049ad77944884c282d,
+    - line: '|   - logo: {fileID: 21300000, guid: 6bcda65595477a44fa724bbbc7a81f1d,
         type: 3}'
     - line: '|     duration: 2.3'
     - line: '|   m_VirtualRealitySplashScreen: {instanceID: 0}'
@@ -169,7 +169,7 @@ MonoBehaviour:
     - line: '|   loadStoreDebugModeEnabled: 0'
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
-    - line: '|   bundleVersion: corrigida 14'
+    - line: '|   bundleVersion: corrigida 15'
     - line: '|   preloadedAssets: []'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
@@ -199,7 +199,7 @@ MonoBehaviour:
     - line: '|     iPhone: 0'
     - line: '|     tvOS: 0'
     - line: '|   overrideDefaultApplicationIdentifier: 1'
-    - line: '|   AndroidBundleVersionCode: 22'
+    - line: '|   AndroidBundleVersionCode: 23'
     - line: '|   AndroidMinSdkVersion: 23'
     - line: '|   AndroidTargetSdkVersion: 0'
     - line: '|   AndroidPreferredInstallLocation: 1'
