@@ -4,38 +4,54 @@ using System.Collections;
 
 public class GameStartCountdown : MonoBehaviour
 {
-    public RawImage readyImage; // Componente RawImage para exibir o "Ready"
-    public RawImage goImage; // Componente RawImage para exibir o "GO"
-    public float displayTime = 1f; // Tempo de exibição de cada imagem
-    public float fadeDuration = 0.5f; // Duração do fade in/out
+    public GameObject panelSelection; // Painel onde estão os 3 botões
+    public Button[] selectionButtons; // Array com os 3 botões
+    public RawImage readyImage;
+    public RawImage goImage;
+    public float displayTime = 1f;
+    public float fadeDuration = 0.5f;
 
     private bool gamePaused = true;
 
     void Start()
     {
-        // Certifica-se de que o jogo começa pausado
         Time.timeScale = 0f;
         gamePaused = true;
 
-        // Inicia o countdown
+        // Mostra o painel de seleção
+        panelSelection.SetActive(true);
+
+        // Associa o clique de todos os botões
+        foreach (Button btn in selectionButtons)
+        {
+            btn.onClick.AddListener(() => OnSelectionButtonClicked(btn));
+        }
+    }
+
+    private void OnSelectionButtonClicked(Button clickedButton)
+    {
+        // Aqui você pode guardar qual botão foi clicado, se precisar
+        Debug.Log("Botão selecionado: " + clickedButton.name);
+
+        // Esconde o painel de seleção
+        panelSelection.SetActive(false);
+
+        // Começa o countdown
         StartCoroutine(StartCountdown());
     }
 
     private IEnumerator StartCountdown()
     {
-        // Exibe o "Ready" com transição
         yield return StartCoroutine(FadeIn(readyImage));
         yield return new WaitForSecondsRealtime(displayTime);
         yield return StartCoroutine(FadeOut(readyImage));
 
-        yield return new WaitForSecondsRealtime(0.5f); // Pequena pausa opcional entre "Ready" e "GO"
+        yield return new WaitForSecondsRealtime(0.5f);
 
-        // Exibe o "GO" com transição
         yield return StartCoroutine(FadeIn(goImage));
         yield return new WaitForSecondsRealtime(displayTime);
         yield return StartCoroutine(FadeOut(goImage));
 
-        // Retorna o jogo ao normal
         Time.timeScale = 1f;
         gamePaused = false;
     }

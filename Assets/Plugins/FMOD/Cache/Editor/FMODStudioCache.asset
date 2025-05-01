@@ -54,6 +54,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2010843537320299376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_DeathPlayer
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_DeathPlayer
+  Guid:
+    Data1: -1439269519
+    Data2: 1076203518
+    Data3: 878651071
+    Data4: 1378417773
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1758174576205202306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_Boss01_Machinegun
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_Boss01_Machinegun
+  Guid:
+    Data1: 1107095100
+    Data2: 1116474566
+    Data3: -1330415468
+    Data4: -744585661
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1786
 --- !u!114 &-1063194967046297186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +162,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-154598630556279903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_SpaceShipEngine
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_SpaceShipEngine
+  Guid:
+    Data1: -538010076
+    Data2: 1220500281
+    Data3: 604204473
+    Data4: -1920367161
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-74119122491428092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_ShotEnemy
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_ShotEnemy
+  Guid:
+    Data1: 528680753
+    Data2: 1287621052
+    Data3: -1851550572
+    Data4: -788500872
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,12 +242,18 @@ MonoBehaviour:
   - {fileID: -3481797232355441106}
   - {fileID: 21099039064513780}
   - {fileID: 225139826325783842}
+  - {fileID: -154598630556279903}
+  - {fileID: 1401483875598628051}
+  - {fileID: -74119122491428092}
+  - {fileID: -1758174576205202306}
+  - {fileID: 6473405627817729166}
+  - {fileID: -2010843537320299376}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2511552735156905010}
   StringsBanks:
   - {fileID: 3571750471175250267}
-  cacheTime: 638771552200882889
+  cacheTime: 638796656681739942
   cacheVersion: 131622
 --- !u!114 &21099039064513780
 MonoBehaviour:
@@ -222,6 +336,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 58181
+--- !u!114 &1401483875598628051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_DeathEnemy
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_DeathEnemy
+  Guid:
+    Data1: 921775145
+    Data2: 1274846593
+    Data3: -411242331
+    Data4: -1834534648
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1927043553144812196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mus_System/pTransition
+  m_EditorClassIdentifier: 
+  Name: pTransition
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 2702755093
+    data2: 1554078951
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2511552735156905010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,10 +402,10 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638771552200852911
+  lastModified: 638796656681639993
   FileSizes:
   - Name: Desktop
-    Value: 2330848
+    Value: 2397728
   Exists: 1
 --- !u!114 &3571750471175250267
 MonoBehaviour:
@@ -257,10 +422,10 @@ MonoBehaviour:
   Path: fmod/capy-vs-catAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638771552200882889
+  lastModified: 638796656681739942
   FileSizes:
   - Name: Desktop
-    Value: 1394
+    Value: 1738
   Exists: 1
 --- !u!114 &5467753755908733279
 MonoBehaviour:
@@ -316,6 +481,34 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &6473405627817729166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS/Mus_System
+  m_EditorClassIdentifier: 
+  Path: event:/MUS/Mus_System
+  Guid:
+    Data1: -1726534304
+    Data2: 1085183735
+    Data3: -1447868482
+    Data4: 279951621
+  Banks:
+  - {fileID: 2511552735156905010}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1927043553144812196}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 194000
 --- !u!114 &8190908051994508902
 MonoBehaviour:
   m_ObjectHideFlags: 0
