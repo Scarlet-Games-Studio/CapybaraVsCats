@@ -1,54 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Para gerenciar as cenas
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverScreen : MonoBehaviour
 {
-    public GameObject gameOverUI; // Painel de Game Over
-    public GameObject interfacePanel; // Interface do jogo
-    public UnityEngine.UI.Button exitButton; // Botão para voltar ao MainMenu
+    public GameObject gameOverUI;
+    public GameObject interfacePanel;
+    public Button exitButton;
 
     void Start()
     {
-        gameOverUI.SetActive(false); // Garante que o painel de Game Over começa oculto
-
-        // Certifique-se de associar o botão no Inspector, senão pode lançar um erro
+        gameOverUI.SetActive(false);
         if (exitButton != null)
-        {
-            exitButton.onClick.AddListener(ExitInGame); // Liga o botão à função ExitInGame
-        }
-        else
-        {
-            Debug.LogWarning("O botão Exit não foi atribuído no Inspector!");
-        }
+            exitButton.onClick.AddListener(ExitInGame);
     }
 
-    // Mostra a tela de Game Over e pausa o jogo
     public void ShowGameOverScreen()
     {
         gameOverUI.SetActive(true);
         interfacePanel.SetActive(false);
-        Time.timeScale = 0f; // Pausa o jogo
+        Time.timeScale = 0f;
     }
 
-    // Reinicia o jogo, recarregando a cena atual
     public void RestartGame()
     {
-        Time.timeScale = 1f; // Retoma o tempo do jogo
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recarrega a cena atual
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // Volta para a cena MainMenu e desativa o GameOverUI
     public void ExitInGame()
     {
-        Time.timeScale = 1f; // Retoma o tempo do jogo antes de mudar de cena
-
+        Time.timeScale = 1f;
         if (gameOverUI != null)
-        {
-            gameOverUI.SetActive(false); // Oculta o painel GameOverUI
-        }
-
-        SceneManager.LoadScene("MainMenu"); // Carrega a cena MainMenu
+            gameOverUI.SetActive(false);
+        SceneManager.LoadScene("MainMenu");
     }
 }
