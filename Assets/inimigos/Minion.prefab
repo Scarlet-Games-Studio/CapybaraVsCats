@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 3465494163369939559}
   - component: {fileID: 7517556969287603298}
   - component: {fileID: 1117978012045866881}
+  - component: {fileID: -684824314471825215}
   - component: {fileID: 6325045703222347856}
   m_Layer: 6
   m_Name: Minion
@@ -140,6 +141,7 @@ MonoBehaviour:
   firePoint: {fileID: 7339418167869404870}
   fireRate: 1
   maxHits: 2
+  sr: {fileID: 0}
 --- !u!50 &7517556969287603298
 Rigidbody2D:
   serializedVersion: 5
@@ -213,6 +215,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 13.33, y: 29.62}
   m_EdgeRadius: 0
+--- !u!114 &-684824314471825215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6140200164635614616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f219b90381c937f448a87fa11d47793e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6325045703222347856
 MonoBehaviour:
   m_ObjectHideFlags: 0

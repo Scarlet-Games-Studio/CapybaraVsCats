@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: bcbb8b661f8c4804ea251da031155357
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2571526920669100442
+    second: "ESCOLHA SEU HER\xD3I fasdg)_0"
+  - first:
+      213: 1556431586980753059
+    second: "ESCOLHA SEU HER\xD3I fasdg)_1"
+  - first:
+      213: -4644616427179134119
+    second: "ESCOLHA SEU HER\xD3I fasdg)_2"
+  - first:
+      213: 6774288594736180739
+    second: "ESCOLHA SEU HER\xD3I fasdg)_3"
+  - first:
+      213: -8397926395820297310
+    second: "ESCOLHA SEU HER\xD3I fasdg)_4"
+  - first:
+      213: 8970312408310082922
+    second: "ESCOLHA SEU HER\xD3I fasdg)_5"
+  - first:
+      213: -4949320445447403746
+    second: "ESCOLHA SEU HER\xD3I fasdg)_6"
+  - first:
+      213: -4094313001023290534
+    second: "ESCOLHA SEU HER\xD3I fasdg)_7"
+  - first:
+      213: -7872603654262956500
+    second: "ESCOLHA SEU HER\xD3I fasdg)_8"
+  - first:
+      213: -8446831892687075960
+    second: "ESCOLHA SEU HER\xD3I fasdg)_9"
+  - first:
+      213: 5229684479783377950
+    second: "ESCOLHA SEU HER\xD3I fasdg)_10"
+  - first:
+      213: 1908543099368232537
+    second: "ESCOLHA SEU HER\xD3I fasdg)_11"
+  - first:
+      213: -1583475902187231104
+    second: "ESCOLHA SEU HER\xD3I fasdg)_12"
+  - first:
+      213: -5881069559081440492
+    second: "ESCOLHA SEU HER\xD3I fasdg)_13"
+  - first:
+      213: 3854541020812108035
+    second: "ESCOLHA SEU HER\xD3I fasdg)_14"
+  - first:
+      213: -2211770328994325670
+    second: "ESCOLHA SEU HER\xD3I fasdg)_15"
+  - first:
+      213: 6384393496618552617
+    second: "ESCOLHA SEU HER\xD3I fasdg)_16"
+  - first:
+      213: -4026056119334077365
+    second: "ESCOLHA SEU HER\xD3I fasdg)_17"
+  - first:
+      213: -185029349811122978
+    second: "ESCOLHA SEU HER\xD3I fasdg)_18"
+  - first:
+      213: -5049608712350526304
+    second: "ESCOLHA SEU HER\xD3I fasdg)_19"
+  - first:
+      213: 4830699107070385992
+    second: "ESCOLHA SEU HER\xD3I fasdg)_20"
+  - first:
+      213: -4585775846818432389
+    second: "ESCOLHA SEU HER\xD3I fasdg)_21"
+  - first:
+      213: -4539358323453603201
+    second: "ESCOLHA SEU HER\xD3I fasdg)_22"
+  - first:
+      213: -1692391585918909652
+    second: "ESCOLHA SEU HER\xD3I fasdg)_23"
+  - first:
+      213: 1838221838030915902
+    second: "ESCOLHA SEU HER\xD3I fasdg)_24"
+  - first:
+      213: 5622117235998053917
+    second: "ESCOLHA SEU HER\xD3I fasdg)_25"
+  - first:
+      213: -5057517461388489311
+    second: "ESCOLHA SEU HER\xD3I fasdg)_26"
+  - first:
+      213: 695809830546776599
+    second: "ESCOLHA SEU HER\xD3I fasdg)_27"
+  - first:
+      213: -4766249894548400349
+    second: "ESCOLHA SEU HER\xD3I fasdg)_28"
+  - first:
+      213: -5961657446944622453
+    second: "ESCOLHA SEU HER\xD3I fasdg)_29"
+  - first:
+      213: -4619249915310062871
+    second: "ESCOLHA SEU HER\xD3I fasdg)_30"
+  - first:
+      213: -4683079993038299297
+    second: "ESCOLHA SEU HER\xD3I fasdg)_31"
+  - first:
+      213: -5207096017491912184
+    second: "ESCOLHA SEU HER\xD3I fasdg)_32"
+  - first:
+      213: -6529900953789574679
+    second: "ESCOLHA SEU HER\xD3I fasdg)_33"
+  - first:
+      213: 2173691450079048210
+    second: "ESCOLHA SEU HER\xD3I fasdg)_34"
+  - first:
+      213: 6931682252675164860
+    second: "ESCOLHA SEU HER\xD3I fasdg)_35"
+  - first:
+      213: -855435655210765803
+    second: "ESCOLHA SEU HER\xD3I fasdg)_36"
+  - first:
+      213: 666275468194284904
+    second: "ESCOLHA SEU HER\xD3I fasdg)_37"
+  - first:
+      213: -3334869489312850134
+    second: "ESCOLHA SEU HER\xD3I fasdg)_38"
+  - first:
+      213: 3769074912298077947
+    second: "ESCOLHA SEU HER\xD3I fasdg)_39"
+  - first:
+      213: -6634317254148718919
+    second: "ESCOLHA SEU HER\xD3I fasdg)_40"
+  - first:
+      213: -8013067470502377304
+    second: "ESCOLHA SEU HER\xD3I fasdg)_41"
+  - first:
+      213: 6769464298731820432
+    second: "ESCOLHA SEU HER\xD3I fasdg)_42"
+  - first:
+      213: 4670854876272578515
+    second: "ESCOLHA SEU HER\xD3I fasdg)_43"
+  - first:
+      213: -6652744674287225564
+    second: "ESCOLHA SEU HER\xD3I fasdg)_44"
+  - first:
+      213: -1166309166784568812
+    second: "ESCOLHA SEU HER\xD3I fasdg)_45"
+  - first:
+      213: -4688965399001599288
+    second: "ESCOLHA SEU HER\xD3I fasdg)_46"
+  - first:
+      213: 8952929423912248500
+    second: "ESCOLHA SEU HER\xD3I fasdg)_47"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_0"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6660a23e3e9105cd0800000000000000
+      internalID: -2571526920669100442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_1"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae6f23384e899510800000000000000
+      internalID: 1556431586980753059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9533b0cb7f10b8fb0800000000000000
+      internalID: -4644616427179134119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_3"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eea3fc59b130e50800000000000000
+      internalID: 6774288594736180739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_4"
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a33147ef62947b80800000000000000
+      internalID: -8397926395820297310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_5"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de99dcb93fc7c70800000000000000
+      internalID: 8970312408310082922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_6"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e178789074b705bb0800000000000000
+      internalID: -4949320445447403746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_7"
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a534eb6a4041e27c0800000000000000
+      internalID: -4094313001023290534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_8"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ed632ffa4eeb290800000000000000
+      internalID: -7872603654262956500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_9"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88542f69523d6ca80800000000000000
+      internalID: -8446831892687075960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_10"
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c9cd88352939840800000000000000
+      internalID: 5229684479783377950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_11"
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 0
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956dd5446d18c7a10800000000000000
+      internalID: 1908543099368232537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_12"
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 0
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0882dbb7e0d560ae0800000000000000
+      internalID: -1583475902187231104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_13"
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b669f256e326ea0800000000000000
+      internalID: -5881069559081440492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_14"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 51
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3016dadd2a41e7530800000000000000
+      internalID: 3854541020812108035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_15"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 10
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b5b8faa963e41e0800000000000000
+      internalID: -2211770328994325670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_16"
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d43482f0ce99850800000000000000
+      internalID: 6384393496618552617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_17"
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cfd495a439028c0800000000000000
+      internalID: -4026056119334077365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_18"
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc8c7369c4ae6df0800000000000000
+      internalID: -185029349811122978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_19"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a411ad41af2ce9b0800000000000000
+      internalID: -5049608712350526304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_20"
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f1ab56e371a0340800000000000000
+      internalID: 4830699107070385992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_21"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a32dee92d0c50c0800000000000000
+      internalID: -4585775846818432389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_22"
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72d556c7a5f001c0800000000000000
+      internalID: -4539358323453603201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_23"
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23817cb1da6388e0800000000000000
+      internalID: -1692391585918909652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_24"
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39c23ab50da28910800000000000000
+      internalID: 1838221838030915902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_25"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16d341c6d5c50e40800000000000000
+      internalID: 5622117235998053917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_26"
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad8a9c2aa610d9b0800000000000000
+      internalID: -5057517461388489311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_27"
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71227f4ba5308a900800000000000000
+      internalID: 695809830546776599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_28"
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 0
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32713bc39f0eaddb0800000000000000
+      internalID: -4766249894548400349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_29"
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88bd426320f34da0800000000000000
+      internalID: -5961657446944622453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_30"
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 51
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2c0350da025efb0800000000000000
+      internalID: -4619249915310062871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_31"
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 0
+        width: 10
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f9630fe8b520fb0800000000000000
+      internalID: -4683079993038299297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_32"
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a1b0ea2cdacb7b0800000000000000
+      internalID: -5207096017491912184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_33"
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e153eeeda12165a0800000000000000
+      internalID: -6529900953789574679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_34"
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 0
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212f34d6bd08a2e10800000000000000
+      internalID: 2173691450079048210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_35"
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba259e7848423060800000000000000
+      internalID: 6931682252675164860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_36"
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 0
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51275facdc1e024f0800000000000000
+      internalID: -855435655210765803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_37"
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865074c12061f3900800000000000000
+      internalID: 666275468194284904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_38"
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f183d4ed928b1d0800000000000000
+      internalID: -3334869489312850134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_39"
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 0
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe0d5fc9a17e4430800000000000000
+      internalID: 3769074912298077947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_40"
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 0
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be78338b9b2ee3a0800000000000000
+      internalID: -6634317254148718919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_41"
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8c773379ddbc090800000000000000
+      internalID: -8013067470502377304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_42"
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095599dd9e7f1fd50800000000000000
+      internalID: 6769464298731820432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_43"
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 0
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfc0a143c532d040800000000000000
+      internalID: 4670854876272578515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_44"
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 0
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425fcbb67f3bca3a0800000000000000
+      internalID: -6652744674287225564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_45"
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 0
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412268ffdff60dfe0800000000000000
+      internalID: -1166309166784568812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_46"
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 51
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2796410d27deeb0800000000000000
+      internalID: -4688965399001599288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ESCOLHA SEU HER\xD3I fasdg)_47"
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 0
+        width: 10
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4ae6b50e13f3c70800000000000000
+      internalID: 8952929423912248500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "ESCOLHA SEU HER\xD3I fasdg)_0": -2571526920669100442
+      "ESCOLHA SEU HER\xD3I fasdg)_1": 1556431586980753059
+      "ESCOLHA SEU HER\xD3I fasdg)_10": 5229684479783377950
+      "ESCOLHA SEU HER\xD3I fasdg)_11": 1908543099368232537
+      "ESCOLHA SEU HER\xD3I fasdg)_12": -1583475902187231104
+      "ESCOLHA SEU HER\xD3I fasdg)_13": -5881069559081440492
+      "ESCOLHA SEU HER\xD3I fasdg)_14": 3854541020812108035
+      "ESCOLHA SEU HER\xD3I fasdg)_15": -2211770328994325670
+      "ESCOLHA SEU HER\xD3I fasdg)_16": 6384393496618552617
+      "ESCOLHA SEU HER\xD3I fasdg)_17": -4026056119334077365
+      "ESCOLHA SEU HER\xD3I fasdg)_18": -185029349811122978
+      "ESCOLHA SEU HER\xD3I fasdg)_19": -5049608712350526304
+      "ESCOLHA SEU HER\xD3I fasdg)_2": -4644616427179134119
+      "ESCOLHA SEU HER\xD3I fasdg)_20": 4830699107070385992
+      "ESCOLHA SEU HER\xD3I fasdg)_21": -4585775846818432389
+      "ESCOLHA SEU HER\xD3I fasdg)_22": -4539358323453603201
+      "ESCOLHA SEU HER\xD3I fasdg)_23": -1692391585918909652
+      "ESCOLHA SEU HER\xD3I fasdg)_24": 1838221838030915902
+      "ESCOLHA SEU HER\xD3I fasdg)_25": 5622117235998053917
+      "ESCOLHA SEU HER\xD3I fasdg)_26": -5057517461388489311
+      "ESCOLHA SEU HER\xD3I fasdg)_27": 695809830546776599
+      "ESCOLHA SEU HER\xD3I fasdg)_28": -4766249894548400349
+      "ESCOLHA SEU HER\xD3I fasdg)_29": -5961657446944622453
+      "ESCOLHA SEU HER\xD3I fasdg)_3": 6774288594736180739
+      "ESCOLHA SEU HER\xD3I fasdg)_30": -4619249915310062871
+      "ESCOLHA SEU HER\xD3I fasdg)_31": -4683079993038299297
+      "ESCOLHA SEU HER\xD3I fasdg)_32": -5207096017491912184
+      "ESCOLHA SEU HER\xD3I fasdg)_33": -6529900953789574679
+      "ESCOLHA SEU HER\xD3I fasdg)_34": 2173691450079048210
+      "ESCOLHA SEU HER\xD3I fasdg)_35": 6931682252675164860
+      "ESCOLHA SEU HER\xD3I fasdg)_36": -855435655210765803
+      "ESCOLHA SEU HER\xD3I fasdg)_37": 666275468194284904
+      "ESCOLHA SEU HER\xD3I fasdg)_38": -3334869489312850134
+      "ESCOLHA SEU HER\xD3I fasdg)_39": 3769074912298077947
+      "ESCOLHA SEU HER\xD3I fasdg)_4": -8397926395820297310
+      "ESCOLHA SEU HER\xD3I fasdg)_40": -6634317254148718919
+      "ESCOLHA SEU HER\xD3I fasdg)_41": -8013067470502377304
+      "ESCOLHA SEU HER\xD3I fasdg)_42": 6769464298731820432
+      "ESCOLHA SEU HER\xD3I fasdg)_43": 4670854876272578515
+      "ESCOLHA SEU HER\xD3I fasdg)_44": -6652744674287225564
+      "ESCOLHA SEU HER\xD3I fasdg)_45": -1166309166784568812
+      "ESCOLHA SEU HER\xD3I fasdg)_46": -4688965399001599288
+      "ESCOLHA SEU HER\xD3I fasdg)_47": 8952929423912248500
+      "ESCOLHA SEU HER\xD3I fasdg)_5": 8970312408310082922
+      "ESCOLHA SEU HER\xD3I fasdg)_6": -4949320445447403746
+      "ESCOLHA SEU HER\xD3I fasdg)_7": -4094313001023290534
+      "ESCOLHA SEU HER\xD3I fasdg)_8": -7872603654262956500
+      "ESCOLHA SEU HER\xD3I fasdg)_9": -8446831892687075960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

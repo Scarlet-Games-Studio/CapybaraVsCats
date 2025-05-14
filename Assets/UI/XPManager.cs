@@ -16,6 +16,7 @@ public class XPManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -42,18 +43,17 @@ public class XPManager : MonoBehaviour
     {
         currentXP -= xpToNextLevel;
         currentLevel++;
-        xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * 1.5f); // Aumenta o XP necessário para o próximo nível
+        xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * 1.5f);
         ApplyLevelUpRewards();
     }
 
     void ApplyLevelUpRewards()
     {
-        // Recompensas por subir de nível, como aumentar a saúde ou a taxa de disparo
         PlayerController player = FindObjectOfType<PlayerController>();
         if (player != null)
         {
-            player.IncreaseFireRate(0.1f); // Exemplo: aumenta a taxa de disparo
-            player.GetComponent<Health>().Heal(20); // Exemplo: cura o jogador
+            player.IncreaseFireRate(0.1f);
+            player.GetComponent<Health>()?.Heal(20);
         }
     }
 
