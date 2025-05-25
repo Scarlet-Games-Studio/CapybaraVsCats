@@ -2,6 +2,7 @@ using NUnit.Framework.Constraints;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UI_Spin : MonoBehaviour
@@ -10,6 +11,8 @@ public class UI_Spin : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private RawImage spinCircle;
     [SerializeField] private RawImage background2;
+
+
     [Header("Growth Circle")]
     [SerializeField] private RawImage transitionCircle;
     [SerializeField] private GameObject transitionObject;
@@ -20,14 +23,27 @@ public class UI_Spin : MonoBehaviour
     [SerializeField] private bool expanding = false;
     [SerializeField] private bool shrinking = false;
     private bool count = false;
+
+    //Sprites das splash arts na seleção
     [Header("Splash Art")]
     [SerializeField] private GameObject hiro;
     [SerializeField] private GameObject mika;
     [SerializeField] private GameObject jack;
+
+    //Sprites das naves na seleção
     [Header("AirShips Sprite")]
     [SerializeField] private GameObject hiroS;
     [SerializeField] private GameObject mikaS;
     [SerializeField] private GameObject jackS;
+
+    [Header("Audios")]
+    [SerializeField] private AudioClip mikaA1;
+    [SerializeField] private AudioClip mikaA2;
+    [SerializeField] private AudioSource source;
+    private float voiceRng;
+
+    public string inGameSceneName = "InGame"; // Nome da cena do jogo
+    public string inGameSceneName2 = "MainMenu";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,6 +60,7 @@ public class UI_Spin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Rotaciona a engrenagem no canto inferior esquerdo
         transform.Rotate(0, 0, speed);
 
         if (count)
@@ -61,6 +78,16 @@ public class UI_Spin : MonoBehaviour
         count = false;
         yield return null;
         count = false;
+    }
+
+    //Apenas adicionei isso para não precisar inutilizar todo o script do MainMenuController
+    public void StartGame()
+    {
+        SceneManager.LoadScene(inGameSceneName);
+    }
+    public void ExitMenu()
+    {
+        SceneManager.LoadScene(inGameSceneName2);
     }
 
     private void FixedUpdate()
@@ -86,6 +113,7 @@ public class UI_Spin : MonoBehaviour
     public void Shrink()
     {
         count = false;
+        source.Stop();
         background2.color = new Color32(255, 255, 255, 255);
         spinCircle.color = new Color32(255, 255, 255, 255);
         expanding = false;
@@ -128,6 +156,15 @@ public class UI_Spin : MonoBehaviour
         background2.color = new Color32(255, 127, 217, 255);
         spinCircle.color = new Color32(255, 127, 217, 255);
         transitionCircle.color = new Color32(255, 127, 217, 255);
+        voiceRng = Random.Range(1, 100);
+        if(voiceRng < 50)
+        {
+            source.PlayOneShot(mikaA1);
+        }
+        else
+        {
+            source.PlayOneShot(mikaA2);
+        }
         expanding = true;
         shrinking = false;
         transitionObject.active = true;

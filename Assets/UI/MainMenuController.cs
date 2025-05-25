@@ -93,6 +93,8 @@ public class MainMenuController : MonoBehaviour
         Application.Quit();
     }
 
+
+
     // Ativa ou desativa os botões principais do menu
     void SetMainMenuButtonsActive(bool isActive)
     {

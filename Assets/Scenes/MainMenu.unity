@@ -331,6 +331,8 @@ GameObject:
   - component: {fileID: 88520468}
   - component: {fileID: 88520467}
   - component: {fileID: 88520469}
+  - component: {fileID: 88520470}
+  - component: {fileID: 88520471}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -481,6 +483,54 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &88520470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88520466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3daef52bb6c709544a17a0d3c73d6fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  shootSound:
+    Guid:
+      Data1: -628850939
+      Data2: 1301283355
+      Data3: -1537085541
+      Data4: -1098871315
+    Path: event:/SFX/SFX_ShotPlayer
+  menuClickSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &88520471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88520466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 697f6a6c16514504a9ed220de29b650b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodManager: {fileID: 88520470}
+  musicVolumeSlider: {fileID: 1758782699}
+  sfxVolumeSlider: {fileID: 840685745}
 --- !u!1 &139845909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2284,7 +2334,7 @@ MonoBehaviour:
   closeSettingsButton: {fileID: 1264709763}
   creditsPanel: {fileID: 1739442482}
   closeCreditsButton: {fileID: 489379441}
-  inGameSceneName: InGame
+  inGameSceneName: CharacterSelectV2
 --- !u!1 &975034677
 GameObject:
   m_ObjectHideFlags: 0
