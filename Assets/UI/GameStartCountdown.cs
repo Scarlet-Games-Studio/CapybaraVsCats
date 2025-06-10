@@ -4,6 +4,8 @@ using System.Collections;
 
 public class GameStartCountdown : MonoBehaviour
 {
+    public GameObject panelSelection; // Painel onde estão os 3 botões
+    public Button[] selectionButtons; // Array com os 3 botões
     public RawImage readyImage;
     public RawImage goImage;
     public float displayTime = 1f;
@@ -16,6 +18,25 @@ public class GameStartCountdown : MonoBehaviour
         Time.timeScale = 0f;
         gamePaused = true;
 
+        // Mostra o painel de seleção
+        panelSelection.SetActive(true);
+
+        // Associa o clique de todos os botões
+        foreach (Button btn in selectionButtons)
+        {
+            btn.onClick.AddListener(() => OnSelectionButtonClicked(btn));
+        }
+    }
+
+    private void OnSelectionButtonClicked(Button clickedButton)
+    {
+        // Aqui você pode guardar qual botão foi clicado, se precisar
+        Debug.Log("Botão selecionado: " + clickedButton.name);
+
+        // Esconde o painel de seleção
+        panelSelection.SetActive(false);
+
+        // Começa o countdown
         StartCoroutine(StartCountdown());
     }
 

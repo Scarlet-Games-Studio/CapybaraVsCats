@@ -1,5 +1,0 @@
-C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/.utmp/RelWithDebInfo/503o2i4d/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/.utmp/RelWithDebInfo/503o2i4d/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/.utmp/RelWithDebInfo/503o2i4d/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
-C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/.utmp/RelWithDebInfo/503o2i4d/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
-C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/.utmp/RelWithDebInfo/503o2i4d/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
