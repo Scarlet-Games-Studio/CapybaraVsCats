@@ -1,0 +1,5 @@
+# ninja log v5
+1	157	7712703945796996	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	aefffead078970ac
+166	689	7712703950983468	C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/503o2i4d/obj/arm64-v8a/libswappywrapper.so	233ef2335baf492c
+386	3615	7712719386397155	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	aefffead078970ac
+3616	9698	7712719447422210	C:/Users/JarodPC/Documents/GitHub/CapybaraVsCats/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/503o2i4d/obj/arm64-v8a/libswappywrapper.so	233ef2335baf492c
