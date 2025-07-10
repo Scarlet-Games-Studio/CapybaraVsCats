@@ -44,7 +44,7 @@ public class EnemyProjectile : MonoBehaviour
     // Movimento do projétil na direção fixa
     void MoveProjectile()
     {
-        transform.Translate(direction * speed * Time.deltaTime, Space.World);
+        transform.Translate(direction * speed * Time.deltaTime);
     }
 
     // Detecta colisões com outros objetos

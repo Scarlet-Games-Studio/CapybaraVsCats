@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      edgeescudo04_0: -4164526444038622267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

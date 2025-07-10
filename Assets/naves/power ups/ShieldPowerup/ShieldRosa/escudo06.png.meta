@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      escudo06_0: 5739074382394795888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 1177274321659157344}
   - component: {fileID: 4841185084974090436}
   - component: {fileID: 4978765309588182707}
+  - component: {fileID: -8025392868023089035}
   - component: {fileID: 1971816861851987386}
   m_Layer: 0
   m_Name: BOSS 1
@@ -309,6 +310,18 @@ MonoBehaviour:
   animator: {fileID: 0}
   VFX: {fileID: 2345517866252222476, guid: 27edd10c8d9f5d842bbf472d62684a7b, type: 3}
   SkillShot: {fileID: 1477734201201636222, guid: 5c40c3af85ed67348aa6c0926060efa3, type: 3}
+--- !u!114 &-8025392868023089035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013112099254786447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f219b90381c937f448a87fa11d47793e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1971816861851987386
 MonoBehaviour:
   m_ObjectHideFlags: 0

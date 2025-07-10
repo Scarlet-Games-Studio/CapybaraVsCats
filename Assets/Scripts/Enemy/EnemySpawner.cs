@@ -23,6 +23,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
+        loop = true;
         if (targetCamera == null)
         {
             Debug.LogError("Nenhuma câmera vinculada! Por favor, arraste uma câmera no campo 'Target Camera' no Inspector.");
@@ -41,17 +42,22 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
+    public bool loop;
+
     IEnumerator SpawnWavesWithDelay()
     {
-        // Espera o tempo configurado antes de começar o spawn
-        yield return new WaitForSeconds(spawnDelay);
-
         // Inicia o spawn das ondas
-        foreach (var wave in waves)
+        while (loop)
         {
-            if (!canSpawn) yield break; // Para o spawn se `canSpawn` for falso
-            yield return StartCoroutine(SpawnEnemiesInWave(wave));
-            yield return new WaitForSeconds(timeBetweenWaves); // Espera entre ondas
+            // Espera o tempo configurado antes de começar o spawn
+            yield return new WaitForSeconds(spawnDelay);
+
+            foreach (var wave in waves)
+            {
+                if (!canSpawn) yield break; // Para o spawn se `canSpawn` for falso
+                yield return StartCoroutine(SpawnEnemiesInWave(wave));
+                yield return new WaitForSeconds(timeBetweenWaves); // Espera entre ondas
+            }
         }
 
     }
@@ -65,6 +71,7 @@ public class EnemySpawner : MonoBehaviour
             if (wave.boss)
             {
                 Instantiate(wave.enemyPrefab, bossSpawn.transform.position, Quaternion.identity);
+                i=0;
             }
             else
             {
