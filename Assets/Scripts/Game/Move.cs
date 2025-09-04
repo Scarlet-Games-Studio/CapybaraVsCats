@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
@@ -7,11 +8,34 @@ public class Move : MonoBehaviour
     public Transform background;
     public GameObject player;
 
-    void Start()
+    void Awake()
     {
+        // Garante que sempre reinicia o touch
         t = new Touch { fingerId = -1 };
 
-        // Garante que o player será encontrado automaticamente, caso não esteja atribuído
+        // Inscreve no evento de cena carregada
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDestroy()
+    {
+        // Remove do evento quando o objeto for destruído
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void Start()
+    {
+        FindPlayer();
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Sempre que uma cena nova for carregada, reprocura o Player
+        FindPlayer();
+    }
+
+    void FindPlayer()
+    {
         if (player == null)
         {
             player = GameObject.FindWithTag("Player");
@@ -28,11 +52,13 @@ public class Move : MonoBehaviour
             {
                 if (t.fingerId == -1)
                 {
-                    if (Input.GetTouch(a).position.x < Screen.width / 2 && Input.GetTouch(a).position.y < Screen.height / 2)
+                    if (Input.GetTouch(a).position.x < Screen.width / 2 &&
+                        Input.GetTouch(a).position.y < Screen.height / 2)
                     {
                         t = Input.GetTouch(a);
                         startPos = t.position;
-                        background.position = startPos;
+                        if (background != null)
+                            background.position = startPos;
                     }
                 }
                 else

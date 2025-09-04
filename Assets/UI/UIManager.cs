@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,9 +14,12 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
+        // Singleton
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(transform.root.gameObject); // mantém o Canvas entre cenas
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
@@ -24,14 +27,38 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Atualiza referência do scoreText ao carregar a cena
+        scoreText = GameObject.Find("ScoreText")?.GetComponent<Text>();
+
+        // Atualiza o texto do score com o valor atual
+        if (scoreText != null)
+            scoreText.text = "Score: " + score;
+    }
+
     public void UpdateScore(int points)
     {
         score += points;
-        scoreText.text = "Score: " + score;
+        if (scoreText != null)
+            scoreText.text = "Score: " + score;
     }
 
     public void UpdateHealth(int health)
     {
-        healthText.text = "  : " + health;
+        if (healthText != null)
+            healthText.text = "  : " + health; // sem alterações
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
+        if (scoreText != null)
+            scoreText.text = "Score: " + score;
     }
 }

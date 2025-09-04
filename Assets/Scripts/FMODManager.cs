@@ -3,40 +3,57 @@ using FMODUnity;
 
 public class FMODManager : MonoBehaviour
 {
+    public static FMODManager instance;
+
     [Header("Sons do Jogo")]
-    public EventReference musicEvent; // Música de fundo
-    public EventReference shootSound; // Som de tiro
-    public EventReference menuClickSound; // Som de clique de menu
+    public EventReference musicEvent;      // MÃºsica de fundo
+    public EventReference shootSound;      // Som de tiro
+    public EventReference menuClickSound;  // Som de clique de menu
 
     private FMOD.Studio.EventInstance musicInstance;
     private bool isMusicPlaying = false;
 
     // Volumes
-    private float musicVolume = 1f; // Volume da música
-    private float sfxVolume = 1f;   // Volume dos efeitos sonoros
+    private float musicVolume = 1f; 
+    private float sfxVolume = 1f;   
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
 
     void Start()
     {
-        PlayMusic(musicEvent); // Inicia a música de fundo assim que o jogo começar
+        PlayMusic(musicEvent); 
     }
 
-    // Tocar música
+    // Tocar mÃºsica (garante que nunca duplique)
     public void PlayMusic(EventReference music)
     {
-        if (isMusicPlaying) return; // Garante que a música não será tocada mais de uma vez
+        StopMusic(); // Sempre para antes de criar outra instÃ¢ncia
 
-        musicInstance = RuntimeManager.CreateInstance(music); // Cria a instância da música
-        musicInstance.start(); // Inicia a música
+        musicInstance = RuntimeManager.CreateInstance(music);
+        musicInstance.start();
         isMusicPlaying = true;
-        SetVolume("music", musicVolume); // Aplica o volume da música
+        SetVolume("music", musicVolume);
     }
 
-    // Parar a música
+    // Parar mÃºsica
     public void StopMusic()
     {
         if (isMusicPlaying)
         {
             musicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            musicInstance.release(); // libera instÃ¢ncia para evitar vazamentos
             isMusicPlaying = false;
         }
     }
@@ -44,25 +61,25 @@ public class FMODManager : MonoBehaviour
     // Tocar efeito sonoro
     public void PlaySoundEffect(EventReference sound)
     {
-        RuntimeManager.PlayOneShot(sound); // Toca o efeito sonoro
+        RuntimeManager.PlayOneShot(sound);
     }
 
-    // Ajusta o volume do áudio (música ou efeito sonoro)
+    // Ajustar volume
     public void SetVolume(string type, float volume)
     {
         if (type == "music")
         {
             musicVolume = volume;
-            musicInstance.setVolume(volume); // Altera o volume da música
+            if (isMusicPlaying)
+                musicInstance.setVolume(volume);
         }
         else if (type == "sfx")
         {
             sfxVolume = volume;
-            // Aqui você pode colocar lógica para alterar o volume dos efeitos sonoros, se necessário
         }
     }
 
-    // Função para tocar o som de clique de menu
+    // Clique de menu
     public void PlayMenuClickSound()
     {
         PlaySoundEffect(menuClickSound);
