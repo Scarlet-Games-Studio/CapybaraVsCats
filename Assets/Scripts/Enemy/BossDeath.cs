@@ -6,9 +6,6 @@ public class BossDeath : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (CompareTag("Boss") && stageManager != null)
-        {
-            stageManager.OnStageComplete();
-        }
+       
     }
 }
