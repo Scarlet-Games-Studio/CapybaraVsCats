@@ -23,7 +23,6 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        loop = true;
         if (targetCamera == null)
         {
             Debug.LogError("Nenhuma câmera vinculada! Por favor, arraste uma câmera no campo 'Target Camera' no Inspector.");
@@ -42,13 +41,8 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
-    public bool loop;
-
     IEnumerator SpawnWavesWithDelay()
     {
-        // Inicia o spawn das ondas
-        while (loop)
-        {
             // Espera o tempo configurado antes de começar o spawn
             yield return new WaitForSeconds(spawnDelay);
 
@@ -58,7 +52,6 @@ public class EnemySpawner : MonoBehaviour
                 yield return StartCoroutine(SpawnEnemiesInWave(wave));
                 yield return new WaitForSeconds(timeBetweenWaves); // Espera entre ondas
             }
-        }
 
     }
 
