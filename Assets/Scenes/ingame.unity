@@ -6503,6 +6503,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &676353117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
+  m_PrefabInstance: {fileID: 3326186751523522644}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &681377337
 GameObject:
   m_ObjectHideFlags: 0
@@ -11235,7 +11240,7 @@ MonoBehaviour:
     enemyCount: 2
     spawnInterval: 1.5
     boss: 0
-  - enemyPrefab: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
+  - enemyPrefab: {fileID: 676353117}
     enemyCount: 1
     spawnInterval: 1.5
     boss: 1
@@ -11244,7 +11249,6 @@ MonoBehaviour:
   spawnDelay: 15
   canSpawn: 1
   bossSpawn: {fileID: 82974332}
-  loop: 0
 --- !u!4 &1246962848
 Transform:
   m_ObjectHideFlags: 0
@@ -12710,10 +12714,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 382621102211160036}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: -2158, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1483286442
 GameObject:
@@ -12829,7 +12833,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1820, y: -980}
+  m_SizeDelta: {x: -2093.3462, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510293277
 MonoBehaviour:
@@ -16694,6 +16698,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2662762861137003974, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
+      propertyPath: nextStage
+      value: 
+      objectReference: {fileID: 1510293275}
     - target: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
       propertyPath: m_Name
       value: BossContainer

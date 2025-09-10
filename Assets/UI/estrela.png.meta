@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      estrela_0: 5859980675199381528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
