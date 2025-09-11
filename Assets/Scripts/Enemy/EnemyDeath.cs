@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class EnemyDeath : MonoBehaviour
 {
-    [SerializeField] private GameObject nextStage;
-
+    [SerializeField] private StageManager stageManager;
     private void OnDestroy()
     {
         if (CompareTag("Enemy"))
@@ -14,9 +13,8 @@ public class EnemyDeath : MonoBehaviour
         if (CompareTag("Boss"))
         {
             ScoreManager.AddScore(1500);
-            nextStage.SetActive(true);
-            Time.timeScale = 0f;
+            stageManager.OnStageComplete();
         }
-
     }
+
 }

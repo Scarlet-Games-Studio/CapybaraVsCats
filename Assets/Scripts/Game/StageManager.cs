@@ -14,7 +14,7 @@ public class StageManager : MonoBehaviour
     public string nextSceneName;
 
     [Header("Configurações da Fase")]
-    public int maxScore = 10000; // score máximo possível da fase
+    public int maxScore = 8000; // score máximo possível da fase
 
     private void Start()
     {
@@ -30,6 +30,11 @@ public class StageManager : MonoBehaviour
             ProgressManager.SaveStageScore(ScoreManager.score);
             SceneManager.LoadScene(nextSceneName);
         });
+    }
+
+    public void Unpause()
+    {
+        Time.timeScale = 1.0f;
     }
 
     public void OnStageComplete()
