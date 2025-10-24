@@ -1,0 +1,1 @@
+C:\Users\Jarod-PC\Documents\GitHub\CapybaraVsCats\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\3g34151u\obj\armeabi-v7a
