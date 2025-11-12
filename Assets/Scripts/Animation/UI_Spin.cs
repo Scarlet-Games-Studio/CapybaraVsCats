@@ -39,6 +39,8 @@ public class UI_Spin : MonoBehaviour
     [Header("Audios")]
     [SerializeField] private AudioClip mikaA1;
     [SerializeField] private AudioClip mikaA2;
+    [SerializeField] private AudioClip hiroA1;
+    [SerializeField] private AudioClip hiroA2;
     [SerializeField] private AudioSource source;
     private float voiceRng;
 
@@ -133,6 +135,15 @@ public class UI_Spin : MonoBehaviour
         background2.color = new Color32(127, 255, 130, 255);
         spinCircle.color = new Color32(127, 255, 130, 255);
         transitionCircle.color = new Color32(127, 255, 130, 255);
+        voiceRng = Random.Range(1, 100);
+        if (voiceRng < 50)
+        {
+            source.PlayOneShot(hiroA1);
+        }
+        else
+        {
+            source.PlayOneShot(hiroA2);
+        }
         expanding = true;
         shrinking = false;
         transitionObject.active = true;
@@ -146,6 +157,15 @@ public class UI_Spin : MonoBehaviour
         background2.color = new Color32(212, 127, 255, 255);
         spinCircle.color = new Color32(212, 127, 255, 255);
         transitionCircle.color = new Color32(212, 127, 255, 255);
+        voiceRng = Random.Range(1, 100);
+        if (voiceRng < 50)
+        {
+            source.PlayOneShot(mikaA1);
+        }
+        else
+        {
+            source.PlayOneShot(mikaA2);
+        }
         expanding = true;
         shrinking = false;
         transitionObject.active = true;
