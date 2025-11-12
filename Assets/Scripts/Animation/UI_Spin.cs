@@ -128,6 +128,7 @@ public class UI_Spin : MonoBehaviour
 
     public void ChangeColorGreen()
     {
+        PlayerManager.characterID = 1;
         StartCoroutine(timerDelay());
         background2.color = new Color32(127, 255, 130, 255);
         spinCircle.color = new Color32(127, 255, 130, 255);
@@ -140,6 +141,7 @@ public class UI_Spin : MonoBehaviour
     }
     public void ChangeColorPurple()
     {
+        PlayerManager.characterID = 3;
         StartCoroutine(timerDelay());
         background2.color = new Color32(212, 127, 255, 255);
         spinCircle.color = new Color32(212, 127, 255, 255);
@@ -152,6 +154,7 @@ public class UI_Spin : MonoBehaviour
     }
     public void ChangeColorPink()
     {
+        PlayerManager.characterID = 2;
         StartCoroutine(timerDelay());
         background2.color = new Color32(255, 127, 217, 255);
         spinCircle.color = new Color32(255, 127, 217, 255);
