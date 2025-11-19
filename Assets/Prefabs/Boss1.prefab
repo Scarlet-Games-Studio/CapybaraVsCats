@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7373700175604545675}
   m_Layer: 0
   m_Name: Boss1
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1221374092553589545}
   m_Layer: 0
   m_Name: Target2
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

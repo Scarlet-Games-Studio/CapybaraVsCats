@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2843232218569123811}
   - component: {fileID: 1056372977434149614}
   m_Layer: 0
-  m_Name: ExplosionHiro
+  m_Name: ExplosionMika
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1125533206952662661, guid: fb8ebf7fdc2a4234bb58e27797f573e6, type: 3}
+  m_Sprite: {fileID: -6917707663543434032, guid: 6eb9b99efe3b2094ea75b77827f8df6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ Animator:
   m_GameObject: {fileID: 878345067943977644}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2f41b972a6e870e4ca79ab756e44abe9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1fa74317b77af1147ac8d4a0b44a3534, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -2348,6 +2348,8 @@ MonoBehaviour:
   mikaA2: {fileID: 8300000, guid: 1c97f9f377c3fa24b8b4709b8189d457, type: 3}
   hiroA1: {fileID: 8300000, guid: e222bdfe27fd1ff46bd627ee1a038a05, type: 3}
   hiroA2: {fileID: 8300000, guid: 611e861f524ffd84486b4e03e595bf13, type: 3}
+  jackA1: {fileID: 8300000, guid: 076946afc00d8c745bd1bc68aa436a2e, type: 3}
+  jackA2: {fileID: 8300000, guid: 6e1af897336214540a27b12a7e0803a0, type: 3}
   source: {fileID: 1249840942}
   inGameSceneName: InGame
   inGameSceneName2: MainMenu
@@ -2737,6 +2739,8 @@ MonoBehaviour:
   mikaA2: {fileID: 0}
   hiroA1: {fileID: 0}
   hiroA2: {fileID: 0}
+  jackA1: {fileID: 0}
+  jackA2: {fileID: 0}
   source: {fileID: 0}
   inGameSceneName: InGame
   inGameSceneName2: InGame

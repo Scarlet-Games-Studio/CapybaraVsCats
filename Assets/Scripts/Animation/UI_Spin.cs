@@ -41,6 +41,8 @@ public class UI_Spin : MonoBehaviour
     [SerializeField] private AudioClip mikaA2;
     [SerializeField] private AudioClip hiroA1;
     [SerializeField] private AudioClip hiroA2;
+    [SerializeField] private AudioClip jackA1;
+    [SerializeField] private AudioClip jackA2;
     [SerializeField] private AudioSource source;
     private float voiceRng;
 
@@ -160,11 +162,11 @@ public class UI_Spin : MonoBehaviour
         voiceRng = Random.Range(1, 100);
         if (voiceRng < 50)
         {
-            source.PlayOneShot(mikaA1);
+            source.PlayOneShot(jackA1);
         }
         else
         {
-            source.PlayOneShot(mikaA2);
+            source.PlayOneShot(jackA2);
         }
         expanding = true;
         shrinking = false;
