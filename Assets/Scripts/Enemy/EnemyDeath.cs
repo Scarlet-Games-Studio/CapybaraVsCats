@@ -6,16 +6,23 @@ public class EnemyDeath : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (!Application.isPlaying) return;
+
         if (CompareTag("Enemy"))
         {
-            ScoreManager.AddScore(100);
+            EnemyHealth health = GetComponent<EnemyHealth>();
+            if (health == null || health.IsDead)
+                ScoreManager.AddScore(100);
         }
 
         if (CompareTag("Boss"))
         {
             ScoreManager.AddScore(1500);
-            nextStage.SetActive(true);
-            Time.timeScale = 0f;
+            if (nextStage != null)
+            {
+                nextStage.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
 
     }

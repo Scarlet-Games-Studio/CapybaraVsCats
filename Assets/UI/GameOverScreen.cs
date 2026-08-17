@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameOverScreen : MonoBehaviour
 {
     public GameObject gameOverUI;       // Painel de Game Over
     public GameObject interfacePanel;   // UI normal do jogo
     public Button exitButton;
+    public Button restartButton;
+    public TMP_Text finalScoreText;
 
     void Start()
     {
@@ -20,6 +23,9 @@ public class GameOverScreen : MonoBehaviour
 
         if (exitButton != null)
             exitButton.onClick.AddListener(ExitInGame);
+
+        if (restartButton != null)
+            restartButton.onClick.AddListener(RestartGame);
     }
 
     public void ShowGameOverScreen()
@@ -29,6 +35,9 @@ public class GameOverScreen : MonoBehaviour
 
         if (interfacePanel != null)
             interfacePanel.SetActive(false); // Esconde a interface normal
+
+        if (finalScoreText != null)
+            finalScoreText.text = "SCORE  " + ScoreManager.score.ToString("N0");
 
         Time.timeScale = 0f; // Pausa o jogo
     }

@@ -58,8 +58,6 @@ public class EnemyAI : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log($"Colidiu com: {collision.gameObject.name}"); // Log do objeto que colidiu
-
         if (collision.gameObject.CompareTag("Player"))
         {
             // Causa dano ao jogador se ele colidir com o inimigo
@@ -72,8 +70,6 @@ public class EnemyAI : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("PlayerProjectile"))
         {
-            Debug.Log("Projétil do jogador detectado!");
-            
             // Aplica dano ao inimigo
             if (enemyHealth != null)
             {

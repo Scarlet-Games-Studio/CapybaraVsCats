@@ -20,6 +20,10 @@ public class EnemySpawner : MonoBehaviour
     public bool canSpawn = true;         // Controle para ativar/desativar o spawn
     private float screenLeft, screenRight, screenTop; // Limites da câmera
     public Transform bossSpawn;
+    [Header("Mixed kamikaze spawn")]
+    [SerializeField] GameObject kamikazePrefab;
+    [SerializeField, Range(0f, 1f)] float kamikazeChance = 0.3f;
+    [SerializeField] float kamikazeHorizontalOffset = 0.7f;
 
     void Start()
     {
@@ -63,8 +67,13 @@ public class EnemySpawner : MonoBehaviour
             if (!canSpawn) yield break; // Interrompe o spawn se necessário
             if (wave.boss)
             {
-                Instantiate(wave.enemyPrefab, bossSpawn.transform.position, Quaternion.identity);
-                i=0;
+                if (bossSpawn == null)
+                {
+                    Debug.LogError("Boss Spawn não está configurado no EnemySpawner.", this);
+                    yield break;
+                }
+
+                Instantiate(wave.enemyPrefab, bossSpawn.position, Quaternion.identity);
             }
             else
             {
@@ -75,6 +84,14 @@ public class EnemySpawner : MonoBehaviour
 
                 // Instancia o inimigo
                 Instantiate(wave.enemyPrefab, spawnPosition, Quaternion.identity);
+
+                // O Gatoball entra junto da formação normal, sem substituir o inimigo da onda.
+                if (kamikazePrefab != null && wave.enemyPrefab != kamikazePrefab && Random.value <= kamikazeChance)
+                {
+                    float side = Random.value < 0.5f ? -1f : 1f;
+                    float kamikazeX = Mathf.Clamp(spawnX + side * kamikazeHorizontalOffset, screenLeft, screenRight);
+                    Instantiate(kamikazePrefab, new Vector2(kamikazeX, spawnY), Quaternion.identity);
+                }
             }
 
             yield return new WaitForSeconds(wave.spawnInterval); // Intervalo entre inimigos

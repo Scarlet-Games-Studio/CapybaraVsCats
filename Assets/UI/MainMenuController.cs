@@ -10,6 +10,9 @@ public class MainMenuController : MonoBehaviour
     public Button settingsButton; // Botão Settings
     public Button creditsButton; // Botão Credits
     public Button exitButton; // Botão Exit
+    public Button lobbyButton;
+    public Button mapButton;
+    public GameObject returningPlayerButtons;
 
     public GameObject settingsPanel; // Painel de Configurações
     public Button closeSettingsButton; // Botão para fechar o painel Settings
@@ -28,6 +31,12 @@ public class MainMenuController : MonoBehaviour
         mainMenuButtons.Add(settingsButton);
         mainMenuButtons.Add(creditsButton);
         mainMenuButtons.Add(exitButton);
+        mainMenuButtons.Add(lobbyButton);
+        mainMenuButtons.Add(mapButton);
+
+        bool returningPlayer = ProgressManager.HasPlayedBefore();
+        if (returningPlayerButtons != null)
+            returningPlayerButtons.SetActive(returningPlayer);
 
         // Configura os listeners dos botões principais
         if (startButton != null)
@@ -42,6 +51,12 @@ public class MainMenuController : MonoBehaviour
         if (exitButton != null)
             exitButton.onClick.AddListener(() => ExitGame());
 
+        if (lobbyButton != null)
+            lobbyButton.onClick.AddListener(() => LoadScene("Lobby"));
+
+        if (mapButton != null)
+            mapButton.onClick.AddListener(() => LoadScene("Map"));
+
         // Configura os listeners dos botões de fechar
         if (closeSettingsButton != null)
             closeSettingsButton.onClick.AddListener(() => ClosePanel(settingsPanel, closeSettingsButton));
@@ -53,7 +68,15 @@ public class MainMenuController : MonoBehaviour
     // Carrega a cena do jogo
     void StartGame()
     {
+        PlayerPrefs.SetInt("HasPlayed", 1);
+        PlayerPrefs.Save();
         SceneManager.LoadScene(inGameSceneName);
+    }
+
+    void LoadScene(string sceneName)
+    {
+        if (Application.CanStreamedLevelBeLoaded(sceneName)) SceneManager.LoadScene(sceneName);
+        else Debug.LogError($"Cena '{sceneName}' não está habilitada no Build Settings.");
     }
 
     // Abre um painel e mostra o botão de fechar correspondente
@@ -105,5 +128,7 @@ public class MainMenuController : MonoBehaviour
                 button.gameObject.SetActive(isActive); // Ativa ou desativa o GameObject do botão
             }
         }
+        if (returningPlayerButtons != null)
+            returningPlayerButtons.SetActive(isActive && ProgressManager.HasPlayedBefore());
     }
 }

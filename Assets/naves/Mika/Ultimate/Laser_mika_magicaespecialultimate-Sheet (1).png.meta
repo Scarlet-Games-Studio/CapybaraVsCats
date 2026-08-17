@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 97f881e42e7b2fb4db3f4c7e8a810de3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2507749490044063103
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_0
+  - first:
+      213: -4296532655851397369
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_1
+  - first:
+      213: -5655287492822372249
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_2
+  - first:
+      213: -8714477640011217896
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_3
+  - first:
+      213: -282563339516380031
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_4
+  - first:
+      213: 2498413897170296038
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_5
+  - first:
+      213: -6237172611382921856
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_6
+  - first:
+      213: 4016678946541377638
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_7
+  - first:
+      213: -8493645155589098134
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_8
+  - first:
+      213: 3758677368604065757
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_9
+  - first:
+      213: -8354579853278376871
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_10
+  - first:
+      213: -2478008731010261409
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_11
+  - first:
+      213: -519419899611072564
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_12
+  - first:
+      213: 5399298338575660793
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_13
+  - first:
+      213: 9149739158490326100
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_14
+  - first:
+      213: 3218413879680380241
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_15
+  - first:
+      213: 4080804284254324348
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_16
+  - first:
+      213: 7116061513936828227
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_17
+  - first:
+      213: 3910152923886755074
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_18
+  - first:
+      213: 1236946496664840099
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_19
+  - first:
+      213: -6968027428668078104
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_20
+  - first:
+      213: 1709616324708191568
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_21
+  - first:
+      213: 2429685687247476992
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_22
+  - first:
+      213: 8446969024547385754
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_23
+  - first:
+      213: -1994517886938880476
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_24
+  - first:
+      213: -5820896656916713055
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_25
+  - first:
+      213: -7938052794493958201
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_26
+  - first:
+      213: -4528627896248681581
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_27
+  - first:
+      213: -6263681023362685352
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_28
+  - first:
+      213: 2708373847243082282
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_29
+  - first:
+      213: 8861666987581904338
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_30
+  - first:
+      213: -4574161312817298891
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_31
+  - first:
+      213: -7449856995984998840
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_32
+  - first:
+      213: 4055177461594402987
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_33
+  - first:
+      213: 1686207561206164123
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_34
+  - first:
+      213: 31049971808152811
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_35
+  - first:
+      213: 2526191221993703163
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_36
+  - first:
+      213: 6490295241848329783
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_37
+  - first:
+      213: 4461948607618890723
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_38
+  - first:
+      213: 8129009098005871351
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_39
+  - first:
+      213: -7318084268723562594
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_40
+  - first:
+      213: 5941170703550096076
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_41
+  - first:
+      213: 1091730608552781869
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_42
+  - first:
+      213: -6834611096948862457
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_43
+  - first:
+      213: -2078697756153083678
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_44
+  - first:
+      213: -4774333718856860471
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_45
+  - first:
+      213: 3893948390593417875
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_46
+  - first:
+      213: -5939141185323417315
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_47
+  - first:
+      213: 1640586629221519380
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_48
+  - first:
+      213: -4931917362310221976
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_49
+  - first:
+      213: 2884832060324862737
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_50
+  - first:
+      213: 4096100420582630492
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_51
+  - first:
+      213: -1509252759282119415
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_52
+  - first:
+      213: 1364774612299702711
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_53
+  - first:
+      213: 9048028435777967884
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_54
+  - first:
+      213: 5172007530504854288
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_55
+  - first:
+      213: 4949241418024585369
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_56
+  - first:
+      213: -2822151784692827616
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_57
+  - first:
+      213: 4557101343071347227
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_58
+  - first:
+      213: -777987235654958528
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_59
+  - first:
+      213: 879635187589359077
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_60
+  - first:
+      213: 7157646444850701447
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_61
+  - first:
+      213: -1818428290549983285
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_62
+  - first:
+      213: -4269100801227463985
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_63
+  - first:
+      213: -6213242472734264213
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_64
+  - first:
+      213: 1542748630889712970
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_65
+  - first:
+      213: -6448577580122340698
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_66
+  - first:
+      213: -8720361456139058139
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_67
+  - first:
+      213: 2442910421068681349
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_68
+  - first:
+      213: -4914569742667906193
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_69
+  - first:
+      213: -3354096965210045354
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_70
+  - first:
+      213: -1458836654169069225
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_71
+  - first:
+      213: -6429652244862831142
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_72
+  - first:
+      213: -174271777017372973
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_73
+  - first:
+      213: 4177700365521278313
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_74
+  - first:
+      213: 9099218892579022676
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_75
+  - first:
+      213: -8870834704420742792
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_76
+  - first:
+      213: -2740319508465399836
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_77
+  - first:
+      213: 3188661592464456774
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_78
+  - first:
+      213: -1028974865243842330
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_79
+  - first:
+      213: -4459680409717070879
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_80
+  - first:
+      213: -8364838925809665466
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_81
+  - first:
+      213: 1768069558777933801
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_82
+  - first:
+      213: -1639312219622557090
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_83
+  - first:
+      213: 2438132573780972137
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_84
+  - first:
+      213: -8244837756506829719
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_85
+  - first:
+      213: 8842781708161295676
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_86
+  - first:
+      213: -8135982012627980307
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_87
+  - first:
+      213: -4677502495544972738
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_88
+  - first:
+      213: 424628045172092567
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_89
+  - first:
+      213: 4910883820516653424
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_90
+  - first:
+      213: 4121267593111402965
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_91
+  - first:
+      213: -9196341307887829365
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_92
+  - first:
+      213: 4244929670435163958
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_93
+  - first:
+      213: -6530009107643521894
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_94
+  - first:
+      213: -2801250201952028957
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_95
+  - first:
+      213: 1752066830684605854
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_96
+  - first:
+      213: -1239039777784448353
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_97
+  - first:
+      213: 1435915426933250316
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_98
+  - first:
+      213: -7274292862499459724
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_99
+  - first:
+      213: -6080708871810280883
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_100
+  - first:
+      213: -7199723766501992564
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_101
+  - first:
+      213: 5247308109157639847
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_102
+  - first:
+      213: 1179992684514827807
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_103
+  - first:
+      213: 5387891991276915648
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_104
+  - first:
+      213: 7932591040795635351
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_105
+  - first:
+      213: -1552501019171092982
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_106
+  - first:
+      213: -2730508635519060683
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_107
+  - first:
+      213: -7163099478213837818
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_108
+  - first:
+      213: -5816419244553480444
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_109
+  - first:
+      213: -4780392810584478861
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_110
+  - first:
+      213: -5589206063895504776
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_111
+  - first:
+      213: -3206678600434084577
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_112
+  - first:
+      213: -6670988279854692133
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_113
+  - first:
+      213: 3173101379359978667
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_114
+  - first:
+      213: 11252335367342565
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_115
+  - first:
+      213: 6524235380577393425
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_116
+  - first:
+      213: 5406138855905208658
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_117
+  - first:
+      213: 8075676862461813095
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_118
+  - first:
+      213: 4496792762158412310
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_119
+  - first:
+      213: 1854818819616617663
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_120
+  - first:
+      213: 6761704407876907347
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_121
+  - first:
+      213: 1283394077556958051
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_122
+  - first:
+      213: 7588359505257863389
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_123
+  - first:
+      213: 5488588285549638650
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_124
+  - first:
+      213: -4243039098919299518
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_125
+  - first:
+      213: 8693807795133990643
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_126
+  - first:
+      213: 6538145976127238876
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_127
+  - first:
+      213: -7306356228871305706
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_128
+  - first:
+      213: 5661852783182665420
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_129
+  - first:
+      213: 4157251131718026893
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_130
+  - first:
+      213: 5492317537390302558
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_131
+  - first:
+      213: 2966763965492441572
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_132
+  - first:
+      213: 1200838601234550645
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_133
+  - first:
+      213: 5124282567772894015
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_134
+  - first:
+      213: 4595058976844562731
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_135
+  - first:
+      213: -6104458414968742156
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_136
+  - first:
+      213: 2940200966058358047
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_137
+  - first:
+      213: 6763267556003290118
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_138
+  - first:
+      213: -4552729533780818455
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_139
+  - first:
+      213: -2538732219515372385
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_140
+  - first:
+      213: 4819647544937905906
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_141
+  - first:
+      213: 4530687050635033280
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_142
+  - first:
+      213: -1228340231708271429
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_143
+  - first:
+      213: -2617308086194126862
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_144
+  - first:
+      213: -2965653401797144496
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_145
+  - first:
+      213: 2302914885245884664
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_146
+  - first:
+      213: -5089779935191533206
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_147
+  - first:
+      213: 1918101933340009561
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_148
+  - first:
+      213: -3597560106943883237
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_149
+  - first:
+      213: -1057002867245542173
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_150
+  - first:
+      213: -6178481507469210589
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_151
+  - first:
+      213: -4558130231420085082
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_152
+  - first:
+      213: 1766054402325526012
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_153
+  - first:
+      213: -2878689177241867851
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_154
+  - first:
+      213: -2414647337122847096
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_155
+  - first:
+      213: 1400981984464448476
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_156
+  - first:
+      213: -2583764443751831644
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_157
+  - first:
+      213: -6163233772086858980
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_158
+  - first:
+      213: 3840642376396696578
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_159
+  - first:
+      213: 360972917497128513
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_160
+  - first:
+      213: -3039420977568898317
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_161
+  - first:
+      213: -3541901459577271100
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_162
+  - first:
+      213: -7969249986367087799
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_163
+  - first:
+      213: 8117255747438584572
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_164
+  - first:
+      213: 1502611491501968212
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_165
+  - first:
+      213: 3585750733422235071
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_166
+  - first:
+      213: -3957948467910080155
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_167
+  - first:
+      213: -482305875396829664
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_168
+  - first:
+      213: -6072702446681462850
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_169
+  - first:
+      213: 2579974375917297799
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_170
+  - first:
+      213: 5500784617540287410
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_171
+  - first:
+      213: -2019945027367106153
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_172
+  - first:
+      213: -7514969828391490172
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_173
+  - first:
+      213: 1220073917360967818
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_174
+  - first:
+      213: 5756120735246852024
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_175
+  - first:
+      213: 3938212960894397670
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_176
+  - first:
+      213: 3034505685601583274
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_177
+  - first:
+      213: -5516902851645565763
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_178
+  - first:
+      213: -5585304805421919326
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_179
+  - first:
+      213: 6558601154950500109
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_180
+  - first:
+      213: 6173520808976162192
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_181
+  - first:
+      213: -8661656680931608422
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_182
+  - first:
+      213: 1498622523529184631
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_183
+  - first:
+      213: 3887844665331368076
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_184
+  - first:
+      213: 7964066873617546683
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_185
+  - first:
+      213: 5095540598394053253
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_186
+  - first:
+      213: 7926355575422429819
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_187
+  - first:
+      213: 2456025709908745914
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_188
+  - first:
+      213: -5295062276116669591
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_189
+  - first:
+      213: 8678131589137370994
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_190
+  - first:
+      213: -6495615473356924838
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_191
+  - first:
+      213: -530638166580960145
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_192
+  - first:
+      213: -7532663097706461972
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_193
+  - first:
+      213: -7220846581370106564
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_194
+  - first:
+      213: 4626981336014143736
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_195
+  - first:
+      213: -6214612857653685211
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_196
+  - first:
+      213: -2607677904414831873
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_197
+  - first:
+      213: -4520613667056699164
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_198
+  - first:
+      213: 193395923715214402
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_199
+  - first:
+      213: -3263298325952961714
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_200
+  - first:
+      213: -7624044846876466701
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_201
+  - first:
+      213: 5970432113660794207
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_202
+  - first:
+      213: -1312760500994344316
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_203
+  - first:
+      213: -7515909893877442840
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_204
+  - first:
+      213: -2943695619382156876
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_205
+  - first:
+      213: -3164669188995710274
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_206
+  - first:
+      213: 1589640620862403779
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_207
+  - first:
+      213: 3857164671425447046
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_208
+  - first:
+      213: -1404937874737248241
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_209
+  - first:
+      213: -2731538397862804825
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_210
+  - first:
+      213: -3130966087209694125
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_211
+  - first:
+      213: -3016717879552861680
+    second: Laser_mika_magicaespecialultimate-Sheet (1)_212
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MikaLaser_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 672
+        height: 1578
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb5dab43f0fea443bb8f0428217a1f6
+      internalID: -306201646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_01
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 376
+        width: 672
+        height: 1576
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b330963f3250ae4aa82fe1d6b9e0830
+      internalID: 1562432235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_02
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 378
+        width: 663
+        height: 1574
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1342e8d4f02bd5843a6e86addedc99c4
+      internalID: 1904319160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_03
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 377
+        width: 667
+        height: 1575
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce846fb1990076429a9be0ecba48f3c
+      internalID: 1510158597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_04
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 372
+        width: 679
+        height: 1580
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217a614e977bc894aa78a11cf57455ce
+      internalID: -126059418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_05
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 371
+        width: 672
+        height: 1581
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8d7178c33f944bb9677796a3bd414
+      internalID: 1481000705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_06
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 377
+        width: 678
+        height: 1575
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062442f2c2966c14b9248ce44a9302ac
+      internalID: -1148601281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_07
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 377
+        width: 672
+        height: 1575
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5505d7f41d1f88e448018bab1355cfd3
+      internalID: -1462764667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_08
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 377
+        width: 672
+        height: 1575
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980665f3b3d4c44a8bf194fa40f3c5f
+      internalID: 1197479631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_09
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 374
+        width: 672
+        height: 1578
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69421862e1d4624497b3c30df371d0f
+      internalID: 408932034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_10
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545487465e40654499a55a5360fb3256
+      internalID: 1324700719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_11
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d1ffa25ef74b42af5bccf6567938a
+      internalID: -613426721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_12
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f5b872921255640bb9a897a8d37403
+      internalID: 24383191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_13
+      rect:
+        serializedVersion: 2
+        x: 8736
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89cea40e719ce6449ddfd0deaabc40a
+      internalID: 485256251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_14
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43499ff97c518f947aa6e134d705f2f8
+      internalID: 31923677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_15
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd107dbfb93e8504fa504ece6a8df59a
+      internalID: 19414194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_16
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dfc7bd66425a149b428bf63d050665
+      internalID: -933280423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_17
+      rect:
+        serializedVersion: 2
+        x: 11424
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068e59b52e5db3a4cbc1e6cefd05e53a
+      internalID: -863877711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_18
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec812f376ca054ab07a259a928fbef
+      internalID: -610038240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_19
+      rect:
+        serializedVersion: 2
+        x: 12768
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713259b8ed632549804b2b05aaa7777
+      internalID: 813983260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_20
+      rect:
+        serializedVersion: 2
+        x: 13440
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5cace9f664d644480f44fd57eea233
+      internalID: 33273834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_21
+      rect:
+        serializedVersion: 2
+        x: 14112
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dd474f7e10c294b8b64407489de14f
+      internalID: 401168543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_22
+      rect:
+        serializedVersion: 2
+        x: 14784
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3adb98af88714e9e66edf045e6c88
+      internalID: 1211344868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_23
+      rect:
+        serializedVersion: 2
+        x: 15456
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd41c2ae33b5942a011f5a1110e868
+      internalID: -1045047967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_24
+      rect:
+        serializedVersion: 2
+        x: 16128
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a58a3070e4924e99121149b9d874d
+      internalID: -1369089394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_25
+      rect:
+        serializedVersion: 2
+        x: 16800
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02d7633f5184d342a2ceeab45e44f76
+      internalID: -1522001374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_26
+      rect:
+        serializedVersion: 2
+        x: 17472
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb617321c8c3c49b3aba708e525ae8
+      internalID: 1298065001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_27
+      rect:
+        serializedVersion: 2
+        x: 18144
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ca0d73a743a8479b30a2ba285dc85
+      internalID: -722333332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_28
+      rect:
+        serializedVersion: 2
+        x: 18816
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf385d011e20b704985ab7cbef2b3a74
+      internalID: -1056883010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_29
+      rect:
+        serializedVersion: 2
+        x: 19488
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317235fadef73584fad4c108e8097fe8
+      internalID: -166902441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_30
+      rect:
+        serializedVersion: 2
+        x: 20160
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b1875d789086d4a8236e9644998bde
+      internalID: -1360142738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_31
+      rect:
+        serializedVersion: 2
+        x: 20832
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2125497cb0feffa46be7627eae6890ef
+      internalID: 186158069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_32
+      rect:
+        serializedVersion: 2
+        x: 21504
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed491e7b908f3e419880ad639fd1b7b
+      internalID: -1745139638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_33
+      rect:
+        serializedVersion: 2
+        x: 22176
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5497f67aaec5e4ebe12929ec22bb88
+      internalID: 649714549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_34
+      rect:
+        serializedVersion: 2
+        x: 22848
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29612ac6371895b48bec6212ed676226
+      internalID: 146631687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_35
+      rect:
+        serializedVersion: 2
+        x: 23520
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d85ee45ff30f9f4a99401d483345adf
+      internalID: -1039134632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_36
+      rect:
+        serializedVersion: 2
+        x: 24192
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f766f169c3d663a41bc4060b1999b9a1
+      internalID: 384652699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_37
+      rect:
+        serializedVersion: 2
+        x: 24864
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e999b4311fc604c45a274bb45c6984cf
+      internalID: 2117592595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_38
+      rect:
+        serializedVersion: 2
+        x: 25536
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690c4d43f473494aa57f1c905b99135
+      internalID: -1869656994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaLaser_39
+      rect:
+        serializedVersion: 2
+        x: 26208
+        y: 0
+        width: 672
+        height: 1952
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00c7f1e125e27940aef696aa97aa6fa
+      internalID: -1298093596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0abba96b9f10f3d4285ebba2e23fafaa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Laser_mika_magicaespecialultimate-Sheet (1)_0: 2507749490044063103
+      Laser_mika_magicaespecialultimate-Sheet (1)_1: -4296532655851397369
+      Laser_mika_magicaespecialultimate-Sheet (1)_10: -8354579853278376871
+      Laser_mika_magicaespecialultimate-Sheet (1)_100: -6080708871810280883
+      Laser_mika_magicaespecialultimate-Sheet (1)_101: -7199723766501992564
+      Laser_mika_magicaespecialultimate-Sheet (1)_102: 5247308109157639847
+      Laser_mika_magicaespecialultimate-Sheet (1)_103: 1179992684514827807
+      Laser_mika_magicaespecialultimate-Sheet (1)_104: 5387891991276915648
+      Laser_mika_magicaespecialultimate-Sheet (1)_105: 7932591040795635351
+      Laser_mika_magicaespecialultimate-Sheet (1)_106: -1552501019171092982
+      Laser_mika_magicaespecialultimate-Sheet (1)_107: -2730508635519060683
+      Laser_mika_magicaespecialultimate-Sheet (1)_108: -7163099478213837818
+      Laser_mika_magicaespecialultimate-Sheet (1)_109: -5816419244553480444
+      Laser_mika_magicaespecialultimate-Sheet (1)_11: -2478008731010261409
+      Laser_mika_magicaespecialultimate-Sheet (1)_110: -4780392810584478861
+      Laser_mika_magicaespecialultimate-Sheet (1)_111: -5589206063895504776
+      Laser_mika_magicaespecialultimate-Sheet (1)_112: -3206678600434084577
+      Laser_mika_magicaespecialultimate-Sheet (1)_113: -6670988279854692133
+      Laser_mika_magicaespecialultimate-Sheet (1)_114: 3173101379359978667
+      Laser_mika_magicaespecialultimate-Sheet (1)_115: 11252335367342565
+      Laser_mika_magicaespecialultimate-Sheet (1)_116: 6524235380577393425
+      Laser_mika_magicaespecialultimate-Sheet (1)_117: 5406138855905208658
+      Laser_mika_magicaespecialultimate-Sheet (1)_118: 8075676862461813095
+      Laser_mika_magicaespecialultimate-Sheet (1)_119: 4496792762158412310
+      Laser_mika_magicaespecialultimate-Sheet (1)_12: -519419899611072564
+      Laser_mika_magicaespecialultimate-Sheet (1)_120: 1854818819616617663
+      Laser_mika_magicaespecialultimate-Sheet (1)_121: 6761704407876907347
+      Laser_mika_magicaespecialultimate-Sheet (1)_122: 1283394077556958051
+      Laser_mika_magicaespecialultimate-Sheet (1)_123: 7588359505257863389
+      Laser_mika_magicaespecialultimate-Sheet (1)_124: 5488588285549638650
+      Laser_mika_magicaespecialultimate-Sheet (1)_125: -4243039098919299518
+      Laser_mika_magicaespecialultimate-Sheet (1)_126: 8693807795133990643
+      Laser_mika_magicaespecialultimate-Sheet (1)_127: 6538145976127238876
+      Laser_mika_magicaespecialultimate-Sheet (1)_128: -7306356228871305706
+      Laser_mika_magicaespecialultimate-Sheet (1)_129: 5661852783182665420
+      Laser_mika_magicaespecialultimate-Sheet (1)_13: 5399298338575660793
+      Laser_mika_magicaespecialultimate-Sheet (1)_130: 4157251131718026893
+      Laser_mika_magicaespecialultimate-Sheet (1)_131: 5492317537390302558
+      Laser_mika_magicaespecialultimate-Sheet (1)_132: 2966763965492441572
+      Laser_mika_magicaespecialultimate-Sheet (1)_133: 1200838601234550645
+      Laser_mika_magicaespecialultimate-Sheet (1)_134: 5124282567772894015
+      Laser_mika_magicaespecialultimate-Sheet (1)_135: 4595058976844562731
+      Laser_mika_magicaespecialultimate-Sheet (1)_136: -6104458414968742156
+      Laser_mika_magicaespecialultimate-Sheet (1)_137: 2940200966058358047
+      Laser_mika_magicaespecialultimate-Sheet (1)_138: 6763267556003290118
+      Laser_mika_magicaespecialultimate-Sheet (1)_139: -4552729533780818455
+      Laser_mika_magicaespecialultimate-Sheet (1)_14: 9149739158490326100
+      Laser_mika_magicaespecialultimate-Sheet (1)_140: -2538732219515372385
+      Laser_mika_magicaespecialultimate-Sheet (1)_141: 4819647544937905906
+      Laser_mika_magicaespecialultimate-Sheet (1)_142: 4530687050635033280
+      Laser_mika_magicaespecialultimate-Sheet (1)_143: -1228340231708271429
+      Laser_mika_magicaespecialultimate-Sheet (1)_144: -2617308086194126862
+      Laser_mika_magicaespecialultimate-Sheet (1)_145: -2965653401797144496
+      Laser_mika_magicaespecialultimate-Sheet (1)_146: 2302914885245884664
+      Laser_mika_magicaespecialultimate-Sheet (1)_147: -5089779935191533206
+      Laser_mika_magicaespecialultimate-Sheet (1)_148: 1918101933340009561
+      Laser_mika_magicaespecialultimate-Sheet (1)_149: -3597560106943883237
+      Laser_mika_magicaespecialultimate-Sheet (1)_15: 3218413879680380241
+      Laser_mika_magicaespecialultimate-Sheet (1)_150: -1057002867245542173
+      Laser_mika_magicaespecialultimate-Sheet (1)_151: -6178481507469210589
+      Laser_mika_magicaespecialultimate-Sheet (1)_152: -4558130231420085082
+      Laser_mika_magicaespecialultimate-Sheet (1)_153: 1766054402325526012
+      Laser_mika_magicaespecialultimate-Sheet (1)_154: -2878689177241867851
+      Laser_mika_magicaespecialultimate-Sheet (1)_155: -2414647337122847096
+      Laser_mika_magicaespecialultimate-Sheet (1)_156: 1400981984464448476
+      Laser_mika_magicaespecialultimate-Sheet (1)_157: -2583764443751831644
+      Laser_mika_magicaespecialultimate-Sheet (1)_158: -6163233772086858980
+      Laser_mika_magicaespecialultimate-Sheet (1)_159: 3840642376396696578
+      Laser_mika_magicaespecialultimate-Sheet (1)_16: 4080804284254324348
+      Laser_mika_magicaespecialultimate-Sheet (1)_160: 360972917497128513
+      Laser_mika_magicaespecialultimate-Sheet (1)_161: -3039420977568898317
+      Laser_mika_magicaespecialultimate-Sheet (1)_162: -3541901459577271100
+      Laser_mika_magicaespecialultimate-Sheet (1)_163: -7969249986367087799
+      Laser_mika_magicaespecialultimate-Sheet (1)_164: 8117255747438584572
+      Laser_mika_magicaespecialultimate-Sheet (1)_165: 1502611491501968212
+      Laser_mika_magicaespecialultimate-Sheet (1)_166: 3585750733422235071
+      Laser_mika_magicaespecialultimate-Sheet (1)_167: -3957948467910080155
+      Laser_mika_magicaespecialultimate-Sheet (1)_168: -482305875396829664
+      Laser_mika_magicaespecialultimate-Sheet (1)_169: -6072702446681462850
+      Laser_mika_magicaespecialultimate-Sheet (1)_17: 7116061513936828227
+      Laser_mika_magicaespecialultimate-Sheet (1)_170: 2579974375917297799
+      Laser_mika_magicaespecialultimate-Sheet (1)_171: 5500784617540287410
+      Laser_mika_magicaespecialultimate-Sheet (1)_172: -2019945027367106153
+      Laser_mika_magicaespecialultimate-Sheet (1)_173: -7514969828391490172
+      Laser_mika_magicaespecialultimate-Sheet (1)_174: 1220073917360967818
+      Laser_mika_magicaespecialultimate-Sheet (1)_175: 5756120735246852024
+      Laser_mika_magicaespecialultimate-Sheet (1)_176: 3938212960894397670
+      Laser_mika_magicaespecialultimate-Sheet (1)_177: 3034505685601583274
+      Laser_mika_magicaespecialultimate-Sheet (1)_178: -5516902851645565763
+      Laser_mika_magicaespecialultimate-Sheet (1)_179: -5585304805421919326
+      Laser_mika_magicaespecialultimate-Sheet (1)_18: 3910152923886755074
+      Laser_mika_magicaespecialultimate-Sheet (1)_180: 6558601154950500109
+      Laser_mika_magicaespecialultimate-Sheet (1)_181: 6173520808976162192
+      Laser_mika_magicaespecialultimate-Sheet (1)_182: -8661656680931608422
+      Laser_mika_magicaespecialultimate-Sheet (1)_183: 1498622523529184631
+      Laser_mika_magicaespecialultimate-Sheet (1)_184: 3887844665331368076
+      Laser_mika_magicaespecialultimate-Sheet (1)_185: 7964066873617546683
+      Laser_mika_magicaespecialultimate-Sheet (1)_186: 5095540598394053253
+      Laser_mika_magicaespecialultimate-Sheet (1)_187: 7926355575422429819
+      Laser_mika_magicaespecialultimate-Sheet (1)_188: 2456025709908745914
+      Laser_mika_magicaespecialultimate-Sheet (1)_189: -5295062276116669591
+      Laser_mika_magicaespecialultimate-Sheet (1)_19: 1236946496664840099
+      Laser_mika_magicaespecialultimate-Sheet (1)_190: 8678131589137370994
+      Laser_mika_magicaespecialultimate-Sheet (1)_191: -6495615473356924838
+      Laser_mika_magicaespecialultimate-Sheet (1)_192: -530638166580960145
+      Laser_mika_magicaespecialultimate-Sheet (1)_193: -7532663097706461972
+      Laser_mika_magicaespecialultimate-Sheet (1)_194: -7220846581370106564
+      Laser_mika_magicaespecialultimate-Sheet (1)_195: 4626981336014143736
+      Laser_mika_magicaespecialultimate-Sheet (1)_196: -6214612857653685211
+      Laser_mika_magicaespecialultimate-Sheet (1)_197: -2607677904414831873
+      Laser_mika_magicaespecialultimate-Sheet (1)_198: -4520613667056699164
+      Laser_mika_magicaespecialultimate-Sheet (1)_199: 193395923715214402
+      Laser_mika_magicaespecialultimate-Sheet (1)_2: -5655287492822372249
+      Laser_mika_magicaespecialultimate-Sheet (1)_20: -6968027428668078104
+      Laser_mika_magicaespecialultimate-Sheet (1)_200: -3263298325952961714
+      Laser_mika_magicaespecialultimate-Sheet (1)_201: -7624044846876466701
+      Laser_mika_magicaespecialultimate-Sheet (1)_202: 5970432113660794207
+      Laser_mika_magicaespecialultimate-Sheet (1)_203: -1312760500994344316
+      Laser_mika_magicaespecialultimate-Sheet (1)_204: -7515909893877442840
+      Laser_mika_magicaespecialultimate-Sheet (1)_205: -2943695619382156876
+      Laser_mika_magicaespecialultimate-Sheet (1)_206: -3164669188995710274
+      Laser_mika_magicaespecialultimate-Sheet (1)_207: 1589640620862403779
+      Laser_mika_magicaespecialultimate-Sheet (1)_208: 3857164671425447046
+      Laser_mika_magicaespecialultimate-Sheet (1)_209: -1404937874737248241
+      Laser_mika_magicaespecialultimate-Sheet (1)_21: 1709616324708191568
+      Laser_mika_magicaespecialultimate-Sheet (1)_210: -2731538397862804825
+      Laser_mika_magicaespecialultimate-Sheet (1)_211: -3130966087209694125
+      Laser_mika_magicaespecialultimate-Sheet (1)_212: -3016717879552861680
+      Laser_mika_magicaespecialultimate-Sheet (1)_22: 2429685687247476992
+      Laser_mika_magicaespecialultimate-Sheet (1)_23: 8446969024547385754
+      Laser_mika_magicaespecialultimate-Sheet (1)_24: -1994517886938880476
+      Laser_mika_magicaespecialultimate-Sheet (1)_25: -5820896656916713055
+      Laser_mika_magicaespecialultimate-Sheet (1)_26: -7938052794493958201
+      Laser_mika_magicaespecialultimate-Sheet (1)_27: -4528627896248681581
+      Laser_mika_magicaespecialultimate-Sheet (1)_28: -6263681023362685352
+      Laser_mika_magicaespecialultimate-Sheet (1)_29: 2708373847243082282
+      Laser_mika_magicaespecialultimate-Sheet (1)_3: -8714477640011217896
+      Laser_mika_magicaespecialultimate-Sheet (1)_30: 8861666987581904338
+      Laser_mika_magicaespecialultimate-Sheet (1)_31: -4574161312817298891
+      Laser_mika_magicaespecialultimate-Sheet (1)_32: -7449856995984998840
+      Laser_mika_magicaespecialultimate-Sheet (1)_33: 4055177461594402987
+      Laser_mika_magicaespecialultimate-Sheet (1)_34: 1686207561206164123
+      Laser_mika_magicaespecialultimate-Sheet (1)_35: 31049971808152811
+      Laser_mika_magicaespecialultimate-Sheet (1)_36: 2526191221993703163
+      Laser_mika_magicaespecialultimate-Sheet (1)_37: 6490295241848329783
+      Laser_mika_magicaespecialultimate-Sheet (1)_38: 4461948607618890723
+      Laser_mika_magicaespecialultimate-Sheet (1)_39: 8129009098005871351
+      Laser_mika_magicaespecialultimate-Sheet (1)_4: -282563339516380031
+      Laser_mika_magicaespecialultimate-Sheet (1)_40: -7318084268723562594
+      Laser_mika_magicaespecialultimate-Sheet (1)_41: 5941170703550096076
+      Laser_mika_magicaespecialultimate-Sheet (1)_42: 1091730608552781869
+      Laser_mika_magicaespecialultimate-Sheet (1)_43: -6834611096948862457
+      Laser_mika_magicaespecialultimate-Sheet (1)_44: -2078697756153083678
+      Laser_mika_magicaespecialultimate-Sheet (1)_45: -4774333718856860471
+      Laser_mika_magicaespecialultimate-Sheet (1)_46: 3893948390593417875
+      Laser_mika_magicaespecialultimate-Sheet (1)_47: -5939141185323417315
+      Laser_mika_magicaespecialultimate-Sheet (1)_48: 1640586629221519380
+      Laser_mika_magicaespecialultimate-Sheet (1)_49: -4931917362310221976
+      Laser_mika_magicaespecialultimate-Sheet (1)_5: 2498413897170296038
+      Laser_mika_magicaespecialultimate-Sheet (1)_50: 2884832060324862737
+      Laser_mika_magicaespecialultimate-Sheet (1)_51: 4096100420582630492
+      Laser_mika_magicaespecialultimate-Sheet (1)_52: -1509252759282119415
+      Laser_mika_magicaespecialultimate-Sheet (1)_53: 1364774612299702711
+      Laser_mika_magicaespecialultimate-Sheet (1)_54: 9048028435777967884
+      Laser_mika_magicaespecialultimate-Sheet (1)_55: 5172007530504854288
+      Laser_mika_magicaespecialultimate-Sheet (1)_56: 4949241418024585369
+      Laser_mika_magicaespecialultimate-Sheet (1)_57: -2822151784692827616
+      Laser_mika_magicaespecialultimate-Sheet (1)_58: 4557101343071347227
+      Laser_mika_magicaespecialultimate-Sheet (1)_59: -777987235654958528
+      Laser_mika_magicaespecialultimate-Sheet (1)_6: -6237172611382921856
+      Laser_mika_magicaespecialultimate-Sheet (1)_60: 879635187589359077
+      Laser_mika_magicaespecialultimate-Sheet (1)_61: 7157646444850701447
+      Laser_mika_magicaespecialultimate-Sheet (1)_62: -1818428290549983285
+      Laser_mika_magicaespecialultimate-Sheet (1)_63: -4269100801227463985
+      Laser_mika_magicaespecialultimate-Sheet (1)_64: -6213242472734264213
+      Laser_mika_magicaespecialultimate-Sheet (1)_65: 1542748630889712970
+      Laser_mika_magicaespecialultimate-Sheet (1)_66: -6448577580122340698
+      Laser_mika_magicaespecialultimate-Sheet (1)_67: -8720361456139058139
+      Laser_mika_magicaespecialultimate-Sheet (1)_68: 2442910421068681349
+      Laser_mika_magicaespecialultimate-Sheet (1)_69: -4914569742667906193
+      Laser_mika_magicaespecialultimate-Sheet (1)_7: 4016678946541377638
+      Laser_mika_magicaespecialultimate-Sheet (1)_70: -3354096965210045354
+      Laser_mika_magicaespecialultimate-Sheet (1)_71: -1458836654169069225
+      Laser_mika_magicaespecialultimate-Sheet (1)_72: -6429652244862831142
+      Laser_mika_magicaespecialultimate-Sheet (1)_73: -174271777017372973
+      Laser_mika_magicaespecialultimate-Sheet (1)_74: 4177700365521278313
+      Laser_mika_magicaespecialultimate-Sheet (1)_75: 9099218892579022676
+      Laser_mika_magicaespecialultimate-Sheet (1)_76: -8870834704420742792
+      Laser_mika_magicaespecialultimate-Sheet (1)_77: -2740319508465399836
+      Laser_mika_magicaespecialultimate-Sheet (1)_78: 3188661592464456774
+      Laser_mika_magicaespecialultimate-Sheet (1)_79: -1028974865243842330
+      Laser_mika_magicaespecialultimate-Sheet (1)_8: -8493645155589098134
+      Laser_mika_magicaespecialultimate-Sheet (1)_80: -4459680409717070879
+      Laser_mika_magicaespecialultimate-Sheet (1)_81: -8364838925809665466
+      Laser_mika_magicaespecialultimate-Sheet (1)_82: 1768069558777933801
+      Laser_mika_magicaespecialultimate-Sheet (1)_83: -1639312219622557090
+      Laser_mika_magicaespecialultimate-Sheet (1)_84: 2438132573780972137
+      Laser_mika_magicaespecialultimate-Sheet (1)_85: -8244837756506829719
+      Laser_mika_magicaespecialultimate-Sheet (1)_86: 8842781708161295676
+      Laser_mika_magicaespecialultimate-Sheet (1)_87: -8135982012627980307
+      Laser_mika_magicaespecialultimate-Sheet (1)_88: -4677502495544972738
+      Laser_mika_magicaespecialultimate-Sheet (1)_89: 424628045172092567
+      Laser_mika_magicaespecialultimate-Sheet (1)_9: 3758677368604065757
+      Laser_mika_magicaespecialultimate-Sheet (1)_90: 4910883820516653424
+      Laser_mika_magicaespecialultimate-Sheet (1)_91: 4121267593111402965
+      Laser_mika_magicaespecialultimate-Sheet (1)_92: -9196341307887829365
+      Laser_mika_magicaespecialultimate-Sheet (1)_93: 4244929670435163958
+      Laser_mika_magicaespecialultimate-Sheet (1)_94: -6530009107643521894
+      Laser_mika_magicaespecialultimate-Sheet (1)_95: -2801250201952028957
+      Laser_mika_magicaespecialultimate-Sheet (1)_96: 1752066830684605854
+      Laser_mika_magicaespecialultimate-Sheet (1)_97: -1239039777784448353
+      Laser_mika_magicaespecialultimate-Sheet (1)_98: 1435915426933250316
+      Laser_mika_magicaespecialultimate-Sheet (1)_99: -7274292862499459724
+      MikaLaser_00: -306201646
+      MikaLaser_01: 1562432235
+      MikaLaser_02: 1904319160
+      MikaLaser_03: 1510158597
+      MikaLaser_04: -126059418
+      MikaLaser_05: 1481000705
+      MikaLaser_06: -1148601281
+      MikaLaser_07: -1462764667
+      MikaLaser_08: 1197479631
+      MikaLaser_09: 408932034
+      MikaLaser_10: 1324700719
+      MikaLaser_11: -613426721
+      MikaLaser_12: 24383191
+      MikaLaser_13: 485256251
+      MikaLaser_14: 31923677
+      MikaLaser_15: 19414194
+      MikaLaser_16: -933280423
+      MikaLaser_17: -863877711
+      MikaLaser_18: -610038240
+      MikaLaser_19: 813983260
+      MikaLaser_20: 33273834
+      MikaLaser_21: 401168543
+      MikaLaser_22: 1211344868
+      MikaLaser_23: -1045047967
+      MikaLaser_24: -1369089394
+      MikaLaser_25: -1522001374
+      MikaLaser_26: 1298065001
+      MikaLaser_27: -722333332
+      MikaLaser_28: -1056883010
+      MikaLaser_29: -166902441
+      MikaLaser_30: -1360142738
+      MikaLaser_31: 186158069
+      MikaLaser_32: -1745139638
+      MikaLaser_33: 649714549
+      MikaLaser_34: 146631687
+      MikaLaser_35: -1039134632
+      MikaLaser_36: 384652699
+      MikaLaser_37: 2117592595
+      MikaLaser_38: -1869656994
+      MikaLaser_39: -1298093596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

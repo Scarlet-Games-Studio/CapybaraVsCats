@@ -33,20 +33,28 @@ public class UIController : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Sempre que uma cena nova for carregada, tenta encontrar o PlayerFirePoint
+        BindToCurrentPlayer();
+    }
+
+    void BindToCurrentPlayer()
+    {
         GameObject player = GameObject.FindWithTag("Player");
-        if (player != null)
-        {
-            // Assumindo que o Player tem um filho chamado "FirePoint"
-            Transform firePoint = player.transform.Find("FirePoint");
-            if (firePoint != null)
-                PlayerFirePoint = firePoint;
-        }
+        if (player == null) return;
+
+        PlayerController playerController = player.GetComponent<PlayerController>();
+        if (playerController == null) return;
+
+        PlayerFirePoint = playerController.firePoint;
+        BulletPrefab = playerController.projectilePrefab;
     }
 
     // Método chamado pelo botão de UI
     public void Fire()
     {
+        // O personagem pode ser trocado pelo CharacterSpawner depois que a cena
+        // carrega. Atualiza aqui para nunca reutilizar a arma do Hiro anterior.
+        BindToCurrentPlayer();
+
         if (BulletPrefab != null && PlayerFirePoint != null)
         {
             Instantiate(BulletPrefab, PlayerFirePoint.position, PlayerFirePoint.rotation);

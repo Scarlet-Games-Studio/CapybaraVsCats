@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 6eb9b99efe3b2094ea75b77827f8df6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6917707663543434032
+    second: Tiro_garota_magica-Sheet_0
+  - first:
+      213: 7225113372385504122
+    second: Tiro_garota_magica-Sheet_1
+  - first:
+      213: 6341696789877881467
+    second: Tiro_garota_magica-Sheet_2
+  - first:
+      213: 2767745902037924324
+    second: Tiro_garota_magica-Sheet_3
+  - first:
+      213: 5148070311214218395
+    second: Tiro_garota_magica-Sheet_4
+  - first:
+      213: 8121835024571333423
+    second: Tiro_garota_magica-Sheet_5
+  - first:
+      213: -1247478936001674004
+    second: Tiro_garota_magica-Sheet_6
+  - first:
+      213: -1193579765391727366
+    second: Tiro_garota_magica-Sheet_7
+  - first:
+      213: -6819425384596647675
+    second: Tiro_garota_magica-Sheet_8
+  - first:
+      213: -8619076644464931587
+    second: Tiro_garota_magica-Sheet_9
+  - first:
+      213: -5833533205324519999
+    second: Tiro_garota_magica-Sheet_10
+  - first:
+      213: -8028544648461109992
+    second: Tiro_garota_magica-Sheet_11
+  - first:
+      213: 8412666155808052649
+    second: Tiro_garota_magica-Sheet_12
+  - first:
+      213: 1381026764005585290
+    second: Tiro_garota_magica-Sheet_13
+  - first:
+      213: -4265138017243841914
+    second: Tiro_garota_magica-Sheet_14
+  - first:
+      213: -3840818509188915827
+    second: Tiro_garota_magica-Sheet_15
+  - first:
+      213: 3233066226596741631
+    second: Tiro_garota_magica-Sheet_16
+  - first:
+      213: -6289751412654016580
+    second: Tiro_garota_magica-Sheet_17
+  - first:
+      213: -6174369936067713830
+    second: Tiro_garota_magica-Sheet_18
+  - first:
+      213: 5813882083364631180
+    second: Tiro_garota_magica-Sheet_19
+  - first:
+      213: -301220270831280205
+    second: Tiro_garota_magica-Sheet_20
+  - first:
+      213: -2700088047768024838
+    second: Tiro_garota_magica-Sheet_21
+  - first:
+      213: 8373436741213082636
+    second: Tiro_garota_magica-Sheet_22
+  - first:
+      213: 2885848268453234405
+    second: Tiro_garota_magica-Sheet_23
+  - first:
+      213: 7065019561468621694
+    second: Tiro_garota_magica-Sheet_24
+  - first:
+      213: 8827028162324315515
+    second: Tiro_garota_magica-Sheet_25
+  - first:
+      213: -1043190025248536600
+    second: Tiro_garota_magica-Sheet_26
+  - first:
+      213: 5899752650150580107
+    second: Tiro_garota_magica-Sheet_27
+  - first:
+      213: 6109395392395456096
+    second: Tiro_garota_magica-Sheet_28
+  - first:
+      213: 857878461781025337
+    second: Tiro_garota_magica-Sheet_29
+  - first:
+      213: 5122590731544712651
+    second: Tiro_garota_magica-Sheet_30
+  - first:
+      213: 7754968311447781355
+    second: Tiro_garota_magica-Sheet_31
+  - first:
+      213: -4417918726805734030
+    second: Tiro_garota_magica-Sheet_32
+  - first:
+      213: 7148126761318739376
+    second: Tiro_garota_magica-Sheet_33
+  - first:
+      213: -7172120394134667952
+    second: Tiro_garota_magica-Sheet_34
+  - first:
+      213: -7460731647805234497
+    second: Tiro_garota_magica-Sheet_35
+  - first:
+      213: -8148761163483461580
+    second: Tiro_garota_magica-Sheet_36
+  - first:
+      213: -7720382151823445760
+    second: Tiro_garota_magica-Sheet_37
+  - first:
+      213: -4612627872392835912
+    second: Tiro_garota_magica-Sheet_38
+  - first:
+      213: -2825230151051279944
+    second: Tiro_garota_magica-Sheet_39
+  - first:
+      213: -4726129794435475721
+    second: Tiro_garota_magica-Sheet_40
+  - first:
+      213: 8583924214296750493
+    second: Tiro_garota_magica-Sheet_41
+  - first:
+      213: -3669142139353833665
+    second: Tiro_garota_magica-Sheet_42
+  - first:
+      213: -5827741600563322875
+    second: Tiro_garota_magica-Sheet_43
+  - first:
+      213: -9008605058771169804
+    second: Tiro_garota_magica-Sheet_44
+  - first:
+      213: -4172722216014862735
+    second: Tiro_garota_magica-Sheet_45
+  - first:
+      213: -750513468574875075
+    second: Tiro_garota_magica-Sheet_46
+  - first:
+      213: -4594498674248677468
+    second: Tiro_garota_magica-Sheet_47
+  - first:
+      213: 6220279737899782769
+    second: Tiro_garota_magica-Sheet_48
+  - first:
+      213: -702103259828937081
+    second: Tiro_garota_magica-Sheet_49
+  - first:
+      213: 941485002356971410
+    second: Tiro_garota_magica-Sheet_50
+  - first:
+      213: -1461911490436034284
+    second: Tiro_garota_magica-Sheet_51
+  - first:
+      213: 9204015194791923959
+    second: Tiro_garota_magica-Sheet_52
+  - first:
+      213: -2573152854291209585
+    second: Tiro_garota_magica-Sheet_53
+  - first:
+      213: 7583467959337084333
+    second: Tiro_garota_magica-Sheet_54
+  - first:
+      213: -2704674683972923599
+    second: Tiro_garota_magica-Sheet_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MikaImpact_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74af6af5492156141a6ca779b25c327c
+      internalID: 1837269457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaImpact_01
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ce44df373dca64fa57195a0ad4d560
+      internalID: -828599845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaImpact_02
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b84a419097ff468f732431c075e59
+      internalID: 367009193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaImpact_03
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4198d6b22b50543ba14e9a7e934578
+      internalID: -803031956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 96ce684749b50704dbce899c4e9a01d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MikaImpact_00: 1837269457
+      MikaImpact_01: -828599845
+      MikaImpact_02: 367009193
+      MikaImpact_03: -803031956
+      Tiro_garota_magica-Sheet_0: -6917707663543434032
+      Tiro_garota_magica-Sheet_1: 7225113372385504122
+      Tiro_garota_magica-Sheet_10: -5833533205324519999
+      Tiro_garota_magica-Sheet_11: -8028544648461109992
+      Tiro_garota_magica-Sheet_12: 8412666155808052649
+      Tiro_garota_magica-Sheet_13: 1381026764005585290
+      Tiro_garota_magica-Sheet_14: -4265138017243841914
+      Tiro_garota_magica-Sheet_15: -3840818509188915827
+      Tiro_garota_magica-Sheet_16: 3233066226596741631
+      Tiro_garota_magica-Sheet_17: -6289751412654016580
+      Tiro_garota_magica-Sheet_18: -6174369936067713830
+      Tiro_garota_magica-Sheet_19: 5813882083364631180
+      Tiro_garota_magica-Sheet_2: 6341696789877881467
+      Tiro_garota_magica-Sheet_20: -301220270831280205
+      Tiro_garota_magica-Sheet_21: -2700088047768024838
+      Tiro_garota_magica-Sheet_22: 8373436741213082636
+      Tiro_garota_magica-Sheet_23: 2885848268453234405
+      Tiro_garota_magica-Sheet_24: 7065019561468621694
+      Tiro_garota_magica-Sheet_25: 8827028162324315515
+      Tiro_garota_magica-Sheet_26: -1043190025248536600
+      Tiro_garota_magica-Sheet_27: 5899752650150580107
+      Tiro_garota_magica-Sheet_28: 6109395392395456096
+      Tiro_garota_magica-Sheet_29: 857878461781025337
+      Tiro_garota_magica-Sheet_3: 2767745902037924324
+      Tiro_garota_magica-Sheet_30: 5122590731544712651
+      Tiro_garota_magica-Sheet_31: 7754968311447781355
+      Tiro_garota_magica-Sheet_32: -4417918726805734030
+      Tiro_garota_magica-Sheet_33: 7148126761318739376
+      Tiro_garota_magica-Sheet_34: -7172120394134667952
+      Tiro_garota_magica-Sheet_35: -7460731647805234497
+      Tiro_garota_magica-Sheet_36: -8148761163483461580
+      Tiro_garota_magica-Sheet_37: -7720382151823445760
+      Tiro_garota_magica-Sheet_38: -4612627872392835912
+      Tiro_garota_magica-Sheet_39: -2825230151051279944
+      Tiro_garota_magica-Sheet_4: 5148070311214218395
+      Tiro_garota_magica-Sheet_40: -4726129794435475721
+      Tiro_garota_magica-Sheet_41: 8583924214296750493
+      Tiro_garota_magica-Sheet_42: -3669142139353833665
+      Tiro_garota_magica-Sheet_43: -5827741600563322875
+      Tiro_garota_magica-Sheet_44: -9008605058771169804
+      Tiro_garota_magica-Sheet_45: -4172722216014862735
+      Tiro_garota_magica-Sheet_46: -750513468574875075
+      Tiro_garota_magica-Sheet_47: -4594498674248677468
+      Tiro_garota_magica-Sheet_48: 6220279737899782769
+      Tiro_garota_magica-Sheet_49: -702103259828937081
+      Tiro_garota_magica-Sheet_5: 8121835024571333423
+      Tiro_garota_magica-Sheet_50: 941485002356971410
+      Tiro_garota_magica-Sheet_51: -1461911490436034284
+      Tiro_garota_magica-Sheet_52: 9204015194791923959
+      Tiro_garota_magica-Sheet_53: -2573152854291209585
+      Tiro_garota_magica-Sheet_54: 7583467959337084333
+      Tiro_garota_magica-Sheet_55: -2704674683972923599
+      Tiro_garota_magica-Sheet_6: -1247478936001674004
+      Tiro_garota_magica-Sheet_7: -1193579765391727366
+      Tiro_garota_magica-Sheet_8: -6819425384596647675
+      Tiro_garota_magica-Sheet_9: -8619076644464931587
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

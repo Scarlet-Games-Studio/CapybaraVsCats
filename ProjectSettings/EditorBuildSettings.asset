@@ -14,11 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelectV2.unity
     guid: f2e60ba84348f87468ce17c77e6a2072
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Lobby.unity
     guid: 1e93246e227e2df4a8e6f429139b0f2e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/stage2.unity
     guid: 8fcf5bbf68d6dff40bf090e53a2fba09
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: b30c72741c4c1ee4a9e85929d0de54f2
+  - enabled: 1
+    path: Assets/Scenes/ComingSoon.unity
+    guid: 81072c64684647aeb88a6fd105ee97cc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

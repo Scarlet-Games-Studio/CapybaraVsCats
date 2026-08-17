@@ -3,6 +3,18 @@ using UnityEngine;
 
 public class BossG1BulletPattern : MonoBehaviour
 {
+    [Header("Screen bounds")]
+    [SerializeField, Range(0f, 0.25f)] private float viewportPadding = 0.08f;
+
+    [Header("Horizontal movement")]
+    [SerializeField, Range(0.05f, 0.4f)] private float horizontalRange = 0.18f;
+    [SerializeField, Min(0.1f)] private float horizontalSmoothTime = 0.65f;
+    [SerializeField] private Vector2 directionChangeInterval = new Vector2(1.5f, 3f);
+    private float baseViewportX;
+    private float targetViewportX;
+    private float horizontalVelocity;
+    private float nextDirectionChange;
+
     [Header("Bullet Pattern")]
     public GameObject bulletPrefab;
     public float bulletSpeed = 5f;
@@ -35,6 +47,13 @@ public class BossG1BulletPattern : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
+
+        Camera gameCamera = Camera.main;
+        baseViewportX = gameCamera != null
+            ? gameCamera.WorldToViewportPoint(transform.position).x
+            : 0.5f;
+        targetViewportX = baseViewportX;
+        ScheduleHorizontalMove();
     }
 
     void Update()
@@ -52,6 +71,40 @@ public class BossG1BulletPattern : MonoBehaviour
             animator.SetBool("AttackWindUp", true);
             FireSkillShotPattern();
         }
+    }
+
+    void LateUpdate()
+    {
+        // Algumas animações antigas do boss possuem curvas de Transform. Mantém o
+        // objeto dentro da área jogável mesmo que uma dessas curvas mova a raiz.
+        Camera gameCamera = Camera.main;
+        if (gameCamera == null) return;
+
+        Vector3 viewportPosition = gameCamera.WorldToViewportPoint(transform.position);
+        if (viewportPosition.z < 0f) return;
+
+        if (Time.time >= nextDirectionChange)
+            ScheduleHorizontalMove();
+
+        viewportPosition.x = Mathf.SmoothDamp(
+            viewportPosition.x,
+            targetViewportX,
+            ref horizontalVelocity,
+            horizontalSmoothTime);
+
+        viewportPosition.x = Mathf.Clamp(viewportPosition.x, viewportPadding, 1f - viewportPadding);
+        viewportPosition.y = Mathf.Clamp(viewportPosition.y, viewportPadding, 1f - viewportPadding);
+        transform.position = gameCamera.ViewportToWorldPoint(viewportPosition);
+    }
+
+    void ScheduleHorizontalMove()
+    {
+        float minimumX = Mathf.Max(viewportPadding, baseViewportX - horizontalRange);
+        float maximumX = Mathf.Min(1f - viewportPadding, baseViewportX + horizontalRange);
+        targetViewportX = Random.Range(minimumX, maximumX);
+        nextDirectionChange = Time.time + Random.Range(
+            Mathf.Min(directionChangeInterval.x, directionChangeInterval.y),
+            Mathf.Max(directionChangeInterval.x, directionChangeInterval.y));
     }
 
     void OnBecameVisible()

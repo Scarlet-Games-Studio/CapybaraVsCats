@@ -14,6 +14,10 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        ShieldController shield = GetComponent<ShieldController>();
+        if (shield != null && shield.TryAbsorbHit())
+            return;
+
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
@@ -34,7 +38,10 @@ public class Health : MonoBehaviour
     {
         if (gameObject.CompareTag("Player"))
         {
-            GameManager.instance.GameOver();
+            if (GameManager.instance != null)
+                GameManager.instance.GameOver();
+            else
+                Debug.LogWarning("GameManager não foi encontrado ao processar Game Over.");
         }
         Destroy(gameObject);
     }

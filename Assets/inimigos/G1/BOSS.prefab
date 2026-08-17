@@ -138,6 +138,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3007360786228367063
 SpriteRenderer:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -156,6 +157,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -177,9 +180,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1463669073
   m_SortingLayer: 2
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: c3ce872aa37b0c547a8d3610fc93216b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -189,8 +194,8 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!95 &9137406101602112482
 Animator:
   serializedVersion: 7
@@ -298,10 +303,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc31a653ec872746b69987c77facbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  viewportPadding: 0.08
   bulletPrefab: {fileID: 5808092158429802210}
   bulletSpeed: 2
   bulletCount: 3
   fireRate: 0.5
+  nextFireTime: 0
+  health: 300
+  deathEffect: {fileID: 0}
+  sr: {fileID: 0}
+  animator: {fileID: 0}
+  VFX: {fileID: 0}
+  SkillShot: {fileID: 0}
 --- !u!1 &7441634070150137751
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,9 +490,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8210706750551879909, guid: 7d483ab5d72b5894b86a2bc968b6e42b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 769404013272679336}
-    - targetCorrespondingSourceObject: {fileID: 8210706750551879909, guid: 7d483ab5d72b5894b86a2bc968b6e42b, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 5566228064475935917}
     - targetCorrespondingSourceObject: {fileID: 8210706750551879909, guid: 7d483ab5d72b5894b86a2bc968b6e42b, type: 3}
       insertIndex: -1
@@ -498,18 +508,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8210706750551879909, guid: 7d483ab5d72b5894b86a2bc968b6e42b, type: 3}
   m_PrefabInstance: {fileID: 2407234758250290695}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &769404013272679336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5808092158429802210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6ac9f40d18994347bdb46a2cb80df2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5566228064475935917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -585,6 +583,7 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!212 &687824677449329126
 SpriteRenderer:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -603,6 +602,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -624,9 +625,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 62981685fce5ca5459bceffedfd07b27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -636,5 +639,5 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []

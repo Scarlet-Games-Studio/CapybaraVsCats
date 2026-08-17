@@ -12072,6 +12072,9 @@ MonoBehaviour:
   spawnDelay: 15
   canSpawn: 1
   bossSpawn: {fileID: 82974332}
+  kamikazePrefab: {fileID: 6966506171257214687, guid: d146d9c0a9064494d85744d152df9041, type: 3}
+  kamikazeChance: 0.3
+  kamikazeHorizontalOffset: 0.7
   loop: 0
 --- !u!4 &1246962848
 Transform:
@@ -17726,6 +17729,10 @@ PrefabInstance:
     - target: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
       propertyPath: m_Name
       value: BossContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057552731181435077, guid: 6d95bce2f92caf747acdb1707cc75524, type: 3}
       propertyPath: m_TagString

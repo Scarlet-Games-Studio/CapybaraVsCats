@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: fc4c87512382f7943b93a782f2acf402
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2311977237736001186
+    second: Projetil_garota_magica-Sheet_0
+  - first:
+      213: 4989893274854588994
+    second: Projetil_garota_magica-Sheet_1
+  - first:
+      213: 1119530895447018142
+    second: Projetil_garota_magica-Sheet_2
+  - first:
+      213: -2733726566402161880
+    second: Projetil_garota_magica-Sheet_3
+  - first:
+      213: 7786996996387536872
+    second: Projetil_garota_magica-Sheet_4
+  - first:
+      213: -3821067011711680164
+    second: Projetil_garota_magica-Sheet_5
+  - first:
+      213: -4253386706381671379
+    second: Projetil_garota_magica-Sheet_6
+  - first:
+      213: 2387949616155782436
+    second: Projetil_garota_magica-Sheet_7
+  - first:
+      213: -4401935854175291724
+    second: Projetil_garota_magica-Sheet_8
+  - first:
+      213: -718332206145632971
+    second: Projetil_garota_magica-Sheet_9
+  - first:
+      213: -5067648432114126597
+    second: Projetil_garota_magica-Sheet_10
+  - first:
+      213: -5900241682029358785
+    second: Projetil_garota_magica-Sheet_11
+  - first:
+      213: -5931206070342131035
+    second: Projetil_garota_magica-Sheet_12
+  - first:
+      213: -3821504360915832282
+    second: Projetil_garota_magica-Sheet_13
+  - first:
+      213: -3387915605576295843
+    second: Projetil_garota_magica-Sheet_14
+  - first:
+      213: 7080871275036223145
+    second: Projetil_garota_magica-Sheet_15
+  - first:
+      213: 6748300494065121104
+    second: Projetil_garota_magica-Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MikaProjectile_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5947585b8a91498759db3d07079f6
+      internalID: -870133157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaProjectile_01
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f47b9125be094890426e7c15354b1
+      internalID: 1207584981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaProjectile_02
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efbc39597dda5b45af38f180565464a
+      internalID: 2062043369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MikaProjectile_03
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8021f26f13fc94db187ab72cba9636
+      internalID: 1367819334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 623c6f0a08b03974c9f47d523652da57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MikaProjectile_00: -870133157
+      MikaProjectile_01: 1207584981
+      MikaProjectile_02: 2062043369
+      MikaProjectile_03: 1367819334
+      Projetil_garota_magica-Sheet_0: 2311977237736001186
+      Projetil_garota_magica-Sheet_1: 4989893274854588994
+      Projetil_garota_magica-Sheet_10: -5067648432114126597
+      Projetil_garota_magica-Sheet_11: -5900241682029358785
+      Projetil_garota_magica-Sheet_12: -5931206070342131035
+      Projetil_garota_magica-Sheet_13: -3821504360915832282
+      Projetil_garota_magica-Sheet_14: -3387915605576295843
+      Projetil_garota_magica-Sheet_15: 7080871275036223145
+      Projetil_garota_magica-Sheet_16: 6748300494065121104
+      Projetil_garota_magica-Sheet_2: 1119530895447018142
+      Projetil_garota_magica-Sheet_3: -2733726566402161880
+      Projetil_garota_magica-Sheet_4: 7786996996387536872
+      Projetil_garota_magica-Sheet_5: -3821067011711680164
+      Projetil_garota_magica-Sheet_6: -4253386706381671379
+      Projetil_garota_magica-Sheet_7: 2387949616155782436
+      Projetil_garota_magica-Sheet_8: -4401935854175291724
+      Projetil_garota_magica-Sheet_9: -718332206145632971
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

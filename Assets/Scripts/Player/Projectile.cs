@@ -59,7 +59,11 @@ public class Projectile : MonoBehaviour
             if (collision.CompareTag("Enemy"))
             {
                 SpawnExplosion();
-                Destroy(collision.gameObject); // Destroi o inimigo
+                EnemyHealth enemyHealth = collision.GetComponentInParent<EnemyHealth>();
+                if (enemyHealth != null)
+                    enemyHealth.TakeDamage(damage);
+                else
+                    Destroy(collision.gameObject);
                 Destroy(gameObject); // Destroi o projétil
             }
 
