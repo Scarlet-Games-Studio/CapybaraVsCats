@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,32 +11,19 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
-        // Singleton
-        if (instance == null)
+        if (instance == null || instance.gameObject.scene != gameObject.scene)
         {
             instance = this;
-            DontDestroyOnLoad(transform.root.gameObject); // mantém o Canvas entre cenas
-            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 
     void OnDestroy()
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Atualiza referência do scoreText ao carregar a cena
-        scoreText = GameObject.Find("ScoreText")?.GetComponent<Text>();
-
-        // Atualiza o texto do score com o valor atual
-        if (scoreText != null)
-            scoreText.text = "Score: " + score;
+        if (instance == this) instance = null;
     }
 
     public void UpdateScore(int points)

@@ -1,29 +1,29 @@
 using UnityEngine;
 
+[RequireComponent(typeof(EnemyHealth))]
 public class EnemyDeath : MonoBehaviour
 {
-    [SerializeField] private GameObject nextStage;
+    [SerializeField, Min(0)] int scoreValue = 100;
 
-    private void OnDestroy()
+    EnemyHealth health;
+    bool rewarded;
+
+    void Awake()
     {
-        if (!Application.isPlaying) return;
+        health = GetComponent<EnemyHealth>();
+        health.Died += OnDefeated;
+    }
 
-        if (CompareTag("Enemy"))
-        {
-            EnemyHealth health = GetComponent<EnemyHealth>();
-            if (health == null || health.IsDead)
-                ScoreManager.AddScore(100);
-        }
+    void OnDestroy()
+    {
+        if (health != null) health.Died -= OnDefeated;
+    }
 
-        if (CompareTag("Boss"))
-        {
-            ScoreManager.AddScore(1500);
-            if (nextStage != null)
-            {
-                nextStage.SetActive(true);
-                Time.timeScale = 0f;
-            }
-        }
-
+    void OnDefeated()
+    {
+        // Pontos só são concedidos por uma morte real, nunca por unload/despawn.
+        if (rewarded || CompareTag("Boss")) return;
+        rewarded = true;
+        ScoreManager.AddScore(scoreValue);
     }
 }

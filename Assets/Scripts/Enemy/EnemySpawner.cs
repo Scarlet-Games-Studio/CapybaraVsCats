@@ -6,95 +6,140 @@ public class EnemySpawner : MonoBehaviour
     [System.Serializable]
     public class EnemyWave
     {
-        public GameObject enemyPrefab;  // Prefab do inimigo
-        public int enemyCount;         // Quantidade de inimigos nesta onda
-        public float spawnInterval;    // Tempo entre os spawns dentro da onda
-        public bool boss;              // Se o inimigo é um boss
+        public GameObject enemyPrefab;
+        [Min(0)] public int enemyCount;
+        [Min(0f)] public float spawnInterval;
+        public bool boss;
     }
 
-    public Camera targetCamera;          // Câmera vinculada manualmente no Inspector
-    public EnemyWave[] waves;            // Lista de ondas
-    public float timeBetweenWaves = 3f;  // Tempo entre cada onda
-    public float spawnOffsetY = 1f;      // Ajuste da posição inicial de spawn (acima da tela)
-    public float spawnDelay = 10f;       // Tempo antes do início do spawn (ajustável no Inspector)
-    public bool canSpawn = true;         // Controle para ativar/desativar o spawn
-    private float screenLeft, screenRight, screenTop; // Limites da câmera
+    public Camera targetCamera;
+    public EnemyWave[] waves;
+    [Min(0f)] public float timeBetweenWaves = 3f;
+    public float spawnOffsetY = 1f;
+    [Min(0f)] public float spawnDelay = 10f;
+    public bool canSpawn = true;
     public Transform bossSpawn;
+
     [Header("Mixed kamikaze spawn")]
     [SerializeField] GameObject kamikazePrefab;
     [SerializeField, Range(0f, 1f)] float kamikazeChance = 0.3f;
-    [SerializeField] float kamikazeHorizontalOffset = 0.7f;
+    [SerializeField, Min(0f)] float kamikazeHorizontalOffset = 0.7f;
+    [SerializeField, Min(0.1f)] float minimumSpawnSeparation = 0.35f;
+
+    Coroutine spawnRoutine;
 
     void Start()
     {
+        if (targetCamera == null) targetCamera = Camera.main;
         if (targetCamera == null)
         {
-            Debug.LogError("Nenhuma câmera vinculada! Por favor, arraste uma câmera no campo 'Target Camera' no Inspector.");
+            Debug.LogError("EnemySpawner não encontrou uma câmera de gameplay.", this);
+            enabled = false;
             return;
         }
 
-        // Calcula os limites da câmera
-        Vector3 screenBottomLeft = targetCamera.ViewportToWorldPoint(new Vector3(0, 0, 0));
-        Vector3 screenTopRight = targetCamera.ViewportToWorldPoint(new Vector3(1, 1, 0));
+        spawnRoutine = StartCoroutine(SpawnWavesWithDelay());
+    }
 
-        screenLeft = screenBottomLeft.x;
-        screenRight = screenTopRight.x;
-        screenTop = screenTopRight.y;
+    void OnDisable()
+    {
+        if (spawnRoutine != null)
+        {
+            StopCoroutine(spawnRoutine);
+            spawnRoutine = null;
+        }
+    }
 
-        StartCoroutine(SpawnWavesWithDelay());
-
+    public void StopSpawning()
+    {
+        canSpawn = false;
+        if (spawnRoutine != null) StopCoroutine(spawnRoutine);
+        spawnRoutine = null;
     }
 
     IEnumerator SpawnWavesWithDelay()
     {
-            // Espera o tempo configurado antes de começar o spawn
-            yield return new WaitForSeconds(spawnDelay);
+        yield return new WaitForSeconds(spawnDelay);
 
-            foreach (var wave in waves)
+        if (waves == null) yield break;
+        foreach (EnemyWave wave in waves)
+        {
+            if (!CanContinue()) yield break;
+            if (wave == null || wave.enemyPrefab == null || wave.enemyCount <= 0)
             {
-                if (!canSpawn) yield break; // Para o spawn se `canSpawn` for falso
-                yield return StartCoroutine(SpawnEnemiesInWave(wave));
-                yield return new WaitForSeconds(timeBetweenWaves); // Espera entre ondas
+                Debug.LogWarning("Uma onda inválida foi ignorada.", this);
+                continue;
             }
 
+            yield return SpawnEnemiesInWave(wave);
+            if (!CanContinue()) yield break;
+            yield return new WaitForSeconds(timeBetweenWaves);
+        }
+
+        spawnRoutine = null;
     }
 
     IEnumerator SpawnEnemiesInWave(EnemyWave wave)
-
     {
-        for (int i = 0; i < wave.enemyCount; i++)
+        int count = wave.boss ? 1 : wave.enemyCount;
+        for (int i = 0; i < count; i++)
         {
-            if (!canSpawn) yield break; // Interrompe o spawn se necessário
+            if (!CanContinue()) yield break;
+
             if (wave.boss)
             {
-                if (bossSpawn == null)
-                {
-                    Debug.LogError("Boss Spawn não está configurado no EnemySpawner.", this);
-                    yield break;
-                }
-
-                Instantiate(wave.enemyPrefab, bossSpawn.position, Quaternion.identity);
+                Vector3 position = bossSpawn != null ? bossSpawn.position : ViewportToWorld(0.5f, 0.82f);
+                Instantiate(wave.enemyPrefab, position, Quaternion.identity);
             }
             else
             {
-                // Calcula uma posição aleatória acima da tela, com ajuste do offset vertical
-                float spawnX = Random.Range(screenLeft, screenRight);
-                float spawnY = screenTop + spawnOffsetY; // Usa o offset configurável
-                Vector2 spawnPosition = new Vector2(spawnX, spawnY);
-
-                // Instancia o inimigo
+                Vector2 spawnPosition = GetSpawnPosition();
                 Instantiate(wave.enemyPrefab, spawnPosition, Quaternion.identity);
 
-                // O Gatoball entra junto da formação normal, sem substituir o inimigo da onda.
                 if (kamikazePrefab != null && wave.enemyPrefab != kamikazePrefab && Random.value <= kamikazeChance)
                 {
                     float side = Random.value < 0.5f ? -1f : 1f;
-                    float kamikazeX = Mathf.Clamp(spawnX + side * kamikazeHorizontalOffset, screenLeft, screenRight);
-                    Instantiate(kamikazePrefab, new Vector2(kamikazeX, spawnY), Quaternion.identity);
+                    Vector2 bounds = GetHorizontalBounds();
+                    float kamikazeX = Mathf.Clamp(
+                        spawnPosition.x + side * Mathf.Max(kamikazeHorizontalOffset, minimumSpawnSeparation),
+                        bounds.x,
+                        bounds.y);
+                    Instantiate(kamikazePrefab, new Vector2(kamikazeX, spawnPosition.y), Quaternion.identity);
                 }
             }
 
-            yield return new WaitForSeconds(wave.spawnInterval); // Intervalo entre inimigos
+            if (i < count - 1) yield return new WaitForSeconds(wave.spawnInterval);
         }
+    }
+
+    bool CanContinue()
+    {
+        return canSpawn && (GameManager.instance == null || GameManager.instance.IsPlaying);
+    }
+
+    Vector2 GetSpawnPosition()
+    {
+        Vector2 bounds = GetHorizontalBounds();
+        float x = Random.Range(bounds.x, bounds.y);
+        Vector3 top = targetCamera.ViewportToWorldPoint(new Vector3(0.5f, 1f, CameraDepth()));
+        return new Vector2(x, top.y + spawnOffsetY);
+    }
+
+    Vector2 GetHorizontalBounds()
+    {
+        float depth = CameraDepth();
+        float left = targetCamera.ViewportToWorldPoint(new Vector3(0.06f, 0.5f, depth)).x;
+        float right = targetCamera.ViewportToWorldPoint(new Vector3(0.94f, 0.5f, depth)).x;
+        return new Vector2(Mathf.Min(left, right), Mathf.Max(left, right));
+    }
+
+    Vector3 ViewportToWorld(float x, float y)
+    {
+        return targetCamera.ViewportToWorldPoint(new Vector3(x, y, CameraDepth()));
+    }
+
+    float CameraDepth()
+    {
+        return Mathf.Abs(transform.position.z - targetCamera.transform.position.z);
     }
 }

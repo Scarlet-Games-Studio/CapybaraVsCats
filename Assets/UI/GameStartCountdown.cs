@@ -9,12 +9,19 @@ public class GameStartCountdown : MonoBehaviour
     public float displayTime = 1f;
     public float fadeDuration = 0.5f;
 
-    private bool gamePaused = true;
-
     void Start()
     {
+        if (readyImage == null || goImage == null)
+        {
+            Debug.LogWarning("Countdown sem imagens configuradas; iniciando o jogo sem bloqueio.", this);
+            Time.timeScale = 1f;
+            enabled = false;
+            return;
+        }
+
+        readyImage.raycastTarget = false;
+        goImage.raycastTarget = false;
         Time.timeScale = 0f;
-        gamePaused = true;
 
         StartCoroutine(StartCountdown());
     }
@@ -31,8 +38,8 @@ public class GameStartCountdown : MonoBehaviour
         yield return new WaitForSecondsRealtime(displayTime);
         yield return StartCoroutine(FadeOut(goImage));
 
-        Time.timeScale = 1f;
-        gamePaused = false;
+        if (GameManager.instance == null || GameManager.instance.IsPlaying)
+            Time.timeScale = 1f;
     }
 
     private IEnumerator FadeIn(RawImage image)

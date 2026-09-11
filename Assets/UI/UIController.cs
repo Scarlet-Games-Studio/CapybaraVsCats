@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
@@ -10,54 +9,42 @@ public class UIController : MonoBehaviour
 
     void Awake()
     {
-        // Singleton: garante que só existe 1 UIController
-        if (instance == null)
+        if (instance != null && instance != this && instance.gameObject.scene == gameObject.scene)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // mantém entre cenas
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject); // elimina duplicados
+            Destroy(this);
             return;
         }
-
-        // Inscreve para atualizar referências ao carregar cena
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        instance = this;
     }
+
+    void Start() => BindToCurrentPlayer();
 
     void OnDestroy()
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        BindToCurrentPlayer();
+        if (instance == this) instance = null;
     }
 
     void BindToCurrentPlayer()
     {
         GameObject player = GameObject.FindWithTag("Player");
-        if (player == null) return;
+        if (player == null)
+        {
+            PlayerFirePoint = null;
+            BulletPrefab = null;
+            return;
+        }
 
         PlayerController playerController = player.GetComponent<PlayerController>();
         if (playerController == null) return;
-
         PlayerFirePoint = playerController.firePoint;
         BulletPrefab = playerController.projectilePrefab;
     }
 
-    // Método chamado pelo botão de UI
     public void Fire()
     {
-        // O personagem pode ser trocado pelo CharacterSpawner depois que a cena
-        // carrega. Atualiza aqui para nunca reutilizar a arma do Hiro anterior.
+        if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
         BindToCurrentPlayer();
-
         if (BulletPrefab != null && PlayerFirePoint != null)
-        {
             Instantiate(BulletPrefab, PlayerFirePoint.position, PlayerFirePoint.rotation);
-        }
     }
 }

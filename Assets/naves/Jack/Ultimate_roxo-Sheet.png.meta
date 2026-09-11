@@ -1,0 +1,6266 @@
+fileFormatVersion: 2
+guid: 2957e3add98eef8409ffa11088625ee3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5586397690949821445
+    second: Ultimate_roxo-Sheet_0
+  - first:
+      213: 702692654866703376
+    second: Ultimate_roxo-Sheet_1
+  - first:
+      213: -1585362498082059908
+    second: Ultimate_roxo-Sheet_2
+  - first:
+      213: -789194902217880405
+    second: Ultimate_roxo-Sheet_3
+  - first:
+      213: -7951034501257358429
+    second: Ultimate_roxo-Sheet_4
+  - first:
+      213: 6802926364490617596
+    second: Ultimate_roxo-Sheet_5
+  - first:
+      213: -8721047180893659374
+    second: Ultimate_roxo-Sheet_6
+  - first:
+      213: -2913729673577295279
+    second: Ultimate_roxo-Sheet_7
+  - first:
+      213: 8209161747624530567
+    second: Ultimate_roxo-Sheet_8
+  - first:
+      213: 5180565556153103848
+    second: Ultimate_roxo-Sheet_9
+  - first:
+      213: 8664889926016591494
+    second: Ultimate_roxo-Sheet_10
+  - first:
+      213: -5347035177563658858
+    second: Ultimate_roxo-Sheet_11
+  - first:
+      213: 1856925745012377472
+    second: Ultimate_roxo-Sheet_12
+  - first:
+      213: 8239948757120168989
+    second: Ultimate_roxo-Sheet_13
+  - first:
+      213: -9005830167946878302
+    second: Ultimate_roxo-Sheet_14
+  - first:
+      213: -8137365116021483517
+    second: Ultimate_roxo-Sheet_15
+  - first:
+      213: 5290282845559452984
+    second: Ultimate_roxo-Sheet_16
+  - first:
+      213: 787591411354654420
+    second: Ultimate_roxo-Sheet_17
+  - first:
+      213: 4119835728304118822
+    second: Ultimate_roxo-Sheet_18
+  - first:
+      213: -1437057009613199748
+    second: Ultimate_roxo-Sheet_19
+  - first:
+      213: -8782996390514304654
+    second: Ultimate_roxo-Sheet_20
+  - first:
+      213: -6406645899414513194
+    second: Ultimate_roxo-Sheet_21
+  - first:
+      213: -5092491009142070544
+    second: Ultimate_roxo-Sheet_22
+  - first:
+      213: -7327614513232024198
+    second: Ultimate_roxo-Sheet_23
+  - first:
+      213: -4692535259940751371
+    second: Ultimate_roxo-Sheet_24
+  - first:
+      213: 7287528236055188521
+    second: Ultimate_roxo-Sheet_25
+  - first:
+      213: -5365979826608541366
+    second: Ultimate_roxo-Sheet_26
+  - first:
+      213: -1983840250144898802
+    second: Ultimate_roxo-Sheet_27
+  - first:
+      213: -2175033304061112739
+    second: Ultimate_roxo-Sheet_28
+  - first:
+      213: -863634391784888894
+    second: Ultimate_roxo-Sheet_29
+  - first:
+      213: 2618132468118473362
+    second: Ultimate_roxo-Sheet_30
+  - first:
+      213: 6651462507235001872
+    second: Ultimate_roxo-Sheet_31
+  - first:
+      213: -4964036039354907883
+    second: Ultimate_roxo-Sheet_32
+  - first:
+      213: -4749451576094157393
+    second: Ultimate_roxo-Sheet_33
+  - first:
+      213: 5015815850883113447
+    second: Ultimate_roxo-Sheet_34
+  - first:
+      213: -811572824993377813
+    second: Ultimate_roxo-Sheet_35
+  - first:
+      213: 6841553915070797666
+    second: Ultimate_roxo-Sheet_36
+  - first:
+      213: -6010577413403963094
+    second: Ultimate_roxo-Sheet_37
+  - first:
+      213: -2353183213970514767
+    second: Ultimate_roxo-Sheet_38
+  - first:
+      213: 8575533389295203764
+    second: Ultimate_roxo-Sheet_39
+  - first:
+      213: -2982463710296448068
+    second: Ultimate_roxo-Sheet_40
+  - first:
+      213: 6734573200364064454
+    second: Ultimate_roxo-Sheet_41
+  - first:
+      213: 477017712842124765
+    second: Ultimate_roxo-Sheet_42
+  - first:
+      213: 5428206914810228711
+    second: Ultimate_roxo-Sheet_43
+  - first:
+      213: -1901594165813473954
+    second: Ultimate_roxo-Sheet_44
+  - first:
+      213: -5495401098745234448
+    second: Ultimate_roxo-Sheet_45
+  - first:
+      213: 3420202699587506132
+    second: Ultimate_roxo-Sheet_46
+  - first:
+      213: -6005515758772514006
+    second: Ultimate_roxo-Sheet_47
+  - first:
+      213: 2437190319378108810
+    second: Ultimate_roxo-Sheet_48
+  - first:
+      213: 5507894099600536130
+    second: Ultimate_roxo-Sheet_49
+  - first:
+      213: 3783890830228226148
+    second: Ultimate_roxo-Sheet_50
+  - first:
+      213: 8426944560642160061
+    second: Ultimate_roxo-Sheet_51
+  - first:
+      213: 6475809266109342701
+    second: Ultimate_roxo-Sheet_52
+  - first:
+      213: -5807199218923304947
+    second: Ultimate_roxo-Sheet_53
+  - first:
+      213: -1545052835308500083
+    second: Ultimate_roxo-Sheet_54
+  - first:
+      213: -5855137709254763512
+    second: Ultimate_roxo-Sheet_55
+  - first:
+      213: 5663341319895523486
+    second: Ultimate_roxo-Sheet_56
+  - first:
+      213: 1006763322438612652
+    second: Ultimate_roxo-Sheet_57
+  - first:
+      213: -4361528494373441321
+    second: Ultimate_roxo-Sheet_58
+  - first:
+      213: -4813067911430673962
+    second: Ultimate_roxo-Sheet_59
+  - first:
+      213: -6565577106542105878
+    second: Ultimate_roxo-Sheet_60
+  - first:
+      213: -4461169502751367196
+    second: Ultimate_roxo-Sheet_61
+  - first:
+      213: 668284298192706306
+    second: Ultimate_roxo-Sheet_62
+  - first:
+      213: -3975974614471359167
+    second: Ultimate_roxo-Sheet_63
+  - first:
+      213: -2635193004587006809
+    second: Ultimate_roxo-Sheet_64
+  - first:
+      213: 6190064976032232212
+    second: Ultimate_roxo-Sheet_65
+  - first:
+      213: -4743090370285372709
+    second: Ultimate_roxo-Sheet_66
+  - first:
+      213: 8729946195492166100
+    second: Ultimate_roxo-Sheet_67
+  - first:
+      213: -5412877079896229233
+    second: Ultimate_roxo-Sheet_68
+  - first:
+      213: -1096276986549893558
+    second: Ultimate_roxo-Sheet_69
+  - first:
+      213: 3723432603112722084
+    second: Ultimate_roxo-Sheet_70
+  - first:
+      213: 587131537293875032
+    second: Ultimate_roxo-Sheet_71
+  - first:
+      213: 943219905965856699
+    second: Ultimate_roxo-Sheet_72
+  - first:
+      213: -8591398687975838633
+    second: Ultimate_roxo-Sheet_73
+  - first:
+      213: -6565958560153960187
+    second: Ultimate_roxo-Sheet_74
+  - first:
+      213: 5688646898234566790
+    second: Ultimate_roxo-Sheet_75
+  - first:
+      213: 4409087738511152121
+    second: Ultimate_roxo-Sheet_76
+  - first:
+      213: 8203871912835183981
+    second: Ultimate_roxo-Sheet_77
+  - first:
+      213: -2560498207756801520
+    second: Ultimate_roxo-Sheet_78
+  - first:
+      213: -1597403088855890799
+    second: Ultimate_roxo-Sheet_79
+  - first:
+      213: 4115316946331065818
+    second: Ultimate_roxo-Sheet_80
+  - first:
+      213: 6855046274751605225
+    second: Ultimate_roxo-Sheet_81
+  - first:
+      213: -544981269529219288
+    second: Ultimate_roxo-Sheet_82
+  - first:
+      213: -3567879485556324384
+    second: Ultimate_roxo-Sheet_83
+  - first:
+      213: -4964280193761079844
+    second: Ultimate_roxo-Sheet_84
+  - first:
+      213: 2174793368075750911
+    second: Ultimate_roxo-Sheet_85
+  - first:
+      213: 7521027387268208631
+    second: Ultimate_roxo-Sheet_86
+  - first:
+      213: -156904770667186377
+    second: Ultimate_roxo-Sheet_87
+  - first:
+      213: -2503791224433652352
+    second: Ultimate_roxo-Sheet_88
+  - first:
+      213: -8503397421770274339
+    second: Ultimate_roxo-Sheet_89
+  - first:
+      213: 6616834921548454706
+    second: Ultimate_roxo-Sheet_90
+  - first:
+      213: 7531286491879270653
+    second: Ultimate_roxo-Sheet_91
+  - first:
+      213: -8829045976382810395
+    second: Ultimate_roxo-Sheet_92
+  - first:
+      213: -739042218703070555
+    second: Ultimate_roxo-Sheet_93
+  - first:
+      213: -2992963937990518182
+    second: Ultimate_roxo-Sheet_94
+  - first:
+      213: -580948247512303934
+    second: Ultimate_roxo-Sheet_95
+  - first:
+      213: -1211555494049572921
+    second: Ultimate_roxo-Sheet_96
+  - first:
+      213: 1710362384231169236
+    second: Ultimate_roxo-Sheet_97
+  - first:
+      213: -2375726412490837436
+    second: Ultimate_roxo-Sheet_98
+  - first:
+      213: -571266777687120934
+    second: Ultimate_roxo-Sheet_99
+  - first:
+      213: -3082944866150184977
+    second: Ultimate_roxo-Sheet_100
+  - first:
+      213: 1228689463911163797
+    second: Ultimate_roxo-Sheet_101
+  - first:
+      213: -3623510344923729879
+    second: Ultimate_roxo-Sheet_102
+  - first:
+      213: -7998734629744289944
+    second: Ultimate_roxo-Sheet_103
+  - first:
+      213: 6449720955535028185
+    second: Ultimate_roxo-Sheet_104
+  - first:
+      213: 3308987296537295669
+    second: Ultimate_roxo-Sheet_105
+  - first:
+      213: -7854856239618344534
+    second: Ultimate_roxo-Sheet_106
+  - first:
+      213: -9169727341923299728
+    second: Ultimate_roxo-Sheet_107
+  - first:
+      213: -3565364938330422857
+    second: Ultimate_roxo-Sheet_108
+  - first:
+      213: -2907335189075033000
+    second: Ultimate_roxo-Sheet_109
+  - first:
+      213: 56436957896986798
+    second: Ultimate_roxo-Sheet_110
+  - first:
+      213: -3437469125193284184
+    second: Ultimate_roxo-Sheet_111
+  - first:
+      213: -6171758112644638446
+    second: Ultimate_roxo-Sheet_112
+  - first:
+      213: -6930512435543197738
+    second: Ultimate_roxo-Sheet_113
+  - first:
+      213: 6642739892427649881
+    second: Ultimate_roxo-Sheet_114
+  - first:
+      213: 5831920691171226969
+    second: Ultimate_roxo-Sheet_115
+  - first:
+      213: -2009020337179363301
+    second: Ultimate_roxo-Sheet_116
+  - first:
+      213: -5387651048018050618
+    second: Ultimate_roxo-Sheet_117
+  - first:
+      213: 7684975794311866102
+    second: Ultimate_roxo-Sheet_118
+  - first:
+      213: -7173541439384805314
+    second: Ultimate_roxo-Sheet_119
+  - first:
+      213: -6426795911418178898
+    second: Ultimate_roxo-Sheet_120
+  - first:
+      213: 4999907150198986048
+    second: Ultimate_roxo-Sheet_121
+  - first:
+      213: -3238266080738814658
+    second: Ultimate_roxo-Sheet_122
+  - first:
+      213: -3519676584876111200
+    second: Ultimate_roxo-Sheet_123
+  - first:
+      213: 736562175081675419
+    second: Ultimate_roxo-Sheet_124
+  - first:
+      213: 1497062965533392905
+    second: Ultimate_roxo-Sheet_125
+  - first:
+      213: 7895308305557803552
+    second: Ultimate_roxo-Sheet_126
+  - first:
+      213: 793233075340155194
+    second: Ultimate_roxo-Sheet_127
+  - first:
+      213: 4346634547536639101
+    second: Ultimate_roxo-Sheet_128
+  - first:
+      213: 5558607314432227459
+    second: Ultimate_roxo-Sheet_129
+  - first:
+      213: -5722428028126852758
+    second: Ultimate_roxo-Sheet_130
+  - first:
+      213: -4842506473671291066
+    second: Ultimate_roxo-Sheet_131
+  - first:
+      213: -2356088085691095640
+    second: Ultimate_roxo-Sheet_132
+  - first:
+      213: -7142985446346182253
+    second: Ultimate_roxo-Sheet_133
+  - first:
+      213: 8623626658774388204
+    second: Ultimate_roxo-Sheet_134
+  - first:
+      213: 3173081700456640721
+    second: Ultimate_roxo-Sheet_135
+  - first:
+      213: 8888951386330649539
+    second: Ultimate_roxo-Sheet_136
+  - first:
+      213: -2890132710868078262
+    second: Ultimate_roxo-Sheet_137
+  - first:
+      213: 2129112883587641187
+    second: Ultimate_roxo-Sheet_138
+  - first:
+      213: -4202218704699214887
+    second: Ultimate_roxo-Sheet_139
+  - first:
+      213: 8119286638049066554
+    second: Ultimate_roxo-Sheet_140
+  - first:
+      213: -1058921670071722175
+    second: Ultimate_roxo-Sheet_141
+  - first:
+      213: 3378168917558612184
+    second: Ultimate_roxo-Sheet_142
+  - first:
+      213: -8569872235590749784
+    second: Ultimate_roxo-Sheet_143
+  - first:
+      213: 6190338828841369048
+    second: Ultimate_roxo-Sheet_144
+  - first:
+      213: -6361534875323351672
+    second: Ultimate_roxo-Sheet_145
+  - first:
+      213: -9049199844727283465
+    second: Ultimate_roxo-Sheet_146
+  - first:
+      213: -6736290486173250654
+    second: Ultimate_roxo-Sheet_147
+  - first:
+      213: 5817842574667477599
+    second: Ultimate_roxo-Sheet_148
+  - first:
+      213: -6796449252427007592
+    second: Ultimate_roxo-Sheet_149
+  - first:
+      213: -8162477281610173532
+    second: Ultimate_roxo-Sheet_150
+  - first:
+      213: 3197853901488620934
+    second: Ultimate_roxo-Sheet_151
+  - first:
+      213: 705486107555353281
+    second: Ultimate_roxo-Sheet_152
+  - first:
+      213: 6315876238033405825
+    second: Ultimate_roxo-Sheet_153
+  - first:
+      213: 6605779620897196545
+    second: Ultimate_roxo-Sheet_154
+  - first:
+      213: -300249249403721620
+    second: Ultimate_roxo-Sheet_155
+  - first:
+      213: 1023343067587350592
+    second: Ultimate_roxo-Sheet_156
+  - first:
+      213: 4490189255491903681
+    second: Ultimate_roxo-Sheet_157
+  - first:
+      213: -758185367210317450
+    second: Ultimate_roxo-Sheet_158
+  - first:
+      213: -2666791000257699371
+    second: Ultimate_roxo-Sheet_159
+  - first:
+      213: -8167736123956145168
+    second: Ultimate_roxo-Sheet_160
+  - first:
+      213: 1055921637668259379
+    second: Ultimate_roxo-Sheet_161
+  - first:
+      213: 6152104254637123932
+    second: Ultimate_roxo-Sheet_162
+  - first:
+      213: -6028339122976155068
+    second: Ultimate_roxo-Sheet_163
+  - first:
+      213: 8927233525361643542
+    second: Ultimate_roxo-Sheet_164
+  - first:
+      213: -464016872790091254
+    second: Ultimate_roxo-Sheet_165
+  - first:
+      213: -2951380323510619155
+    second: Ultimate_roxo-Sheet_166
+  - first:
+      213: -4537894452066479954
+    second: Ultimate_roxo-Sheet_167
+  - first:
+      213: 178887408134857369
+    second: Ultimate_roxo-Sheet_168
+  - first:
+      213: -4272956591397684126
+    second: Ultimate_roxo-Sheet_169
+  - first:
+      213: 2856535079633707892
+    second: Ultimate_roxo-Sheet_170
+  - first:
+      213: 7991688065779147379
+    second: Ultimate_roxo-Sheet_171
+  - first:
+      213: 5358292423317659142
+    second: Ultimate_roxo-Sheet_172
+  - first:
+      213: 5505737961889437042
+    second: Ultimate_roxo-Sheet_173
+  - first:
+      213: 2065790208989781341
+    second: Ultimate_roxo-Sheet_174
+  - first:
+      213: 69160038489230054
+    second: Ultimate_roxo-Sheet_175
+  - first:
+      213: -5035857115849785785
+    second: Ultimate_roxo-Sheet_176
+  - first:
+      213: 5069350773820923993
+    second: Ultimate_roxo-Sheet_177
+  - first:
+      213: 7087347107072707188
+    second: Ultimate_roxo-Sheet_178
+  - first:
+      213: -274947370554614733
+    second: Ultimate_roxo-Sheet_179
+  - first:
+      213: -824385237243557407
+    second: Ultimate_roxo-Sheet_180
+  - first:
+      213: 4269304308032643421
+    second: Ultimate_roxo-Sheet_181
+  - first:
+      213: 168943445137111174
+    second: Ultimate_roxo-Sheet_182
+  - first:
+      213: -3354950404016233206
+    second: Ultimate_roxo-Sheet_183
+  - first:
+      213: -5015127976056328526
+    second: Ultimate_roxo-Sheet_184
+  - first:
+      213: -3382271163980903412
+    second: Ultimate_roxo-Sheet_185
+  - first:
+      213: -7745498680483362587
+    second: Ultimate_roxo-Sheet_186
+  - first:
+      213: 1857341161088601246
+    second: Ultimate_roxo-Sheet_187
+  - first:
+      213: -1305418327871590585
+    second: Ultimate_roxo-Sheet_188
+  - first:
+      213: -6893558271306592587
+    second: Ultimate_roxo-Sheet_189
+  - first:
+      213: -1364144745090790496
+    second: Ultimate_roxo-Sheet_190
+  - first:
+      213: -2939255976330641413
+    second: Ultimate_roxo-Sheet_191
+  - first:
+      213: -8790087418807019724
+    second: Ultimate_roxo-Sheet_192
+  - first:
+      213: 8693996922411969831
+    second: Ultimate_roxo-Sheet_193
+  - first:
+      213: 258201965680566891
+    second: Ultimate_roxo-Sheet_194
+  - first:
+      213: 7665086987142071810
+    second: Ultimate_roxo-Sheet_195
+  - first:
+      213: 187329633480171049
+    second: Ultimate_roxo-Sheet_196
+  - first:
+      213: 8540995373440263804
+    second: Ultimate_roxo-Sheet_197
+  - first:
+      213: -5298268877081445485
+    second: Ultimate_roxo-Sheet_198
+  - first:
+      213: 8008443684175875711
+    second: Ultimate_roxo-Sheet_199
+  - first:
+      213: 6249299748793903044
+    second: Ultimate_roxo-Sheet_200
+  - first:
+      213: -6999299053442740923
+    second: Ultimate_roxo-Sheet_201
+  - first:
+      213: 8541411881223431662
+    second: Ultimate_roxo-Sheet_202
+  - first:
+      213: 8201379562939150133
+    second: Ultimate_roxo-Sheet_203
+  - first:
+      213: 4658427706097417442
+    second: Ultimate_roxo-Sheet_204
+  - first:
+      213: 8150025114195497408
+    second: Ultimate_roxo-Sheet_205
+  - first:
+      213: 658009285622962100
+    second: Ultimate_roxo-Sheet_206
+  - first:
+      213: -2166685242009938460
+    second: Ultimate_roxo-Sheet_207
+  - first:
+      213: 657837280236120324
+    second: Ultimate_roxo-Sheet_208
+  - first:
+      213: -7878083293465952801
+    second: Ultimate_roxo-Sheet_209
+  - first:
+      213: -3022348871147716123
+    second: Ultimate_roxo-Sheet_210
+  - first:
+      213: -4639145562412147068
+    second: Ultimate_roxo-Sheet_211
+  - first:
+      213: 2432583990788671377
+    second: Ultimate_roxo-Sheet_212
+  - first:
+      213: -7355115396103795320
+    second: Ultimate_roxo-Sheet_213
+  - first:
+      213: 6826613341666857694
+    second: Ultimate_roxo-Sheet_214
+  - first:
+      213: -8132622283241648487
+    second: Ultimate_roxo-Sheet_215
+  - first:
+      213: 4265320093478184642
+    second: Ultimate_roxo-Sheet_216
+  - first:
+      213: 5985195238012363470
+    second: Ultimate_roxo-Sheet_217
+  - first:
+      213: 5972387690768163673
+    second: Ultimate_roxo-Sheet_218
+  - first:
+      213: -873592047771603202
+    second: Ultimate_roxo-Sheet_219
+  - first:
+      213: 5997324124306042596
+    second: Ultimate_roxo-Sheet_220
+  - first:
+      213: -1607238630959103255
+    second: Ultimate_roxo-Sheet_221
+  - first:
+      213: 870898368620982080
+    second: Ultimate_roxo-Sheet_222
+  - first:
+      213: 5886183638552310576
+    second: Ultimate_roxo-Sheet_223
+  - first:
+      213: -8913845884823243472
+    second: Ultimate_roxo-Sheet_224
+  - first:
+      213: 7616609594590696416
+    second: Ultimate_roxo-Sheet_225
+  - first:
+      213: -2987612866415687915
+    second: Ultimate_roxo-Sheet_226
+  - first:
+      213: -656283825759242372
+    second: Ultimate_roxo-Sheet_227
+  - first:
+      213: 1526801652600401270
+    second: Ultimate_roxo-Sheet_228
+  - first:
+      213: 5176841452835572568
+    second: Ultimate_roxo-Sheet_229
+  - first:
+      213: 3454066284490444071
+    second: Ultimate_roxo-Sheet_230
+  - first:
+      213: 4131211809539960349
+    second: Ultimate_roxo-Sheet_231
+  - first:
+      213: 1036331813166559170
+    second: Ultimate_roxo-Sheet_232
+  - first:
+      213: -2674541070795933752
+    second: Ultimate_roxo-Sheet_233
+  - first:
+      213: -2804560530706636089
+    second: Ultimate_roxo-Sheet_234
+  - first:
+      213: -2601238071921665421
+    second: Ultimate_roxo-Sheet_235
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 102
+        width: 251
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50460271a1fd68d40800000000000000
+      internalID: 5586397690949821445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 77
+        width: 353
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0142b9f1f3770c900800000000000000
+      internalID: 702692654866703376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 113
+        width: 399
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79c7952539aff9e0800000000000000
+      internalID: -1585362498082059908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 118
+        width: 360
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac01c2fa673c05f0800000000000000
+      internalID: -789194902217880405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3825
+        y: 262
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a31eab5f3048a190800000000000000
+      internalID: -7951034501257358429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 260
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf25a9c2c79d86e50800000000000000
+      internalID: 6802926364490617596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5073
+        y: 253
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f59698bcd98f680800000000000000
+      internalID: -8721047180893659374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 7450
+        y: 252
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15219eaac4a5097d0800000000000000
+      internalID: -2913729673577295279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 246
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78292ee8d1dcce170800000000000000
+      internalID: 8209161747624530567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8620
+        y: 97
+        width: 218
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5312eece015e740800000000000000
+      internalID: 5180565556153103848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9112
+        y: 98
+        width: 308
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686641aaa7fdf3870800000000000000
+      internalID: 8664889926016591494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9268
+        y: 291
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695ecc7f5d38bc5b0800000000000000
+      internalID: -5347035177563658858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 9730
+        y: 104
+        width: 288
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0878dbd602025c910800000000000000
+      internalID: 1856925745012377472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 9873
+        y: 283
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14b19bccbd2a5270800000000000000
+      internalID: 8239948757120168989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 10436
+        y: 237
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2a70c5d2dd40380800000000000000
+      internalID: -9005830167946878302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 10992
+        y: 150
+        width: 172
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30852e36a85421f80800000000000000
+      internalID: -8137365116021483517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 11562
+        y: 241
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835f9ea083cda6940800000000000000
+      internalID: 5290282845559452984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 107
+        width: 234
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d651fd37361eea00800000000000000
+      internalID: 787591411354654420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 119
+        width: 408
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c978e54c89c2930800000000000000
+      internalID: 4119835728304118822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 273
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76250c734c8e0ce0800000000000000
+      internalID: -1437057009613199748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 56
+        width: 145
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2795bdf21578c1680800000000000000
+      internalID: -8782996390514304654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5706
+        y: 276
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d95fa39f750717a0800000000000000
+      internalID: -6406645899414513194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 6233
+        y: 67
+        width: 147
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2673a8866d359b0800000000000000
+      internalID: -5092491009142070544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6882
+        y: 243
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7deecf6c651f4a90800000000000000
+      internalID: -7327614513232024198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 10375
+        y: 269
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f77c3f0b04c0eeb0800000000000000
+      internalID: -4692535259940751371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 18140
+        y: 96
+        width: 333
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924d2b8d150822560800000000000000
+      internalID: 7287528236055188521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 266
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41f51327c53885b0800000000000000
+      internalID: -5365979826608541366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 113
+        width: 177
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01cdf6adcbf774e0800000000000000
+      internalID: -1983840250144898802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 261
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e0bc8dbbab0d1e0800000000000000
+      internalID: -2175033304061112739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5696
+        y: 261
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e9dda811c304f0800000000000000
+      internalID: -863634391784888894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6322
+        y: 265
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a4e19bb99755420800000000000000
+      internalID: 2618132468118473362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 68
+        width: 323
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016429cc8edbe4c50800000000000000
+      internalID: 6651462507235001872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 7390
+        y: 128
+        width: 209
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5138306d5833c1bb0800000000000000
+      internalID: -4964036039354907883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 7515
+        y: 260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa51df884fe861eb0800000000000000
+      internalID: -4749451576094157393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7995
+        y: 74
+        width: 280
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e169a201f1cb9540800000000000000
+      internalID: 5015815850883113447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 10591
+        y: 222
+        width: 11
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1d8e8c0d6bcb4f0800000000000000
+      internalID: -811572824993377813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 11118
+        y: 260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2675a73a90512fe50800000000000000
+      internalID: 6841553915070797666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 17625
+        y: 113
+        width: 169
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21121b10b3269ca0800000000000000
+      internalID: -6010577413403963094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 17677
+        y: 247
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc10e7a550d75fd0800000000000000
+      internalID: -2353183213970514767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 18712
+        y: 77
+        width: 305
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b53174be2a620770800000000000000
+      internalID: 8575533389295203764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 259
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb36948ae092c96d0800000000000000
+      internalID: -2982463710296448068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 251
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec099f4a2067d50800000000000000
+      internalID: 6734573200364064454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4558
+        y: 241
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd268d1515be9600800000000000000
+      internalID: 477017712842124765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 4622
+        y: 221
+        width: 80
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef259cdd6dd45b40800000000000000
+      internalID: 5428206914810228711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 6312
+        y: 252
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d8bb76e2e2c95e0800000000000000
+      internalID: -1901594165813473954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 6939
+        y: 250
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbbffa01d96cb3b0800000000000000
+      internalID: -5495401098745234448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7503
+        y: 257
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfceb8fb30077f20800000000000000
+      internalID: 3420202699587506132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 9280
+        y: 253
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a239a596c3f18aca0800000000000000
+      internalID: -6005515758772514006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 11124
+        y: 258
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a819d84cea3a2d120800000000000000
+      internalID: 2437190319378108810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 11168
+        y: 242
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242f8236088ff6c40800000000000000
+      internalID: 5507894099600536130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 243
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4608c9489a4138430800000000000000
+      internalID: 3783890830228226148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 8119
+        y: 246
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db57cf61e6582f470800000000000000
+      internalID: 8426944560642160061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 8128
+        y: 249
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de361ab9732bed950800000000000000
+      internalID: 6475809266109342701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 8159
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d088628041fa86fa0800000000000000
+      internalID: -5807199218923304947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 9884
+        y: 248
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b0a30e1aede8ae0800000000000000
+      internalID: -1545052835308500083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 10436
+        y: 116
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c10e8764f5ebea0800000000000000
+      internalID: -5855137709254763512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 10909
+        y: 215
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e902a2ebcea389e40800000000000000
+      internalID: 5663341319895523486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 11706
+        y: 221
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca678de58edb8fd00800000000000000
+      internalID: 1006763322438612652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 19283
+        y: 134
+        width: 285
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0702751fcb873c0800000000000000
+      internalID: -4361528494373441321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 20433
+        y: 81
+        width: 466
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9e75b3c3c843db0800000000000000
+      internalID: -4813067911430673962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 235
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaee13586262e4a0800000000000000
+      internalID: -6565577106542105878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 199
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efd2b939fdb612c0800000000000000
+      internalID: -4461169502751367196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 52
+        width: 208
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b5fba4709364900800000000000000
+      internalID: 668284298192706306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 4413
+        y: 238
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145c67c572082d8c0800000000000000
+      internalID: -3975974614471359167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 126
+        width: 171
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a44ff69ce9ed6bd0800000000000000
+      internalID: -2635193004587006809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 239
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413fcf0ac4787e550800000000000000
+      internalID: 6190064976032232212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 5122
+        y: 240
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda709d20782d2eb0800000000000000
+      internalID: -4743090370285372709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 5133
+        y: 237
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d95592cfcff62970800000000000000
+      internalID: 8729946195492166100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 6208
+        y: 220
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a7ee779f891e4b0800000000000000
+      internalID: -5412877079896229233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 9249
+        y: 239
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46024993ed39c0f0800000000000000
+      internalID: -1096276986549893558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 10498
+        y: 240
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae44a5993a4ca330800000000000000
+      internalID: 3723432603112722084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 12246
+        y: 105
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85794dcb509e52800800000000000000
+      internalID: 587131537293875032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 12891
+        y: 233
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb71c20d18df61d00800000000000000
+      internalID: 943219905965856699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 20063
+        y: 149
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c6177996835c880800000000000000
+      internalID: -8591398687975838633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 134
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501861c3a7701e4a0800000000000000
+      internalID: -6565958560153960187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 76
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68826e5d63222fe40800000000000000
+      internalID: 5688646898234566790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3dc7510f9303d30800000000000000
+      internalID: 4409087738511152121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 160
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65785be9020ad170800000000000000
+      internalID: 8203871912835183981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 222
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa1a63278477cd0800000000000000
+      internalID: -2560498207756801520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 192
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19402a5aa52e4d9e0800000000000000
+      internalID: -1597403088855890799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 143
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add553475fa8c1930800000000000000
+      internalID: 4115316946331065818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 164
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92f6d6444022f50800000000000000
+      internalID: 6855046274751605225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 203
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f287c3c66df68f0800000000000000
+      internalID: -544981269529219288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 141
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e70306e2885c7ec0800000000000000
+      internalID: -3567879485556324384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd0d5537755b1bb0800000000000000
+      internalID: -4964280193761079844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 129
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc704bb0b6e2e10800000000000000
+      internalID: 2174793368075750911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 4348
+        y: 158
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f71b148f8e006860800000000000000
+      internalID: 7521027387268208631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 164
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73771d041ff82ddf0800000000000000
+      internalID: -156904770667186377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 4407
+        y: 194
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d44e3a52fb04dd0800000000000000
+      internalID: -2503791224433652352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 4591
+        y: 171
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9096b091dddf980800000000000000
+      internalID: -8503397421770274339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b9b4cbd48b3db50800000000000000
+      internalID: 6616834921548454706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 4885
+        y: 81
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df869227921848860800000000000000
+      internalID: 7531286491879270653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 4972
+        y: 201
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e65c18767de87580800000000000000
+      internalID: -8829045976382810395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 167
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aadf2884056eb5f0800000000000000
+      internalID: -739042218703070555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 200
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a5582e72bd676d0800000000000000
+      internalID: -2992963937990518182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 5507
+        y: 107
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b42a95ae00f7f0800000000000000
+      internalID: -580948247512303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 5588
+        y: 213
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7908f72b0bf2fe0800000000000000
+      internalID: -1211555494049572921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 5607
+        y: 180
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcf94dc68d6cb710800000000000000
+      internalID: 1710362384231169236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 5765
+        y: 207
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44278fb3a69b70fd0800000000000000
+      internalID: -2375726412490837436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 5775
+        y: 210
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad32af374e37218f0800000000000000
+      internalID: -571266777687120934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 5780
+        y: 183
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe701077afd2735d0800000000000000
+      internalID: -3082944866150184977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 156
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597a0bbbe8e2d0110800000000000000
+      internalID: 1228689463911163797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 5786
+        y: 147
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9203eda1a84b6bdc0800000000000000
+      internalID: -3623510344923729879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 6124
+        y: 126
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867d97dbb39cef090800000000000000
+      internalID: -7998734629744289944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfee077903028950800000000000000
+      internalID: 6449720955535028185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 6213
+        y: 201
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bb2681a62ebed20800000000000000
+      internalID: 3308987296537295669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 6219
+        y: 190
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b9cbedd1fdf290800000000000000
+      internalID: -7854856239618344534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 6367
+        y: 141
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e8979d0959eb080800000000000000
+      internalID: -9169727341923299728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 169
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1ce2c8a77458ec0800000000000000
+      internalID: -3565364938330422857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 6376
+        y: 199
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854803c9c0217a7d0800000000000000
+      internalID: -2907335189075033000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 6419
+        y: 178
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea057ab3d1188c000800000000000000
+      internalID: 56436957896986798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 6787
+        y: 149
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a54b7a0b08ab40d0800000000000000
+      internalID: -3437469125193284184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 6807
+        y: 172
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2195e2822b2895aa0800000000000000
+      internalID: -6171758112644638446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 7006
+        y: 189
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d73508c8afd1df90800000000000000
+      internalID: -6930512435543197738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 7007
+        y: 177
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9537777ccb0cf2c50800000000000000
+      internalID: 6642739892427649881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 7011
+        y: 162
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955f28348f42fe050800000000000000
+      internalID: 5831920691171226969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 7369
+        y: 201
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1873e7c5a68e14e0800000000000000
+      internalID: -2009020337179363301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 7370
+        y: 163
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c18f15bae73b35b0800000000000000
+      internalID: -5387651048018050618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 7383
+        y: 170
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f62f67a4c486aa60800000000000000
+      internalID: 7684975794311866102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 7414
+        y: 188
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30ace36116727c90800000000000000
+      internalID: -7173541439384805314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea29cff4b2f6fc6a0800000000000000
+      internalID: -6426795911418178898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 7594
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045db8dff0d336540800000000000000
+      internalID: 4999907150198986048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 7948
+        y: 196
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35dd59182e5f03d0800000000000000
+      internalID: -3238266080738814658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 7977
+        y: 177
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa033a4bc8972fc0800000000000000
+      internalID: -3519676584876111200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 8009
+        y: 180
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a7bb0556bc83a00800000000000000
+      internalID: 736562175081675419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 168
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900c20bd5d2a6c410800000000000000
+      internalID: 1497062965533392905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 154
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022d6f0a215c19d60800000000000000
+      internalID: 7895308305557803552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 8187
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a399dbf7741220b00800000000000000
+      internalID: 793233075340155194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 8487
+        y: 148
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74bc5e6719525c30800000000000000
+      internalID: 4346634547536639101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 8590
+        y: 192
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388fe96d6e3242d40800000000000000
+      internalID: 5558607314432227459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 8606
+        y: 166
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6982c2f60ad590b0800000000000000
+      internalID: -5722428028126852758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 8609
+        y: 209
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f0b46d406fbccb0800000000000000
+      internalID: -4842506473671291066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 154
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52ad08e5e7d4fd0800000000000000
+      internalID: -2356088085691095640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 8614
+        y: 220
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39130cae4940fdc90800000000000000
+      internalID: -7142985446346182253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 8657
+        y: 134
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced06d791c64da770800000000000000
+      internalID: 8623626658774388204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 8819
+        y: 197
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0b20faefc090c20800000000000000
+      internalID: 3173081700456640721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 9206
+        y: 207
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c354ffa036eb5b70800000000000000
+      internalID: 8888951386330649539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 9377
+        y: 215
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41b8feac9f24e7d0800000000000000
+      internalID: -2890132710868078262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 9411
+        y: 181
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fe2f813e02c8d10800000000000000
+      internalID: 2129112883587641187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 9815
+        y: 208
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b6e53a58bea5c0800000000000000
+      internalID: -4202218704699214887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 9996
+        y: 177
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e7d72fd208da070800000000000000
+      internalID: 8119286638049066554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 10362
+        y: 185
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f596af954fd41f0800000000000000
+      internalID: -1058921670071722175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 10393
+        y: 137
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d8527bbaa1ee20800000000000000
+      internalID: 3378168917558612184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 10584
+        y: 174
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1712b5b92b11980800000000000000
+      internalID: -8569872235590749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 11014
+        y: 192
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddb564fd5088e550800000000000000
+      internalID: 6190338828841369048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 11022
+        y: 178
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88db71a5cb947b7a0800000000000000
+      internalID: -6361534875323351672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 11033
+        y: 158
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0a2899fa8ca6280800000000000000
+      internalID: -9049199844727283465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 11046
+        y: 164
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abccc34e73e382a0800000000000000
+      internalID: -6736290486173250654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 11049
+        y: 176
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52f2365ff02db050800000000000000
+      internalID: 5817842574667477599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 11163
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8997e1ff9692ea1a0800000000000000
+      internalID: -6796449252427007592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 11172
+        y: 212
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3fd66b82e09be80800000000000000
+      internalID: -8162477281610173532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 11244
+        y: 152
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68583d13e2f016c20800000000000000
+      internalID: 3197853901488620934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 11541
+        y: 222
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c25fc280e36ac900800000000000000
+      internalID: 705486107555353281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 11622
+        y: 209
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187cf4db9ff76a750800000000000000
+      internalID: 6315876238033405825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 11632
+        y: 164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a8718f0917cab50800000000000000
+      internalID: 6605779620897196545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 11640
+        y: 195
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68a63106ec45dbf0800000000000000
+      internalID: -300249249403721620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 11644
+        y: 160
+        width: 111
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04017ea1915a33e00800000000000000
+      internalID: 1023343067587350592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 11674
+        y: 223
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0eedb765b505e30800000000000000
+      internalID: 4490189255491903681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 11690
+        y: 143
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679a781fc626a75f0800000000000000
+      internalID: -758185367210317450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 11702
+        y: 132
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16e6be6b7adfad0800000000000000
+      internalID: -2666791000257699371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 11752
+        y: 170
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3d770154f56ae80800000000000000
+      internalID: -8167736123956145168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 11755
+        y: 199
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3368ddb822367ae00800000000000000
+      internalID: 1055921637668259379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 11778
+        y: 216
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59a0de693aa06550800000000000000
+      internalID: 6152104254637123932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 11815
+        y: 180
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a9a65d189075ca0800000000000000
+      internalID: -6028339122976155068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 12259
+        y: 195
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6109322c797e3eb70800000000000000
+      internalID: 8927233525361643542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 12295
+        y: 158
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a1f87dc1b7f89f0800000000000000
+      internalID: -464016872790091254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 12341
+        y: 177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3721c9b379a07d0800000000000000
+      internalID: -2951380323510619155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 12879
+        y: 177
+        width: 57
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09c54e9092601c0800000000000000
+      internalID: -4537894452066479954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 13484
+        y: 160
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9922ba066298b7200800000000000000
+      internalID: 178887408134857369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 14081
+        y: 178
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cb3158e9863b4c0800000000000000
+      internalID: -4272956591397684126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 14679
+        y: 178
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4736206358374a720800000000000000
+      internalID: 2856535079633707892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 15281
+        y: 186
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372ae7c34fd28ee60800000000000000
+      internalID: 7991688065779147379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 15895
+        y: 189
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e148ec19a7c5a40800000000000000
+      internalID: 5358292423317659142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 18374
+        y: 149
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2759dc4718f486c40800000000000000
+      internalID: 5505737961889437042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 20685
+        y: 192
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dd05300492bac10800000000000000
+      internalID: 2065790208989781341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 20692
+        y: 162
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea8dc640b4b5f000800000000000000
+      internalID: 69160038489230054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 20693
+        y: 166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e762e52aa0d1ab0800000000000000
+      internalID: -5035857115849785785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 20715
+        y: 155
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950a2739ba3f95640800000000000000
+      internalID: 5069350773820923993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 20725
+        y: 190
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a06fcb4a05b5260800000000000000
+      internalID: 7087347107072707188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 20728
+        y: 163
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c1a2eb2d03f2cf0800000000000000
+      internalID: -274947370554614733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 138
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e985089ef13f84f0800000000000000
+      internalID: -824385237243557407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 137
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51a45ef5ad9f3b30800000000000000
+      internalID: 4269304308032643421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 138
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68837821b25385200800000000000000
+      internalID: 168943445137111174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 133
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a052f810262d071d0800000000000000
+      internalID: -3354950404016233206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 8625
+        y: 126
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bee9045dafa66ab0800000000000000
+      internalID: -5015127976056328526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 9805
+        y: 128
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c0fd0eb42cf01d0800000000000000
+      internalID: -3382271163980903412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 9823
+        y: 135
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8488dccf5728490800000000000000
+      internalID: -7745498680483362587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 10465
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cc56502f996c910800000000000000
+      internalID: 1857341161088601246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 11103
+        y: 127
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fedeb72f832ede0800000000000000
+      internalID: -1305418327871590585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 11596
+        y: 127
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be8050a6492550a0800000000000000
+      internalID: -6893558271306592587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 11723
+        y: 138
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abc5a6f495911de0800000000000000
+      internalID: -1364144745090790496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 123
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff3eda234aa537d0800000000000000
+      internalID: -2939255976330641413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 124
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43790618016530680800000000000000
+      internalID: -8790087418807019724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 129
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d64be532847a870800000000000000
+      internalID: 8693996922411969831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 125
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62a2bcd151559300800000000000000
+      internalID: 258201965680566891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 125
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2068211e00cdf5a60800000000000000
+      internalID: 7665086987142071810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 6270
+        y: 126
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5d732f47899200800000000000000
+      internalID: 187329633480171049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 7444
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76692e3a06b78670800000000000000
+      internalID: 8540995373440263804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 9200
+        y: 118
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b7d091784c876b0800000000000000
+      internalID: -5298268877081445485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 9221
+        y: 126
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e0607a915b32f60800000000000000
+      internalID: 8008443684175875711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 9864
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c76cc5e209f9b650800000000000000
+      internalID: 6249299748793903044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 10457
+        y: 60
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d41d2489e7dde90800000000000000
+      internalID: -6999299053442740923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 11056
+        y: 82
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5af940ad0398670800000000000000
+      internalID: 8541411881223431662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 11132
+        y: 123
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fe22d724721d170800000000000000
+      internalID: 8201379562939150133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 11665
+        y: 112
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec36c9315f06a040800000000000000
+      internalID: 4658427706097417442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 11836
+        y: 111
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1922229a4ba1170800000000000000
+      internalID: 8150025114195497408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 12898
+        y: 124
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7177085f7b12900800000000000000
+      internalID: 658009285622962100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e59ae180436ee1e0800000000000000
+      internalID: -2166685242009938460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 122
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409ab70658b112900800000000000000
+      internalID: 657837280236120324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 5012
+        y: 122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddb5060cfc6ba290800000000000000
+      internalID: -7878083293465952801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 113
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e100fbf6b57e06d0800000000000000
+      internalID: -3022348871147716123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 5080
+        y: 113
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e1813b0b17e9fb0800000000000000
+      internalID: -4639145562412147068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 9775
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197c241504642c120800000000000000
+      internalID: 2432583990788671377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 106
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d0a3d24816de990800000000000000
+      internalID: -7355115396103795320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 106
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2def05aa00dbe50800000000000000
+      internalID: 6826613341666857694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 111
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e84f23f1f132f80800000000000000
+      internalID: -8132622283241648487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 106
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c66a11c606713b30800000000000000
+      internalID: 4265320093478184642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 110
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec22619ab5faf0350800000000000000
+      internalID: 5985195238012363470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 8626
+        y: 102
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953e62136fe22e250800000000000000
+      internalID: 5972387690768163673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 11010
+        y: 110
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efea7f939a060e3f0800000000000000
+      internalID: -873592047771603202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_220
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 94
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee64201486ca3350800000000000000
+      internalID: 5997324124306042596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_221
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 77
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2c56c0bf0f1b9e0800000000000000
+      internalID: -1607238630959103255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_222
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 80
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fee19b37d061c00800000000000000
+      internalID: 870898368620982080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_223
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 84
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03370aa35dcefa150800000000000000
+      internalID: 5886183638552310576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_224
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 93
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03578843568ab4480800000000000000
+      internalID: -8913845884823243472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_225
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3196e5212a3b960800000000000000
+      internalID: 7616609594590696416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_226
+      rect:
+        serializedVersion: 2
+        x: 6898
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51708e25dedd986d0800000000000000
+      internalID: -2987612866415687915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_227
+      rect:
+        serializedVersion: 2
+        x: 7469
+        y: 97
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7739cd665964e6f0800000000000000
+      internalID: -656283825759242372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_228
+      rect:
+        serializedVersion: 2
+        x: 7623
+        y: 70
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67de9b1830a403510800000000000000
+      internalID: 1526801652600401270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_229
+      rect:
+        serializedVersion: 2
+        x: 8573
+        y: 82
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b08ce8fd5d7d740800000000000000
+      internalID: 5176841452835572568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_230
+      rect:
+        serializedVersion: 2
+        x: 8754
+        y: 81
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dc4bd3cfe4fef20800000000000000
+      internalID: 3454066284490444071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_231
+      rect:
+        serializedVersion: 2
+        x: 9321
+        y: 56
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e278fa043055930800000000000000
+      internalID: 4131211809539960349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_232
+      rect:
+        serializedVersion: 2
+        x: 9859
+        y: 32
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfaa391b4ac16e00800000000000000
+      internalID: 1036331813166559170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_233
+      rect:
+        serializedVersion: 2
+        x: 18384
+        y: 98
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7f302011f12ead0800000000000000
+      internalID: -2674541070795933752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_234
+      rect:
+        serializedVersion: 2
+        x: 8009
+        y: 67
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c266287e033419d0800000000000000
+      internalID: -2804560530706636089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ultimate_roxo-Sheet_235
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a13ea61cb86ebd0800000000000000
+      internalID: -2601238071921665421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ultimate_roxo-Sheet_0: 5586397690949821445
+      Ultimate_roxo-Sheet_1: 702692654866703376
+      Ultimate_roxo-Sheet_10: 8664889926016591494
+      Ultimate_roxo-Sheet_100: -3082944866150184977
+      Ultimate_roxo-Sheet_101: 1228689463911163797
+      Ultimate_roxo-Sheet_102: -3623510344923729879
+      Ultimate_roxo-Sheet_103: -7998734629744289944
+      Ultimate_roxo-Sheet_104: 6449720955535028185
+      Ultimate_roxo-Sheet_105: 3308987296537295669
+      Ultimate_roxo-Sheet_106: -7854856239618344534
+      Ultimate_roxo-Sheet_107: -9169727341923299728
+      Ultimate_roxo-Sheet_108: -3565364938330422857
+      Ultimate_roxo-Sheet_109: -2907335189075033000
+      Ultimate_roxo-Sheet_11: -5347035177563658858
+      Ultimate_roxo-Sheet_110: 56436957896986798
+      Ultimate_roxo-Sheet_111: -3437469125193284184
+      Ultimate_roxo-Sheet_112: -6171758112644638446
+      Ultimate_roxo-Sheet_113: -6930512435543197738
+      Ultimate_roxo-Sheet_114: 6642739892427649881
+      Ultimate_roxo-Sheet_115: 5831920691171226969
+      Ultimate_roxo-Sheet_116: -2009020337179363301
+      Ultimate_roxo-Sheet_117: -5387651048018050618
+      Ultimate_roxo-Sheet_118: 7684975794311866102
+      Ultimate_roxo-Sheet_119: -7173541439384805314
+      Ultimate_roxo-Sheet_12: 1856925745012377472
+      Ultimate_roxo-Sheet_120: -6426795911418178898
+      Ultimate_roxo-Sheet_121: 4999907150198986048
+      Ultimate_roxo-Sheet_122: -3238266080738814658
+      Ultimate_roxo-Sheet_123: -3519676584876111200
+      Ultimate_roxo-Sheet_124: 736562175081675419
+      Ultimate_roxo-Sheet_125: 1497062965533392905
+      Ultimate_roxo-Sheet_126: 7895308305557803552
+      Ultimate_roxo-Sheet_127: 793233075340155194
+      Ultimate_roxo-Sheet_128: 4346634547536639101
+      Ultimate_roxo-Sheet_129: 5558607314432227459
+      Ultimate_roxo-Sheet_13: 8239948757120168989
+      Ultimate_roxo-Sheet_130: -5722428028126852758
+      Ultimate_roxo-Sheet_131: -4842506473671291066
+      Ultimate_roxo-Sheet_132: -2356088085691095640
+      Ultimate_roxo-Sheet_133: -7142985446346182253
+      Ultimate_roxo-Sheet_134: 8623626658774388204
+      Ultimate_roxo-Sheet_135: 3173081700456640721
+      Ultimate_roxo-Sheet_136: 8888951386330649539
+      Ultimate_roxo-Sheet_137: -2890132710868078262
+      Ultimate_roxo-Sheet_138: 2129112883587641187
+      Ultimate_roxo-Sheet_139: -4202218704699214887
+      Ultimate_roxo-Sheet_14: -9005830167946878302
+      Ultimate_roxo-Sheet_140: 8119286638049066554
+      Ultimate_roxo-Sheet_141: -1058921670071722175
+      Ultimate_roxo-Sheet_142: 3378168917558612184
+      Ultimate_roxo-Sheet_143: -8569872235590749784
+      Ultimate_roxo-Sheet_144: 6190338828841369048
+      Ultimate_roxo-Sheet_145: -6361534875323351672
+      Ultimate_roxo-Sheet_146: -9049199844727283465
+      Ultimate_roxo-Sheet_147: -6736290486173250654
+      Ultimate_roxo-Sheet_148: 5817842574667477599
+      Ultimate_roxo-Sheet_149: -6796449252427007592
+      Ultimate_roxo-Sheet_15: -8137365116021483517
+      Ultimate_roxo-Sheet_150: -8162477281610173532
+      Ultimate_roxo-Sheet_151: 3197853901488620934
+      Ultimate_roxo-Sheet_152: 705486107555353281
+      Ultimate_roxo-Sheet_153: 6315876238033405825
+      Ultimate_roxo-Sheet_154: 6605779620897196545
+      Ultimate_roxo-Sheet_155: -300249249403721620
+      Ultimate_roxo-Sheet_156: 1023343067587350592
+      Ultimate_roxo-Sheet_157: 4490189255491903681
+      Ultimate_roxo-Sheet_158: -758185367210317450
+      Ultimate_roxo-Sheet_159: -2666791000257699371
+      Ultimate_roxo-Sheet_16: 5290282845559452984
+      Ultimate_roxo-Sheet_160: -8167736123956145168
+      Ultimate_roxo-Sheet_161: 1055921637668259379
+      Ultimate_roxo-Sheet_162: 6152104254637123932
+      Ultimate_roxo-Sheet_163: -6028339122976155068
+      Ultimate_roxo-Sheet_164: 8927233525361643542
+      Ultimate_roxo-Sheet_165: -464016872790091254
+      Ultimate_roxo-Sheet_166: -2951380323510619155
+      Ultimate_roxo-Sheet_167: -4537894452066479954
+      Ultimate_roxo-Sheet_168: 178887408134857369
+      Ultimate_roxo-Sheet_169: -4272956591397684126
+      Ultimate_roxo-Sheet_17: 787591411354654420
+      Ultimate_roxo-Sheet_170: 2856535079633707892
+      Ultimate_roxo-Sheet_171: 7991688065779147379
+      Ultimate_roxo-Sheet_172: 5358292423317659142
+      Ultimate_roxo-Sheet_173: 5505737961889437042
+      Ultimate_roxo-Sheet_174: 2065790208989781341
+      Ultimate_roxo-Sheet_175: 69160038489230054
+      Ultimate_roxo-Sheet_176: -5035857115849785785
+      Ultimate_roxo-Sheet_177: 5069350773820923993
+      Ultimate_roxo-Sheet_178: 7087347107072707188
+      Ultimate_roxo-Sheet_179: -274947370554614733
+      Ultimate_roxo-Sheet_18: 4119835728304118822
+      Ultimate_roxo-Sheet_180: -824385237243557407
+      Ultimate_roxo-Sheet_181: 4269304308032643421
+      Ultimate_roxo-Sheet_182: 168943445137111174
+      Ultimate_roxo-Sheet_183: -3354950404016233206
+      Ultimate_roxo-Sheet_184: -5015127976056328526
+      Ultimate_roxo-Sheet_185: -3382271163980903412
+      Ultimate_roxo-Sheet_186: -7745498680483362587
+      Ultimate_roxo-Sheet_187: 1857341161088601246
+      Ultimate_roxo-Sheet_188: -1305418327871590585
+      Ultimate_roxo-Sheet_189: -6893558271306592587
+      Ultimate_roxo-Sheet_19: -1437057009613199748
+      Ultimate_roxo-Sheet_190: -1364144745090790496
+      Ultimate_roxo-Sheet_191: -2939255976330641413
+      Ultimate_roxo-Sheet_192: -8790087418807019724
+      Ultimate_roxo-Sheet_193: 8693996922411969831
+      Ultimate_roxo-Sheet_194: 258201965680566891
+      Ultimate_roxo-Sheet_195: 7665086987142071810
+      Ultimate_roxo-Sheet_196: 187329633480171049
+      Ultimate_roxo-Sheet_197: 8540995373440263804
+      Ultimate_roxo-Sheet_198: -5298268877081445485
+      Ultimate_roxo-Sheet_199: 8008443684175875711
+      Ultimate_roxo-Sheet_2: -1585362498082059908
+      Ultimate_roxo-Sheet_20: -8782996390514304654
+      Ultimate_roxo-Sheet_200: 6249299748793903044
+      Ultimate_roxo-Sheet_201: -6999299053442740923
+      Ultimate_roxo-Sheet_202: 8541411881223431662
+      Ultimate_roxo-Sheet_203: 8201379562939150133
+      Ultimate_roxo-Sheet_204: 4658427706097417442
+      Ultimate_roxo-Sheet_205: 8150025114195497408
+      Ultimate_roxo-Sheet_206: 658009285622962100
+      Ultimate_roxo-Sheet_207: -2166685242009938460
+      Ultimate_roxo-Sheet_208: 657837280236120324
+      Ultimate_roxo-Sheet_209: -7878083293465952801
+      Ultimate_roxo-Sheet_21: -6406645899414513194
+      Ultimate_roxo-Sheet_210: -3022348871147716123
+      Ultimate_roxo-Sheet_211: -4639145562412147068
+      Ultimate_roxo-Sheet_212: 2432583990788671377
+      Ultimate_roxo-Sheet_213: -7355115396103795320
+      Ultimate_roxo-Sheet_214: 6826613341666857694
+      Ultimate_roxo-Sheet_215: -8132622283241648487
+      Ultimate_roxo-Sheet_216: 4265320093478184642
+      Ultimate_roxo-Sheet_217: 5985195238012363470
+      Ultimate_roxo-Sheet_218: 5972387690768163673
+      Ultimate_roxo-Sheet_219: -873592047771603202
+      Ultimate_roxo-Sheet_22: -5092491009142070544
+      Ultimate_roxo-Sheet_220: 5997324124306042596
+      Ultimate_roxo-Sheet_221: -1607238630959103255
+      Ultimate_roxo-Sheet_222: 870898368620982080
+      Ultimate_roxo-Sheet_223: 5886183638552310576
+      Ultimate_roxo-Sheet_224: -8913845884823243472
+      Ultimate_roxo-Sheet_225: 7616609594590696416
+      Ultimate_roxo-Sheet_226: -2987612866415687915
+      Ultimate_roxo-Sheet_227: -656283825759242372
+      Ultimate_roxo-Sheet_228: 1526801652600401270
+      Ultimate_roxo-Sheet_229: 5176841452835572568
+      Ultimate_roxo-Sheet_23: -7327614513232024198
+      Ultimate_roxo-Sheet_230: 3454066284490444071
+      Ultimate_roxo-Sheet_231: 4131211809539960349
+      Ultimate_roxo-Sheet_232: 1036331813166559170
+      Ultimate_roxo-Sheet_233: -2674541070795933752
+      Ultimate_roxo-Sheet_234: -2804560530706636089
+      Ultimate_roxo-Sheet_235: -2601238071921665421
+      Ultimate_roxo-Sheet_24: -4692535259940751371
+      Ultimate_roxo-Sheet_25: 7287528236055188521
+      Ultimate_roxo-Sheet_26: -5365979826608541366
+      Ultimate_roxo-Sheet_27: -1983840250144898802
+      Ultimate_roxo-Sheet_28: -2175033304061112739
+      Ultimate_roxo-Sheet_29: -863634391784888894
+      Ultimate_roxo-Sheet_3: -789194902217880405
+      Ultimate_roxo-Sheet_30: 2618132468118473362
+      Ultimate_roxo-Sheet_31: 6651462507235001872
+      Ultimate_roxo-Sheet_32: -4964036039354907883
+      Ultimate_roxo-Sheet_33: -4749451576094157393
+      Ultimate_roxo-Sheet_34: 5015815850883113447
+      Ultimate_roxo-Sheet_35: -811572824993377813
+      Ultimate_roxo-Sheet_36: 6841553915070797666
+      Ultimate_roxo-Sheet_37: -6010577413403963094
+      Ultimate_roxo-Sheet_38: -2353183213970514767
+      Ultimate_roxo-Sheet_39: 8575533389295203764
+      Ultimate_roxo-Sheet_4: -7951034501257358429
+      Ultimate_roxo-Sheet_40: -2982463710296448068
+      Ultimate_roxo-Sheet_41: 6734573200364064454
+      Ultimate_roxo-Sheet_42: 477017712842124765
+      Ultimate_roxo-Sheet_43: 5428206914810228711
+      Ultimate_roxo-Sheet_44: -1901594165813473954
+      Ultimate_roxo-Sheet_45: -5495401098745234448
+      Ultimate_roxo-Sheet_46: 3420202699587506132
+      Ultimate_roxo-Sheet_47: -6005515758772514006
+      Ultimate_roxo-Sheet_48: 2437190319378108810
+      Ultimate_roxo-Sheet_49: 5507894099600536130
+      Ultimate_roxo-Sheet_5: 6802926364490617596
+      Ultimate_roxo-Sheet_50: 3783890830228226148
+      Ultimate_roxo-Sheet_51: 8426944560642160061
+      Ultimate_roxo-Sheet_52: 6475809266109342701
+      Ultimate_roxo-Sheet_53: -5807199218923304947
+      Ultimate_roxo-Sheet_54: -1545052835308500083
+      Ultimate_roxo-Sheet_55: -5855137709254763512
+      Ultimate_roxo-Sheet_56: 5663341319895523486
+      Ultimate_roxo-Sheet_57: 1006763322438612652
+      Ultimate_roxo-Sheet_58: -4361528494373441321
+      Ultimate_roxo-Sheet_59: -4813067911430673962
+      Ultimate_roxo-Sheet_6: -8721047180893659374
+      Ultimate_roxo-Sheet_60: -6565577106542105878
+      Ultimate_roxo-Sheet_61: -4461169502751367196
+      Ultimate_roxo-Sheet_62: 668284298192706306
+      Ultimate_roxo-Sheet_63: -3975974614471359167
+      Ultimate_roxo-Sheet_64: -2635193004587006809
+      Ultimate_roxo-Sheet_65: 6190064976032232212
+      Ultimate_roxo-Sheet_66: -4743090370285372709
+      Ultimate_roxo-Sheet_67: 8729946195492166100
+      Ultimate_roxo-Sheet_68: -5412877079896229233
+      Ultimate_roxo-Sheet_69: -1096276986549893558
+      Ultimate_roxo-Sheet_7: -2913729673577295279
+      Ultimate_roxo-Sheet_70: 3723432603112722084
+      Ultimate_roxo-Sheet_71: 587131537293875032
+      Ultimate_roxo-Sheet_72: 943219905965856699
+      Ultimate_roxo-Sheet_73: -8591398687975838633
+      Ultimate_roxo-Sheet_74: -6565958560153960187
+      Ultimate_roxo-Sheet_75: 5688646898234566790
+      Ultimate_roxo-Sheet_76: 4409087738511152121
+      Ultimate_roxo-Sheet_77: 8203871912835183981
+      Ultimate_roxo-Sheet_78: -2560498207756801520
+      Ultimate_roxo-Sheet_79: -1597403088855890799
+      Ultimate_roxo-Sheet_8: 8209161747624530567
+      Ultimate_roxo-Sheet_80: 4115316946331065818
+      Ultimate_roxo-Sheet_81: 6855046274751605225
+      Ultimate_roxo-Sheet_82: -544981269529219288
+      Ultimate_roxo-Sheet_83: -3567879485556324384
+      Ultimate_roxo-Sheet_84: -4964280193761079844
+      Ultimate_roxo-Sheet_85: 2174793368075750911
+      Ultimate_roxo-Sheet_86: 7521027387268208631
+      Ultimate_roxo-Sheet_87: -156904770667186377
+      Ultimate_roxo-Sheet_88: -2503791224433652352
+      Ultimate_roxo-Sheet_89: -8503397421770274339
+      Ultimate_roxo-Sheet_9: 5180565556153103848
+      Ultimate_roxo-Sheet_90: 6616834921548454706
+      Ultimate_roxo-Sheet_91: 7531286491879270653
+      Ultimate_roxo-Sheet_92: -8829045976382810395
+      Ultimate_roxo-Sheet_93: -739042218703070555
+      Ultimate_roxo-Sheet_94: -2992963937990518182
+      Ultimate_roxo-Sheet_95: -580948247512303934
+      Ultimate_roxo-Sheet_96: -1211555494049572921
+      Ultimate_roxo-Sheet_97: 1710362384231169236
+      Ultimate_roxo-Sheet_98: -2375726412490837436
+      Ultimate_roxo-Sheet_99: -571266777687120934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

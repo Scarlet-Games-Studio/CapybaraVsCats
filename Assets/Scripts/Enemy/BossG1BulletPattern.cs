@@ -1,34 +1,33 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class BossG1BulletPattern : MonoBehaviour
 {
     [Header("Screen bounds")]
-    [SerializeField, Range(0f, 0.25f)] private float viewportPadding = 0.08f;
+    [SerializeField, Range(0.02f, 0.25f)] float viewportPadding = 0.1f;
+    [SerializeField, Range(0.55f, 0.95f)] float targetViewportY = 0.78f;
+    [SerializeField, Min(0.05f)] float entrySpeed = 0.45f;
+    [SerializeField, Min(0f)] float verticalBobAmount = 0.018f;
+    [SerializeField, Min(0f)] float verticalBobSpeed = 1.4f;
 
     [Header("Horizontal movement")]
-    [SerializeField, Range(0.05f, 0.4f)] private float horizontalRange = 0.18f;
-    [SerializeField, Min(0.1f)] private float horizontalSmoothTime = 0.65f;
-    [SerializeField] private Vector2 directionChangeInterval = new Vector2(1.5f, 3f);
-    private float baseViewportX;
-    private float targetViewportX;
-    private float horizontalVelocity;
-    private float nextDirectionChange;
+    [SerializeField, Range(0.05f, 0.4f)] float horizontalRange = 0.22f;
+    [SerializeField, Min(0.1f)] float horizontalSmoothTime = 0.55f;
+    [SerializeField] Vector2 directionChangeInterval = new Vector2(1.3f, 2.6f);
 
     [Header("Bullet Pattern")]
     public GameObject bulletPrefab;
-    public float bulletSpeed = 5f;
-    public int bulletCount = 12;
-    public float fireRate = 0.5f;
-    [SerializeField]private float nextFireTime;
-    private bool isVisible = false;
-    private float spiralAngle = 0f;
+    [Min(0.1f)] public float bulletSpeed = 5f;
+    [Min(1)] public int bulletCount = 12;
+    [Min(0.1f)] public float fireRate = 0.5f;
+    [SerializeField] float nextFireTime;
+    [SerializeField, Min(0.25f)] float skillShotCooldown = 1.5f;
 
-    // Variáveis do Boss
     [Header("Boss stats & states")]
-    public int health = 300; // Vida inicial do boss
-    public GameObject deathEffect; // Efeito de morte do boss (opcional)
-    private bool isDead = false;
+    [Min(1)] public int health = 300;
+    [SerializeField, Range(0.1f, 0.9f)] float phaseTwoHealthRatio = 0.4f;
+    public GameObject deathEffect;
 
     [Header("Animation")]
     public SpriteRenderer sr;
@@ -36,225 +35,211 @@ public class BossG1BulletPattern : MonoBehaviour
     public GameObject VFX;
     public GameObject SkillShot;
 
+    public bool IsDead { get; private set; }
+    public event Action Died;
+
+    Camera gameCamera;
+    Coroutine spiralRoutine;
+    int maximumHealth;
+    float baseViewportX;
+    float currentViewportX;
+    float currentViewportY;
+    float targetViewportX;
+    float horizontalVelocity;
+    float nextDirectionChange;
+    float nextSkillShotTime;
+    float cameraDepth;
+    bool hasWindUpParameter;
+    bool hasReleasedParameter;
+
+    void Awake()
+    {
+        if (animator == null) animator = GetComponent<Animator>();
+        if (sr == null) sr = GetComponentInChildren<SpriteRenderer>();
+        hasWindUpParameter = HasAnimatorParameter("AttackWindUp");
+        hasReleasedParameter = HasAnimatorParameter("AttackReleased");
+        maximumHealth = Mathf.Max(1, health);
+
+        Rigidbody2D body = GetComponent<Rigidbody2D>();
+        if (body != null)
+        {
+            body.gravityScale = 0f;
+            body.linearVelocity = Vector2.zero;
+            body.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
+    }
 
     void Start()
     {
-        animator = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null)
+        gameCamera = Camera.main;
+        if (gameCamera == null)
         {
-            rb.linearVelocity = Vector2.zero;
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            Debug.LogError("Boss não encontrou a câmera principal.", this);
+            enabled = false;
+            return;
         }
 
-        Camera gameCamera = Camera.main;
-        baseViewportX = gameCamera != null
-            ? gameCamera.WorldToViewportPoint(transform.position).x
-            : 0.5f;
+        cameraDepth = Mathf.Abs(transform.position.z - gameCamera.transform.position.z);
+        Vector3 viewport = gameCamera.WorldToViewportPoint(transform.position);
+        baseViewportX = Mathf.Clamp(viewport.x, viewportPadding, 1f - viewportPadding);
+        currentViewportX = baseViewportX;
+        currentViewportY = Mathf.Clamp(viewport.y, viewportPadding, 1f - viewportPadding);
         targetViewportX = baseViewportX;
         ScheduleHorizontalMove();
+        nextFireTime = Time.time + 0.75f;
     }
 
     void Update()
     {
-        if(health >= 200)
+        if (IsDead || (GameManager.instance != null && !GameManager.instance.IsPlaying)) return;
+        if (!IsInsideCamera()) return;
+
+        bool phaseTwo = health <= Mathf.CeilToInt(maximumHealth * phaseTwoHealthRatio);
+        if (hasWindUpParameter) animator.SetBool("AttackWindUp", phaseTwo);
+
+        if (!phaseTwo)
         {
-            if (isVisible && Time.time >= nextFireTime)
-            {
-                FireUniquePattern();
-                nextFireTime = Time.time + fireRate;
-            }
+            if (Time.time < nextFireTime) return;
+            FireExpandingCirclePattern();
+            if (spiralRoutine == null) spiralRoutine = StartCoroutine(FireSpiralBurst());
+            nextFireTime = Time.time + Mathf.Max(0.1f, fireRate);
         }
-        else if(health < 200)
+        else if (Time.time >= nextSkillShotTime && ReadyToReleaseSkill())
         {
-            animator.SetBool("AttackWindUp", true);
-            FireSkillShotPattern();
+            FireSkillShot();
+            nextSkillShotTime = Time.time + skillShotCooldown;
         }
     }
 
     void LateUpdate()
     {
-        // Algumas animações antigas do boss possuem curvas de Transform. Mantém o
-        // objeto dentro da área jogável mesmo que uma dessas curvas mova a raiz.
-        Camera gameCamera = Camera.main;
-        if (gameCamera == null) return;
+        if (gameCamera == null || IsDead) return;
 
-        Vector3 viewportPosition = gameCamera.WorldToViewportPoint(transform.position);
-        if (viewportPosition.z < 0f) return;
+        if (Time.time >= nextDirectionChange) ScheduleHorizontalMove();
+        currentViewportX = Mathf.SmoothDamp(currentViewportX, targetViewportX, ref horizontalVelocity, horizontalSmoothTime);
+        currentViewportX = Mathf.Clamp(currentViewportX, viewportPadding, 1f - viewportPadding);
+        currentViewportY = Mathf.MoveTowards(currentViewportY, targetViewportY, entrySpeed * Time.deltaTime);
 
-        if (Time.time >= nextDirectionChange)
-            ScheduleHorizontalMove();
-
-        viewportPosition.x = Mathf.SmoothDamp(
-            viewportPosition.x,
-            targetViewportX,
-            ref horizontalVelocity,
-            horizontalSmoothTime);
-
-        viewportPosition.x = Mathf.Clamp(viewportPosition.x, viewportPadding, 1f - viewportPadding);
-        viewportPosition.y = Mathf.Clamp(viewportPosition.y, viewportPadding, 1f - viewportPadding);
-        transform.position = gameCamera.ViewportToWorldPoint(viewportPosition);
+        float bob = Mathf.Sin(Time.time * verticalBobSpeed) * verticalBobAmount;
+        float y = Mathf.Clamp(currentViewportY + bob, viewportPadding, 1f - viewportPadding);
+        transform.position = gameCamera.ViewportToWorldPoint(new Vector3(currentViewportX, y, cameraDepth));
     }
 
     void ScheduleHorizontalMove()
     {
         float minimumX = Mathf.Max(viewportPadding, baseViewportX - horizontalRange);
         float maximumX = Mathf.Min(1f - viewportPadding, baseViewportX + horizontalRange);
-        targetViewportX = Random.Range(minimumX, maximumX);
-        nextDirectionChange = Time.time + Random.Range(
-            Mathf.Min(directionChangeInterval.x, directionChangeInterval.y),
-            Mathf.Max(directionChangeInterval.x, directionChangeInterval.y));
+        targetViewportX = UnityEngine.Random.Range(minimumX, maximumX);
+        float minTime = Mathf.Max(0.1f, Mathf.Min(directionChangeInterval.x, directionChangeInterval.y));
+        float maxTime = Mathf.Max(minTime, Mathf.Max(directionChangeInterval.x, directionChangeInterval.y));
+        nextDirectionChange = Time.time + UnityEngine.Random.Range(minTime, maxTime);
     }
 
-    void OnBecameVisible()
+    bool IsInsideCamera()
     {
-        isVisible = true;
+        return currentViewportX >= 0f && currentViewportX <= 1f && currentViewportY >= 0f && currentViewportY <= 1f;
     }
 
-    void OnBecameInvisible()
+    bool ReadyToReleaseSkill()
     {
-        isVisible = false;
+        return !hasReleasedParameter || animator.GetBool("AttackReleased");
     }
 
-    void FireUniquePattern()
+    void FireSkillShot()
     {
-        FireExpandingCirclePattern();
-        FireSpiralBurstPattern();
+        if (VFX != null) Instantiate(VFX, transform.position, Quaternion.identity);
+        if (SkillShot != null) Instantiate(SkillShot, transform.position, Quaternion.identity);
+        if (hasReleasedParameter) animator.SetBool("AttackReleased", false);
     }
 
-    void FireSkillShotPattern()
+    bool HasAnimatorParameter(string parameterName)
     {
-        if(animator.GetBool("AttackReleased"))
-        {
-            StartCoroutine(Wait());
-        }
-    }
-
-    //Espera faz com que só seja spawnado apenas 1 projetil e efeito VFX
-    IEnumerator Wait()
-    {
-        Instantiate(VFX, transform.position, Quaternion.identity);
-        Instantiate(SkillShot, transform.position, Quaternion.identity);
-        yield return 0;
-        animator.SetBool("AttackReleased", false);
+        if (animator == null || animator.runtimeAnimatorController == null) return false;
+        foreach (AnimatorControllerParameter parameter in animator.parameters)
+            if (parameter.type == AnimatorControllerParameterType.Bool && parameter.name == parameterName)
+                return true;
+        return false;
     }
 
     void FireExpandingCirclePattern()
     {
-        float angleStep = 360f / bulletCount;
-        float angle = 0f;
-
-        for (int i = 0; i < bulletCount; i++)
+        if (bulletPrefab == null) return;
+        int count = Mathf.Max(1, bulletCount);
+        float angleStep = 360f / count;
+        for (int i = 0; i < count; i++)
         {
-            float bulletDirX = Mathf.Sin(angle * Mathf.Deg2Rad);
-            float bulletDirY = Mathf.Cos(angle * Mathf.Deg2Rad);
-
-            Vector2 bulletDirection = new Vector2(bulletDirX, bulletDirY).normalized;
-
-            SpawnBullet(bulletDirection);
-
-            angle += angleStep;
+            float angle = i * angleStep * Mathf.Deg2Rad;
+            SpawnBullet(new Vector2(Mathf.Sin(angle), Mathf.Cos(angle)).normalized);
         }
-    }
-
-    void FireSpiralBurstPattern()
-    {
-        StartCoroutine(FireSpiralBurst());
     }
 
     IEnumerator FireSpiralBurst()
     {
-        float angleStep = 20f;
-        for (int i = 0; i < bulletCount; i++)
+        if (bulletPrefab == null)
         {
-            float bulletDirX = Mathf.Sin(spiralAngle * Mathf.Deg2Rad);
-            float bulletDirY = Mathf.Cos(spiralAngle * Mathf.Deg2Rad);
+            spiralRoutine = null;
+            yield break;
+        }
 
-            Vector2 bulletDirection = new Vector2(bulletDirX, bulletDirY).normalized;
-
-            SpawnBullet(bulletDirection);
-
-            spiralAngle = (spiralAngle + angleStep) % 360f;
-
+        int count = Mathf.Max(1, bulletCount);
+        float angle = UnityEngine.Random.Range(0f, 360f);
+        for (int i = 0; i < count && !IsDead; i++)
+        {
+            float radians = angle * Mathf.Deg2Rad;
+            SpawnBullet(new Vector2(Mathf.Sin(radians), Mathf.Cos(radians)).normalized);
+            angle = (angle + 20f) % 360f;
             yield return new WaitForSeconds(0.1f);
         }
+        spiralRoutine = null;
     }
 
     void SpawnBullet(Vector2 direction)
     {
+        if (bulletPrefab == null) return;
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
-        if (bulletRb != null)
-        {
-            bulletRb.linearVelocity = direction * bulletSpeed;
-        }
+        Rigidbody2D bulletBody = bullet.GetComponent<Rigidbody2D>();
+        if (bulletBody != null) bulletBody.linearVelocity = direction * bulletSpeed;
 
         Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
-        if (bulletCollider != null)
-        {
-            bulletCollider.isTrigger = true;
-        }
-
-        Destroy(bullet, 5f); // Destroi o projétil após 5 segundos
+        if (bulletCollider != null) bulletCollider.isTrigger = true;
+        Destroy(bullet, 5f);
     }
 
-    // Método para o boss receber dano
     public void TakeDamage(int damage)
     {
-        if (isDead) return;
-
-        health -= damage;
-        StartCoroutine(Flashing());
-
-        // Verifica se a vida chegou a 0 ou menos
-        if (health <= 0)
-        {
-            Die();
-        }
+        if (IsDead || damage <= 0) return;
+        health = Mathf.Max(0, health - damage);
+        if (sr != null) StartCoroutine(Flashing());
+        if (health == 0) Die();
     }
 
-    // Lógica de morte do boss
     void Die()
     {
-        if (isDead) return;
-        isDead = true;
+        if (IsDead) return;
+        IsDead = true;
+        if (spiralRoutine != null) StopCoroutine(spiralRoutine);
+        Died?.Invoke();
 
-        if (deathEffect != null)
+        if (deathEffect != null) Instantiate(deathEffect, transform.position, Quaternion.identity);
+
+        BossDeath deathHandler = GetComponent<BossDeath>();
+        if (deathHandler != null)
+            deathHandler.NotifyDefeated();
+        else
         {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
+            ScoreManager.AddScore(1500);
+            if (GameManager.instance != null) GameManager.instance.CompleteStage();
+            else FindAnyObjectByType<StageManager>(FindObjectsInactive.Include)?.OnStageComplete();
         }
+
         Destroy(gameObject);
     }
 
-    //Faz o efeito de brilho quando leva dano
     IEnumerator Flashing()
     {
+        Color original = sr.color;
         sr.color = Color.red;
-        yield return new WaitForSeconds(0.03f);
-        sr.color = Color.white;
+        yield return new WaitForSeconds(0.05f);
+        if (sr != null) sr.color = original;
     }
-
-
-
-    //Essa função está sendo removida, pois o tiro do player já faz isso
-
-    // Método para detectar colisões com projéteis
-    /*void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("PlayerProjectile"))
-        {
-            Projectile projectile = collision.GetComponent<Projectile>();
-            if (projectile != null)
-            {
-                TakeDamage(projectile.damage);
-                Destroy(collision.gameObject);
-            }
-            else
-            {
-                TakeDamage(10); // Valor fixo caso não tenha script Projectile
-                Destroy(collision.gameObject);
-            }
-        }
-    }*/
 }

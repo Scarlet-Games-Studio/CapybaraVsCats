@@ -15,7 +15,7 @@ public class ScoreManager : MonoBehaviour
     public static void AddScore(int amount)
     {
         score += amount;
-        ScoreManager manager = FindFirstObjectByType<ScoreManager>();
+        ScoreManager manager = FindAnyObjectByType<ScoreManager>();
         if (manager != null)
             manager.UpdateScoreUI();
     }

@@ -1,130 +1,91 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float speed = 10f;
-    public float lifeTime = 2f;
-    public int damage = 10;
+    [Min(0.1f)] public float speed = 10f;
+    [Min(0.1f)] public float lifeTime = 2f;
+    [Min(1)] public int damage = 10;
     public GameObject explosionPrefab;
-    
+
+    Camera gameCamera;
+    bool consumed;
 
     void Start()
     {
-        // Chama DestroyProjectile após o tempo de vida do projétil (lifeTime)
-        Invoke("DestroyProjectile", lifeTime);
+        gameCamera = Camera.main;
+        Destroy(gameObject, lifeTime);
     }
 
     void Update()
     {
-        // Move o projétil dependendo de sua tag
-        if (gameObject.CompareTag("PlayerProjectile"))
-        {
-            MoveUp();
-        }
-        else
-        {
-            MoveDown();
-        }
+        Vector2 direction = CompareTag("PlayerProjectile") ? Vector2.up : Vector2.down;
+        transform.Translate(direction * speed * Time.deltaTime, Space.Self);
 
-        // Verifica se o projétil saiu da tela e o destrói
-        if (!IsWithinScreenBounds())
-        {
-            DestroyProjectile();
-        }
+        if (gameCamera == null) gameCamera = Camera.main;
+        if (gameCamera != null && IsFarOutsideScreen()) Destroy(gameObject);
     }
 
-    bool IsWithinScreenBounds()
+    bool IsFarOutsideScreen()
     {
-        Vector3 screenPos = Camera.main.WorldToViewportPoint(transform.position);
-        return screenPos.x >= 0 && screenPos.x <= 1 && screenPos.y >= 0 && screenPos.y <= 1;
-    }
-
-    void MoveUp()
-    {
-        transform.Translate(Vector2.up * speed * Time.deltaTime);
-    }
-
-    void MoveDown()
-    {
-        transform.Translate(Vector2.down * speed * Time.deltaTime);
+        Vector3 viewport = gameCamera.WorldToViewportPoint(transform.position);
+        return viewport.z <= 0f || viewport.x < -0.15f || viewport.x > 1.15f || viewport.y < -0.15f || viewport.y > 1.15f;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Se o projétil colidir com um inimigo ou boss, cria a explosão e destrói o projétil
-        if (gameObject.CompareTag("PlayerProjectile"))
+        if (consumed) return;
+
+        if (CompareTag("PlayerProjectile"))
         {
-            if (collision.CompareTag("Enemy"))
+            BossG1BulletPattern boss = collision.GetComponentInParent<BossG1BulletPattern>();
+            if (boss != null)
             {
-                SpawnExplosion();
-                EnemyHealth enemyHealth = collision.GetComponentInParent<EnemyHealth>();
-                if (enemyHealth != null)
-                    enemyHealth.TakeDamage(damage);
-                else
-                    Destroy(collision.gameObject);
-                Destroy(gameObject); // Destroi o projétil
+                boss.TakeDamage(damage);
+                Consume();
+                return;
             }
 
-            if (collision.CompareTag("Boss"))
+            EnemyHealth enemy = collision.GetComponentInParent<EnemyHealth>();
+            if (enemy != null && !enemy.IsDead)
             {
-                BossG1BulletPattern bossScript = collision.GetComponent<BossG1BulletPattern>();
-                if (bossScript != null)
-                {
-                    bossScript.TakeDamage(damage);
-                }
-                SpawnExplosion();
-                Destroy(gameObject); // Destroi o projétil
+                enemy.TakeDamage(damage);
+                collision.GetComponentInParent<EnemyAI>()?.FlashDamage();
+                Consume();
             }
+            return;
         }
 
-        // Se o projétil for do inimigo e colidir com o jogador, causa dano e gera a explosão
-        if (gameObject.CompareTag("EnemyProjectile"))
+        if (CompareTag("EnemyProjectile"))
         {
-            if (collision.CompareTag("Player"))
+            Health playerHealth = collision.GetComponentInParent<Health>();
+            if (playerHealth != null && playerHealth.CompareTag("Player"))
             {
-                Health playerHealth = collision.GetComponent<Health>();
-                if (playerHealth != null)
-                {
-                    playerHealth.TakeDamage(damage);
-                }
-                SpawnExplosion();
-                Destroy(gameObject); // Destroi o projétil
+                playerHealth.TakeDamage(damage);
+                Consume();
             }
         }
     }
 
-    // Método para instanciar a explosão
-    void SpawnExplosion()
+    void Consume()
     {
+        if (consumed) return;
+        consumed = true;
         if (explosionPrefab != null)
         {
             GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-            // Destrói a explosão após o tempo da animação terminar
             Destroy(explosion, GetAnimationClipLength(explosion));
         }
+        Destroy(gameObject);
     }
 
-    // Método que destrói o projétil após o tempo de vida
-    void DestroyProjectile()
-    {
-        SpawnExplosion();
-        Destroy(gameObject); // Destroi o projétil após o tempo de vida
-    }
-
-    // Método para pegar o tempo da animação da explosão
-    float GetAnimationClipLength(GameObject explosion)
+    static float GetAnimationClipLength(GameObject explosion)
     {
         Animator animator = explosion.GetComponent<Animator>();
-        if (animator != null)
+        if (animator != null && animator.runtimeAnimatorController != null)
         {
-            AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
-            if (clipInfo.Length > 0)
-            {
-                return clipInfo[0].clip.length; // Retorna a duração do primeiro clipe da animação
-            }
+            AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+            if (clips.Length > 0) return Mathf.Max(0.1f, clips[0].length);
         }
-        return 0.5f; // Valor padrão se a animação não for encontrada
+        return 0.5f;
     }
 }

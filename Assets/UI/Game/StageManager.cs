@@ -1,6 +1,6 @@
-using TMPro;
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,6 +19,8 @@ public class StageManager : MonoBehaviour
     public Button exitButton;
 
     [Header("Cenas")]
+    [Tooltip("Cena seguinte explícita. Se ficar vazia, ingame avança para stage2 e as demais para ComingSoon.")]
+    public string nextSceneName;
     public string comingSoonSceneName = "ComingSoon";
     public string mapSceneName = "Map";
     public string lobbySceneName = "Lobby";
@@ -26,7 +28,14 @@ public class StageManager : MonoBehaviour
 
     [Header("Pontuação")]
     [Min(1)] public int maxScore = 10000;
+
+    bool completed;
     bool transitioning;
+
+    void Awake()
+    {
+        Time.timeScale = 1f;
+    }
 
     void Start()
     {
@@ -37,33 +46,77 @@ public class StageManager : MonoBehaviour
         ConfigureButton(exitButton, () => LoadScene(mainMenuSceneName));
     }
 
-    void ConfigureButton(Button button, UnityEngine.Events.UnityAction action)
+    void OnDestroy()
+    {
+        if (nextButton != null) nextButton.onClick.RemoveListener(GoToNextStage);
+    }
+
+    static void ConfigureButton(Button button, UnityEngine.Events.UnityAction action)
     {
         if (button == null) return;
+        button.onClick.RemoveListener(action);
         button.onClick.AddListener(action);
     }
 
     public void OnStageComplete()
     {
-        if (stageCompleteUI == null) return;
+        if (completed) return;
+        completed = true;
+
+        ProgressManager.SaveProgress();
+        ProgressManager.SaveStageScore(ScoreManager.score);
+
+        if (stageCompleteUI == null)
+        {
+            Debug.LogWarning("A UI de conclusão da fase não está configurada.", this);
+            Time.timeScale = 0f;
+            StartCoroutine(AutoAdvanceWithoutPanel());
+            return;
+        }
+
         stageCompleteUI.SetActive(true);
         stageCompleteUI.transform.SetAsLastSibling();
         if (scoreViewText != null) scoreViewText.text = $"SCORE  {ScoreManager.score:N0}";
         UpdateStars(ScoreManager.score, maxScore);
-        ProgressManager.SaveProgress();
-        ProgressManager.SaveStageScore(ScoreManager.score);
+        SetNavigationInteractable(true);
+        Time.timeScale = 0f;
     }
 
-    public void EnableNextButton() { if (nextButton != null) nextButton.interactable = true; }
+    IEnumerator AutoAdvanceWithoutPanel()
+    {
+        yield return new WaitForSecondsRealtime(1.25f);
+        if (!transitioning) GoToNextStage();
+    }
 
-    void GoToNextStage()
+    public void EnableNextButton()
+    {
+        if (nextButton != null) nextButton.interactable = true;
+    }
+
+    public void GoToNextStage()
     {
         if (transitioning) return;
         transitioning = true;
         SetNavigationInteractable(false);
         ProgressManager.SaveProgress();
         ProgressManager.SaveStageScore(ScoreManager.score);
-        RewardedAdBridge.Show(this, () => LoadScene(comingSoonSceneName));
+
+        string destination = ResolveNextScene(SceneManager.GetActiveScene().name);
+        RewardedAdBridge.Show(this, () => LoadScene(destination));
+    }
+
+    string ResolveNextScene(string currentScene)
+    {
+        if (!string.IsNullOrWhiteSpace(nextSceneName) &&
+            !string.Equals(nextSceneName, currentScene, StringComparison.OrdinalIgnoreCase) &&
+            Application.CanStreamedLevelBeLoaded(nextSceneName))
+            return nextSceneName;
+
+        if (string.Equals(currentScene, "ingame", StringComparison.OrdinalIgnoreCase) &&
+            Application.CanStreamedLevelBeLoaded("stage2"))
+            return "stage2";
+
+        return comingSoonSceneName;
     }
 
     void SetNavigationInteractable(bool value)
@@ -76,14 +129,15 @@ public class StageManager : MonoBehaviour
 
     void LoadScene(string sceneName)
     {
-        if (string.IsNullOrWhiteSpace(sceneName)) return;
-        if (!Application.CanStreamedLevelBeLoaded(sceneName))
+        if (string.IsNullOrWhiteSpace(sceneName) || !Application.CanStreamedLevelBeLoaded(sceneName))
         {
             Debug.LogError($"A cena '{sceneName}' não está habilitada no Build Settings.");
             transitioning = false;
             SetNavigationInteractable(true);
             return;
         }
+
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneName);
     }
 

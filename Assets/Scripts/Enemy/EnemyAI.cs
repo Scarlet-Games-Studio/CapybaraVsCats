@@ -1,92 +1,108 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(EnemyHealth))]
 public class EnemyAI : MonoBehaviour
 {
-    public float speed = 3f;
+    [Min(0.1f)] public float speed = 3f;
     public GameObject projectilePrefab;
-    public Transform firePoint; // Agora configurável diretamente no inspector
-    public float fireRate = 1f;
-    private float nextFire;
-
-    public int maxHits = 2; // Quantidade de hits para destruir o inimigo
-    private EnemyHealth enemyHealth; // Referência ao script de vida do inimigo
-
+    public Transform firePoint;
+    [Min(0.1f)] public float fireRate = 1f;
+    public int maxHits = 2;
     public SpriteRenderer sr;
+
+    [Header("Movement")]
+    [SerializeField, Min(0f)] float horizontalDrift = 0.35f;
+    [SerializeField, Min(0.1f)] float driftFrequency = 1.25f;
+    [SerializeField, Range(0f, 0.5f)] float despawnMargin = 0.15f;
+    [SerializeField, Min(0.1f)] float minimumMoveSpeed = 0.35f;
+    [SerializeField, Min(0)] int contactDamage = 10;
+
+    EnemyHealth enemyHealth;
+    Camera gameCamera;
+    float nextFire;
+    float driftSeed;
+    bool enteredScreen;
+
+    void Awake()
+    {
+        enemyHealth = GetComponent<EnemyHealth>();
+        if (sr == null) sr = GetComponentInChildren<SpriteRenderer>();
+        driftSeed = Random.Range(0f, Mathf.PI * 2f);
+    }
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-        // Obtém a referência ao script EnemyHealth no início
-        enemyHealth = GetComponent<EnemyHealth>();
+        gameCamera = Camera.main;
+        nextFire = Time.time + Random.Range(0.15f, Mathf.Max(0.2f, fireRate));
     }
 
     void Update()
     {
+        if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
+
         Move();
+        bool inside = IsWithinScreenBounds();
+        if (inside) enteredScreen = true;
 
-        if (Time.time > nextFire && IsWithinScreenBounds())
+        if (inside && projectilePrefab != null && firePoint != null && Time.time >= nextFire)
         {
-            Shoot();
-            nextFire = Time.time + fireRate;
+            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            nextFire = Time.time + Mathf.Max(0.1f, fireRate);
         }
-    }
 
-    bool IsWithinScreenBounds()
-    {
-        Vector3 screenPos = Camera.main.WorldToViewportPoint(transform.position);
-        return screenPos.x >= 0 && screenPos.x <= 1 && screenPos.y >= 0 && screenPos.y <= 1;
+        if (enteredScreen && IsPastDespawnBounds()) Destroy(gameObject);
     }
 
     void Move()
     {
-        transform.Translate(Vector2.down * speed * Time.deltaTime);
+        float verticalSpeed = Mathf.Max(minimumMoveSpeed, speed);
+        float drift = Mathf.Sin(Time.time * driftFrequency + driftSeed) * horizontalDrift;
+        transform.Translate(new Vector2(drift, -verticalSpeed) * Time.deltaTime, Space.World);
     }
 
-    void Shoot()
+    bool IsWithinScreenBounds()
     {
-        if (firePoint != null)
-        {
-            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        }
-        else
-        {
-            Debug.LogWarning("FirePoint não está configurado.");
-        }
+        if (gameCamera == null) gameCamera = Camera.main;
+        if (gameCamera == null) return true;
+        Vector3 viewport = gameCamera.WorldToViewportPoint(transform.position);
+        return viewport.z > 0f && viewport.x >= 0f && viewport.x <= 1f && viewport.y >= 0f && viewport.y <= 1f;
+    }
+
+    bool IsPastDespawnBounds()
+    {
+        if (gameCamera == null) return false;
+        Vector3 viewport = gameCamera.WorldToViewportPoint(transform.position);
+        return viewport.z <= 0f || viewport.x < -despawnMargin || viewport.x > 1f + despawnMargin ||
+               viewport.y < -despawnMargin;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Health playerHealth = other.GetComponentInParent<Health>();
+        if (playerHealth == null || !playerHealth.CompareTag("Player")) return;
+        playerHealth.TakeDamage(contactDamage);
+        Destroy(gameObject);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            // Causa dano ao jogador se ele colidir com o inimigo
-            Health playerHealth = collision.gameObject.GetComponent<Health>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(10);
-            }
-            Destroy(gameObject); // Destroi o inimigo após a colisão
-        }
-        else if (collision.gameObject.CompareTag("PlayerProjectile"))
-        {
-            // Aplica dano ao inimigo
-            if (enemyHealth != null)
-            {
-                StartCoroutine(Flashing());
-                enemyHealth.TakeDamage(10); // Dano de 10
-            }
-
-            // Destroi o projétil do jogador após a colisão
-            Destroy(collision.gameObject);
-        }
+        Health playerHealth = collision.gameObject.GetComponentInParent<Health>();
+        if (playerHealth == null || !playerHealth.CompareTag("Player")) return;
+        playerHealth.TakeDamage(contactDamage);
+        Destroy(gameObject);
     }
 
-    //Faz o efeito de brilho quando leva dano
+    public void FlashDamage()
+    {
+        if (sr != null && isActiveAndEnabled) StartCoroutine(Flashing());
+    }
+
     IEnumerator Flashing()
     {
+        Color original = sr.color;
         sr.color = Color.red;
-        yield return new WaitForSeconds(0.03f);
-        sr.color = Color.white;
+        yield return new WaitForSeconds(0.05f);
+        if (sr != null) sr.color = original;
     }
 }

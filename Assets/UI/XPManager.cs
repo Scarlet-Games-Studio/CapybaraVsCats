@@ -13,15 +13,19 @@ public class XPManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
+        if (instance == null || instance.gameObject.scene != gameObject.scene)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
+    }
+
+    void OnDestroy()
+    {
+        if (instance == this) instance = null;
     }
 
     void Start()
@@ -49,7 +53,7 @@ public class XPManager : MonoBehaviour
 
     void ApplyLevelUpRewards()
     {
-        PlayerController player = FindObjectOfType<PlayerController>();
+        PlayerController player = FindAnyObjectByType<PlayerController>();
         if (player != null)
         {
             player.IncreaseFireRate(0.1f);

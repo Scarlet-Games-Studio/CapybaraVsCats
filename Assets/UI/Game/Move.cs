@@ -1,103 +1,104 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
-    public Touch t;
-    public Vector2 startPos;
     public Transform background;
     public GameObject player;
+    [SerializeField, Min(20f)] float joystickRadius = 70f;
 
-    void Awake()
+    Touch activeTouch;
+    Vector2 startPosition;
+    int activeFingerId = -1;
+
+    void Start() => FindPlayer();
+
+    void OnEnable() => ResetTouch();
+
+    void OnDisable() => ResetTouch();
+
+    void OnApplicationFocus(bool hasFocus)
     {
-        // Garante que sempre reinicia o touch
-        t = new Touch { fingerId = -1 };
-
-        // Inscreve no evento de cena carregada
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        if (!hasFocus) ResetTouch();
     }
 
-    void OnDestroy()
+    void ResetTouch()
     {
-        // Remove do evento quando o objeto for destruído
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void Start()
-    {
-        FindPlayer();
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Sempre que uma cena nova for carregada, reprocura o Player
-        FindPlayer();
+        activeFingerId = -1;
+        activeTouch = default;
     }
 
     void FindPlayer()
     {
-        if (player == null)
-        {
-            player = GameObject.FindWithTag("Player");
-        }
+        player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
-        if (player == null) return; // Se o player não existir, não faz nada
-
-        if (Input.touchCount > 0)
+        if (player == null)
         {
-            for (int a = 0; a < Input.touchCount; a++)
+            FindPlayer();
+            if (player == null) return;
+        }
+
+        if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
+
+        UpdateTouch();
+        if (activeFingerId == -1) return;
+
+        Vector2 drag = activeTouch.position - startPosition;
+        Vector2 input = Vector2.ClampMagnitude(drag / joystickRadius, 1f);
+        PlayerController controller = player.GetComponent<PlayerController>();
+        float speed = controller != null ? controller.moveSpeed : 5f;
+        player.transform.position += (Vector3)(input * speed * Time.deltaTime);
+        ClampPlayerToScreen();
+
+        if (background != null)
+            background.position = startPosition + Vector2.ClampMagnitude(drag, joystickRadius);
+    }
+
+    void UpdateTouch()
+    {
+        if (Input.touchCount == 0)
+        {
+            activeFingerId = -1;
+            return;
+        }
+
+        for (int i = 0; i < Input.touchCount; i++)
+        {
+            Touch touch = Input.GetTouch(i);
+            if (activeFingerId == -1)
             {
-                if (t.fingerId == -1)
-                {
-                    if (Input.GetTouch(a).position.x < Screen.width / 2 &&
-                        Input.GetTouch(a).position.y < Screen.height / 2)
-                    {
-                        t = Input.GetTouch(a);
-                        startPos = t.position;
-                        if (background != null)
-                            background.position = startPos;
-                    }
-                }
-                else
-                {
-                    if (Input.GetTouch(a).fingerId == t.fingerId)
-                    {
-                        t = Input.GetTouch(a);
-                    }
-                }
+                if (touch.position.x >= Screen.width * 0.5f || touch.position.y >= Screen.height * 0.5f)
+                    continue;
+
+                activeFingerId = touch.fingerId;
+                activeTouch = touch;
+                startPosition = touch.position;
+                if (background != null) background.position = startPosition;
             }
-
-            if (t.fingerId != -1)
+            else if (touch.fingerId == activeFingerId)
             {
-                if (t.phase == TouchPhase.Canceled || t.phase == TouchPhase.Ended)
-                {
-                    t = new Touch { fingerId = -1 };
-                }
-                else
-                {
-                    Vector2 dist = t.position - startPos;
-                    Vector3 newPosition = startPos + Vector2.ClampMagnitude(dist, 70);
-                    transform.position = newPosition;
-
-                    // Limites da tela
-                    float screenLeft = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).x + 0.1f;
-                    float screenRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x - 0.1f;
-                    float screenTop = Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y - 0.1f;
-                    float screenBottom = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).y + 0.1f;
-
-                    // Limitar movimentação do player
-                    Vector2 clampedPosition = player.transform.position;
-                    clampedPosition.x = Mathf.Clamp(clampedPosition.x, screenLeft, screenRight);
-                    clampedPosition.y = Mathf.Clamp(clampedPosition.y, screenBottom, screenTop);
-                    player.transform.position = clampedPosition;
-
-                    // Movimentação do player
-                    player.transform.position += (Vector3)dist * 0.005f * Time.deltaTime;
-                }
+                activeTouch = touch;
             }
         }
+
+        if (activeFingerId != -1 &&
+            (activeTouch.phase == TouchPhase.Canceled || activeTouch.phase == TouchPhase.Ended))
+            activeFingerId = -1;
+    }
+
+    void ClampPlayerToScreen()
+    {
+        Camera gameCamera = Camera.main;
+        if (gameCamera == null) return;
+
+        float depth = Mathf.Abs(player.transform.position.z - gameCamera.transform.position.z);
+        Vector3 bottomLeft = gameCamera.ViewportToWorldPoint(new Vector3(0.03f, 0.03f, depth));
+        Vector3 topRight = gameCamera.ViewportToWorldPoint(new Vector3(0.97f, 0.97f, depth));
+        Vector3 position = player.transform.position;
+        position.x = Mathf.Clamp(position.x, Mathf.Min(bottomLeft.x, topRight.x), Mathf.Max(bottomLeft.x, topRight.x));
+        position.y = Mathf.Clamp(position.y, Mathf.Min(bottomLeft.y, topRight.y), Mathf.Max(bottomLeft.y, topRight.y));
+        player.transform.position = position;
     }
 }

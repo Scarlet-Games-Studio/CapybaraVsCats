@@ -120,7 +120,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4824520766123646133, guid: 953af641da85f0a41b8fd59e62d66bb5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6f25d8328d94e64a2be0190cda933af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -264,14 +264,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99ce73aff07e154ea24e60b5ec18fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GatoballKamikaze
-  chaseSpeed: 1.65
-  turnSpeed: 2.8
+  chaseSpeed: 2.8
+  maximumChaseSpeed: 5.2
+  acceleration: 0.65
+  turnSpeed: 4.5
+  targetPrediction: 0.28
   collisionDamage: 25
-  visualScale: 0.25
-  formationDuration: 2.5
-  formationSpeed: 1.15
-  maximumLifetime: 12
-  despawnMargin: 0.08
+  formationDuration: 1.35
+  formationSpeed: 1.5
+  telegraphDuration: 0.55
+  maximumLifetime: 14
+  despawnMargin: 0.18
+  visualScale: 0.72
+  pulseAmount: 0.1
+  pulseSpeed: 10
+  telegraphColor: {r: 1, g: 0.32, b: 0.12, a: 1}
+  chaseColor: {r: 1, g: 1, b: 1, a: 1}
+  disableLegacyAnimator: 1
 --- !u!114 &6277290382532798848
 MonoBehaviour:
   m_ObjectHideFlags: 0
