@@ -84,8 +84,8 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8394602088398083447, guid: cc89fd343c02b2d40b1c40181e347063, type: 3}
-  m_Color: {r: 0.25, g: 0.95, b: 1, a: 1}
+  m_Sprite: {fileID: -3933572128720470554, guid: 8d6d59ffe4aa3c14dbe3a329dd2d3c66, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -172,7 +172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShieldPickup
   fallSpeed: 1.5
   lifetime: 12
-  shieldHits: 3
+  shieldHits: 4
+  shieldDuration: 16
   hiroShield: {fileID: 8031354962811221473, guid: 61b9e5f2ce94ace428dff326ebcbac6d, type: 3}
   mikaShield: {fileID: 8508758934310442077, guid: 1976a88f12438634da9a119414d9682c, type: 3}
   edgeShield: {fileID: 899371421996022435, guid: 3d8203631ea0eb94380ee4d9c9d54700, type: 3}

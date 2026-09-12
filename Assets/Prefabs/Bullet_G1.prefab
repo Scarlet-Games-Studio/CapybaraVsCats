@@ -178,4 +178,5 @@ MonoBehaviour:
   speed: 2
   lifeTime: 2
   damage: 1
+  visualSize: 0
   bossProjectile: 0

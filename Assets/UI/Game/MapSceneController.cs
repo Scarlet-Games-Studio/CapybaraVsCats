@@ -14,7 +14,6 @@ public class MapSceneController : MonoBehaviour
 
     [Header("Cenas")]
     public string earthScene = "ingame";
-    public string marsScene = "stage2";
     public string comingSoonScene = "ComingSoon";
     public string lobbyScene = "Lobby";
     public string mainMenuScene = "MainMenu";
@@ -22,7 +21,7 @@ public class MapSceneController : MonoBehaviour
     void Start()
     {
         Bind(earthButton, earthScene);
-        Bind(marsButton, marsScene);
+        Bind(marsButton, comingSoonScene);
         Bind(lobbyButton, lobbyScene);
         Bind(exitButton, mainMenuScene);
         if (comingSoonButtons != null)

@@ -15,22 +15,6 @@ public static class RebuildResultsUI
     static readonly Color Cyan = new(0.05f, 0.78f, 0.92f, 1f);
     static readonly Color Gold = new(1f, 0.57f, 0.08f, 1f);
 
-    [InitializeOnLoadMethod]
-    static void RebuildOnceAfterCompile()
-    {
-        const string key = "Capybara.ResultsUI.v3";
-        if (SessionState.GetBool(key, false)) return;
-        EditorApplication.update += TryRebuild;
-
-        void TryRebuild()
-        {
-            if (EditorApplication.isPlayingOrWillChangePlaymode || EditorApplication.isCompiling || EditorApplication.isUpdating) return;
-            EditorApplication.update -= TryRebuild;
-            Rebuild();
-            SessionState.SetBool(key, true);
-        }
-    }
-
     [MenuItem("Tools/Capybara vs Cats/Rebuild Results UI")]
     public static void Rebuild()
     {

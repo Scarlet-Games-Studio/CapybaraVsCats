@@ -112,7 +112,7 @@ public class UI_Spin : MonoBehaviour
         if (source != null)
         {
             AudioClip clip = Random.value < 0.5f ? mikaA1 : mikaA2;
-            if (clip != null) source.PlayOneShot(clip);
+            if (clip != null) source.PlayOneShot(clip, AudioVolumeSettings.VoiceVolume);
         }
     }
 

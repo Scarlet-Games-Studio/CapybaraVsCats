@@ -46,7 +46,6 @@ public static class RebuildLobbyScene
         EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);Debug.Log("Lobby rebuilt with character profile and Local/Regional/World rankings.");
     }
 
-    [InitializeOnLoadMethod] static void Auto(){const string key="Capybara.Lobby.v3";if(SessionState.GetBool(key,false))return;EditorApplication.update+=Try;void Try(){if(EditorApplication.isPlayingOrWillChangePlaymode||EditorApplication.isCompiling||EditorApplication.isUpdating)return;EditorApplication.update-=Try;Rebuild();SessionState.SetBool(key,true);}}
     static Button Tab(string n,Transform p,string label,Vector2 pos)=>Button(n,p,label,pos,new Vector2(220,54),new Color(.035f,.18f,.25f,1));
     static Button SpriteButton(string n,Transform p,string path,Vector2 pos,Vector2 size){Image image=Image(n,p,Color.white);image.sprite=Sprite(path);image.preserveAspect=false;SetRect(image.rectTransform,new Vector2(.5f,.5f),size,pos);var b=image.gameObject.AddComponent<Button>();b.targetGraphic=image;return b;}
     static Button Button(string n,Transform p,string label,Vector2 pos,Vector2 size,Color color){Image image=Image(n,p,color);SetRect(image.rectTransform,new Vector2(.5f,.5f),size,pos);var b=image.gameObject.AddComponent<Button>();b.targetGraphic=image;Text("Label",image.transform,label,19,Vector2.zero,size-new Vector2(20,12),Color.white);return b;}

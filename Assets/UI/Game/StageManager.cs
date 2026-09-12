@@ -19,8 +19,7 @@ public class StageManager : MonoBehaviour
     public Button exitButton;
 
     [Header("Cenas")]
-    [Tooltip("Cena seguinte explícita. Se ficar vazia, ingame avança para stage2 e as demais para ComingSoon.")]
-    public string nextSceneName;
+    [Tooltip("Após concluir o Stage 1, o jogo exibe a tela de conteúdo em breve.")]
     public string comingSoonSceneName = "ComingSoon";
     public string mapSceneName = "Map";
     public string lobbySceneName = "Lobby";
@@ -63,29 +62,71 @@ public class StageManager : MonoBehaviour
         if (completed) return;
         completed = true;
 
-        ProgressManager.SaveProgress();
-        ProgressManager.SaveStageScore(ScoreManager.score);
-
         if (stageCompleteUI == null)
         {
             Debug.LogWarning("A UI de conclusão da fase não está configurada.", this);
             Time.timeScale = 0f;
-            StartCoroutine(AutoAdvanceWithoutPanel());
             return;
         }
 
-        stageCompleteUI.SetActive(true);
-        stageCompleteUI.transform.SetAsLastSibling();
+        ShowStageCompleteUI();
         if (scoreViewText != null) scoreViewText.text = $"SCORE  {ScoreManager.score:N0}";
         UpdateStars(ScoreManager.score, maxScore);
-        SetNavigationInteractable(true);
+        // Evita que o toque/tiro que derrotou o boss atravesse o painel e
+        // pressione um botão no mesmo frame em que ele apareceu.
+        SetNavigationInteractable(false);
         Time.timeScale = 0f;
+        StartCoroutine(EnableNavigationAfterInputRelease());
+
+        try
+        {
+            ProgressManager.SaveProgress();
+            ProgressManager.SaveStageScore(ScoreManager.score);
+        }
+        catch (Exception exception)
+        {
+            // A conclusão e seus botões continuam utilizáveis mesmo se o salvamento local falhar.
+            Debug.LogException(exception, this);
+        }
     }
 
-    IEnumerator AutoAdvanceWithoutPanel()
+    void ShowStageCompleteUI()
     {
-        yield return new WaitForSecondsRealtime(1.25f);
-        if (!transitioning) GoToNextStage();
+        Canvas canvas = stageCompleteUI.GetComponentInParent<Canvas>(true);
+        Transform current = stageCompleteUI.transform;
+        Transform topLevelPanel = current;
+
+        while (current != null && (canvas == null || current != canvas.transform))
+        {
+            current.gameObject.SetActive(true);
+            topLevelPanel = current;
+
+            CanvasGroup group = current.GetComponent<CanvasGroup>();
+            if (group != null)
+            {
+                group.alpha = 1f;
+                group.interactable = true;
+                group.blocksRaycasts = true;
+            }
+
+            current = current.parent;
+        }
+
+        if (canvas != null) canvas.gameObject.SetActive(true);
+        if (topLevelPanel.parent != null) topLevelPanel.SetAsLastSibling();
+        stageCompleteUI.transform.SetAsLastSibling();
+    }
+
+    IEnumerator EnableNavigationAfterInputRelease()
+    {
+        yield return new WaitForSecondsRealtime(0.35f);
+
+        float timeout = Time.realtimeSinceStartup + 1.5f;
+        while ((Input.GetMouseButton(0) || Input.touchCount > 0) && Time.realtimeSinceStartup < timeout)
+            yield return null;
+
+        if (!transitioning && completed)
+            SetNavigationInteractable(true);
     }
 
     public void EnableNextButton()
@@ -101,21 +142,12 @@ public class StageManager : MonoBehaviour
         ProgressManager.SaveProgress();
         ProgressManager.SaveStageScore(ScoreManager.score);
 
-        string destination = ResolveNextScene(SceneManager.GetActiveScene().name);
-        RewardedAdBridge.Show(this, () => LoadScene(destination));
+        string destination = ResolveNextScene();
+        LoadScene(destination);
     }
 
-    string ResolveNextScene(string currentScene)
+    string ResolveNextScene()
     {
-        if (!string.IsNullOrWhiteSpace(nextSceneName) &&
-            !string.Equals(nextSceneName, currentScene, StringComparison.OrdinalIgnoreCase) &&
-            Application.CanStreamedLevelBeLoaded(nextSceneName))
-            return nextSceneName;
-
-        if (string.Equals(currentScene, "ingame", StringComparison.OrdinalIgnoreCase) &&
-            Application.CanStreamedLevelBeLoaded("stage2"))
-            return "stage2";
-
         return comingSoonSceneName;
     }
 
@@ -149,30 +181,4 @@ public class StageManager : MonoBehaviour
         if (starFill != null) starFill.fillAmount = earnedStars / 3f;
         if (starsValueText != null) starsValueText.text = $"{earnedStars:0.#} / 3 ESTRELAS";
     }
-}
-
-public static class RewardedAdBridge
-{
-    public static void Show(MonoBehaviour runner, Action onFinished)
-    {
-        if (runner == null) { onFinished?.Invoke(); return; }
-        runner.StartCoroutine(ShowFallbackAd(onFinished));
-    }
-
-    static IEnumerator ShowFallbackAd(Action onFinished)
-    {
-        var canvasObject = new GameObject("Ad Interstitial", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
-        var canvas = canvasObject.GetComponent<Canvas>(); canvas.renderMode = RenderMode.ScreenSpaceOverlay; canvas.sortingOrder = short.MaxValue;
-        var scaler = canvasObject.GetComponent<CanvasScaler>(); scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize; scaler.referenceResolution = new Vector2(1920, 1080);
-        var background = CreateImage("Background", canvas.transform, new Color(0.015f, 0.025f, 0.07f, 0.98f)); Stretch(background.rectTransform);
-        CreateText("Label", background.transform, "ANÚNCIO", 54, new Vector2(0, 45), Color.white);
-        CreateText("Info", background.transform, "Próxima missão sendo preparada...", 25, new Vector2(0, -35), new Color(0.35f, 0.9f, 1f));
-        yield return new WaitForSecondsRealtime(2.5f);
-        if (canvasObject != null) UnityEngine.Object.Destroy(canvasObject);
-        onFinished?.Invoke();
-    }
-
-    static Image CreateImage(string name, Transform parent, Color color) { var go = new GameObject(name, typeof(RectTransform), typeof(Image)); go.transform.SetParent(parent, false); var image = go.GetComponent<Image>(); image.color = color; return image; }
-    static void CreateText(string name, Transform parent, string value, float size, Vector2 position, Color color) { var go = new GameObject(name, typeof(RectTransform), typeof(TextMeshProUGUI)); go.transform.SetParent(parent, false); var rect = (RectTransform)go.transform; rect.anchorMin = rect.anchorMax = new Vector2(.5f, .5f); rect.sizeDelta = new Vector2(800, 90); rect.anchoredPosition = position; var text = go.GetComponent<TextMeshProUGUI>(); text.text = value; text.fontSize = size; text.fontStyle = FontStyles.Bold; text.alignment = TextAlignmentOptions.Center; text.color = color; }
-    static void Stretch(RectTransform rect) { rect.anchorMin = Vector2.zero; rect.anchorMax = Vector2.one; rect.offsetMin = rect.offsetMax = Vector2.zero; }
 }

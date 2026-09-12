@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class PowerUp : MonoBehaviour
 {
-    public enum PowerUpType { Health, FireRate, Speed, DoubleShot }
+    public enum PowerUpType { Health, FireRate, Speed, DoubleShot, TripleShot }
 
     public PowerUpType powerUpType;
     [Min(1)] public int value = 20;
@@ -12,18 +12,32 @@ public class PowerUp : MonoBehaviour
 
     bool collected;
 
+    public void Configure(PowerUpType type, float speed = 1.25f, float duration = 12f)
+    {
+        powerUpType = type;
+        fallSpeed = Mathf.Max(0.1f, speed);
+        lifetime = Mathf.Max(1f, duration);
+    }
+
     void Awake()
     {
         Collider2D pickupCollider = GetComponent<Collider2D>();
         pickupCollider.isTrigger = true;
+
+        Rigidbody2D body = GetComponent<Rigidbody2D>();
+        if (body != null)
+        {
+            body.gravityScale = 0f;
+            body.bodyType = RigidbodyType2D.Kinematic;
+        }
     }
 
-    void Start() => Destroy(gameObject, lifetime);
-
-    void Update()
+    void Start()
     {
-        transform.Translate(Vector2.down * fallSpeed * Time.deltaTime, Space.World);
-        transform.Rotate(0f, 0f, 30f * Time.deltaTime);
+        PowerUpDropMotion motion = GetComponent<PowerUpDropMotion>();
+        if (motion == null) motion = gameObject.AddComponent<PowerUpDropMotion>();
+        motion.Configure(fallSpeed, lifetime);
+        Destroy(gameObject, lifetime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -56,7 +70,10 @@ public class PowerUp : MonoBehaviour
                 return true;
 
             case PowerUpType.DoubleShot:
-                return player.PowerUpBullet();
+                return player.UpgradeFireMode(2);
+
+            case PowerUpType.TripleShot:
+                return player.UpgradeFireMode(3);
 
             default:
                 return false;

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f6b9ea61a14ff4b16508e489ab80cd, type: 3}
+  m_Name: PowerUpDropCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpDropCatalog
+  dropChance: 0.24
+  pityKills: 6
+  minimumDropInterval: 2.5
+  doubleShotSprite: {fileID: 6102061210973437483, guid: fc71f9d7d4ba3bb40ac84a9c561a5d04, type: 3}
+  tripleShotSprite: {fileID: 6090526057864816998, guid: 31d9563d4a5d170428301caf6d2892ad, type: 3}
+  shieldSprite: {fileID: -3933572128720470554, guid: 8d6d59ffe4aa3c14dbe3a329dd2d3c66, type: 3}
+  shieldDropPrefab: {fileID: 653542346859652930, guid: 54b1725afec15a744bf32703e4fc1311, type: 3}

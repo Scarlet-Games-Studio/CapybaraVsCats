@@ -15,21 +15,6 @@ public static class RebuildMapScene
     static readonly Color Cyan = new(.05f, .85f, 1f, 1f);
     static readonly Color Dark = new(.018f, .03f, .075f, .96f);
 
-    [InitializeOnLoadMethod]
-    static void RebuildOnceAfterCompile()
-    {
-        const string key = "Capybara.MapScene.v2";
-        if (SessionState.GetBool(key, false)) return;
-        EditorApplication.update += TryRebuild;
-        void TryRebuild()
-        {
-            if (EditorApplication.isPlayingOrWillChangePlaymode || EditorApplication.isCompiling || EditorApplication.isUpdating) return;
-            EditorApplication.update -= TryRebuild;
-            Rebuild();
-            SessionState.SetBool(key, true);
-        }
-    }
-
     [MenuItem("Tools/Capybara vs Cats/Rebuild Map Scene")]
     public static void Rebuild()
     {

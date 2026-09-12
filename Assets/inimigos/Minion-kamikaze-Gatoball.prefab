@@ -274,10 +274,6 @@ MonoBehaviour:
   formationSpeed: 1.5
   telegraphDuration: 0.55
   maximumLifetime: 14
-  despawnMargin: 0.18
-  visualScale: 0.72
-  pulseAmount: 0.1
-  pulseSpeed: 10
   telegraphColor: {r: 1, g: 0.32, b: 0.12, a: 1}
   chaseColor: {r: 1, g: 1, b: 1, a: 1}
   disableLegacyAnimator: 1

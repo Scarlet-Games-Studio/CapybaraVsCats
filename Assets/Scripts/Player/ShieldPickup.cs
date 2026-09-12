@@ -5,12 +5,19 @@ public class ShieldPickup : MonoBehaviour
 {
     [SerializeField, Min(0f)] float fallSpeed = 1.5f;
     [SerializeField, Min(0.1f)] float lifetime = 12f;
-    [SerializeField, Min(1)] int shieldHits = 3;
+    [SerializeField, Range(1, 4)] int shieldHits = 4;
+    [SerializeField, Min(1f)] float shieldDuration = 16f;
     [SerializeField] GameObject hiroShield;
     [SerializeField] GameObject mikaShield;
     [SerializeField] GameObject edgeShield;
 
     bool collected;
+
+    public void Configure(int phases, float duration)
+    {
+        shieldHits = Mathf.Clamp(phases, 1, 4);
+        shieldDuration = Mathf.Max(1f, duration);
+    }
 
     void Awake()
     {
@@ -25,12 +32,12 @@ public class ShieldPickup : MonoBehaviour
         }
     }
 
-    void Start() => Destroy(gameObject, lifetime);
-
-    void Update()
+    void Start()
     {
-        transform.Translate(Vector2.down * fallSpeed * Time.deltaTime, Space.World);
-        transform.Rotate(0f, 0f, 45f * Time.deltaTime);
+        PowerUpDropMotion motion = GetComponent<PowerUpDropMotion>();
+        if (motion == null) motion = gameObject.AddComponent<PowerUpDropMotion>();
+        motion.Configure(fallSpeed, lifetime);
+        Destroy(gameObject, lifetime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -49,7 +56,7 @@ public class ShieldPickup : MonoBehaviour
         collected = true;
         ShieldController controller = player.GetComponent<ShieldController>();
         if (controller == null) controller = player.gameObject.AddComponent<ShieldController>();
-        controller.Activate(shieldPrefab, shieldHits);
+        controller.Activate(shieldPrefab, shieldHits, shieldDuration);
         Destroy(gameObject);
     }
 

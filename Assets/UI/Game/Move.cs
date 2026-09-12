@@ -9,8 +9,14 @@ public class Move : MonoBehaviour
     Touch activeTouch;
     Vector2 startPosition;
     int activeFingerId = -1;
+    Camera gameCamera;
+    PlayerController playerController;
 
-    void Start() => FindPlayer();
+    void Start()
+    {
+        gameCamera = Camera.main;
+        FindPlayer();
+    }
 
     void OnEnable() => ResetTouch();
 
@@ -30,6 +36,7 @@ public class Move : MonoBehaviour
     void FindPlayer()
     {
         player = GameObject.FindWithTag("Player");
+        playerController = player != null ? player.GetComponent<PlayerController>() : null;
     }
 
     void Update()
@@ -47,8 +54,7 @@ public class Move : MonoBehaviour
 
         Vector2 drag = activeTouch.position - startPosition;
         Vector2 input = Vector2.ClampMagnitude(drag / joystickRadius, 1f);
-        PlayerController controller = player.GetComponent<PlayerController>();
-        float speed = controller != null ? controller.moveSpeed : 5f;
+        float speed = playerController != null ? playerController.moveSpeed : 5f;
         player.transform.position += (Vector3)(input * speed * Time.deltaTime);
         ClampPlayerToScreen();
 
@@ -90,7 +96,7 @@ public class Move : MonoBehaviour
 
     void ClampPlayerToScreen()
     {
-        Camera gameCamera = Camera.main;
+        if (gameCamera == null) gameCamera = Camera.main;
         if (gameCamera == null) return;
 
         float depth = Mathf.Abs(player.transform.position.z - gameCamera.transform.position.z);

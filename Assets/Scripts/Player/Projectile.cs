@@ -9,6 +9,14 @@ public class Projectile : MonoBehaviour
 
     Camera gameCamera;
     bool consumed;
+    bool spawnLimiterRegistered;
+
+    public void RegisterSpawnLimiter() => spawnLimiterRegistered = true;
+
+    void Awake()
+    {
+        ProjectileVisuals.EnsureVisible(gameObject);
+    }
 
     void Start()
     {
@@ -87,5 +95,10 @@ public class Projectile : MonoBehaviour
             if (clips.Length > 0) return Mathf.Max(0.1f, clips[0].length);
         }
         return 0.5f;
+    }
+
+    void OnDestroy()
+    {
+        if (spawnLimiterRegistered) ProjectileSpawnLimiter.Release(true);
     }
 }

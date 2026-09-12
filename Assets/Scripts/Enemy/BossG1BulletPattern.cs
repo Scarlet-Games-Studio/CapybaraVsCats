@@ -36,7 +36,10 @@ public class BossG1BulletPattern : MonoBehaviour
     public GameObject SkillShot;
 
     public bool IsDead { get; private set; }
+    public int CurrentHealth => Mathf.Max(0, health);
+    public int MaximumHealth => Mathf.Max(1, maximumHealth);
     public event Action Died;
+    public event Action<int, int> HealthChanged;
 
     Camera gameCamera;
     Coroutine spiralRoutine;
@@ -60,6 +63,9 @@ public class BossG1BulletPattern : MonoBehaviour
         hasReleasedParameter = HasAnimatorParameter("AttackReleased");
         maximumHealth = Mathf.Max(1, health);
 
+        if (GetComponent<BossHealthBarController>() == null)
+            gameObject.AddComponent<BossHealthBarController>();
+
         Rigidbody2D body = GetComponent<Rigidbody2D>();
         if (body != null)
         {
@@ -71,6 +77,7 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void Start()
     {
+        FMODManager.PlayBossMusic();
         gameCamera = Camera.main;
         if (gameCamera == null)
         {
@@ -147,6 +154,7 @@ public class BossG1BulletPattern : MonoBehaviour
 
     void FireSkillShot()
     {
+        FMODManager.PlayBossWeapon(transform.position);
         if (VFX != null) Instantiate(VFX, transform.position, Quaternion.identity);
         if (SkillShot != null) Instantiate(SkillShot, transform.position, Quaternion.identity);
         if (hasReleasedParameter) animator.SetBool("AttackReleased", false);
@@ -164,6 +172,7 @@ public class BossG1BulletPattern : MonoBehaviour
     void FireExpandingCirclePattern()
     {
         if (bulletPrefab == null) return;
+        FMODManager.PlayBossWeapon(transform.position);
         int count = Mathf.Max(1, bulletCount);
         float angleStep = 360f / count;
         for (int i = 0; i < count; i++)
@@ -182,6 +191,7 @@ public class BossG1BulletPattern : MonoBehaviour
         }
 
         int count = Mathf.Max(1, bulletCount);
+        FMODManager.PlayBossWeapon(transform.position);
         float angle = UnityEngine.Random.Range(0f, 360f);
         for (int i = 0; i < count && !IsDead; i++)
         {
@@ -196,7 +206,8 @@ public class BossG1BulletPattern : MonoBehaviour
     void SpawnBullet(Vector2 direction)
     {
         if (bulletPrefab == null) return;
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = ProjectileSpawnLimiter.Spawn(bulletPrefab, transform.position, Quaternion.identity);
+        if (bullet == null) return;
         Rigidbody2D bulletBody = bullet.GetComponent<Rigidbody2D>();
         if (bulletBody != null) bulletBody.linearVelocity = direction * bulletSpeed;
 
@@ -208,8 +219,9 @@ public class BossG1BulletPattern : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (IsDead || damage <= 0) return;
+        int previousHealth = health;
         health = Mathf.Max(0, health - damage);
-        if (sr != null) StartCoroutine(Flashing());
+        if (health != previousHealth) HealthChanged?.Invoke(health, maximumHealth);
         if (health == 0) Die();
     }
 
@@ -217,6 +229,8 @@ public class BossG1BulletPattern : MonoBehaviour
     {
         if (IsDead) return;
         IsDead = true;
+        FMODManager.StopBossWeapon();
+        FMODManager.PlayEnemyDeath(transform.position);
         if (spiralRoutine != null) StopCoroutine(spiralRoutine);
         Died?.Invoke();
 
@@ -235,11 +249,230 @@ public class BossG1BulletPattern : MonoBehaviour
         Destroy(gameObject);
     }
 
-    IEnumerator Flashing()
+    void OnDisable()
     {
-        Color original = sr.color;
-        sr.color = Color.red;
-        yield return new WaitForSeconds(0.05f);
-        if (sr != null) sr.color = original;
+        FMODManager.StopBossWeapon();
+    }
+
+}
+
+[DisallowMultipleComponent]
+public class BossHealthBarController : MonoBehaviour
+{
+    const int FrameSortingOrder = 70;
+    const int FillSortingOrder = 71;
+    const int FullLifeSortingOrder = 72;
+    const int DamageSortingOrder = 73;
+
+    [SerializeField, Min(0.1f)] float drainSpeed = 1.8f;
+    [SerializeField, Min(0.05f)] float damageVfxDuration = 0.45f;
+    [SerializeField, Min(0.03f)] float flipInterval = 0.08f;
+
+    BossG1BulletPattern boss;
+    Transform barRoot;
+    SpriteRenderer frameRenderer;
+    SpriteRenderer fillRenderer;
+    SpriteRenderer fullLifeRenderer;
+    SpriteRenderer damageRenderer;
+
+    Vector3 initialFillScale;
+    Vector3 initialFillPosition;
+    Vector3 initialDamagePosition;
+    float fillBoundsMinX;
+    float fillBoundsMaxX;
+    float fillLeftEdge;
+    float damageOffsetFromFillEdge;
+    float displayedRatio = 1f;
+    float targetRatio = 1f;
+    float damageTimer;
+    float flipTimer;
+    int lastHealth;
+    bool initialDamageFlipY;
+    bool initialized;
+
+    void Awake()
+    {
+        boss = GetComponent<BossG1BulletPattern>();
+        FindBarParts();
+    }
+
+    void OnEnable()
+    {
+        if (boss == null) boss = GetComponent<BossG1BulletPattern>();
+        if (boss != null) boss.HealthChanged += OnHealthChanged;
+    }
+
+    void Start()
+    {
+        if (!initialized) InitializeBar();
+    }
+
+    void OnDisable()
+    {
+        if (boss != null) boss.HealthChanged -= OnHealthChanged;
+    }
+
+    void Update()
+    {
+        if (!initialized) return;
+
+        if (!Mathf.Approximately(displayedRatio, targetRatio))
+        {
+            displayedRatio = Mathf.MoveTowards(displayedRatio, targetRatio, drainSpeed * Time.deltaTime);
+            ApplyFill(displayedRatio);
+        }
+
+        UpdateDamageEffect();
+    }
+
+    void FindBarParts()
+    {
+        SpriteRenderer[] renderers = GetComponentsInChildren<SpriteRenderer>(true);
+        foreach (SpriteRenderer candidate in renderers)
+        {
+            string key = Normalize(candidate.gameObject.name);
+            if (key == "bosshpbar")
+            {
+                barRoot = candidate.transform;
+                frameRenderer = candidate;
+            }
+            else if (key == "filledfulllife" || key == "fillfulllife" || key == "fulllife")
+                fullLifeRenderer = candidate;
+            else if (key == "filllife" || key == "lifefill" || key == "healthfill" || key == "hpfill")
+                fillRenderer = candidate;
+            else if (key.Contains("damage") &&
+                     (key.Contains("inbar") || key.Contains("lifedrain") || key.Contains("vfx")))
+                damageRenderer = candidate;
+        }
+    }
+
+    void InitializeBar()
+    {
+        if (boss == null || fillRenderer == null)
+        {
+            Debug.LogWarning("A HP Bar do boss não encontrou o BossG1BulletPattern ou o sprite Fill Life.", this);
+            enabled = false;
+            return;
+        }
+
+        if (barRoot != null) barRoot.gameObject.SetActive(true);
+        PrepareRenderer(frameRenderer, FrameSortingOrder);
+        PrepareRenderer(fillRenderer, FillSortingOrder);
+        PrepareRenderer(fullLifeRenderer, FullLifeSortingOrder);
+        PrepareRenderer(damageRenderer, DamageSortingOrder);
+
+        initialFillScale = fillRenderer.transform.localScale;
+        initialFillPosition = fillRenderer.transform.localPosition;
+        if (fillRenderer.sprite != null)
+        {
+            fillBoundsMinX = fillRenderer.sprite.bounds.min.x;
+            fillBoundsMaxX = fillRenderer.sprite.bounds.max.x;
+        }
+
+        float fullWidth = Mathf.Abs((fillBoundsMaxX - fillBoundsMinX) * initialFillScale.x);
+        fillLeftEdge = initialFillPosition.x + ScaledLeftOffset(initialFillScale.x);
+        float initialRightEdge = fillLeftEdge + fullWidth;
+
+        if (damageRenderer != null)
+        {
+            initialDamagePosition = damageRenderer.transform.localPosition;
+            damageOffsetFromFillEdge = initialDamagePosition.x - initialRightEdge;
+            initialDamageFlipY = damageRenderer.flipY;
+            damageRenderer.enabled = false;
+        }
+
+        lastHealth = boss.CurrentHealth;
+        displayedRatio = targetRatio = Mathf.Clamp01((float)boss.CurrentHealth / boss.MaximumHealth);
+        if (fullLifeRenderer != null)
+        {
+            fullLifeRenderer.enabled = displayedRatio >= 0.999f;
+            fillRenderer.enabled = displayedRatio < 0.999f && displayedRatio > 0f;
+        }
+        else
+            fillRenderer.enabled = displayedRatio > 0f;
+
+        ApplyFill(displayedRatio);
+        initialized = true;
+    }
+
+    void OnHealthChanged(int currentHealth, int maximumHealth)
+    {
+        if (!initialized) InitializeBar();
+        if (!initialized) return;
+
+        targetRatio = maximumHealth > 0 ? Mathf.Clamp01((float)currentHealth / maximumHealth) : 0f;
+        bool tookDamage = currentHealth < lastHealth;
+        lastHealth = currentHealth;
+
+        if (fullLifeRenderer != null && targetRatio < 0.999f)
+        {
+            fullLifeRenderer.enabled = false;
+            fillRenderer.enabled = targetRatio > 0f;
+        }
+
+        if (tookDamage && damageRenderer != null && targetRatio > 0f)
+        {
+            damageTimer = damageVfxDuration;
+            flipTimer = 0f;
+            damageRenderer.enabled = true;
+        }
+    }
+
+    void ApplyFill(float ratio)
+    {
+        ratio = Mathf.Clamp01(ratio);
+        Vector3 scale = initialFillScale;
+        scale.x = initialFillScale.x * ratio;
+        fillRenderer.transform.localScale = scale;
+
+        Vector3 position = initialFillPosition;
+        float currentWidth = Mathf.Abs((fillBoundsMaxX - fillBoundsMinX) * scale.x);
+        position.x = fillLeftEdge - ScaledLeftOffset(scale.x);
+        fillRenderer.transform.localPosition = position;
+        fillRenderer.enabled = ratio > 0f && (fullLifeRenderer == null || !fullLifeRenderer.enabled);
+
+        if (damageRenderer != null)
+        {
+            Vector3 damagePosition = initialDamagePosition;
+            damagePosition.x = fillLeftEdge + currentWidth + damageOffsetFromFillEdge;
+            damageRenderer.transform.localPosition = damagePosition;
+        }
+    }
+
+    void UpdateDamageEffect()
+    {
+        if (damageRenderer == null || !damageRenderer.enabled) return;
+
+        damageTimer -= Time.deltaTime;
+        flipTimer -= Time.deltaTime;
+        if (flipTimer <= 0f)
+        {
+            flipTimer = flipInterval;
+            damageRenderer.flipY = !damageRenderer.flipY;
+        }
+
+        if (damageTimer > 0f) return;
+        damageRenderer.flipY = initialDamageFlipY;
+        damageRenderer.enabled = false;
+    }
+
+    static void PrepareRenderer(SpriteRenderer renderer, int sortingOrder)
+    {
+        if (renderer == null) return;
+        renderer.sortingLayerName = "Characters";
+        renderer.sortingOrder = sortingOrder;
+        renderer.forceRenderingOff = false;
+    }
+
+    float ScaledLeftOffset(float scaleX)
+    {
+        return scaleX >= 0f ? fillBoundsMinX * scaleX : fillBoundsMaxX * scaleX;
+    }
+
+    static string Normalize(string value)
+    {
+        return string.IsNullOrEmpty(value)
+            ? string.Empty
+            : value.Replace(" ", string.Empty).Replace("_", string.Empty).Replace("-", string.Empty).ToLowerInvariant();
     }
 }

@@ -22,8 +22,10 @@ public class EnemyDeath : MonoBehaviour
     void OnDefeated()
     {
         // Pontos só são concedidos por uma morte real, nunca por unload/despawn.
-        if (rewarded || CompareTag("Boss")) return;
+        if (rewarded) return;
         rewarded = true;
+        FMODManager.PlayEnemyDeath(transform.position);
+        if (CompareTag("Boss")) return;
         ScoreManager.AddScore(scoreValue);
     }
 }

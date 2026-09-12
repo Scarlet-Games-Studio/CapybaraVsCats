@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(EnemyHealth))]
@@ -22,12 +21,15 @@ public class EnemyAI : MonoBehaviour
     Camera gameCamera;
     float nextFire;
     float driftSeed;
+    float damageFlashEndsAt;
+    Color normalColor;
     bool enteredScreen;
 
     void Awake()
     {
         enemyHealth = GetComponent<EnemyHealth>();
         if (sr == null) sr = GetComponentInChildren<SpriteRenderer>();
+        if (sr != null) normalColor = sr.color;
         driftSeed = Random.Range(0f, Mathf.PI * 2f);
     }
 
@@ -47,11 +49,18 @@ public class EnemyAI : MonoBehaviour
 
         if (inside && projectilePrefab != null && firePoint != null && Time.time >= nextFire)
         {
-            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            GameObject projectile = ProjectileSpawnLimiter.Spawn(projectilePrefab, firePoint.position, firePoint.rotation);
+            if (projectile != null) FMODManager.PlayEnemyShot(firePoint.position);
             nextFire = Time.time + Mathf.Max(0.1f, fireRate);
         }
 
         if (enteredScreen && IsPastDespawnBounds()) Destroy(gameObject);
+
+        if (sr != null && damageFlashEndsAt > 0f && Time.time >= damageFlashEndsAt)
+        {
+            sr.color = normalColor;
+            damageFlashEndsAt = 0f;
+        }
     }
 
     void Move()
@@ -82,6 +91,7 @@ public class EnemyAI : MonoBehaviour
         Health playerHealth = other.GetComponentInParent<Health>();
         if (playerHealth == null || !playerHealth.CompareTag("Player")) return;
         playerHealth.TakeDamage(contactDamage);
+        FMODManager.PlayEnemyDeath(transform.position);
         Destroy(gameObject);
     }
 
@@ -90,19 +100,20 @@ public class EnemyAI : MonoBehaviour
         Health playerHealth = collision.gameObject.GetComponentInParent<Health>();
         if (playerHealth == null || !playerHealth.CompareTag("Player")) return;
         playerHealth.TakeDamage(contactDamage);
+        FMODManager.PlayEnemyDeath(transform.position);
         Destroy(gameObject);
     }
 
     public void FlashDamage()
     {
-        if (sr != null && isActiveAndEnabled) StartCoroutine(Flashing());
+        if (sr == null || !isActiveAndEnabled) return;
+        sr.color = Color.red;
+        damageFlashEndsAt = Time.time + 0.05f;
     }
 
-    IEnumerator Flashing()
+    void OnDisable()
     {
-        Color original = sr.color;
-        sr.color = Color.red;
-        yield return new WaitForSeconds(0.05f);
-        if (sr != null) sr.color = original;
+        if (sr != null) sr.color = normalColor;
+        damageFlashEndsAt = 0f;
     }
 }

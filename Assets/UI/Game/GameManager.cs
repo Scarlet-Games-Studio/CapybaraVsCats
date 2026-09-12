@@ -32,12 +32,14 @@ public class GameManager : MonoBehaviour
     {
         State = GameplayState.Playing;
         Time.timeScale = 1f;
+        FMODManager.ExitPausedState();
     }
 
     public void GameOver()
     {
         if (!IsPlaying) return;
         State = GameplayState.GameOver;
+        FMODManager.EnterGameOverAudio();
 
         GameOverScreen screen = FindAnyObjectByType<GameOverScreen>(FindObjectsInactive.Include);
         if (screen != null)
@@ -53,6 +55,7 @@ public class GameManager : MonoBehaviour
     {
         if (!IsPlaying) return;
         State = GameplayState.StageComplete;
+        FMODManager.EnterStageCompleteAudio();
 
         StageManager stage = FindAnyObjectByType<StageManager>(FindObjectsInactive.Include);
         if (stage != null)
@@ -62,6 +65,14 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
             Debug.LogWarning("StageManager não foi encontrado ao concluir a fase.");
         }
+    }
+
+    public void ContinueAfterReward()
+    {
+        if (State != GameplayState.GameOver) return;
+        State = GameplayState.Playing;
+        Time.timeScale = 1f;
+        FMODManager.ExitPausedState();
     }
 
     public void RestartGame()

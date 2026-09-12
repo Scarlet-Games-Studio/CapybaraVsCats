@@ -12,17 +12,6 @@ public static class MissingScriptCleaner
         "Assets/Prefabs", "Assets/naves", "Assets/inimigos", "Assets/UI"
     };
 
-    [InitializeOnLoadMethod]
-    static void Initialize()
-    {
-        EditorApplication.delayCall += CleanWhenReady;
-        EditorApplication.playModeStateChanged += state =>
-        {
-            if (state == PlayModeStateChange.EnteredEditMode)
-                EditorApplication.delayCall += CleanWhenReady;
-        };
-    }
-
     [MenuItem("Tools/Capybara vs Cats/Clean Missing Scripts")]
     public static void CleanWhenReady()
     {

@@ -18,12 +18,8 @@ public class GatoballKamikaze : MonoBehaviour
     [SerializeField, Min(0.1f)] float formationSpeed = 1.5f;
     [SerializeField, Min(0.05f)] float telegraphDuration = 0.55f;
     [SerializeField, Min(1f)] float maximumLifetime = 14f;
-    [SerializeField, Range(0f, 0.5f)] float despawnMargin = 0.18f;
 
     [Header("Visual feedback")]
-    [SerializeField, Min(0.05f)] float visualScale = 0.72f;
-    [SerializeField, Min(0f)] float pulseAmount = 0.1f;
-    [SerializeField, Min(0f)] float pulseSpeed = 10f;
     [SerializeField] Color telegraphColor = new Color(1f, 0.32f, 0.12f, 1f);
     [SerializeField] Color chaseColor = Color.white;
     [SerializeField] bool disableLegacyAnimator = true;
@@ -34,6 +30,7 @@ public class GatoballKamikaze : MonoBehaviour
     SpriteRenderer spriteRenderer;
     TrailRenderer trail;
     Material trailMaterial;
+    Camera gameCamera;
     KamikazeState state;
     Vector3 baseScale;
     float stateEndsAt;
@@ -45,6 +42,7 @@ public class GatoballKamikaze : MonoBehaviour
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        gameCamera = Camera.main;
         body.gravityScale = 0f;
         body.constraints = RigidbodyConstraints2D.FreezeRotation;
         body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
@@ -65,8 +63,9 @@ public class GatoballKamikaze : MonoBehaviour
             renderer.sortingOrder = 7;
         }
 
-        baseScale = Vector3.one * visualScale;
-        transform.localScale = baseScale;
+        // Respeita o tamanho definido no prefab. Sobrescrever a escala aqui fazia
+        // o sprite do Gatoball crescer quase três vezes ao entrar em gameplay.
+        baseScale = transform.localScale;
         currentSpeed = chaseSpeed;
         destroyTime = Time.time + maximumLifetime;
         EnterState(KamikazeState.Formation, formationDuration);
@@ -109,20 +108,9 @@ public class GatoballKamikaze : MonoBehaviour
     {
         if (spriteRenderer == null) return;
 
-        if (state == KamikazeState.Telegraph)
-        {
-            float flash = Mathf.PingPong(Time.unscaledTime * 8f, 1f);
-            spriteRenderer.color = Color.Lerp(Color.white, telegraphColor, flash);
-        }
-        else
-        {
-            spriteRenderer.color = chaseColor;
-        }
-
-        float pulse = state == KamikazeState.Chase
-            ? 1f + Mathf.Sin(Time.time * pulseSpeed) * pulseAmount
-            : 1f;
-        transform.localScale = baseScale * pulse;
+        // A telemetria permanece clara sem piscar ou redimensionar o sprite.
+        spriteRenderer.color = state == KamikazeState.Telegraph ? telegraphColor : chaseColor;
+        transform.localScale = baseScale;
     }
 
     void UpdateState()
@@ -188,7 +176,7 @@ public class GatoballKamikaze : MonoBehaviour
 
     bool ShouldDespawnAfterLeavingScreen()
     {
-        Camera gameCamera = Camera.main;
+        if (gameCamera == null) gameCamera = Camera.main;
         if (gameCamera == null) return false;
 
         Vector3 viewport = gameCamera.WorldToViewportPoint(transform.position);
@@ -199,9 +187,9 @@ public class GatoballKamikaze : MonoBehaviour
             return false;
         }
 
-        if (!enteredScreen) return false;
-        return viewport.z <= 0f || viewport.x < -despawnMargin || viewport.x > 1f + despawnMargin ||
-               viewport.y < -despawnMargin || viewport.y > 1f + despawnMargin;
+        // Depois de aparecer, sair por qualquer borda encerra definitivamente o
+        // ataque. Isso impede o direcionamento de fazê-lo voltar por fora da tela.
+        return enteredScreen;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -212,6 +200,7 @@ public class GatoballKamikaze : MonoBehaviour
 
         impacted = true;
         playerHealth.TakeDamage(collisionDamage);
+        FMODManager.PlayEnemyDeath(transform.position);
         Destroy(gameObject);
     }
 

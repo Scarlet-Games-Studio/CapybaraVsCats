@@ -44,7 +44,8 @@ public class UIController : MonoBehaviour
     {
         if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
         BindToCurrentPlayer();
-        if (BulletPrefab != null && PlayerFirePoint != null)
-            Instantiate(BulletPrefab, PlayerFirePoint.position, PlayerFirePoint.rotation);
+        GameObject player = GameObject.FindWithTag("Player");
+        PlayerController playerController = player != null ? player.GetComponent<PlayerController>() : null;
+        if (playerController != null) playerController.Shoot();
     }
 }

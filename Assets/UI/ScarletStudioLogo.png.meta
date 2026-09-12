@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: aa5cccc4a84f6f941a55c74c048bd2b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8830340970624656718
+    second: ScarletStudioLogo_0
+  - first:
+      213: -6682354737846347995
+    second: ScarletStudioLogo_1
+  - first:
+      213: -2926628340008618112
+    second: ScarletStudioLogo_2
+  - first:
+      213: -7529831013174028293
+    second: ScarletStudioLogo_3
+  - first:
+      213: -3366817530606120493
+    second: ScarletStudioLogo_4
+  - first:
+      213: 6361880518844943594
+    second: ScarletStudioLogo_5
+  - first:
+      213: 4799212688247651360
+    second: ScarletStudioLogo_6
+  - first:
+      213: 5250578486312540169
+    second: ScarletStudioLogo_7
+  - first:
+      213: -5321742021537052225
+    second: ScarletStudioLogo_8
+  - first:
+      213: 8850832329705211838
+    second: ScarletStudioLogo_9
+  - first:
+      213: -5515354112180138926
+    second: ScarletStudioLogo_10
+  - first:
+      213: 5406820544838208550
+    second: ScarletStudioLogo_11
+  - first:
+      213: 8019990529027932313
+    second: ScarletStudioLogo_12
+  - first:
+      213: 8784045422743816508
+    second: ScarletStudioLogo_13
+  - first:
+      213: 7005026710527785875
+    second: ScarletStudioLogo_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScarletStudioLogo_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 62
+        width: 361
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4529afd35cab8a70800000000000000
+      internalID: 8830340970624656718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 60
+        width: 75
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527158345c18343a0800000000000000
+      internalID: -6682354737846347995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 14
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087f13cd7078267d0800000000000000
+      internalID: -2926628340008618112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 14
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7da09969aa08790800000000000000
+      internalID: -7529831013174028293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 15
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d11aa84b49a641d0800000000000000
+      internalID: -3366817530606120493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec0b3d00a0f94850800000000000000
+      internalID: 6361880518844943594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 15
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c7c8c338a3a9240800000000000000
+      internalID: 4799212688247651360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 15
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90897f5805dcdd840800000000000000
+      internalID: 5250578486312540169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 15
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9c304c3df5526b0800000000000000
+      internalID: -5321742021537052225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 14
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb74f923c1974da70800000000000000
+      internalID: 8850832329705211838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 15
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c430518a68573b0800000000000000
+      internalID: -5515354112180138926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 14
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c8d5393a2e80b40800000000000000
+      internalID: 5406820544838208550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 15
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99005b8f4eabc4f60800000000000000
+      internalID: 8019990529027932313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 15
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c398a89a5c237e970800000000000000
+      internalID: 8784045422743816508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarletStudioLogo_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 14
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bb123ddaad63160800000000000000
+      internalID: 7005026710527785875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScarletStudioLogo_0: 8830340970624656718
+      ScarletStudioLogo_1: -6682354737846347995
+      ScarletStudioLogo_10: -5515354112180138926
+      ScarletStudioLogo_11: 5406820544838208550
+      ScarletStudioLogo_12: 8019990529027932313
+      ScarletStudioLogo_13: 8784045422743816508
+      ScarletStudioLogo_14: 7005026710527785875
+      ScarletStudioLogo_2: -2926628340008618112
+      ScarletStudioLogo_3: -7529831013174028293
+      ScarletStudioLogo_4: -3366817530606120493
+      ScarletStudioLogo_5: 6361880518844943594
+      ScarletStudioLogo_6: 4799212688247651360
+      ScarletStudioLogo_7: 5250578486312540169
+      ScarletStudioLogo_8: -5321742021537052225
+      ScarletStudioLogo_9: 8850832329705211838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
