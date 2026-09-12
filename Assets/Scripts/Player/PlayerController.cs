@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour
         if (health == null || health.IsDead || Time.timeScale <= 0f) return;
         if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
 
-        if (Input.GetButton("Fire1")) Shoot();
         UpdateHealthUI();
     }
 

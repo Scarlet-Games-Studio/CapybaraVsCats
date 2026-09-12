@@ -7,6 +7,8 @@ public class CharacterSpawner : MonoBehaviour
 
     void Awake()
     {
+        CharacterSelection.RecordGameStarted();
+
         if (CharacterSelection.Selected != CharacterSelection.Character.Mika || mikaPrefab == null) return;
         GameObject current = GameObject.FindGameObjectWithTag("Player");
         if (current == null || current.name.ToLowerInvariant().Contains("mika")) return;

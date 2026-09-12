@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     {
         score += points;
         if (scoreText != null)
-            scoreText.text = "Score: " + score;
+            scoreText.text = score.ToString("N0");
     }
 
     public void UpdateHealth(int health)
@@ -43,6 +43,6 @@ public class UIManager : MonoBehaviour
     {
         score = 0;
         if (scoreText != null)
-            scoreText.text = "Score: " + score;
+            scoreText.text = score.ToString("N0");
     }
 }
