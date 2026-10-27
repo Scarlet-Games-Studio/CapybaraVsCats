@@ -5713,9 +5713,6 @@ MonoBehaviour:
   seamOverlap: 0.025
   loopFinalBossArena: 0
   addExistingArtDecorations: 1
-  stopAtBossPlanet: 1
-  bossPlanetSpriteY: 0.8
-  bossPlanetViewportY: 0.5
 --- !u!50 &540110651
 Rigidbody2D:
   serializedVersion: 5
