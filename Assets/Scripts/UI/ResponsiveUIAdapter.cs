@@ -76,6 +76,16 @@ public sealed class ResponsiveUIAdapter : MonoBehaviour
         foreach (Canvas canvas in canvases)
         {
             if (canvas == null || canvas.renderMode == RenderMode.WorldSpace) continue;
+
+            // A cena de gameplay usa parallax e enquadramento configurados
+            // manualmente. Nenhum GameObject dela deve ser redimensionado aqui.
+            if (UsesManualLayout(canvas.gameObject.scene))
+            {
+                Transform generatedBackground = canvas.transform.Find(FullBleedName);
+                if (generatedBackground != null) Destroy(generatedBackground.gameObject);
+                continue;
+            }
+
             ConfigureScaler(canvas);
             EnsureFullBleedBackground(canvas);
         }
@@ -219,6 +229,7 @@ public sealed class ResponsiveUIAdapter : MonoBehaviour
         foreach (SpriteRenderer renderer in renderers)
         {
             if (renderer.sprite == null) continue;
+            if (UsesManualLayout(renderer.gameObject.scene)) continue;
             string id = renderer.name.ToLowerInvariant();
             if (!ContainsAny(id, "background", "fundo", "backdrop", "sky", "space", "ceu")) continue;
             if (ContainsAny(id, "music", "analogic", "projectile", "bullet")) continue;
@@ -247,6 +258,7 @@ public sealed class ResponsiveUIAdapter : MonoBehaviour
         foreach (Selectable control in controls)
         {
             if (control == null || !control.gameObject.activeInHierarchy) continue;
+            if (UsesManualLayout(control.gameObject.scene)) continue;
             RectTransform rect = control.transform as RectTransform;
             Canvas canvas = control.GetComponentInParent<Canvas>();
             if (rect == null || canvas == null || canvas.renderMode == RenderMode.WorldSpace || !processed.Add(rect)) continue;
@@ -270,6 +282,11 @@ public sealed class ResponsiveUIAdapter : MonoBehaviour
                     rect.anchoredPosition += correctedLocal - currentLocal;
             }
         }
+    }
+
+    static bool UsesManualLayout(Scene scene)
+    {
+        return scene.IsValid() && string.Equals(scene.name, "ingame", System.StringComparison.OrdinalIgnoreCase);
     }
 
     void OnDestroy()

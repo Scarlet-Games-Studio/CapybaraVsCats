@@ -10,11 +10,19 @@ public class EnemyProjectile : MonoBehaviour
 
     Camera gameCamera;
     Rigidbody2D body;
+    Vector2 travelDirection = Vector2.down;
     bool enteredScreen;
     bool consumed;
     bool spawnLimiterRegistered;
 
     public void RegisterSpawnLimiter() => spawnLimiterRegistered = true;
+
+    public void Launch(Vector2 direction)
+    {
+        if (direction.sqrMagnitude > 0.0001f) travelDirection = direction.normalized;
+        if (body == null) body = GetComponent<Rigidbody2D>();
+        if (body != null) body.linearVelocity = travelDirection * speed;
+    }
 
     void Awake()
     {
@@ -31,9 +39,9 @@ public class EnemyProjectile : MonoBehaviour
 
     void Update()
     {
-        // Tiros comuns descem; os tiros do boss preservam a direção aplicada pelo padrão radial.
+        // Tiros comuns descem; inimigos especiais podem definir outra direcao com Launch.
         if (body == null || body.linearVelocity.sqrMagnitude < 0.0001f)
-            transform.Translate(Vector2.down * speed * Time.deltaTime, Space.World);
+            transform.Translate(travelDirection * speed * Time.deltaTime, Space.World);
 
         if (gameCamera == null) gameCamera = Camera.main;
         if (gameCamera == null) return;

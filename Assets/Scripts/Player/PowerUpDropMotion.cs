@@ -7,7 +7,7 @@ public class PowerUpDropMotion : MonoBehaviour
 {
     [SerializeField, Min(0.1f)] float fallSpeed = 1.35f;
     [SerializeField, Min(1f)] float lifetime = 12f;
-    [SerializeField, Min(0.2f)] float visualDiameter = 0.46f;
+    [SerializeField, Min(0.2f)] float visualDiameter = 0.36f;
 
     Spline path;
     Vector3 origin;
@@ -23,7 +23,7 @@ public class PowerUpDropMotion : MonoBehaviour
         BuildPath();
     }
 
-    public void ConfigureVisual(Sprite sprite, float diameter = 0.46f)
+    public void ConfigureVisual(Sprite sprite, float diameter = 0.36f)
     {
         if (sprite == null) return;
         visualDiameter = Mathf.Max(0.2f, diameter);
@@ -52,8 +52,8 @@ public class PowerUpDropMotion : MonoBehaviour
         if (pickupCollider != null)
         {
             pickupCollider.offset = Vector2.zero;
-            // Mantém uma área de coleta confortável mesmo com o sprite menor.
-            pickupCollider.radius = Mathf.Max(0.4f, visualDiameter * 0.55f);
+            // Mantém a coleta próxima ao tamanho visual do item.
+            pickupCollider.radius = Mathf.Max(0.22f, visualDiameter * 0.62f);
         }
 
         StartVisualTweens();

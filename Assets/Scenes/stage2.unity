@@ -2895,7 +2895,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292421100}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2963,6 +2963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meteorHealth: 4
+  playerContactDamage: 10
   sr: {fileID: 0}
   animator: {fileID: 0}
 --- !u!212 &292421106
@@ -5906,7 +5907,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540110647}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -10978,6 +10979,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313f1bb1b8086b04e8e6a876f28f9a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parallax: {fileID: 540110650}
+  cloudMarker: {fileID: 986857818}
+  earthMarker: {fileID: 1236529667}
+  triggerViewportY: 0.45
+  boostAmount: 0.12
+  boostDuration: 3
   speedCurve:
     serializedVersion: 2
     m_Curve:

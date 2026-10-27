@@ -43,6 +43,26 @@ public static class ProgressManager
 
     public static int GetBestScore() => PlayerPrefs.GetInt("BestScore", GetLastStageScore());
 
+    public static void SaveStageStars(int stars)
+    {
+        int normalizedStars = Mathf.Clamp(stars, 0, 3);
+        int stage = SceneManager.GetActiveScene().buildIndex;
+        string stageKey = $"BestStars_Stage_{stage}";
+        PlayerPrefs.SetInt("LastStageStars", normalizedStars);
+        PlayerPrefs.SetInt(stageKey, Mathf.Max(normalizedStars, PlayerPrefs.GetInt(stageKey, 0)));
+        PlayerPrefs.Save();
+    }
+
+    public static int GetBestStageStars(int stageBuildIndex)
+    {
+        return Mathf.Clamp(PlayerPrefs.GetInt($"BestStars_Stage_{stageBuildIndex}", 0), 0, 3);
+    }
+
+    public static int GetLastStageStars()
+    {
+        return Mathf.Clamp(PlayerPrefs.GetInt("LastStageStars", 0), 0, 3);
+    }
+
     public static int[] GetLocalRanking()
     {
         int[] scores = new int[10];

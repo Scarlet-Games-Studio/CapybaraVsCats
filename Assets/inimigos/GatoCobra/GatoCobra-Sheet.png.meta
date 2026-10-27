@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 0b1862e8721e77f459a86682cbf1dea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4341328144080992503
+    second: GatoCobra-Sheet_0
+  - first:
+      213: 5942733084254747921
+    second: GatoCobra-Sheet_1
+  - first:
+      213: 3934295892337002144
+    second: GatoCobra-Sheet_2
+  - first:
+      213: 5985553409213110458
+    second: GatoCobra-Sheet_3
+  - first:
+      213: 1458381977615453560
+    second: GatoCobra-Sheet_4
+  - first:
+      213: -5128172661386752297
+    second: GatoCobra-Sheet_5
+  - first:
+      213: 5331191663383746588
+    second: GatoCobra-Sheet_6
+  - first:
+      213: 3720060590585968983
+    second: GatoCobra-Sheet_7
+  - first:
+      213: -2774209443630947486
+    second: GatoCobra-Sheet_8
+  - first:
+      213: -8058133225585463485
+    second: GatoCobra-Sheet_9
+  - first:
+      213: -1237038509446471807
+    second: GatoCobra-Sheet_10
+  - first:
+      213: 3808775926164340181
+    second: GatoCobra-Sheet_11
+  - first:
+      213: -100206426156236603
+    second: GatoCobra-Sheet_12
+  - first:
+      213: -3321082639503063869
+    second: GatoCobra-Sheet_13
+  - first:
+      213: -84535311561920113
+    second: GatoCobra-Sheet_14
+  - first:
+      213: 7497439425645214473
+    second: GatoCobra-Sheet_15
+  - first:
+      213: 7622883870154110316
+    second: GatoCobra-Sheet_16
+  - first:
+      213: 8297056428870093547
+    second: GatoCobra-Sheet_17
+  - first:
+      213: -1941583882890454764
+    second: GatoCobra-Sheet_18
+  - first:
+      213: -1140356667711811934
+    second: GatoCobra-Sheet_19
+  - first:
+      213: 6362848793938633982
+    second: GatoCobra-Sheet_20
+  - first:
+      213: -4534347845576598274
+    second: GatoCobra-Sheet_21
+  - first:
+      213: -6014796698366843291
+    second: GatoCobra-Sheet_22
+  - first:
+      213: -979295062691498333
+    second: GatoCobra-Sheet_23
+  - first:
+      213: 4291680019486911451
+    second: GatoCobra-Sheet_24
+  - first:
+      213: 4949144149770408591
+    second: GatoCobra-Sheet_25
+  - first:
+      213: 1136416504311739701
+    second: GatoCobra-Sheet_26
+  - first:
+      213: -655598482645699877
+    second: GatoCobra-Sheet_27
+  - first:
+      213: 7829692955490904031
+    second: GatoCobra-Sheet_28
+  - first:
+      213: 2343834407720001904
+    second: GatoCobra-Sheet_29
+  - first:
+      213: -6914692116184697613
+    second: GatoCobra-Sheet_30
+  - first:
+      213: 2284699744082227911
+    second: GatoCobra-Sheet_31
+  - first:
+      213: -16049203897838373
+    second: GatoCobra-Sheet_32
+  - first:
+      213: 7186697835367115653
+    second: GatoCobra-Sheet_33
+  - first:
+      213: -3805821043834187970
+    second: GatoCobra-Sheet_34
+  - first:
+      213: -4713898462805390291
+    second: GatoCobra-Sheet_35
+  - first:
+      213: -629247940451162268
+    second: GatoCobra-Sheet_36
+  - first:
+      213: -1940454050356699522
+    second: GatoCobra-Sheet_37
+  - first:
+      213: -1905246189593477975
+    second: GatoCobra-Sheet_38
+  - first:
+      213: -2490324711396600304
+    second: GatoCobra-Sheet_39
+  - first:
+      213: 9094329432122688071
+    second: GatoCobra-Sheet_40
+  - first:
+      213: -6793948186836934982
+    second: GatoCobra-Sheet_41
+  - first:
+      213: -4906016626127052757
+    second: GatoCobra-Sheet_42
+  - first:
+      213: -5145423272242208275
+    second: GatoCobra-Sheet_43
+  - first:
+      213: -1476046346243232815
+    second: GatoCobra-Sheet_44
+  - first:
+      213: -8658350233877529699
+    second: GatoCobra-Sheet_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GatoCobra_Head
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 567
+        width: 406
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70237230f927c044b52c941b6ec8034
+      internalID: -624440759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Body_A
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 572
+        width: 270
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7618e91a2d25a842ba9459adba93395
+      internalID: -1095851585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Body_B
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 572
+        width: 271
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e61d26f16e52ad4f81f9d464c7a1030
+      internalID: -1501229251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Body_Glow
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 572
+        width: 273
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b9c296b1ab8f247aa6b9505b7ef179
+      internalID: -800491159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Curve_Left
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 376
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d4547b31bae114aa0510fe70af57ed
+      internalID: -845125187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Curve_Mid
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 90
+        width: 288
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60baaffb7a0e844e9233880d4cfa6cf
+      internalID: -1820125665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Curl
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 93
+        width: 267
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a481aa41463b4145a348e2e7527f7a0
+      internalID: 1508733462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoCobra_Tail
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 58
+        width: 190
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7244d8914fa34ac4389e757f2d8d3f77
+      internalID: -1077347950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86e1117525667294b878ea200b5a2a20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GatoCobra-Sheet_0: -4341328144080992503
+      GatoCobra-Sheet_1: 5942733084254747921
+      GatoCobra-Sheet_10: -1237038509446471807
+      GatoCobra-Sheet_11: 3808775926164340181
+      GatoCobra-Sheet_12: -100206426156236603
+      GatoCobra-Sheet_13: -3321082639503063869
+      GatoCobra-Sheet_14: -84535311561920113
+      GatoCobra-Sheet_15: 7497439425645214473
+      GatoCobra-Sheet_16: 7622883870154110316
+      GatoCobra-Sheet_17: 8297056428870093547
+      GatoCobra-Sheet_18: -1941583882890454764
+      GatoCobra-Sheet_19: -1140356667711811934
+      GatoCobra-Sheet_2: 3934295892337002144
+      GatoCobra-Sheet_20: 6362848793938633982
+      GatoCobra-Sheet_21: -4534347845576598274
+      GatoCobra-Sheet_22: -6014796698366843291
+      GatoCobra-Sheet_23: -979295062691498333
+      GatoCobra-Sheet_24: 4291680019486911451
+      GatoCobra-Sheet_25: 4949144149770408591
+      GatoCobra-Sheet_26: 1136416504311739701
+      GatoCobra-Sheet_27: -655598482645699877
+      GatoCobra-Sheet_28: 7829692955490904031
+      GatoCobra-Sheet_29: 2343834407720001904
+      GatoCobra-Sheet_3: 5985553409213110458
+      GatoCobra-Sheet_30: -6914692116184697613
+      GatoCobra-Sheet_31: 2284699744082227911
+      GatoCobra-Sheet_32: -16049203897838373
+      GatoCobra-Sheet_33: 7186697835367115653
+      GatoCobra-Sheet_34: -3805821043834187970
+      GatoCobra-Sheet_35: -4713898462805390291
+      GatoCobra-Sheet_36: -629247940451162268
+      GatoCobra-Sheet_37: -1940454050356699522
+      GatoCobra-Sheet_38: -1905246189593477975
+      GatoCobra-Sheet_39: -2490324711396600304
+      GatoCobra-Sheet_4: 1458381977615453560
+      GatoCobra-Sheet_40: 9094329432122688071
+      GatoCobra-Sheet_41: -6793948186836934982
+      GatoCobra-Sheet_42: -4906016626127052757
+      GatoCobra-Sheet_43: -5145423272242208275
+      GatoCobra-Sheet_44: -1476046346243232815
+      GatoCobra-Sheet_45: -8658350233877529699
+      GatoCobra-Sheet_5: -5128172661386752297
+      GatoCobra-Sheet_6: 5331191663383746588
+      GatoCobra-Sheet_7: 3720060590585968983
+      GatoCobra-Sheet_8: -2774209443630947486
+      GatoCobra-Sheet_9: -8058133225585463485
+      GatoCobra_Body_A: -1095851585
+      GatoCobra_Body_B: -1501229251
+      GatoCobra_Body_Glow: -800491159
+      GatoCobra_Curl: 1508733462
+      GatoCobra_Curve_Left: -845125187
+      GatoCobra_Curve_Mid: -1820125665
+      GatoCobra_Head: -624440759
+      GatoCobra_Tail: -1077347950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -58,6 +58,7 @@ public class Projectile : MonoBehaviour
             {
                 enemy.TakeDamage(damage);
                 collision.GetComponentInParent<EnemyAI>()?.FlashDamage();
+                collision.GetComponentInParent<GatoCobraController>()?.FlashDamage();
                 Consume();
             }
             return;
@@ -85,6 +86,8 @@ public class Projectile : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
+    public void ConsumeOnObstacle() => Consume();
 
     static float GetAnimationClipLength(GameObject explosion)
     {

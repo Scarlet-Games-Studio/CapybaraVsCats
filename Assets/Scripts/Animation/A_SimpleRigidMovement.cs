@@ -1,42 +1,50 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// Applies the small authored drift used by background props. The parallax layer
+/// remains responsible for scrolling the whole scene; this component only adds
+/// optional local drift/oscillation.
+/// </summary>
 public class A_SimpleRigidMovement : MonoBehaviour
 {
-    [SerializeField]private bool loop;
+    [SerializeField] bool loop;
+    [Tooltip("Deslocamento por frame a 50 FPS, preservando os valores antigos do Inspector.")]
     public Vector2 moveDirection;
     public bool horizontal;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Awake()
+
+    const float ReferenceFrameRate = 50f;
+    Coroutine oscillationRoutine;
+
+    void OnEnable()
     {
-        StartCoroutine(GravityKick());
+        if (loop) oscillationRoutine = StartCoroutine(GravityKick());
     }
 
-    private void FixedUpdate()
+    void OnDisable()
     {
-        transform.Translate(moveDirection, Space.World);
+        if (oscillationRoutine != null)
+        {
+            StopCoroutine(oscillationRoutine);
+            oscillationRoutine = null;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (moveDirection.sqrMagnitude <= 0f) return;
+        transform.Translate(moveDirection * ReferenceFrameRate * Time.fixedDeltaTime, Space.World);
     }
 
     IEnumerator GravityKick()
     {
+        float amplitude = Mathf.Max(0.01f, moveDirection.magnitude);
         while (loop)
         {
-            if (!horizontal)
-            {
-                yield return new WaitForSeconds(1.4f);
-                moveDirection = new Vector2(0, 0.01f);
-                yield return new WaitForSeconds(1.4f);
-                moveDirection = new Vector2(0, -0.01f);
-            }
-            else if (horizontal)
-            {
-                yield return new WaitForSeconds(2f);
-                moveDirection = new Vector2(0.01f, 0);
-                yield return new WaitForSeconds(2f);
-                moveDirection = new Vector2(-0.01f, 0);
-            }
+            yield return new WaitForSeconds(horizontal ? 2f : 1.4f);
+            moveDirection = horizontal ? new Vector2(amplitude, 0f) : new Vector2(0f, amplitude);
+            yield return new WaitForSeconds(horizontal ? 2f : 1.4f);
+            moveDirection = horizontal ? new Vector2(-amplitude, 0f) : new Vector2(0f, -amplitude);
         }
     }
 }
