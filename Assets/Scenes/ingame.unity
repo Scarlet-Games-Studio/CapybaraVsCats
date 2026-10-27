@@ -12515,7 +12515,6 @@ MonoBehaviour:
   bossSpawn: {fileID: 82974332}
   bossTriggerSky: {fileID: 897903902}
   bossTriggerViewportY: 0.5
-  bossPlanetSpriteY: 0.8
   waveProgressStep: 0.045
   kamikazePrefab: {fileID: 6966506171257214687, guid: d146d9c0a9064494d85744d152df9041, type: 3}
   kamikazeChance: 0.3
@@ -20746,11 +20745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054547574246398629, guid: cdb28906d7cfc594d990fd57784266f5, type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3054547574246398629, guid: cdb28906d7cfc594d990fd57784266f5, type: 3}
       propertyPath: currentHealth
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3364236225376671956, guid: cdb28906d7cfc594d990fd57784266f5, type: 3}
       propertyPath: m_TagString

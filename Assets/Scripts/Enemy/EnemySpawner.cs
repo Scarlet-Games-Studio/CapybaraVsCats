@@ -56,7 +56,7 @@ public class EnemySpawner : MonoBehaviour
         AddGatoCobraEncounters();
         if (bossTriggerSky != null)
         {
-            initialBossSkyViewportY = GetBossFocusViewportY();
+            initialBossSkyViewportY = GetBossTriggerViewportY();
             canTrackSkyProgress = initialBossSkyViewportY > bossTriggerViewportY + 0.01f;
             if (!canTrackSkyProgress)
                 Debug.LogWarning("EnemySpawner: skylauch11 já está abaixo do gatilho; usando o ritmo de ondas configurado.", this);
@@ -139,7 +139,7 @@ public class EnemySpawner : MonoBehaviour
         if (canTrackSkyProgress && bossTriggerSky != null)
         {
             // Começa a cadência depois da espera inicial e recicla os grupos até o boss chegar.
-            initialBossSkyViewportY = GetBossFocusViewportY();
+            initialBossSkyViewportY = GetBossTriggerViewportY();
             float step = Mathf.Max(0.02f, waveProgressStep);
             int wavesUntilBoss = Mathf.Max(1, Mathf.FloorToInt(0.96f / step));
 
@@ -187,7 +187,7 @@ public class EnemySpawner : MonoBehaviour
     bool IsBossTriggerReached()
     {
         if (!canTrackSkyProgress || bossTriggerSky == null || targetCamera == null) return false;
-        return GetBossFocusViewportY() <= bossTriggerViewportY;
+        return GetBossTriggerViewportY() <= bossTriggerViewportY;
     }
 
     IEnumerator WaitForSkyProgress(float progress)
@@ -196,13 +196,13 @@ public class EnemySpawner : MonoBehaviour
         float targetY = Mathf.Lerp(initialBossSkyViewportY, triggerY, Mathf.Clamp01(progress));
         while (CanContinue() && bossTriggerSky != null)
         {
-            float currentY = GetBossFocusViewportY();
+            float currentY = GetBossTriggerViewportY();
             if (currentY <= targetY) yield break;
             yield return null;
         }
     }
 
-    float GetBossFocusViewportY()
+    float GetBossTriggerViewportY()
     {
         return bossTriggerSky != null
             ? targetCamera.WorldToViewportPoint(bossTriggerSky.position).y
