@@ -41,7 +41,7 @@ public static class RebuildMapScene
         for (int i=0;i<nodes.Length-1;i++) DottedRoute(route, nodes[i], nodes[i+1]);
 
         Button earth = Planet(route, "Earth - Stage 1", "Assets/UI/Earth.png", nodes[0], 230, "TERRA", "FASE 1", false);
-        Button mars = Planet(route, "Mars - Stage 2", "Assets/UI/marte.png", nodes[1], 205, "MARTE", "FASE 2", false);
+        Button mars = Planet(route, "Mars - Coming Soon", "Assets/UI/marte.png", nodes[1], 205, "MARTE", "EM BREVE", false);
         var locked = new List<Button>();
         locked.Add(Planet(route, "Unknown Planet 3", "Assets/UI/marte.png", nodes[2], 180, "PLANETA 03", "EM BREVE", true));
         locked.Add(Planet(route, "Unknown Planet 4", "Assets/UI/marte.png", nodes[3], 215, "PLANETA 04", "EM BREVE", true));

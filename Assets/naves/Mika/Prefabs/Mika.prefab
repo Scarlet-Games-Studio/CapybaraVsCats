@@ -111,7 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MikaUltimate
   maxCharge: 100
   chargePerEnemy: 20
-  duration: 5.3
+  duration: 7.5
   laserPrefab: {fileID: 3436892170428906535, guid: 262149e1440b89d4cb680af37177f4ec, type: 3}
   laserLocalOffset: {x: 0, y: -18, z: 0}
   ultimateShipSprite: {fileID: 4805649581298727041, guid: 56b3f1558435d3f45aa71e902f384497, type: 3}

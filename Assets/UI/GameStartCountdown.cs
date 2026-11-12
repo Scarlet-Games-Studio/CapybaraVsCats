@@ -7,7 +7,7 @@ public class GameStartCountdown : MonoBehaviour
 {
     public RawImage readyImage;
     public RawImage goImage;
-    [Min(0.1f)] public float displayTime = 0.8f;
+    [Min(0.1f)] public float displayTime = 0.5f;
     [Min(0.05f)] public float fadeDuration = 0.25f;
 
     Sequence countdownSequence;

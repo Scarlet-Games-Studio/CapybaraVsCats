@@ -12074,9 +12074,9 @@ MonoBehaviour:
     enemyCount: 1
     spawnInterval: 1.5
     boss: 1
-  timeBetweenWaves: 10
+  timeBetweenWaves: 2.5
   spawnOffsetY: -0.25
-  spawnDelay: 15
+  spawnDelay: 1.5
   canSpawn: 1
   bossSpawn: {fileID: 82974332}
   kamikazePrefab: {fileID: 6966506171257214687, guid: d146d9c0a9064494d85744d152df9041, type: 3}

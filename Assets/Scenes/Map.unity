@@ -1857,7 +1857,7 @@ MonoBehaviour:
   - {fileID: 357704526}
   - {fileID: 336227807}
   earthScene: ingame
-  marsScene: stage2
+  marsScene: ComingSoon
   comingSoonScene: ComingSoon
   lobbyScene: Lobby
   mainMenuScene: MainMenu
@@ -2235,7 +2235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906128631}
   m_Layer: 0
-  m_Name: Mars - Stage 2
+  m_Name: Mars - Coming Soon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3540,7 +3540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FASE 2
+  m_text: EM BREVE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

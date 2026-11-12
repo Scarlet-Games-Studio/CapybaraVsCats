@@ -5,7 +5,7 @@ public class MikaUltimate : MonoBehaviour
 {
     [SerializeField] float maxCharge = 100f;
     [SerializeField] float chargePerEnemy = 20f;
-    [SerializeField] float duration = 3.2f;
+    [SerializeField, Min(1f)] float duration = 7.5f;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] Vector3 laserLocalOffset = new Vector3(0f, -18f, 0f);
     [SerializeField] Sprite ultimateShipSprite;
@@ -18,16 +18,22 @@ public class MikaUltimate : MonoBehaviour
     SpriteRenderer shipRenderer;
     Animator shipAnimator;
     Sprite normalSprite;
+    ParallaxScroller parallaxScroller;
 
     void Awake()
     {
         shipRenderer = GetComponent<SpriteRenderer>();
         shipAnimator = GetComponent<Animator>();
+        parallaxScroller = FindAnyObjectByType<ParallaxScroller>();
         if (shipRenderer != null) normalSprite = shipRenderer.sprite;
     }
 
     void OnEnable() => EnemyHealth.EnemyDefeated += OnEnemyDefeated;
-    void OnDisable() => EnemyHealth.EnemyDefeated -= OnEnemyDefeated;
+    void OnDisable()
+    {
+        EnemyHealth.EnemyDefeated -= OnEnemyDefeated;
+        if (parallaxScroller != null) parallaxScroller.SetUltimateMood(false);
+    }
 
     void Update()
     {
@@ -48,6 +54,8 @@ public class MikaUltimate : MonoBehaviour
     {
         active = true;
         charge = 0f;
+        if (parallaxScroller == null) parallaxScroller = FindAnyObjectByType<ParallaxScroller>();
+        if (parallaxScroller != null) parallaxScroller.SetUltimateMood(true);
         UltimateSplashPresenter.Show(splashArt, duration);
         if (shipAnimator != null) shipAnimator.enabled = false;
         if (shipRenderer != null && ultimateShipSprite != null) shipRenderer.sprite = ultimateShipSprite;
@@ -62,6 +70,7 @@ public class MikaUltimate : MonoBehaviour
         if (laser != null) Destroy(laser);
         if (shipRenderer != null) shipRenderer.sprite = normalSprite;
         if (shipAnimator != null) shipAnimator.enabled = true;
+        if (parallaxScroller != null) parallaxScroller.SetUltimateMood(false);
         active = false;
     }
 }

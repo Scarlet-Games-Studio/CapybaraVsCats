@@ -11,10 +11,12 @@ public class Move : MonoBehaviour
     int activeFingerId = -1;
     Camera gameCamera;
     PlayerController playerController;
+    ParallaxScroller parallaxScroller;
 
     void Start()
     {
         gameCamera = Camera.main;
+        parallaxScroller = FindAnyObjectByType<ParallaxScroller>();
         FindPlayer();
     }
 
@@ -50,16 +52,18 @@ public class Move : MonoBehaviour
         if (GameManager.instance != null && !GameManager.instance.IsPlaying) return;
 
         UpdateTouch();
-        if (activeFingerId == -1) return;
+        if (activeFingerId != -1)
+        {
+            Vector2 drag = activeTouch.position - startPosition;
+            Vector2 input = Vector2.ClampMagnitude(drag / joystickRadius, 1f);
+            float speed = playerController != null ? playerController.moveSpeed : 5f;
+            player.transform.position += (Vector3)(input * speed * Time.deltaTime);
 
-        Vector2 drag = activeTouch.position - startPosition;
-        Vector2 input = Vector2.ClampMagnitude(drag / joystickRadius, 1f);
-        float speed = playerController != null ? playerController.moveSpeed : 5f;
-        player.transform.position += (Vector3)(input * speed * Time.deltaTime);
+            if (background != null)
+                background.position = startPosition + Vector2.ClampMagnitude(drag, joystickRadius);
+        }
+
         ClampPlayerToScreen();
-
-        if (background != null)
-            background.position = startPosition + Vector2.ClampMagnitude(drag, joystickRadius);
     }
 
     void UpdateTouch()
@@ -105,6 +109,8 @@ public class Move : MonoBehaviour
         Vector3 position = player.transform.position;
         position.x = Mathf.Clamp(position.x, Mathf.Min(bottomLeft.x, topRight.x), Mathf.Max(bottomLeft.x, topRight.x));
         position.y = Mathf.Clamp(position.y, Mathf.Min(bottomLeft.y, topRight.y), Mathf.Max(bottomLeft.y, topRight.y));
+        if (parallaxScroller == null) parallaxScroller = FindAnyObjectByType<ParallaxScroller>();
+        if (parallaxScroller != null) position = parallaxScroller.ClampPlayerToSkyArtwork(position, 0.2f);
         player.transform.position = position;
     }
 }

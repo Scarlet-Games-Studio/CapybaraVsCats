@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class LobbyManager : MonoBehaviour
 {
@@ -38,7 +39,47 @@ public class LobbyManager : MonoBehaviour
         mapButton?.onClick.AddListener(() => Load(mapSceneName));
         exitButton?.onClick.AddListener(() => Load(mainMenuSceneName));
         ShowRanking(RankingScope.Local);
+        AnimateLobby();
     }
+
+    void AnimateLobby()
+    {
+        Canvas canvas = FindFirstObjectByType<Canvas>();
+        if (canvas == null) return;
+
+        RectTransform canvasRect = canvas.transform as RectTransform;
+        RectTransform header = FindRect(canvasRect, "Header");
+        RectTransform logo = FindRect(canvasRect, "Capybara vs Cats Logo");
+        RectTransform profile = FindRect(canvasRect, "Most Used Character");
+        RectTransform ranking = FindRect(canvasRect, "Ranking Panel And Title");
+        MenuSceneMotion.Enter(header, 0.05f, new Vector2(0f, 22f), 0.97f);
+        MenuSceneMotion.Enter(logo, 0.1f, new Vector2(0f, 20f), 0.92f);
+        MenuSceneMotion.Enter(profile, 0.24f, new Vector2(-28f, 0f), 0.93f);
+        MenuSceneMotion.Enter(ranking, 0.3f, new Vector2(28f, 0f), 0.97f);
+        MenuSceneMotion.Enter(characterNameText != null ? characterNameText.rectTransform : null, 0.3f, new Vector2(0f, -10f), 0.98f);
+        MenuSceneMotion.Enter(bestScoreText != null ? bestScoreText.rectTransform : null, 0.36f, new Vector2(0f, -10f), 0.98f);
+        MenuSceneMotion.Float(characterSplash != null ? characterSplash.rectTransform : null, 6f, 2.4f, 0.5f);
+
+        if (rankingRows != null)
+            for (int i = 0; i < rankingRows.Length; i++)
+                MenuSceneMotion.Enter(rankingRows[i] != null ? rankingRows[i].rectTransform : null, 0.42f + i * 0.035f, new Vector2(12f, 0f), 0.99f);
+
+        MenuSceneMotion.PrepareButton(worldButton, 0.36f);
+        MenuSceneMotion.PrepareButton(regionalButton, 0.42f);
+        MenuSceneMotion.PrepareButton(localButton, 0.48f, true);
+        MenuSceneMotion.PrepareButton(mapButton, 0.54f, true);
+        MenuSceneMotion.PrepareButton(exitButton, 0.6f);
+    }
+
+    static RectTransform FindRect(Transform root, string objectName)
+    {
+        if (root == null) return null;
+        foreach (Transform child in root.GetComponentsInChildren<Transform>(true))
+            if (child.name == objectName) return child as RectTransform;
+        return null;
+    }
+
+    void OnDisable() => MenuSceneMotion.Cancel(transform);
 
     void ShowMostUsedCharacter()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 public class ParallaxScroller : MonoBehaviour
 {
     [Header("Movement")]
-    [Min(0f)] public float speed = 0.72f;
+    [Min(0f)] public float speed = 0.65f;
     public Transform parallaxController;
     [Tooltip("Painel usado como referencia para tamanho e encaixe da continuacao.")]
     public Transform parallaxInfinito;
@@ -12,6 +12,7 @@ public class ParallaxScroller : MonoBehaviour
 
     [Header("Generated continuation")]
     [SerializeField] bool buildGeneratedContinuation = true;
+    [SerializeField, Tooltip("Sprites usados nesta cena antes de tentar carregar as continuacoes padrao de Resources.")] Sprite[] generatedSprites;
     [SerializeField] string[] generatedSpriteResources =
     {
         "ParallaxContinuation/ceu_5_atmosfera",
@@ -21,12 +22,18 @@ public class ParallaxScroller : MonoBehaviour
     [SerializeField, Range(0f, 0.15f)] float seamOverlap = 0.025f;
     [SerializeField, Tooltip("Mantido desligado no stage 1 para o skylauch11 nao se repetir na arena do boss.")] bool loopFinalBossArena;
     [SerializeField] bool addExistingArtDecorations = true;
+    [Header("Mika ultimate mood")]
+    [SerializeField] Color ultimateTint = new Color(0.52f, 0.46f, 0.68f, 1f);
+    [SerializeField, Min(0.05f)] float ultimateTintFadeDuration = 0.3f;
     readonly List<Transform> generatedPanels = new List<Transform>();
     readonly List<Transform> finalArenaPanels = new List<Transform>();
+    readonly Dictionary<SpriteRenderer, Color> originalSpriteColors = new Dictionary<SpriteRenderer, Color>();
 
     Camera gameCamera;
     Transform finalArenaParent;
     float finalArenaSpacing;
+    Coroutine ultimateTintRoutine;
+    bool ultimateMoodActive;
     bool hasFiniteSequence;
     bool hasAuthoredSkySequence;
     bool stoppedForBossArena;
@@ -34,6 +41,91 @@ public class ParallaxScroller : MonoBehaviour
     public void StopForBossArena()
     {
         stoppedForBossArena = true;
+    }
+
+    public void SetUltimateMood(bool active)
+    {
+        if (ultimateMoodActive == active && ultimateTintRoutine == null) return;
+        ultimateMoodActive = active;
+        CacheOriginalSpriteColors();
+
+        if (ultimateTintRoutine != null) StopCoroutine(ultimateTintRoutine);
+        ultimateTintRoutine = StartCoroutine(TransitionUltimateMood(active));
+    }
+
+    void CacheOriginalSpriteColors()
+    {
+        SpriteRenderer[] renderers = GetComponentsInChildren<SpriteRenderer>(true);
+        foreach (SpriteRenderer renderer in renderers)
+        {
+            if (renderer != null && !originalSpriteColors.ContainsKey(renderer))
+                originalSpriteColors.Add(renderer, renderer.color);
+        }
+    }
+
+    System.Collections.IEnumerator TransitionUltimateMood(bool active)
+    {
+        var startingColors = new Dictionary<SpriteRenderer, Color>(originalSpriteColors.Count);
+        foreach (KeyValuePair<SpriteRenderer, Color> entry in originalSpriteColors)
+        {
+            if (entry.Key != null) startingColors[entry.Key] = entry.Key.color;
+        }
+
+        float duration = Mathf.Max(0.05f, ultimateTintFadeDuration);
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float linear = Mathf.Clamp01(elapsed / duration);
+            float eased = linear * linear * (3f - 2f * linear);
+            foreach (KeyValuePair<SpriteRenderer, Color> entry in originalSpriteColors)
+            {
+                if (entry.Key == null || !startingColors.TryGetValue(entry.Key, out Color from)) continue;
+                Color multiplier = active ? ultimateTint : Color.white;
+                entry.Key.color = Color.Lerp(from, entry.Value * multiplier, eased);
+            }
+            yield return null;
+        }
+
+        foreach (KeyValuePair<SpriteRenderer, Color> entry in originalSpriteColors)
+        {
+            if (entry.Key != null) entry.Key.color = active ? entry.Value * ultimateTint : entry.Value;
+        }
+        ultimateTintRoutine = null;
+    }
+
+    public Vector3 ClampPlayerToSkyArtwork(Vector3 position, float margin)
+    {
+        Transform authoredTransition = FindDirectChild("ceu_3_0 (1)");
+        if (authoredTransition == null) return position;
+
+        SpriteRenderer artwork = null;
+        for (int i = 0; i < authoredTransition.childCount; i++)
+        {
+            SpriteRenderer candidate = authoredTransition.GetChild(i).GetComponent<SpriteRenderer>();
+            if (candidate != null && candidate.enabled && candidate.sprite != null)
+            {
+                artwork = candidate;
+                break;
+            }
+        }
+
+        if (artwork == null) return position;
+        Bounds bounds = artwork.bounds;
+        float safeMargin = Mathf.Clamp(margin, 0f, Mathf.Max(0f, bounds.extents.x - 0.01f));
+        float minX = bounds.min.x + safeMargin;
+        float maxX = bounds.max.x - safeMargin;
+        if (gameCamera == null) gameCamera = Camera.main;
+        if (gameCamera != null)
+        {
+            float depth = Mathf.Abs(position.z - gameCamera.transform.position.z);
+            float cameraMinX = gameCamera.ViewportToWorldPoint(new Vector3(0.03f, 0.5f, depth)).x;
+            float cameraMaxX = gameCamera.ViewportToWorldPoint(new Vector3(0.97f, 0.5f, depth)).x;
+            minX = Mathf.Max(minX, Mathf.Min(cameraMinX, cameraMaxX));
+            maxX = Mathf.Min(maxX, Mathf.Max(cameraMinX, cameraMaxX));
+        }
+        if (minX <= maxX) position.x = Mathf.Clamp(position.x, minX, maxX);
+        return position;
     }
 
     void Start()
@@ -110,7 +202,9 @@ public class ParallaxScroller : MonoBehaviour
                 continue;
             }
 
-            Sprite sprite = Resources.Load<Sprite>(generatedSpriteResources[i]);
+            Sprite sprite = generatedSprites != null && i < generatedSprites.Length
+                ? generatedSprites[i]
+                : Resources.Load<Sprite>(generatedSpriteResources[i]);
             if (sprite == null)
             {
                 Debug.LogWarning($"Parallax: sprite nao encontrado em Resources/{generatedSpriteResources[i]}.", this);

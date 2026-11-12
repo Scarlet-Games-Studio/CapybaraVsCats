@@ -25,6 +25,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] Transform bossTriggerSky;
     [SerializeField, Range(0.05f, 0.95f)] float bossTriggerViewportY = 0.5f;
     [SerializeField, Range(0.02f, 0.1f)] float waveProgressStep = 0.045f;
+    [SerializeField, Min(10f), Tooltip("Tempo máximo de espera pelo painel final antes de liberar o boss como fallback.")]
+    float bossArrivalFallbackDelay = 180f;
 
     [Header("Mixed kamikaze spawn")]
     [SerializeField] GameObject kamikazePrefab;
@@ -147,8 +149,13 @@ public class EnemySpawner : MonoBehaviour
             {
                 if (regularWaves.Count == 0) break;
 
-                float progress = Mathf.Min(0.96f, step * (i + 1));
-                yield return WaitForSkyProgress(progress);
+                // Start the first attack as soon as the initial delay ends. Later
+                // groups stay paced against the background's approach to the boss.
+                if (i > 0)
+                {
+                    float progress = Mathf.Min(0.96f, step * i);
+                    yield return WaitForSkyProgress(progress);
+                }
                 if (!CanContinue() || IsBossTriggerReached()) break;
 
                 yield return SpawnEnemiesInWave(regularWaves[i % regularWaves.Count]);
@@ -179,8 +186,14 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator SpawnBossOnSkyArrival(EnemyWave bossWave)
     {
-        while (CanContinue() && !IsBossTriggerReached()) yield return null;
+        float fallbackTime = Time.time + Mathf.Max(10f, bossArrivalFallbackDelay);
+        while (CanContinue() && !IsBossTriggerReached() && Time.time < fallbackTime) yield return null;
         if (CanContinue() && IsBossTriggerReached()) yield return SpawnEnemiesInWave(bossWave);
+        else if (CanContinue() && !bossSpawned)
+        {
+            Debug.LogWarning("EnemySpawner: o painel final do parallax não alcançou o gatilho; liberando o boss pelo tempo de segurança.", this);
+            yield return SpawnEnemiesInWave(bossWave);
+        }
         bossRoutine = null;
     }
 
@@ -221,6 +234,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 if (bossSpawned) yield break;
                 bossSpawned = true;
+                if (arenaParallax == null) arenaParallax = FindAnyObjectByType<ParallaxScroller>();
                 if (arenaParallax != null) arenaParallax.StopForBossArena();
                 Vector3 position = bossSpawn != null ? bossSpawn.position : ViewportToWorld(0.5f, 0.82f);
                 Instantiate(wave.enemyPrefab, position, Quaternion.identity);

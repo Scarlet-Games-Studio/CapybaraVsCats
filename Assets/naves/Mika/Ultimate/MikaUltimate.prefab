@@ -185,8 +185,10 @@ MonoBehaviour:
   tickInterval: 0.12
   impactPrefab: {fileID: 7413098458117637294, guid: 5ba81126de6317c42a80dcd07205a203, type: 3}
   impactLifetime: 0.4
-  damageStartFrame: 18
+  damageStartFrame: 24
   damageEndFrame: 39
+  damageWindowDuration: 2.8
+  beamHitboxWidth: 0.72
 --- !u!114 &7148123842768322835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,4 +248,4 @@ MonoBehaviour:
   slowSectionEnd: 0.65
   slowSectionSpeed: 0.58
   holdFrame: 35
-  holdDuration: 1.5
+  holdDuration: 3.5

@@ -54,6 +54,7 @@ public class BossG1BulletPattern : MonoBehaviour
     float cameraDepth;
     bool hasWindUpParameter;
     bool hasReleasedParameter;
+    bool nextAttackIsSpiral;
 
     void Awake()
     {
@@ -107,8 +108,11 @@ public class BossG1BulletPattern : MonoBehaviour
         if (!phaseTwo)
         {
             if (Time.time < nextFireTime) return;
-            FireExpandingCirclePattern();
-            if (spiralRoutine == null) spiralRoutine = StartCoroutine(FireSpiralBurst());
+            if (nextAttackIsSpiral && spiralRoutine == null)
+                spiralRoutine = StartCoroutine(FireSpiralBurst());
+            else
+                FireExpandingCirclePattern();
+            nextAttackIsSpiral = !nextAttackIsSpiral;
             nextFireTime = Time.time + Mathf.Max(0.1f, fireRate);
         }
         else if (Time.time >= nextSkillShotTime && ReadyToReleaseSkill())
